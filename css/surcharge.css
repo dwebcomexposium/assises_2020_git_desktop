@@ -390,14 +390,19 @@ a {
   display: flex;
   justify-content: flex-end;
   padding-right: 21rem;
-  background: #1e2339;
+  background: #ab0638;
+}
+
+.site-banner .inside .quicklinks .ql-list {
+  display: flex;
 }
 
 .site-banner .inside .quicklinks .btn-primary {
   padding: 0.7rem 2.5rem;
   border: 0;
-  background: #565968;
+  background: transparent;
   font-size: 1.4rem;
+  text-transform: initial;
 }
 
 .lang-switcher {
@@ -516,10 +521,7 @@ a {
 
 .front .main-navigation {
   padding-top: 0.65em;
-}
-
-.front .main-navigation {
-  box-shadow: 0 -10px 10px rgba(0, 0, 0, 0.08);
+  background: #e50041;
 }
 
 .is-stuck.site-banner {
@@ -583,9 +585,8 @@ a {
 .front .is-stuck .mn-item-lvl-1 > .mn-link {
   min-height: 54px;
   padding-bottom: 0.5em;
-  color: #1e2339;
+  color: #ffffff;
   font-size: 1.8rem;
-  text-transform: inherit;
 }
 
 .mn-link-text::before {
@@ -832,7 +833,7 @@ a {
 .btn-primary:active {
   border-color: transparent;
   background-color: transparent;
-  color: #b2b6ca;
+  color: #ffffff;
 }
 
 
