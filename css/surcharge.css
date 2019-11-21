@@ -408,7 +408,7 @@ a {
 .lang-switcher {
   right: 15rem;
   padding: 0.38rem 0;
-  background: #1e2339;
+  background: #ab0638;
 }
 
 .ls-trigger {
@@ -449,56 +449,6 @@ a {
   padding-left: 16rem;
 }
 
-.front .header-content {
-  margin-right: 0;
-  padding-left: 0;
-  background: #025563 url('img/readyforit/bg_header.jpg') no-repeat right top;
-}
-
-.header-logo {
-  position: absolute;
-  z-index: 2;
-  top: -2.5rem;
-  left: -3.5rem;
-  width: 170px;
-  height: 170px;
-  background: url('img/readyforit/logo-stiky.png') no-repeat left top / 100%;
-}
-
-.title-logo {
-  display: block;
-  position: relative;
-  font-size: 2rem;
-  text-indent: -9999px;
-}
-
-.front .header-logo {
-  position: inherit;
-  width: 635px;
-  height: 280px;
-  background: url('img/readyforit/logo.png') no-repeat left top / 100%;
-}
-
-.header-date {
-  margin-right: 0;
-  padding: 1.5rem 0;
-  color: #1e2339;
-  font-weight: 700;
-  text-align: center;
-}
-
-.front .header-date {
-  margin-right: 11rem;
-  padding: 1.5rem 2rem;
-  background-color: #ffffff;
-}
-
-.header-date p {
-  margin: 0;
-  font-size: 1.8rem;
-  line-height: 1.3;
-}
-
 /* Stiky header */
 .front .is-slim.site-banner {
   position: fixed;
@@ -520,6 +470,11 @@ a {
 }
 
 .front .main-navigation {
+  padding-top: 0.65em;
+  background: #e50041;
+}
+
+.front .main-navigation ::before {
   padding-top: 0.65em;
   background: #e50041;
 }
@@ -578,6 +533,7 @@ a {
 .front .mn-item-lvl-1 > .mn-link {
   min-height: 65px;
   padding-bottom: 1em;
+  font-size: 1.5rem;
 }
 
 .mn-item-lvl-1 > .mn-link,
@@ -602,7 +558,7 @@ a {
 .mn-link.mn-link:focus,
 .mn-link.mn-link.is-active {
   background: transparent;
-  color: #ff3100;
+  border-bottom: 2px solid #ffffff;
 }
 
 .mn-menu-submenu {
@@ -613,8 +569,8 @@ a {
 .mn-menu-submenu .mn-link:hover,
 .mn-menu-submenu .mn-link:focus,
 .mn-menu-submenu .mn-link.is-active {
-  background: #ffffff;
-  color: #ff3100;
+  background: #a5948f;
+  color: #ffffff;
 }
 
 
