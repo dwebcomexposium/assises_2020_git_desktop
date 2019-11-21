@@ -450,7 +450,7 @@ a {
 }
 
 /* Stiky header */
-.front .is-slim.site-banner {
+.front .site-banner {
   position: fixed;
   left: 0;
   right: 0;
@@ -458,24 +458,11 @@ a {
   z-index: 100;
   padding: 0;
   background: #fff;
-  box-shadow: 0 -1px 3px rgba(0, 0, 0, 0.15);
-  border-bottom: 1px solid #e3e9ea;
-}
-
-.main-navigation,
-.front .is-slim .main-navigation,
-.front .is-stuck .main-navigation {
-  padding-top: 0;
   box-shadow: none;
+  border-bottom: 0;
 }
 
 .front .main-navigation {
-  padding-top: 0.65em;
-  background: #e50041;
-}
-
-.front .main-navigation ::before {
-  padding-top: 0.65em;
   background: #e50041;
 }
 
@@ -500,11 +487,12 @@ a {
 .front .is-slim.site-banner .header-logo,
 .is-stuck.site-banner .header-logo {
   position: absolute;
-  top: -2.5rem;
-  left: -3.5rem;
-  width: 170px;
-  height: 170px;
-  background: url('img/readyforit/logo-stiky.png') no-repeat left top / 100%;
+  top: 0;
+  left: 0;
+  width: 187px;
+  height: 37px;
+  background: url('img/readyforit/logo.jpg') no-repeat left top / 100%;
+  z-index: 4;
 }
 
 .front .is-slim.site-banner .header-date,
@@ -549,7 +537,12 @@ a {
   display: none;
 }
 
-.is-open .mn-link.mn-link {
+.is-open .mn-item-lvl-1 > .mn-link {
+  background: transparent;
+  color: #ffffff;
+}
+
+.is-open .mn-item-lvl-2 > .mn-link {
   background: transparent;
   color: #003239;
 }
