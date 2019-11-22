@@ -508,6 +508,7 @@ a {
 
 .is-stuck .mn-menu-line {
   max-width: initial;
+  margin: 0 0 0 23rem;
 }
 
 /* Navigation */
@@ -849,11 +850,7 @@ h1::before {
 /* HOME */
 /***********************************/
 .front .site-wrapper {
-  background: #ffffff url('img/readyforit/bg_mozaique.png') no-repeat left bottom;
-}
-
-.front #zone2 {
-  background: transparent url('img/readyforit/bg_logo.png') no-repeat right 520px;
+  /*background: #ffffff url('img/readyforit/bg_mozaique.png') no-repeat left bottom;*/
 }
 
 /* Slider */
@@ -2490,26 +2487,26 @@ h2.gla-item-title {
 
 @media (min-width: 22.5em) {
   .site-wrapper {
-    background-color: red;
+    background-color: red !important;
   }
 }
 @media (min-width: 25.063em) {
   .site-wrapper {
-    background-color: green;
+    background-color: green !important;
   }
 }
 @media (min-width: 40.063em) {
   .site-wrapper {
-    background-color: pink;
+    background-color: pink !important;
   }
 }
 @media (min-width: 64.063em) {
   .site-wrapper {
-    background-color: blue;
+    background-color: blue !important;
   }
 }
 @media (min-width: 80em) {
   .site-wrapper {
-    background-color: yellow;
+    background-color: yellow !important;
   }
 }
