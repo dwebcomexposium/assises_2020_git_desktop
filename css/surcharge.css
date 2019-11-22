@@ -77,10 +77,10 @@ h1 {
   font-weight: 600;
   font-size: 5.4rem;
   line-height: 1.85;
+}
 
-  span {
-    padding: 0 3rem;
-  }
+h1 span {
+  padding: 0 3rem;
 }
 
 h2 {
@@ -712,21 +712,21 @@ a {
 /* HOME */
 /***********************************/
 .front .site-wrapper {
-  /*background: #ffffff url('img/readyforit/bg_mozaique.png') no-repeat left bottom;*/
+  background: #ffffff url('img/readyforit/bg_mozaique.png') no-repeat left bottom;
 }
 
 .front .header-edito {
   background-color: #e50041;
   color: #ffffff;
+}
 
-  blockquote {
-    padding: 3rem 2rem;
-    max-width: 460px;
-    background-color: rgba(229, 0, 65, 0.76);
-    color: #ffffff;
-    font-weight: 600;
-    box-shadow: 0 0 5px 2px rgba(0,0,0,0.16);
-  }
+.front .header-edito blockquote {
+  padding: 3rem 2rem;
+  max-width: 460px;
+  background-color: rgba(229, 0, 65, 0.76);
+  color: #ffffff;
+  font-weight: 600;
+  box-shadow: 0 0 5px 2px rgba(0,0,0,0.16);
 }
 
 
