@@ -163,32 +163,36 @@ a {
 .style3 a,
 .style4 a {
   width: 19rem;
-  margin: 3rem 0;
-  font-size: 1.8rem;
+  margin: 0;
+  font-size: 1.6rem;
 }
 
 .cta-1,
-.style1 a {
-  background: #ff3100;
-  color: #ffffff;
+.style1 a,
+.style1 .lien1 {
+  background: #ffffff;
+  color: #001821;
 }
 
 .cta-1:hover,
-.style1 a:hover {
-  background: #ffffff;
-  color: #ff3100;
+.style1 a:hover,
+.style1 .lien1 {
+  background: #001821;
+  color: #ffffff;
 }
 
 .cta-2,
-.style2 a {
-  background: #ffffff;
-  color: #ff3100;
+.style2 a,
+.style1 .lien2 {
+  background: #001821;
+  color: #ffffff;
 }
 
 .cta-2:hover,
-.style2 a:hover {
-  background: #ff3100;
-  color: #ffffff;
+.style2 a:hover,
+.style1 .lien2 {
+  background: #ffffff;
+  color: #001821;
 }
 
 .cta-3,
@@ -726,7 +730,7 @@ a {
 }
 
 .front .header-edito blockquote p.style1 {
-  margin-top: 0;
+  margin-top: 6rem;
 }
 
 .front .header-edito blockquote lien1 {
