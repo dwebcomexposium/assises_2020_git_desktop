@@ -1,28 +1,28 @@
 @charset "utf-8";
 /* CSS Document - Surcharge css Agences */
 @font-face {
-  font-family: 'VollkornRegular';
+  font-family: 'Vollkorn';
   font-style: normal;
   font-weight: normal;
   src: url('fonts/vollkorn/Vollkorn-Regular.ttf') format('truetype');
 }
 
 @font-face {
-  font-family: 'VollkornSemiBold';
+  font-family: 'Vollkorn';
   font-style: normal;
   font-weight: 600;
   src: url('fonts/vollkorn/Vollkorn-SemiBold.ttf') format('truetype');
 }
 
 @font-face {
-  font-family: 'MiriamLibreRegular';
+  font-family: 'Miriam Libre';
   font-style: normal;
   font-weight: normal;
   src: url('fonts/miriam-libre/MiriamLibre-Regular.ttf') format('truetype');
 }
 
 @font-face {
-  font-family: 'MiriamLibreBold';
+  font-family: 'Miriam Libre';
   font-style: normal;
   font-weight: 700;
   src: url('fonts/miriam-libre/MiriamLibre-Bold.ttf') format('truetype');
@@ -35,7 +35,7 @@ html,
 html *,
 [class^="btn"],
 .btn {
-  font-family: 'MiriamLibreRegular', sans-serif;
+  font-family: 'Miriam Libre', sans-serif;
 }
 
 body {
@@ -360,6 +360,8 @@ a {
   justify-content: flex-end;
   padding-right: 21rem;
   background: #ab0638;
+  font-family: 'Vollkorn';
+  font-weight: 600;
 }
 
 .site-banner .inside .quicklinks .ql-list {
@@ -2483,28 +2485,31 @@ h2.gla-item-title {
   background: #ffffff url('img/readyforit/icon_map.png') no-repeat;
 }
 
-
-
+/* X small */
 @media (min-width: 22.5em) {
   .site-wrapper {
     background-color: red !important;
   }
 }
+/* Small */
 @media (min-width: 25.063em) {
   .site-wrapper {
     background-color: green !important;
   }
 }
+/* Medium */
 @media (min-width: 40.063em) {
   .site-wrapper {
     background-color: pink !important;
   }
 }
+/* Large >= 1225 */
 @media (min-width: 64.063em) {
   .site-wrapper {
     background-color: blue !important;
   }
 }
+/* X large >= 1280 */
 @media (min-width: 80em) {
   .site-wrapper {
     background-color: yellow !important;
