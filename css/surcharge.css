@@ -152,7 +152,7 @@ a {
   display: inline-block;
   margin-bottom: 2rem;
   padding: 1rem 2rem;
-  box-shadow: 0 22px 40px -15px rgba(0, 0, 0, 0.5);
+  box-shadow: 0 0 12px 2px rgba(0,0,0,0.16);
   font-weight: 700;
   text-align: center;
   text-decoration: none;
@@ -670,8 +670,14 @@ a {
 }
 
 .front .header-edito {
+  padding: 3rem 0 5rem;
   background-color: #e50041;
   color: #ffffff;
+}
+
+.front .header-edito .inside {
+  max-width: 1220px;
+  margin: 0 auto;
 }
 
 .front .header-edito h1 {
@@ -684,23 +690,28 @@ a {
   padding: 0;
   color: #004951;
   background-color: #ffffff;
-  font-family: 'Vollkorn', serif;
-  font-weight: 600;
   font-size: 5.4rem;
-  line-height: 1.85;
+  line-height: 1.45;
+  box-shadow: 0 0 12px 2px rgba(0,0,0,0.16);
 }
 
 .front .header-edito h2 u {
   padding: 0 3rem;
+  font-family: 'Vollkorn', serif;
+  font-weight: 600;
 }
 
 .front .header-edito blockquote {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  margin-top: 3rem;
   padding: 3rem 2rem;
   max-width: 460px;
   background-color: rgba(229, 0, 65, 0.76);
   color: #ffffff;
   font-weight: 600;
-  box-shadow: 0 0 5px 2px rgba(0,0,0,0.16);
+  box-shadow: 0 0 12px 2px rgba(0,0,0,0.16);
 }
 
 .front .header-edito blockquote lien1,
