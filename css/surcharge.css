@@ -2489,17 +2489,27 @@ h2.gla-item-title {
 
 
 @media (min-width: 22.5em) {
-  background-color: red;
+  .site-wrapper {
+    background-color: red;
+  }
 }
 @media (min-width: 25.063em) {
-  background-color: green;
+  .site-wrapper {
+    background-color: green;
+  }
 }
 @media (min-width: 40.063em) {
-  background-color: pink;
+  .site-wrapper {
+    background-color: pink;
+  }
 }
 @media (min-width: 64.063em) {
-  background-color: blue;
+  .site-wrapper {
+    background-color: blue;
+  }
 }
 @media (min-width: 80em) {
-  background-color: yellow;
+  .site-wrapper {
+    background-color: yellow;
+  }
 }
