@@ -488,12 +488,17 @@ a {
   padding: 4.25em 0 0;
 }
 
-.site-footer .inside .footer-top-container {
+.site-footer .footer-top-container {
   display: flex;
   justify-content: space-between;
   width: 100%;
   max-width: 1220px;
   margin: 0 auto 4.25rem;
+}
+
+.site-footer .footer-top-container p {
+  margin-top: 2rem;
+  font-size: 1.4rem;
 }
 
 .footer-dgconsultants,
@@ -507,14 +512,13 @@ a {
   color: #ffffff;
 }
 
-.site-footer p {
-  margin-top: 2rem;
-  font-size: 1.4rem;
+.site-footer a {
+  color: initial;
 }
 
 .site-footer .link {
   margin-top: 3rem;
-  display: inline-block;
+  display: block;
   text-transform: uppercase;
   font-size: 1.6rem;
   font-weight: 700;
@@ -530,30 +534,28 @@ a {
   margin: 0 0 1.2rem 0;
 }
 
+.footer-links .cta-1:hover {
+  background: #c0c0c0;
+}
+
 .site-footer .follow-container {
   margin: 2rem auto 0;
   padding-top: 2rem;
   border-top: 1px solid #ffffff;
-  text-align: center;
 }
 
-.follow-text {
-  display: inline-block;
-  padding-right: 0.6rem;
-  padding-left: 0.8rem;
-  border-left: 5px solid #00e2ff;
-  font-size: 1.8rem;
-  font-weight: 500;
+.site-footer .follow-container .link {
+  margin-top: 0;
+  margin-bottom: 2rem;
 }
 
 .twitter-icon,
 .linkedin-icon,
 .youtube-icon {
   display: inline-block;
-  width: 40px;
-  height: 40px;
+  width: 35px;
+  height: 35px;
   margin: 0 0.6rem;
-  vertical-align: middle;
 }
 
 .twitter-icon {
@@ -583,23 +585,17 @@ a {
   background: url('img/readyforit/logo_comexposium.png') no-repeat center;
 }
 
-.site-footer .inside .footer-bottom-container {
-  background: #141828;
-  color: #b2b6ca;
-  font-size: 1.21rem;
-}
-
 .site-footer .footer-bottom-container .content {
   display: flex;
   align-items: center;
-  justify-content: space-between;
   width: 100%;
   max-width: 1220px;
   margin: 0 auto;
 }
 
-.footer-bottom-container {
-  display: block;
+.site-footer .footer-bottom-container p {
+  margin-right: 1.5rem;
+  font-size: 1.3rem;
 }
 
 .footer-bottom-container ul {
@@ -607,12 +603,11 @@ a {
 }
 
 .footer-bottom-container [class^="btn"] {
-  padding: 1rem;
+  padding: 1rem 1.5rem;
   border: 0;
   background: transparent;
-  color: #b2b6ca;
-  font-family: 'Barlow', sans-serif;
-  font-size: 1.21rem;
+  font-size: 1.3rem;
+  text-transform: initial;
 }
 
 .btn-primary:focus,
@@ -627,7 +622,7 @@ a {
 /* HOME */
 /***********************************/
 .front .site-wrapper {
-  background: #ffffff url('img/readyforit/rosette.svg') no-repeat left bottom / 1020px 1020px;
+  background: #ffffff url('img/assises/rosette.svg') no-repeat left bottom / 1020px 1020px;
 }
 
 .front .header-edito {
