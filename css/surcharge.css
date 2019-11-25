@@ -195,18 +195,6 @@ a {
   color: #001821;
 }
 
-.cta-3,
-.style3 a {
-  background: #ffffff;
-  color: #00c485;
-}
-
-.cta-3:hover,
-.style3 a:hover {
-  background: #00c485;
-  color: #ffffff;
-}
-
 .style4 a {
   background: #6dd700;
   color: #ffffff;
@@ -490,7 +478,7 @@ a {
 /* FOOTER */
 /***********************************/
 .site-footer {
-  background: transparent;
+  background: #001821;
 }
 
 .site-footer .inside {
@@ -498,8 +486,6 @@ a {
   flex-direction: column;
   max-width: inherit;
   padding: 4.25em 0 0;
-  border-top: 11px solid #565968;
-  background: #001821;
 }
 
 .site-footer .inside .footer-top-container {
@@ -511,38 +497,28 @@ a {
   margin: 0 auto 4.25rem;
 }
 
-.footer-logos,
-.footer-newsletter,
+.footer-dgconsultants,
+.footer-comexposium,
 .footer-links {
   flex: 0 0 31%;
 }
 
+.site-footer h2 {
+  font-size: 1.8rem;
+  color: #ffffff;
+}
+
+.site-footer p {
+  margin-top: 2rem;
+  font-size: 1.4rem;
+}
+
 .site-footer a {
-  color: #b2b6ca;
-}
-
-.site-footer .cta-1 {
-  color: #ffffff;
-}
-
-.site-footer .cta-1:hover {
-  color: #ff3100;
-}
-
-.site-footer .cta-2 {
-  color: #ff3100;
-}
-
-.site-footer .cta-2:hover {
-  color: #ffffff;
-}
-
-.site-footer .cta-3 {
-  color: #00c485;
-}
-
-.site-footer .cta-3:hover {
-  color: #ffffff;
+  margin-top: 3rem;
+  display: inline-block;
+  text-transform: uppercase;
+  font-size: 1.6rem;
+  font-weight: 700;
 }
 
 .logo-dg-consultants {
@@ -558,10 +534,6 @@ a {
   width: 215px;
   height: 76px;
   background: url('img/readyforit/logo_comexposium.png') no-repeat center;
-}
-
-.footer-logos p {
-  margin-top: 1.5rem;
 }
 
 .footer-newsletter {
@@ -703,6 +675,7 @@ a {
   padding: 0 3rem;
   font-family: 'Vollkorn', serif;
   font-weight: 600;
+  text-decoration: none;
 }
 
 .front .header-edito blockquote {
@@ -730,6 +703,8 @@ a {
 }
 
 .front .header-edito blockquote p.style1 {
+  display: flex;
+  justify-content: space-around;
   margin-top: 6rem;
 }
 
