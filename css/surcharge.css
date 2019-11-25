@@ -751,18 +751,15 @@ a {
 
 /* Desktop version */
 @media (min-width: 721px) {
-  .site-banner .header-content,
-  .is-stuck.site-banner .header-content {
+  .site-banner .header-content {
     display: flex;
     align-items: flex-end;
     float: left;
     height: 70px;
     padding: 1rem;
-    background: #e50041;
   }
 
-  .site-banner .header-logo,
-  .is-stuck.site-banner .header-logo {
+  .site-banner .header-logo {
     display: block;
     width: 152px;
     height: 28px;
