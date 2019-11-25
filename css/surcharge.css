@@ -347,8 +347,8 @@ a {
   padding: 0;
 }
 
-.front .is-slim .mn-item-lvl-1:first-child,
-.front .is-slim .lang-switcher,
+.front  .mn-item-lvl-1:first-child,
+.front  .lang-switcher,
 .is-stuck .mn-item-lvl-1:first-child,
 .is-stuck .lang-switcher {
   display: block;
@@ -374,7 +374,7 @@ a {
 }
 
 .mn-item-lvl-1 > .mn-link,
-.front .is-slim .mn-item-lvl-1 > .mn-link
+.front  .mn-item-lvl-1 > .mn-link
 .front .is-stuck .mn-item-lvl-1 > .mn-link {
   min-height: 54px;
   padding-bottom: 0.5em;
@@ -752,7 +752,7 @@ a {
 
 /* Desktop version */
 @media (min-width: 721px) {
-  .front .is-slim.site-banner .header-content,
+  .site-banner .header-content,
   .is-stuck.site-banner .header-content {
     display: flex;
     align-items: flex-end;
@@ -762,7 +762,7 @@ a {
     background: #e50041;
   }
 
-  .front .is-slim.site-banner .header-logo,
+  .site-banner .header-logo,
   .is-stuck.site-banner .header-logo {
     display: block;
     width: 152px;
@@ -770,7 +770,7 @@ a {
     background: url('img/assises/logo.svg') no-repeat;
   }
 
-  .front .main-navigation {
+  .site-banner .main-navigation {
     display: flex;
     align-items: flex-end;
     float: left;
@@ -782,7 +782,7 @@ a {
 }
 
 @media (min-width: 961px) {
-  .front .is-slim.site-banner .header-logo,
+  .site-banner .header-logo,
   .is-stuck.site-banner .header-logo {
     width: 228px;
   }
