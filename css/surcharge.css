@@ -479,14 +479,14 @@ a {
 /* FOOTER */
 /***********************************/
 .site-footer {
-  background: #001821;
+  background: #001821 url('img/assises/rosette.svg') no-repeat 50% 5rem / 1020px 1020px;
 }
 
 .site-footer .inside {
   display: flex;
   flex-direction: column;
   max-width: inherit;
-  padding: 4.25em 0 0;
+  padding: 7rem 0 0;
 }
 
 .site-footer .footer-top-container {
@@ -567,19 +567,19 @@ a {
   background: url('img/readyforit/icon_youtube.png') no-repeat center / 100%;
 }
 
-.logo-dg-consultants {
+.logo-dgconsultants {
   display: inline-block;
   width: 93px;
   height: 76px;
   margin-right: 2.5rem;
-  background: url('img/readyforit/logo_dg.png') no-repeat;
+  background: url('img/assises/logo_dg.svg') no-repeat;
 }
 
 .logo-comexposium {
   display: inline-block;
   width: 215px;
   height: 76px;
-  background: url('img/readyforit/logo_comexposium.png') no-repeat center;
+  background: url('img/assises/logo_comexposium.svg') no-repeat center;
 }
 
 .site-footer .footer-bottom-container .content {
