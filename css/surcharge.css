@@ -490,7 +490,6 @@ a {
 
 .site-footer .inside .footer-top-container {
   display: flex;
-  align-items: center;
   justify-content: space-between;
   width: 100%;
   max-width: 1220px;
@@ -513,7 +512,7 @@ a {
   font-size: 1.4rem;
 }
 
-.site-footer a {
+.site-footer .link {
   margin-top: 3rem;
   display: inline-block;
   text-transform: uppercase;
@@ -521,49 +520,20 @@ a {
   font-weight: 700;
 }
 
-.logo-dg-consultants {
-  display: inline-block;
-  width: 93px;
-  height: 76px;
-  margin-right: 2.5rem;
-  background: url('img/readyforit/logo_dg.png') no-repeat;
-}
-
-.logo-comexposium {
-  display: inline-block;
-  width: 215px;
-  height: 76px;
-  background: url('img/readyforit/logo_comexposium.png') no-repeat center;
-}
-
-.footer-newsletter {
-  margin: 0 2rem;
-  padding: 1rem 0;
-  border-right: 1px solid #414555;
-  border-left: 1px solid #414555;
-  text-align: center;
-}
-
-.footer-newsletter p {
-  margin-bottom: 1rem;
-  font-size: 2.3rem;
-}
-
-.footer-links .cta-1,
-.footer-links .cta-2 {
-  display: block;
-  width: 60%;
-  margin: 0 auto;
+.footer-comexposium {
+  padding-right: 2rem;
+  border-right: 1px solid #ffffff;
 }
 
 .footer-links .cta-1 {
-  margin-bottom: 2rem;
+  display: block;
+  margin: 0 0 1.2rem 0;
 }
 
 .site-footer .follow-container {
   margin: 2rem auto 0;
   padding-top: 2rem;
-  border-top: 1px solid #414555;
+  border-top: 1px solid #ffffff;
   text-align: center;
 }
 
@@ -596,6 +566,21 @@ a {
 
 .youtube-icon {
   background: url('img/readyforit/icon_youtube.png') no-repeat center / 100%;
+}
+
+.logo-dg-consultants {
+  display: inline-block;
+  width: 93px;
+  height: 76px;
+  margin-right: 2.5rem;
+  background: url('img/readyforit/logo_dg.png') no-repeat;
+}
+
+.logo-comexposium {
+  display: inline-block;
+  width: 215px;
+  height: 76px;
+  background: url('img/readyforit/logo_comexposium.png') no-repeat center;
 }
 
 .site-footer .inside .footer-bottom-container {
