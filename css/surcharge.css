@@ -566,12 +566,14 @@ a {
 }
 
 .front .header-edito {
+  max-width: initial;
   padding: 3rem 0 5rem;
   background-color: #e50041;
   color: #ffffff;
 }
 
 .front .header-edito .inside {
+  display: block;
   max-width: 1220px;
   margin: 0 auto;
 }
@@ -906,4 +908,36 @@ h2.gla-item-title {
 
 .edito blockquote .icon {
   display: none;
+}
+
+/* speakers remarquables */
+.article-focus {
+  position: relative;
+  display: flex;
+  justify-content: flex-end;
+  background: transparent;
+  border: 0;
+  padding: 0;
+  color: #ffffff;
+}
+
+.article-focus img {
+  position: absolute;
+  max-width: 542px;
+}
+
+.article-focus .inside {
+  background: #a5948f;
+  max-width: 860px;
+  padding: 4rem 11rem;
+}
+
+.article-focus .inside .af-title {
+  font-size: 3rem;
+  font-weight: 700;
+  color: #001821;
+  background: #ffffff;
+  display: inline-block;
+  padding: 0 2rem;
+  margin-bottom: 2rem;
 }
