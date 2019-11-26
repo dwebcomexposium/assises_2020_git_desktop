@@ -784,19 +784,25 @@ h2.gla-item-title {
   font-size: 1rem;
 }
 
-/* EDITO */
-.edito.decouvrez {
+/* EDITO DECOUVREZ */
+.font .edito.decouvrez {
   max-width: 1220px;
   margin: 0 auto;
-  padding: 1rem 2rem;
+  padding: 2rem 1.2rem 2rem 2rem;
   background: #f2efef;
 }
 
-.edito.decouvrez .block-title {
+.font .edito.decouvrez .inside {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.font .edito.decouvrez .block-title {
   display: none;
 }
 
-.edito.decouvrez h3 {
+.font .edito.decouvrez h3 {
   margin-top: 0;
   margin-bottom: 3rem;
   font-family: 'Vollkorn', serif;
@@ -805,21 +811,35 @@ h2.gla-item-title {
   color: #e50041;
 }
 
-.edito.decouvrez P {
+.font .edito.decouvrez P {
   margin: 0;
   font-weight: 700;
 }
 
-.edito.decouvrez blockquote:first-child {
+.font .edito.decouvrez blockquote:first-of-type {
   display: flex;
+  flex-wrap: wrap;
   width: 50%;
+  margin-top: 0;
 }
 
-.edito.decouvrez blockquote img {
-  width: 224px;
-  height: 224px;
+.font .edito.decouvrez blockquote:not(:first-of-type) {
+  display: flex;
+  justify-content: flex-end;
+  width: 50%;
+  margin-top: 0;
 }
 
-.edito.decouvrez blockquote .icon {
+.font .edito.decouvrez blockquote:not(:first-of-type) p {
+  margin: 0 0.8rem;
+}
+
+.font .edito.decouvrez blockquote .icon {
   display: none;
+}
+
+/* EDITO */
+.font .edito {
+  max-width: 1220px;
+  margin: 0 auto;
 }
