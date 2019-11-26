@@ -631,6 +631,7 @@ a.link-read-more:hover {
 }
 
 .lang-switcher {
+  display: none;
   right: 13.8rem;
   padding: 0.38rem 0;
   background: #ab0638;
@@ -714,7 +715,7 @@ a.link-read-more:hover {
   width: 100%;
 }
 
-.front .mn-item-lvl-1 {
+.main-navigation .mn-menu-lvl1 {
   border-bottom: 1px solid #eae8e8;
 }
 
