@@ -722,7 +722,7 @@ a.link-read-more:hover {
 .front .mn-item-lvl-1 > .mn-link {
   min-height: 37px;
   margin-bottom: 0.5em;
-  padding: 0.5em 0.75em 0 0.75em;
+  padding: 0.5em 0 0 0;
   font-size: 2.1rem;
   font-weight: 700;
   text-transform: uppercase;
@@ -737,21 +737,26 @@ a.link-read-more:hover {
   color: #ffffff;
 }
 
-.is-open .mn-item-lvl-2 > .mn-link {
-  background: transparent;
-  color: #003239;
-}
-
 .mn-link.mn-link:hover,
 .mn-link.mn-link:focus,
 .mn-link.mn-link.is-active {
   background: transparent;
-  border-bottom: 2px solid #ffffff;
+  color: #e50041;
+}
+
+.is-open .mn-item-lvl-2 > .mn-link {
+  background: transparent;
+  color: #003239;
+  font-weight: 700;
 }
 
 .mn-menu-submenu {
   background: #ffffff;
   color: #003239;
+}
+
+.is-open > .mn-menu-submenu {
+  position: initial;
 }
 
 .mn-menu-submenu .mn-link {
@@ -833,6 +838,12 @@ a.link-read-more:hover {
     padding-bottom: 0.5em;
     color: #ffffff;
     font-size: 1.8rem;
+  }
+
+  .mn-link.mn-link:hover,
+  .mn-link.mn-link:focus,
+  .mn-link.mn-link.is-active {
+    border-bottom: 2px solid #ffffff;
   }
 }
 
