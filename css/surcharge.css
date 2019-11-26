@@ -710,12 +710,12 @@ a.link-read-more:hover {
   border: 0;
 }
 
-.main-navigation .mn-item-lvl1 {
+.main-navigation .mn-menu-lvl1 {
   display: inline-block;
   width: 100%;
 }
 
-.main-navigation .mn-menu-lvl1 {
+.main-navigation .mn-item-lvl-1 {
   border-bottom: 1px solid #eae8e8;
 }
 
