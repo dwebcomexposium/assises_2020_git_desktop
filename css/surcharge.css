@@ -128,6 +128,18 @@ p strong {
   font-weight: 700;
 }
 
+p.style1 {
+  font-family: 'Vollkorn', serif;
+}
+
+p.style1 strong {
+  font-weight: 600;
+}
+
+p.style3 {
+  font-size: 1.4rem;
+}
+
 /* Liens */
 a {
   color: #001821;
@@ -844,15 +856,22 @@ h2.gla-item-title {
   margin: 0 auto;
 }
 
+.edito .inside {
+  display: flex;
+  position: relative;
+}
+
 .edito h2 {
   display: none;
 }
 
 .edito figure {
-  width: 352px;
+  flex: 1 0 352px;
+  float: none;
+  margin-right: 2rem;
 }
 
-.edito figure figcaption {
+.edito figure figcaption strong {
   font-family: 'Vollkorn', serif;
   font-size: 1.7rem;
   font-weight: 600;
@@ -862,4 +881,23 @@ h2.gla-item-title {
   color: #e50041;
   font-size: 1.6rem;
   font-weight: 700;
+}
+
+.edito blockquote h3 {
+  margin-top: 0;
+}
+
+.edito blockquote p.style1 {
+  font-size: 2.3rem;
+  color: #004951;
+}
+
+.edito blockquote .edito-item-btn {
+  position: absolute;
+  bottom: 0;
+  left: 380px;
+}
+
+.edito blockquote .icon {
+  display: none;
 }
