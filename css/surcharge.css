@@ -167,7 +167,7 @@ a {
 .style2 a,
 .style3 a,
 .style4 a {
-  width: 19rem;
+  min-width: 19rem;
   margin: 0;
   font-size: 1.6rem;
 }
@@ -924,12 +924,14 @@ h2.gla-item-title {
 .article-focus img {
   position: absolute;
   max-width: 542px;
+  top: 6rem;
+  right: 745px;
 }
 
 .article-focus .inside {
   background: #a5948f;
   max-width: 860px;
-  padding: 4rem 11rem;
+  padding: 6rem 10rem 12rem 17rem;
 }
 
 .article-focus .inside .af-title {
@@ -939,5 +941,10 @@ h2.gla-item-title {
   background: #ffffff;
   display: inline-block;
   padding: 0 2rem;
-  margin-bottom: 2rem;
+  margin-bottom: 4rem;
+}
+
+.article-focus .inside p:not(.style1) {
+  margin-top: 0;
+  margin-bottom: 4rem;
 }
