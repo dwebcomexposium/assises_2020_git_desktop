@@ -786,11 +786,18 @@ h2.gla-item-title {
 
 /* EDITO */
 .edito.decouvrez {
-
+  max-width: 1220px;
+  margin: 0 auto;
+  padding: 1rem 2rem;
+  background: #f2efef;
 }
 
 .edito.decouvrez .block-title {
-  border-bottom: 0;
+  display: none;
+}
+
+.edito.decouvrez h3 {
+  border-top: 0;
   font-family: 'Vollkorn', serif;
   font-size: 3rem;
   font-weight: 600;
@@ -804,6 +811,7 @@ h2.gla-item-title {
 .edito.decouvrez blockquote p {
   width: 224px;
   height: 224px;
+  margin: 0;
 }
 
 .edito.decouvrez blockquote .icon {
