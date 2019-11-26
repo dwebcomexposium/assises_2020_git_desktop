@@ -378,6 +378,12 @@ a.link-read-more:hover {
 /***********************************/
 /* HOME */
 /***********************************/
+#pub {
+  width: 320px;
+  margin: 5rem auto;
+  text-align: center;
+}
+
 .front .site-wrapper {
   background: url('img/assises/rosette.svg') no-repeat -55rem 94rem / 1020px 1020px;
   box-shadow: none;
@@ -406,7 +412,7 @@ a.link-read-more:hover {
   padding: 0;
   color: #004951;
   background-color: #ffffff;
-  font-size: 5.4rem;
+  font-size: 4rem;
   line-height: 1.45;
   box-shadow: 0 0 12px 2px rgba(0,0,0,0.16);
 }
@@ -419,12 +425,9 @@ a.link-read-more:hover {
 }
 
 .front .header-edito blockquote {
-  display: flex;
-  flex-direction: column;
-  justify-content: space-between;
-  margin-top: 3rem;
+  margin: 3rem auto 0;
   padding: 3rem 2rem;
-  max-width: 460px;
+  max-width: 335px;
   background-color: rgba(229, 0, 65, 0.76);
   color: #ffffff;
   font-weight: 600;
@@ -443,19 +446,11 @@ a.link-read-more:hover {
 }
 
 .front .header-edito blockquote p.style1 {
-  display: flex;
-  justify-content: space-around;
-  margin-top: 6rem;
+  margin-top: 3rem;
 }
 
-.front .header-edito blockquote lien1 {
-  background: #000000;
-  color: #ffffff;
-}
-
-.front .header-edito blockquote lien2 {
-  background: #ffffff;
-  color: #000000;
+.front .header-edito blockquote .lien2 {
+  margin-bottom: 1rem;
 }
 
 .front .header-edito blockquote .icon-quote {
@@ -694,6 +689,7 @@ a.link-read-more:hover {
 
 /* Navigation */
 .site-banner .main-navigation {
+  display: none;
   box-shadow: none;
 }
 
@@ -773,86 +769,6 @@ a.link-read-more:hover {
 }
 
 
-
-
-/* Desktop version */
-@media (min-width: 721px) {
-  /* Header */
-  .site-banner .header-content {
-    display: flex;
-    align-items: flex-end;
-    float: left;
-    height: 70px;
-    padding: 1rem;
-  }
-
-  .site-banner .inside .quicklinks {
-    display: flex;
-    justify-content: flex-end;
-    padding-right: 21rem;
-  }
-
-  .site-banner .inside .quicklinks .ql-list {
-    display: flex;
-  }
-
-  .site-banner .header-logo {
-    display: block;
-    width: 152px;
-    height: 28px;
-    background: url('img/assises/logo.svg') no-repeat;
-  }
-
-  .site-banner .main-navigation {
-    display: flex;
-    align-items: flex-end;
-    float: left;
-    clear: none;
-    padding: 0;
-    height: 70px;
-    background: transparent;
-    box-shadow: none;
-  }
-
-  /* Stiky header */
-  .is-stuck .lang-switcher {
-    display: block;
-  }
-
-  .is-stuck .mn-menu-line {
-    margin: 0;
-  }
-
-  /* Navigation */
-  .front .mn-item-lvl-1 > .mn-link {
-    margin-bottom: 0.75em;
-    padding: 0.75em 0.75em 0 0.75em;
-    font-size: 1.3rem;
-    text-transform: initial;
-  }
-
-  .mn-item-lvl-1 > .mn-link,
-  .front  .mn-item-lvl-1 > .mn-link
-  .front .is-stuck .mn-item-lvl-1 > .mn-link {
-    min-height: 54px;
-    padding-bottom: 0.5em;
-    color: #ffffff;
-    font-size: 1.8rem;
-  }
-
-  .mn-link.mn-link:hover,
-  .mn-link.mn-link:focus,
-  .mn-link.mn-link.is-active {
-    border-bottom: 2px solid #ffffff;
-  }
-}
-
-@media (min-width: 961px) {
-  .site-banner .header-logo {
-    width: 228px;
-  }
-}
-
 /* A PROPOS */
 .gla-item {
   box-shadow: none;
@@ -868,14 +784,13 @@ h2.gla-item-title {
 
 /* EDITO DECOUVREZ */
 .edito.decouvrez {
-  max-width: 1220px;
-  margin: 0 auto;
-  padding: 2rem 1.2rem 2rem 4rem;
+  padding: 4rem 2rem;
   background: #f2efef;
 }
 
 .edito.decouvrez .inside {
   display: flex;
+  flex-direction: column;
   justify-content: space-between;
   align-items: center;
 }
@@ -899,20 +814,16 @@ h2.gla-item-title {
 }
 
 .edito.decouvrez blockquote:first-of-type {
-  display: flex;
-  flex-wrap: wrap;
-  width: 50%;
   margin-top: 0;
 }
 
 .edito.decouvrez blockquote:not(:first-of-type) {
   display: flex;
-  justify-content: flex-end;
-  width: 50%;
-  margin-top: 0;
+  margin-top: 6rem;
 }
 
 .edito.decouvrez blockquote:not(:first-of-type) p {
+  width: 159px;
   margin: 0 0.8rem;
 }
 
@@ -1015,4 +926,162 @@ h2.gla-item-title {
 .article-focus .inside p:not(.style1) {
   margin-top: 0;
   margin-bottom: 4rem;
+}
+
+/* Desktop version */
+@media (min-width: 721px) {
+  /* Header */
+  .site-banner .header-content {
+    display: flex;
+    align-items: flex-end;
+    float: left;
+    height: 70px;
+    padding: 1rem;
+  }
+
+  .site-banner .inside .quicklinks {
+    display: flex;
+    justify-content: flex-end;
+    padding-right: 21rem;
+  }
+
+  .site-banner .inside .quicklinks .ql-list {
+    display: flex;
+  }
+
+  .site-banner .header-logo {
+    display: block;
+    width: 152px;
+    height: 28px;
+    background: url('img/assises/logo.svg') no-repeat;
+  }
+
+  .site-banner .main-navigation {
+    display: flex;
+    align-items: flex-end;
+    float: left;
+    clear: none;
+    padding: 0;
+    height: 70px;
+    background: transparent;
+    box-shadow: none;
+  }
+
+  /* Stiky header */
+  .is-stuck .lang-switcher {
+    display: block;
+  }
+
+  .is-stuck .mn-menu-line {
+    margin: 0;
+  }
+
+  /* Navigation */
+  .front .mn-item-lvl-1 > .mn-link {
+    margin-bottom: 0.75em;
+    padding: 0.75em 0.75em 0 0.75em;
+    font-size: 1.3rem;
+    text-transform: initial;
+  }
+
+  .mn-item-lvl-1 > .mn-link,
+  .front  .mn-item-lvl-1 > .mn-link
+  .front .is-stuck .mn-item-lvl-1 > .mn-link {
+    min-height: 54px;
+    padding-bottom: 0.5em;
+    color: #ffffff;
+    font-size: 1.8rem;
+  }
+
+  .mn-link.mn-link:hover,
+  .mn-link.mn-link:focus,
+  .mn-link.mn-link.is-active {
+    border-bottom: 2px solid #ffffff;
+  }
+
+  /* home */
+  #pub {
+    width: 970px;
+    margin: 5rem auto;
+    text-align: center;
+  }
+
+  .front .header-edito h2 {
+    font-size: 5.4rem;
+  }
+
+  .front .header-edito blockquote {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    margin-top: 3rem;
+    max-width: 460px;
+  }
+
+  .front .header-edito blockquote p.style1 {
+    display: flex;
+    justify-content: space-around;
+    margin-top: 6rem;
+  }
+
+  .front .header-edito blockquote .lien2 {
+    margin-bottom: 0;
+  }
+
+  /* EDITO DECOUVREZ */
+.edito.decouvrez {
+  max-width: 1220px;
+  margin: 0 auto;
+  padding: 2rem 1.2rem 2rem 4rem;
+}
+
+.edito.decouvrez .inside {
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.edito.decouvrez .block-title {
+  display: none;
+}
+
+.edito.decouvrez h3 {
+  margin-top: 0;
+  margin-bottom: 3rem;
+  font-family: 'Vollkorn', serif;
+  font-size: 3rem;
+  font-weight: 600;
+  color: #e50041;
+}
+
+.edito.decouvrez p {
+  margin: 0;
+  font-weight: 700;
+}
+
+.edito.decouvrez blockquote:first-of-type {
+  display: flex;
+  flex-wrap: wrap;
+  width: 50%;
+}
+
+.edito.decouvrez blockquote:not(:first-of-type) {
+  justify-content: flex-end;
+  width: 50%;
+  margin-top: 0;
+}
+
+.edito.decouvrez blockquote:not(:first-of-type) p {
+  margin: 0 0.8rem;
+}
+
+.edito.decouvrez blockquote .icon {
+  display: none;
+}
+}
+
+@media (min-width: 961px) {
+  .site-banner .header-logo {
+    width: 228px;
+  }
 }
