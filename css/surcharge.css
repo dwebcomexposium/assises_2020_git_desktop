@@ -134,14 +134,6 @@ a {
   text-decoration: none;
 }
 
-.externe {
-  font-size: 1.4rem;
-}
-
-.externe.lien1 {
-  font-size: 1.8rem;
-}
-
 /* Button */
 .cta-1,
 .style1 a,
@@ -177,7 +169,7 @@ a {
 
 .cta-1:hover,
 .style1 a:hover,
-.style1 .lien1 {
+.style1 .lien1:hover {
   background: #001821;
   color: #ffffff;
 }
@@ -191,19 +183,9 @@ a {
 
 .cta-2:hover,
 .style2 a:hover,
-.style1 .lien2 {
+.style1 .lien2:hover {
   background: #ffffff;
   color: #001821;
-}
-
-.style4 a {
-  background: #6dd700;
-  color: #ffffff;
-}
-
-.style4 a:hover {
-  background: #ffffff;
-  color: #6dd700;
 }
 
 /* Color */
@@ -474,6 +456,7 @@ a {
 .footer-links .cta-1 {
   display: block;
   margin: 0 0 1.2rem 0;
+  color: initial;
 }
 
 .footer-links .cta-1:hover {
@@ -786,4 +769,43 @@ a {
   .site-banner .header-logo {
     width: 228px;
   }
+}
+
+/* A PROPOS */
+.gla-item {
+  box-shadow: none;
+}
+
+.gla-item-content .gla-item-btn {
+  margin-top: 0;
+}
+
+h2.gla-item-title {
+  font-size: 1rem;
+}
+
+/* EDITO */
+.edito.decouvrez {
+
+}
+
+.edito.decouvrez .block-title {
+  border-bottom: 0;
+  font-family: 'Vollkorn', serif;
+  font-size: 3rem;
+  font-weight: 600;
+  color: #e50041;
+}
+
+.edito.decouvrez P {
+  font-weight: 700;
+}
+
+.edito.decouvrez blockquote p {
+  width: 224px;
+  height: 224px;
+}
+
+.edito.decouvrez blockquote .icon {
+  display: none;
 }
