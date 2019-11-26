@@ -751,6 +751,55 @@ a.link-read-more:hover {
   bottom: -50px;
 }
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.site-banner .header-content {
+  display: flex;
+  align-items: flex-end;
+  float: left;
+  height: 70px;
+  padding: 1rem;
+}
+
+.site-banner .header-logo {
+  display: block;
+  width: 152px;
+  height: 28px;
+  background: url('img/assises/logo.svg') no-repeat;
+}
+
+.site-banner .main-navigation {
+  display: flex;
+  align-items: flex-end;
+  float: left;
+  clear: none;
+  padding: 0;
+  height: 70px;
+  background: transparent;
+  box-shadow: none;
+}
+
+.is-stuck .mn-menu-line {
+  margin: 0;
+}
+
 /* Desktop version */
 @media (min-width: 721px) {
   .site-banner .header-content {
