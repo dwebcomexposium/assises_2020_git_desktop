@@ -811,7 +811,7 @@ h2.gla-item-title {
   color: #e50041;
 }
 
-.edito.decouvrez P {
+.edito.decouvrez p {
   margin: 0;
   font-weight: 700;
 }
@@ -842,4 +842,24 @@ h2.gla-item-title {
 .edito {
   max-width: 1220px;
   margin: 0 auto;
+}
+
+.edito h2 {
+  display: none;
+}
+
+.edito figure {
+  width: 352px;
+}
+
+.edito figure figcaption {
+  font-family: 'Vollkorn', serif;
+  font-size: 1.7rem;
+  font-weight: 600;
+}
+
+.edito figure small {
+  color: #e50041;
+  font-size: 1.6rem;
+  font-weight: 700;
 }
