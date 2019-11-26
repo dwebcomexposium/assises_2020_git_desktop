@@ -770,16 +770,20 @@ a {
     display: flex;
     align-items: flex-end;
     float: left;
+    clear: none;
     padding: 0;
     height: 70px;
     background: transparent;
     box-shadow: none;
   }
+
+  .is-stuck .mn-menu-line {
+    margin: 0;
+  }
 }
 
 @media (min-width: 961px) {
-  .site-banner .header-logo,
-  .is-stuck.site-banner .header-logo {
+  .site-banner .header-logo {
     width: 228px;
   }
 }
