@@ -153,7 +153,8 @@ a {
 .style2 a,
 .cta-3,
 .style3 a,
-.style4 a {
+.style4 a,
+a.link-read-more {
   display: inline-block;
   margin-bottom: 2rem;
   padding: 1rem 2rem;
@@ -166,7 +167,8 @@ a {
 .style1 a,
 .style2 a,
 .style3 a,
-.style4 a {
+.style4 a,
+a.link-read-more {
   min-width: 19rem;
   margin: 0;
   font-size: 1.6rem;
@@ -174,14 +176,16 @@ a {
 
 .cta-1,
 .style1 a,
-.style1 .lien1 {
+.style1 .lien1,
+a.link-read-more {
   background: #ffffff;
   color: #001821;
 }
 
 .cta-1:hover,
 .style1 a:hover,
-.style1 .lien1:hover {
+.style1 .lien1:hover,
+a.link-read-more:hover {
   background: #001821;
   color: #ffffff;
 }
@@ -563,6 +567,7 @@ a {
 /***********************************/
 .front .site-wrapper {
   background: url('img/assises/rosette.svg') no-repeat -55rem 94rem / 1020px 1020px;
+  box-shadow: none;
 }
 
 .front .header-edito {
@@ -802,7 +807,7 @@ h2.gla-item-title {
 .edito.decouvrez {
   max-width: 1220px;
   margin: 0 auto;
-  padding: 2rem 1.2rem 2rem 2rem;
+  padding: 2rem 1.2rem 2rem 4rem;
   background: #f2efef;
 }
 
