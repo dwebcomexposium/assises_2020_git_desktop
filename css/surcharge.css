@@ -1340,6 +1340,19 @@ h2.gla-item-title {
   .article-content table td {
     border: 0;
   }
+
+  .article-content ul li::before {
+    content: "\e622";
+    font-family: 'icon';
+    speak: none;
+    font-style: normal;
+    font-weight: normal;
+    font-variant: normal;
+    text-transform: none;
+    line-height: 1;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+  }
 }
 
 @media (min-width: 961px) {
