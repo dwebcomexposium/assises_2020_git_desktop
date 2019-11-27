@@ -207,28 +207,17 @@ a.link-read-more:hover {
 
 /* Color */
 .important1 {
-  color: #ff3100;
+  color: #e50041;
 }
 
-.important2,
-.orange-light {
-  color: #f39005;
-}
-
-.capsule-green {
-  display: inline;
-  background-color: #6dd700;
-  font-size: 3.2rem;
-  line-height: 1.4;
+.important2 {
+  color: #004951;
 }
 
 /* Arrow */
-.arrow-right {
-  display: inline-block;
-  margin: 0 5px;
-  border-top: solid 5px transparent;
-  border-bottom: solid 5px transparent;
-  border-left: solid 7px #f39005;
+.icon-long-arrow-right {
+  margin-right: 0.5rem;
+  vertical-align: text-top;
 }
 
 /* Cookies */
@@ -407,6 +396,7 @@ a.link-read-more:hover {
   box-shadow: none;
 }
 
+/* Header édito*/
 .front .header-edito {
   max-width: initial;
   padding: 3rem 0 5rem;
@@ -473,18 +463,6 @@ a.link-read-more:hover {
 
 .front .header-edito blockquote .icon-quote {
   display: none;
-}
-
-.gla-item-content {
-  position: relative;
-}
-
-.title-container {
-  display: flex;
-  align-items: center;
-  justify-content: space-between;
-  max-width: 1220px;
-  margin: 0 auto;
 }
 
 /* Vidéos */
@@ -778,8 +756,36 @@ a.link-read-more:hover {
 
 
 /* A propos */
+.list-articles.apropos {
+  padding: 2rem;
+}
+
+.grid-la-list {
+  display: initial;
+  margin: 0;
+}
+
 .gla-item {
   box-shadow: none;
+  width: auto;
+  margin: 0 0 1rem 0;
+}
+
+.gla-item:first-child {
+  background: #d10032;
+}
+
+.gla-item:nth-child(2) {
+  background: #a5948f;
+}
+
+.gla-item:nth-child(3) {
+  background: #004951;
+}
+
+.gla-item-content {
+  position: relative;
+  background: transparent;
 }
 
 .gla-item-content .gla-item-btn {
@@ -1095,42 +1101,14 @@ h2.gla-item-title {
     margin-bottom: 2rem;
   }
 
-  .twitter-icon,
-  .linkedin-icon,
-  .youtube-icon {
-    display: inline-block;
-    width: 35px;
-    height: 35px;
-    margin: 0 0.6rem;
-  }
-
-  .twitter-icon {
-    background: url('img/readyforit/icon_twitter.png') no-repeat center / 100%;
-  }
-
-  .linkedin-icon {
-    background: url('img/readyforit/icon_linkedin.png') no-repeat center / 100%;
-  }
-
-  .youtube-icon {
-    background: url('img/readyforit/icon_youtube.png') no-repeat center / 100%;
-  }
-
   .logo-dgconsultants {
-    display: inline-block;
     width: 68px;
     height: 47px;
-    margin-top: -3rem;
-    margin-right: 1.5rem;
-    background: url('img/assises/logo-dg.svg') no-repeat;
   }
 
   .logo-comexposium {
-    display: inline-block;
     width: 149px;
     height: 24px;
-    margin-left: 1.5rem;
-    background: url('img/assises/logo-comexposium.svg') no-repeat center;
   }
 
   .site-footer .footer-bottom-container .content {
@@ -1174,7 +1152,12 @@ h2.gla-item-title {
     margin-bottom: 0;
   }
 
-  /* EDITO DECOUVREZ */
+  .list-articles.apropos {
+    max-width: 1220px;
+    margin: 0 auto;
+  }
+
+  /* Edito découvrez */
   .edito.decouvrez {
     max-width: 1220px;
     margin: 0 auto;
@@ -1225,7 +1208,7 @@ h2.gla-item-title {
     display: none;
   }
 
-  /* EDITO */
+  /* Edito */
   .edito {
     max-width: 1220px;
     margin: 0 auto;
