@@ -923,6 +923,7 @@ h2.gla-item-title {
   /* Vidéos */
   .videos-container {
     display: flex;
+    align-items: center;
     max-width: 1220px;
     margin: 0 auto 5rem;
   }
@@ -933,6 +934,10 @@ h2.gla-item-title {
 
   .videos-text h2 {
     font-size: 3rem;
+  }
+
+  .videos-content {
+    width: 60%;
   }
 
   /* Header */
