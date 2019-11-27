@@ -44,6 +44,7 @@ body {
 }
 
 .site-wrapper {
+  max-width: initial;
   padding: 0 0 2rem;
   background-color: #ffffff;
 }
@@ -715,7 +716,6 @@ a.link-read-more:hover {
 }
 
 .main-navigation .mn-menu-lvl1 {
-  display: inline-block;
   width: 100%;
 }
 
@@ -950,11 +950,8 @@ h2.gla-item-title {
 
   /* Header */
   .site-banner .header-content {
-    display: flex;
-    align-items: flex-end;
     float: left;
     height: 70px;
-    padding: 1rem;
   }
 
   .site-banner .inside .quicklinks {
@@ -990,16 +987,20 @@ h2.gla-item-title {
     display: block;
   }
 
-  .is-stuck .mn-menu-line {
-    margin: 0;
+  /* Navigation */
+  .main-navigation .mn-menu-lvl1 {
+    display: flex;
   }
 
-  /* Navigation */
+  .main-navigation .mn-item-lvl-1 {
+    border-bottom: 0;
+  }
+
   .front .mn-item-lvl-1 > .mn-link {
     margin-bottom: 0.75em;
     padding: 0.75em 0.75em 0 0.75em;
     font-size: 1.3rem;
-    text-transform: initial;
+    background: transparent;
   }
 
   .mn-item-lvl-1 > .mn-link,
@@ -1015,6 +1016,11 @@ h2.gla-item-title {
   .mn-link.mn-link:focus,
   .mn-link.mn-link.is-active {
     border-bottom: 2px solid #ffffff;
+    color: #ffffff;
+  }
+
+  .is-open > .mn-menu-submenu {
+    position: absolute;
   }
 
   /* Footer */
@@ -1154,7 +1160,7 @@ h2.gla-item-title {
     display: flex;
     flex-direction: column;
     justify-content: space-between;
-    margin-top: 3rem;
+    margin: 3rem 0 0;
     max-width: 460px;
   }
 
