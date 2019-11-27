@@ -73,27 +73,14 @@ h1 {
   margin-bottom: 0;
   border: 0;
   font-size: 5.4rem;
-  font-weight: 500;
+  font-weight: 700;
 }
 
 h2 {
   margin: 0;
   border: 0;
-  font-size: 5.4rem;
-  font-weight: 500;
-}
-
-h2:not(:first-child) {
-  margin-top: 5rem;
-}
-
-.front h2 {
-  font-size: 6.8rem;
+  font-size: 3.2rem;
   font-weight: 700;
-}
-
-.contacts-list h2 {
-  margin-left: 2rem;
 }
 
 h3 {
@@ -110,14 +97,14 @@ h3 {
 h4 {
   margin-bottom: 0;
   font-size: 3.5rem;
-  font-weight: 500;
+  font-weight: 700;
   line-height: 1.2;
 }
 
 h5 {
   margin-bottom: 0;
   font-size: 1.8rem;
-  font-weight: 500;
+  font-weight: 700;
 }
 
 /* Paragraphe */
@@ -387,7 +374,7 @@ a.link-read-more:hover {
 /***********************************/
 #pub {
   width: 320px;
-  margin: 5rem auto;
+  margin: 0 auto 5rem;
   text-align: center;
 }
 
@@ -399,6 +386,7 @@ a.link-read-more:hover {
 /* Header édito*/
 .front .header-edito {
   max-width: initial;
+  margin-bottom: 5rem;
   padding: 3rem 0 5rem;
   background-color: #e50041;
   color: #ffffff;
@@ -655,7 +643,7 @@ a.link-read-more:hover {
 }
 
 /* Stiky header */
-.front .site-banner {
+.site-banner {
   background: #e50041;
   box-shadow: none;
   border-bottom: 0;
@@ -701,7 +689,7 @@ a.link-read-more:hover {
   border-bottom: 1px solid #eae8e8;
 }
 
-.front .mn-item-lvl-1 > .mn-link {
+.site-banner .mn-item-lvl-1 > .mn-link {
   min-height: 37px;
   margin-bottom: 0.5em;
   padding: 0.5em 0 0 0;
@@ -757,7 +745,7 @@ a.link-read-more:hover {
 
 /* A propos */
 .list-articles.apropos {
-  padding: 2rem;
+  padding: 0 2rem;
 }
 
 .grid-la-list {
@@ -768,7 +756,7 @@ a.link-read-more:hover {
 .gla-item {
   box-shadow: none;
   width: auto;
-  margin: 0 0 1rem 0;
+  margin: 0 0 1.5rem 0;
 }
 
 .gla-item:first-child {
@@ -783,6 +771,7 @@ a.link-read-more:hover {
   background: #004951;
 }
 
+.gla-item-title,
 .gla-item > a {
   color: #ffffff;
 }
@@ -806,7 +795,9 @@ h2.gla-item-title {
 }
 
 /* Edito découvrez */
-.edito.decouvrez {
+.site-wrapper .edito.decouvrez {
+  margin-top: 3rem;
+  margin-bottom: 5rem;
   padding: 4rem 2rem;
   background: #f2efef;
 }
@@ -857,7 +848,7 @@ h2.gla-item-title {
 /* Edito */
 .edito {
   max-width: 337px;
-  margin: 0 auto;
+  margin: 0 auto 5rem;
 }
 
 .edito h2 {
@@ -910,6 +901,7 @@ h2.gla-item-title {
 .article-focus {
   background: transparent;
   border: 0;
+  margin: 0 0 5rem;
   padding: 0;
   color: #ffffff;
 }
@@ -1011,7 +1003,7 @@ h2.gla-item-title {
     border-bottom: 0;
   }
 
-  .front .mn-item-lvl-1 > .mn-link {
+  .site-banner .mn-item-lvl-1 > .mn-link {
     margin-bottom: 0.75em;
     padding: 0.75em 0.75em 0 0.75em;
     font-size: 1.3rem;
@@ -1019,8 +1011,8 @@ h2.gla-item-title {
   }
 
   .mn-item-lvl-1 > .mn-link,
-  .front  .mn-item-lvl-1 > .mn-link
-  .front .is-stuck .mn-item-lvl-1 > .mn-link {
+  .site-banner  .mn-item-lvl-1 > .mn-link
+  .site-banner .is-stuck .mn-item-lvl-1 > .mn-link {
     min-height: 54px;
     padding-bottom: 0.5em;
     color: #ffffff;
@@ -1135,8 +1127,6 @@ h2.gla-item-title {
   /* home */
   #pub {
     width: 970px;
-    margin: 5rem auto;
-    text-align: center;
   }
 
   .front .header-edito h2 {
@@ -1184,9 +1174,9 @@ h2.gla-item-title {
 }
 
   /* Edito découvrez */
-  .edito.decouvrez {
+  .front .edito.decouvrez {
     max-width: 1220px;
-    margin: 0 auto;
+    margin: 0.8rem auto 5rem;
     padding: 2rem 1.2rem 2rem 4rem;
   }
 
@@ -1237,7 +1227,6 @@ h2.gla-item-title {
   /* Edito */
   .edito {
     max-width: 1220px;
-    margin: 0 auto;
   }
 
   .edito .inside {

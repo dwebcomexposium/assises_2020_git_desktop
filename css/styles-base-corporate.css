@@ -1298,7 +1298,7 @@ s,m,l,n = small, medium, large, none
 * ==Common between Corporate & Visual
 * ----------------------------- */
 /*
-	
+
 	== Common
 
 */
@@ -1313,7 +1313,7 @@ body link {
     FamFamFam Flags Icons Set CSS Sprite Classes
     <http://www.famfamfam.com/lab/icons/flags/>
     Licensed under Free of use license
-    
+
     Sources and updates of the sprites on GitHub (not liable for FamFamFam)
     <http://github.com/atelierspierrot/famfamfam-flags-sprite>
 */
@@ -2079,7 +2079,7 @@ body link {
 * ==Fonts & typography
 * ----------------------------- */
 /*
-	
+
 	== Common
 	== Fonts
 
@@ -2478,7 +2478,7 @@ ol.unstyled {
 	   - paragraph
 	   - title
 	   - blockquote
-	
+
 */
 /*
  * Title
@@ -3437,7 +3437,7 @@ select:focus::-ms-value {
   opacity: 1;
 }
 /*
-	
+
 	== Common
 	== Dropdown
 	.dropdown-list --> .dl-##
@@ -3463,7 +3463,7 @@ select:focus::-ms-value {
   padding: .5em 1em;
 }
 /*
-	
+
 	== Corporate
 	== Dropdown
 	.dropdown-list --> .dl-##
@@ -3777,8 +3777,8 @@ a,
 * ==Layout
 * ----------------------------- */
 /*
-	
-	== Corporate 
+
+	== Corporate
 	== Global layout
 
 */
@@ -3805,9 +3805,9 @@ body {
   box-shadow: 0 0 10px rgba(0, 0, 0, 0.08);
   padding: 1.1em;
 }
-.site-wrapper .block:not(:first-child) {
+/*.site-wrapper .block:not(:first-child) {
   margin-top: 2em;
-}
+}*/
 /*
  * Zone
  */
@@ -3919,7 +3919,7 @@ body {
   font-size: 1.15em;
 }
 /*
- * Sticky 
+ * Sticky
  * When the header is stuck
  */
 .is-stuck.site-banner {
@@ -3951,8 +3951,8 @@ body {
   padding-left: 0;
 }
 /*
-	
-	== Corporate 
+
+	== Corporate
 	== Footer
 
 */
@@ -4061,7 +4061,7 @@ body {
   height: auto;
 }
 /*
-	
+
 	== Corporate
 	== Tabs
 	.tabs-nav --> .tn-##
@@ -4085,7 +4085,7 @@ body {
   border-bottom-color: #0c8192;
 }
 /*
-	
+
 	== Corporate
 	== CSS loader
 	.loader-inner
@@ -4248,7 +4248,7 @@ body {
 * ==Template
 * ----------------------------- */
 /*
-	
+
 	== Corporate
 	== Template
 
@@ -4310,8 +4310,8 @@ body {
 
 	== Common
  	== Cookie banner
- 	
-	To be used with cookieCuttr by Chris Wharton (http://cookiecuttr.com) 
+
+	To be used with cookieCuttr by Chris Wharton (http://cookiecuttr.com)
 
 */
 .cc-cookies {
@@ -4391,8 +4391,8 @@ body {
 
 	== Corporate
  	== Cookie banner
- 	
-	To be used with cookieCuttr by Chris Wharton (http://cookiecuttr.com) 
+
+	To be used with cookieCuttr by Chris Wharton (http://cookiecuttr.com)
 
 */
 .cc-cookies {
