@@ -49,20 +49,6 @@ body {
   background-color: #ffffff;
 }
 
-.layout-2-col {
-  padding: 7rem 0;
-}
-
-.front .layout-2-col {
-  padding-top: 0;
-}
-
-.pub-container {
-  width: 970px;
-  margin: 1rem auto;
-  text-align: center;
-}
-
 /* Title */
 h1, h2, h3, h4 {
   color: #001821;
@@ -679,6 +665,10 @@ a.link-read-more:hover {
   color: #e50041;
 }
 
+.mn-item-lvl-2 {
+  padding: 0;
+}
+
 .is-open .mn-item-lvl-2 > .mn-link {
   background: transparent;
   color: #003239;
@@ -706,7 +696,6 @@ a.link-read-more:hover {
   background: #a5948f;
   color: #ffffff;
 }
-
 
 /* A propos */
 .list-articles.apropos {
@@ -891,6 +880,25 @@ h2.gla-item-title {
   margin-bottom: 4rem;
 }
 
+/* Temps forts */
+.list-articles.temps-fort {
+  background: #f2efef;
+}
+
+.list-articles.temps-fort .main-title-with-link {
+  border-bottom: 0;
+}
+
+.list-articles.temps-fort .block-title {
+  padding-bottom: 0;
+  margin-bottom: 0;
+  font-size: 2.7rem;
+  font-weight: 700;
+  border-bottom: 0;
+  color: #001821;
+  text-transform: uppercase;
+}
+
 /* Desktop version */
 @media (min-width: 721px) {
   /* Cookies */
@@ -923,7 +931,6 @@ h2.gla-item-title {
   /* Vidéos */
   .videos-container {
     display: flex;
-    align-items: center;
     max-width: 1220px;
     margin: 0 auto 5rem;
   }
@@ -937,6 +944,7 @@ h2.gla-item-title {
   }
 
   .videos-content {
+    align-self: center;
     width: 60%;
   }
 
@@ -1008,11 +1016,16 @@ h2.gla-item-title {
   .mn-link.mn-link:focus,
   .mn-link.mn-link.is-active {
     border-bottom: 2px solid #ffffff;
-    color: #ffffff;
   }
 
   .is-open > .mn-menu-submenu {
     position: absolute;
+  }
+
+  .mn-menu-lvl2 .mn-link.mn-link:hover,
+  .mn-menu-lvl2 .mn-link.mn-link:focus,
+  .mn-menu-lvl2 .mn-link.mn-link.is-active {
+    border-bottom: 0;
   }
 
   /* Footer */
@@ -1277,6 +1290,55 @@ h2.gla-item-title {
   .article-focus .inside {
     max-width: 860px;
     padding: 6rem 10rem 12rem 17rem;
+  }
+
+  /* Page article */
+  .article-title {
+    margin-bottom: 0;
+    padding: 5rem 0 4rem;
+    background: #f3efef;
+  }
+
+  .article-title .inside {
+    max-width: 1220px;
+    margin: 0 auto;
+  }
+
+  .article-title .at-main-title {
+    margin: 0;
+    padding: 0;
+    font-family: 'Vollkorn', serif;
+    font-weight: 600;
+    font-size: 4rem;
+    color: #004951;
+  }
+
+  .article-intro {
+    margin: 0;
+    padding-bottom: 5rem;
+    background: #f3efef;
+  }
+
+  .article-intro p {
+    margin: 0 auto;
+    max-width: 1220px;
+  }
+
+  .article-content {
+    max-width: 1220px;
+    margin: 5rem auto;
+  }
+
+  .article-content table {
+    margin: 0;
+  }
+
+  .article-content table tbody tr:nth-child(odd) {
+    background: transparent;
+  }
+
+  .article-content table td {
+    border: 0;
   }
 }
 
