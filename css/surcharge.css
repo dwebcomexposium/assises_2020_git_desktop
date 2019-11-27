@@ -643,7 +643,8 @@ a.link-read-more:hover {
 }
 
 /* Stiky header */
-.site-banner {
+.site-banner,
+.is-stuck.site-banner {
   background: #e50041;
   box-shadow: none;
   border-bottom: 0;
