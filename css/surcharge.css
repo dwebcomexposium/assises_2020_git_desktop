@@ -1341,8 +1341,16 @@ h2.gla-item-title {
     border: 0;
   }
 
+  .node1316233 .article-content table td:nth-child(2) {
+    padding-left: 4rem;
+  }
+
   .article-content ul {
     margin: 3rem 0;
+  }
+
+  .article-content ul li {
+    padding-bottom: 1rem;
   }
 
   .article-content ul li::before {
