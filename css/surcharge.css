@@ -1352,6 +1352,8 @@ h2.gla-item-title {
     line-height: 1;
     -webkit-font-smoothing: antialiased;
     -moz-osx-font-smoothing: grayscale;
+    transform: none;
+    color: #e50041;
   }
 }
 
