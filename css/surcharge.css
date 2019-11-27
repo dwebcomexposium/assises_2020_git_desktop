@@ -783,6 +783,15 @@ a.link-read-more:hover {
   background: #004951;
 }
 
+.gla-item > a {
+  color: #ffffff;
+}
+
+.gla-item > a:hover .gla-item-content,
+.gla-item > a:focus .gla-item-content {
+  background: transparent;
+}
+
 .gla-item-content {
   position: relative;
   background: transparent;
@@ -1152,10 +1161,27 @@ h2.gla-item-title {
     margin-bottom: 0;
   }
 
+  /* A propos */
   .list-articles.apropos {
     max-width: 1220px;
     margin: 0 auto;
+    padding: 0;
   }
+
+  .grid-la-list {
+    display: flex;
+    justify-content: center;
+    margin: 0;
+  }
+
+  .gla-item {
+    width: 32%;
+    margin: 0;
+  }
+
+  .gla-item:nth-child(2) {
+    margin: 0 2rem;
+}
 
   /* Edito découvrez */
   .edito.decouvrez {
