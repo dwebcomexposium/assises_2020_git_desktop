@@ -462,11 +462,13 @@ a.link-read-more:hover {
 }
 
 .videos-text h2 {
+  padding: 0 2rem;
   font-size: 2.7rem;
   font-weight: 700;
   color: #001821;
   background: #ffffff;
   text-transform: uppercase;
+  display: inline;
 }
 
 .videos-text p {
@@ -481,28 +483,19 @@ a.link-read-more:hover {
   margin-left: 2rem;
 }
 
-.videos-content {
-  width: 570px;
-  height: 330px;
-}
-
-.videos-content .capsule-green {
-  position: absolute;
-  z-index: 2;
-  top: 1.2rem;
-  left: -2.2rem;
-  padding: 0 2.5rem;
-}
-
 .videos {
-  width: 570px;
-  height: 330px;
-  box-shadow: 0 22px 40px -15px rgba(0, 0, 0, 0.85);
+  position: relative;
+	padding-bottom: 56.25%; /* 16:9 */
+	padding-top: 25px;
+	height: 0;
 }
 
 .videos iframe {
-  width: 570px;
-  height: 330px;
+  position: absolute;
+	top: 0;
+	left: 0;
+	width: 100%;
+	height: 100%;
 }
 
 .videos .slick-prev,
@@ -929,84 +922,17 @@ h2.gla-item-title {
 
   /* Vidéos */
   .videos-container {
-    position: relative;
-    width: 76%;
+    display: flex;
     max-width: 1220px;
-    margin: 3rem auto 7rem;
-    padding: 7rem 4rem;
-    color: #ffffff;
-  }
-
-  .videos-container h2 {
-    color: #ffffff;
-    font-size: 5.25rem;
-    font-weight: 500;
+    margin: 0 auto 5rem;
   }
 
   .videos-text {
     width: 40%;
   }
 
-  .videos-text p {
-    margin-top: 3rem;
-  }
-
-  .videos-text a {
-    display: inline-block;
-    margin-top: 3rem;
-    padding-left: 0.8rem;
-    border-left: 5px solid #6dd700;
-    color: #ffffff;
-    font-size: 1.5rem;
-    font-weight: 500;
-    text-decoration: none;
-  }
-
-  .videos-content {
-    position: absolute;
-    top: 20%;
-    right: -95px;
-    width: 570px;
-    height: 330px;
-  }
-
-  .videos-content .capsule-green {
-    position: absolute;
-    z-index: 2;
-    top: 1.2rem;
-    left: -2.2rem;
-    padding: 0 2.5rem;
-  }
-
-  .videos {
-    width: 570px;
-    height: 330px;
-    box-shadow: 0 22px 40px -15px rgba(0, 0, 0, 0.85);
-  }
-
-  .videos iframe {
-    width: 570px;
-    height: 330px;
-  }
-
-  .videos .slick-prev,
-  .videos .slick-next {
-    z-index: 2;
-    width: 36px;
-    height: 36px;
-    background: rgba(0, 0, 0, 0.5);
-  }
-
-  .videos .slick-prev {
-    left: 0;
-  }
-
-  .videos .slick-next {
-    right: 0;
-  }
-
-  .videos .slick-dots {
-    bottom: -50px;
+  .videos-text h2 {
+    font-size: 3rem;
   }
 
   /* Header */
