@@ -932,12 +932,15 @@ h2.gla-item-title {
 }
 
 .article-content table tbody tr:nth-child(odd) {
-  display: flex;
-  flex-wrap: wrap;
   background: transparent;
 }
 
-.article-content table td {
+.article-content .table2 tbody tr:nth-child(odd) {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.article-content .table2 td {
   margin: 0;
   padding: 0 2rem;
   border: 0;
@@ -1390,11 +1393,11 @@ h2.gla-item-title {
     margin: 5rem auto;
   }
 
-  .article-content table tbody tr:nth-child(odd) {
+  .article-content .table2 tbody tr:nth-child(odd) {
     display: initial;
   }
 
-  .node1316233 .article-content table td:nth-child(2) {
+  .node1316233 .article-content .table2 td:nth-child(2) {
     padding-left: 4rem;
   }
 
