@@ -660,7 +660,8 @@ a.link-read-more:hover {
 
 .mn-link.mn-link:hover,
 .mn-link.mn-link:focus,
-.mn-link.mn-link.is-active {
+.mn-link.mn-link.is-active,
+.is-open .mn-link.mn-link {
   background: transparent;
   color: #e50041;
 }
@@ -692,6 +693,7 @@ a.link-read-more:hover {
 .mn-menu-submenu .mn-link:focus,
 .mn-menu-submenu .mn-link.is-active {
   padding-left: 1.85em;
+  padding-right: 0.3em;
   border: 0;
   background: #a5948f;
   color: #ffffff;
@@ -1389,7 +1391,7 @@ h2.gla-item-title {
   }
 
   .article-content table tbody tr:nth-child(odd) {
-
+    display: initial;
   }
 
   .node1316233 .article-content table td:nth-child(2) {
@@ -1398,30 +1400,6 @@ h2.gla-item-title {
 
   .article-content ul {
     margin: 3rem 0;
-  }
-
-  .article-content ul li {
-    padding-bottom: 1rem;
-  }
-
-  .article-content ul li::before {
-    content: "\e622";
-    font-family: 'icon';
-    speak: none;
-    font-style: normal;
-    font-weight: normal;
-    font-variant: normal;
-    text-transform: none;
-    line-height: 1;
-    -webkit-font-smoothing: antialiased;
-    -moz-osx-font-smoothing: grayscale;
-    transform: none;
-    color: #e50041;
-    background: transparent;
-    vertical-align: middle;
-    width: auto;
-    height: auto;
-    margin: 0 1em 0 -2em;
   }
 }
 
