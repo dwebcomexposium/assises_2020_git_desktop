@@ -1090,7 +1090,7 @@ h2.gla-item-title {
   .mn-link.mn-link:hover,
   .mn-link.mn-link:focus,
   .mn-link.mn-link.is-active,
-  .is-open .mn-link.mn-link {
+  .is-open .mn-item-lvl-1 .mn-link.mn-link {
     border-bottom: 2px solid #ffffff;
     color: #ffffff;
   }
@@ -1401,7 +1401,7 @@ h2.gla-item-title {
     padding-left: 4rem;
   }
 
-  .article-content .table2 tbody tr:first-child {
+  .article-content .table2 tbody td:first-child {
     min-width: 21%;
   }
 
