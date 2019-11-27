@@ -899,6 +899,79 @@ h2.gla-item-title {
   text-transform: uppercase;
 }
 
+/* Page article */
+.article-title {
+  margin-bottom: 0;
+  padding: 4rem 2rem 3rem;
+  background: #f3efef;
+}
+
+.article-title .at-main-title {
+  margin: 0;
+  padding: 0;
+  font-family: 'Vollkorn', serif;
+  font-weight: 600;
+  font-size: 4rem;
+  color: #004951;
+}
+
+.article-intro {
+  margin: 0;
+  padding: 0 2rem 4rem;
+  padding-bottom: 5rem;
+  background: #f3efef;
+}
+
+.article-content {
+  margin: 5rem 0;
+}
+
+.article-content table {
+  margin: 0;
+}
+
+.article-content table tbody tr:nth-child(odd) {
+  display: flex;
+  flex-wrap: wrap;
+  background: transparent;
+}
+
+.article-content table td {
+  border: 0;
+}
+
+.node1316233 .article-content table td:nth-child(2) {
+  padding-left: 4rem;
+}
+
+.article-content ul {
+  margin: 3rem 0;
+}
+
+.article-content ul li {
+  padding-bottom: 1rem;
+}
+
+.article-content ul li::before {
+  content: "\e622";
+  font-family: 'icon';
+  speak: none;
+  font-style: normal;
+  font-weight: normal;
+  font-variant: normal;
+  text-transform: none;
+  line-height: 1;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  transform: none;
+  color: #e50041;
+  background: transparent;
+  vertical-align: middle;
+  width: auto;
+  height: auto;
+  margin: 0 1em 0 -2em;
+}
+
 /* Desktop version */
 @media (min-width: 721px) {
   /* Cookies */
@@ -1016,6 +1089,7 @@ h2.gla-item-title {
   .mn-link.mn-link:focus,
   .mn-link.mn-link.is-active {
     border-bottom: 2px solid #ffffff;
+    color: #ffffff;
   }
 
   .is-open > .mn-menu-submenu {
@@ -1294,9 +1368,7 @@ h2.gla-item-title {
 
   /* Page article */
   .article-title {
-    margin-bottom: 0;
     padding: 5rem 0 4rem;
-    background: #f3efef;
   }
 
   .article-title .inside {
@@ -1304,19 +1376,8 @@ h2.gla-item-title {
     margin: 0 auto;
   }
 
-  .article-title .at-main-title {
-    margin: 0;
-    padding: 0;
-    font-family: 'Vollkorn', serif;
-    font-weight: 600;
-    font-size: 4rem;
-    color: #004951;
-  }
-
   .article-intro {
-    margin: 0;
-    padding-bottom: 5rem;
-    background: #f3efef;
+    padding: 0 0 5rem;
   }
 
   .article-intro p {
@@ -1329,16 +1390,8 @@ h2.gla-item-title {
     margin: 5rem auto;
   }
 
-  .article-content table {
-    margin: 0;
-  }
-
   .article-content table tbody tr:nth-child(odd) {
-    background: transparent;
-  }
 
-  .article-content table td {
-    border: 0;
   }
 
   .node1316233 .article-content table td:nth-child(2) {
