@@ -230,10 +230,34 @@ a.link-read-more:hover {
   border-left: solid 7px #f39005;
 }
 
+/* Cookies */
+.cc-cookies {
+  top: inherit;
+  bottom: 0;
+  padding: 1rem 10%;
+  background: #ab0638;
+  color: #ffffff;
+}
 
-/***********************************/
-/* FOOTER */
-/***********************************/
+.cc-cookies .inside {
+  max-width: 1220px;
+}
+
+.cc-cookie-link,
+.cc-cookies a:hover,
+.cc-cookies a:focus {
+  color: #ffffff;
+}
+
+.cc-cookie-accept {
+  right: -10%;
+  padding: 0.5rem 1rem;
+  background: #000000;
+  color: #ffffff;
+  font-size: 1.4rem;
+}
+
+/* Footer */
 .site-footer {
   background: #001821 url('img/assises/rosette-opacity.svg') no-repeat 50% 5rem / 1020px 1020px;
 }
@@ -242,15 +266,7 @@ a.link-read-more:hover {
   display: flex;
   flex-direction: column;
   max-width: inherit;
-  padding: 7rem 0 0;
-}
-
-.site-footer .footer-top-container {
-  display: flex;
-  justify-content: space-between;
-  width: 100%;
-  max-width: 1220px;
-  margin: 0 auto 4.25rem;
+  padding: 7rem 2rem 0;
 }
 
 .site-footer .footer-top-container p {
@@ -261,12 +277,18 @@ a.link-read-more:hover {
 .footer-dgconsultants,
 .footer-comexposium,
 .footer-links {
-  flex: 0 0 31%;
+  margin-bottom: 4rem;
+}
+
+.footer-comexposium {
+  border-bottom: 1px solid #ffffff;
+  padding-bottom: 4rem;
 }
 
 .site-footer h2 {
   font-size: 1.8rem;
   color: #ffffff;
+  text-transform: uppercase;
 }
 
 .site-footer .link {
@@ -275,11 +297,6 @@ a.link-read-more:hover {
   text-transform: uppercase;
   font-size: 1.6rem;
   font-weight: 700;
-}
-
-.footer-comexposium {
-  padding-right: 2rem;
-  border-right: 1px solid #ffffff;
 }
 
 .footer-links .cta-1 {
@@ -293,9 +310,9 @@ a.link-read-more:hover {
 }
 
 .site-footer .follow-container {
-  margin: 2rem auto 0;
-  padding-top: 2rem;
-  border-top: 1px solid #ffffff;
+  margin: 3rem auto;
+  padding-bottom: 3rem;
+  border-bottom: 1px solid #ffffff;
 }
 
 .site-footer .follow-container .link {
@@ -457,15 +474,9 @@ a.link-read-more:hover {
   display: none;
 }
 
-
-
-
 .gla-item-content {
   position: relative;
 }
-
-
-
 
 .title-container {
   display: flex;
@@ -474,7 +485,6 @@ a.link-read-more:hover {
   max-width: 1220px;
   margin: 0 auto;
 }
-
 
 /* Vidéos */
 .videos-container {
@@ -575,9 +585,7 @@ a.link-read-more:hover {
 
 
 
-/***********************************/
-/* HEADER */
-/***********************************/
+
 
 /* Header */
 .site-banner .inside {
@@ -769,7 +777,7 @@ a.link-read-more:hover {
 }
 
 
-/* A PROPOS */
+/* A propos */
 .gla-item {
   box-shadow: none;
 }
@@ -782,7 +790,7 @@ h2.gla-item-title {
   font-size: 1rem;
 }
 
-/* EDITO DECOUVREZ */
+/* Edito découvrez */
 .edito.decouvrez {
   padding: 4rem 2rem;
   background: #f2efef;
@@ -831,15 +839,10 @@ h2.gla-item-title {
   display: none;
 }
 
-/* EDITO */
+/* Edito */
 .edito {
-  max-width: 1220px;
+  max-width: 337px;
   margin: 0 auto;
-}
-
-.edito .inside {
-  display: flex;
-  position: relative;
 }
 
 .edito h2 {
@@ -847,9 +850,8 @@ h2.gla-item-title {
 }
 
 .edito figure {
-  flex: 1 0 352px;
+  margin: 0;
   float: none;
-  margin-right: 2rem;
 }
 
 .edito figure img {
@@ -930,6 +932,33 @@ h2.gla-item-title {
 
 /* Desktop version */
 @media (min-width: 721px) {
+  /* Cookies */
+  .cc-cookies {
+    top: inherit;
+    bottom: 0;
+    padding: 1rem 10%;
+    background: #ab0638;
+    color: #ffffff;
+  }
+
+  .cc-cookies .inside {
+    max-width: 1220px;
+  }
+
+  .cc-cookie-link,
+  .cc-cookies a:hover,
+  .cc-cookies a:focus {
+    color: #ffffff;
+  }
+
+  .cc-cookie-accept {
+    right: -10%;
+    padding: 0.5rem 1rem;
+    background: #000000;
+    color: #ffffff;
+    font-size: 1.4rem;
+  }
+
   /* Header */
   .site-banner .header-content {
     display: flex;
@@ -999,6 +1028,149 @@ h2.gla-item-title {
     border-bottom: 2px solid #ffffff;
   }
 
+/***********************************/
+/* FOOTER */
+/***********************************/
+.site-footer {
+  background: #001821 url('img/assises/rosette-opacity.svg') no-repeat 50% 5rem / 1020px 1020px;
+}
+
+.site-footer .inside {
+  padding: 7rem 0 0;
+}
+
+.site-footer .footer-top-container {
+  display: flex;
+  justify-content: space-between;
+  width: 100%;
+  max-width: 1220px;
+  margin: 0 auto 4.25rem;
+}
+
+.site-footer .footer-top-container p {
+  margin-top: 2rem;
+  font-size: 1.4rem;
+}
+
+.footer-dgconsultants,
+.footer-comexposium,
+.footer-links {
+  flex: 0 0 31%;
+}
+
+.site-footer h2 {
+  font-size: 1.8rem;
+  color: #ffffff;
+}
+
+.site-footer .link {
+  margin-top: 3rem;
+  display: block;
+  text-transform: uppercase;
+  font-size: 1.6rem;
+  font-weight: 700;
+}
+
+.footer-comexposium {
+  padding-right: 2rem;
+  border-right: 1px solid #ffffff;
+}
+
+.footer-links .cta-1 {
+  display: block;
+  margin: 0 0 1.2rem 0;
+  color: initial;
+}
+
+.footer-links .cta-1:hover {
+  background: #c0c0c0;
+}
+
+.site-footer .follow-container {
+  margin: 2rem auto 0;
+  padding-top: 2rem;
+  padding-bottom: 0;
+  border-top: 1px solid #ffffff;
+  border-bottom: 0;
+}
+
+.site-footer .follow-container .link {
+  margin-top: 0;
+  margin-bottom: 2rem;
+}
+
+.twitter-icon,
+.linkedin-icon,
+.youtube-icon {
+  display: inline-block;
+  width: 35px;
+  height: 35px;
+  margin: 0 0.6rem;
+}
+
+.twitter-icon {
+  background: url('img/readyforit/icon_twitter.png') no-repeat center / 100%;
+}
+
+.linkedin-icon {
+  background: url('img/readyforit/icon_linkedin.png') no-repeat center / 100%;
+}
+
+.youtube-icon {
+  background: url('img/readyforit/icon_youtube.png') no-repeat center / 100%;
+}
+
+.logo-dgconsultants {
+  display: inline-block;
+  width: 68px;
+  height: 47px;
+  margin-top: -3rem;
+  margin-right: 1.5rem;
+  background: url('img/assises/logo-dg.svg') no-repeat;
+}
+
+.logo-comexposium {
+  display: inline-block;
+  width: 149px;
+  height: 24px;
+  margin-left: 1.5rem;
+  background: url('img/assises/logo-comexposium.svg') no-repeat center;
+}
+
+.site-footer .footer-bottom-container .content {
+  display: flex;
+  align-items: center;
+  width: 100%;
+  max-width: 1220px;
+  margin: 0 auto;
+}
+
+.site-footer .footer-bottom-container p {
+  margin-top: 0;
+  margin-right: 1.5rem;
+  font-size: 1.3rem;
+}
+
+.footer-bottom-container ul {
+  display: flex;
+}
+
+.footer-bottom-container [class^="btn"] {
+  padding: 1rem 1.5rem;
+  border: 0;
+  background: transparent;
+  font-size: 1.3rem;
+  text-transform: initial;
+}
+
+.btn-primary:focus,
+.btn-primary:hover,
+.btn-primary:active {
+  border-color: transparent;
+  background-color: transparent;
+  color: #ffffff;
+}
+
   /* home */
   #pub {
     width: 970px;
@@ -1029,54 +1201,134 @@ h2.gla-item-title {
   }
 
   /* EDITO DECOUVREZ */
-.edito.decouvrez {
+  .edito.decouvrez {
+    max-width: 1220px;
+    margin: 0 auto;
+    padding: 2rem 1.2rem 2rem 4rem;
+  }
+
+  .edito.decouvrez .inside {
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+  }
+
+  .edito.decouvrez .block-title {
+    display: none;
+  }
+
+  .edito.decouvrez h3 {
+    margin-top: 0;
+    margin-bottom: 3rem;
+    font-family: 'Vollkorn', serif;
+    font-size: 3rem;
+    font-weight: 600;
+    color: #e50041;
+  }
+
+  .edito.decouvrez p {
+    margin: 0;
+    font-weight: 700;
+  }
+
+  .edito.decouvrez blockquote:first-of-type {
+    display: flex;
+    flex-wrap: wrap;
+    width: 50%;
+  }
+
+  .edito.decouvrez blockquote:not(:first-of-type) {
+    justify-content: flex-end;
+    width: 50%;
+    margin-top: 0;
+  }
+
+  .edito.decouvrez blockquote:not(:first-of-type) p {
+    margin: 0 0.8rem;
+  }
+
+  .edito.decouvrez blockquote .icon {
+    display: none;
+  }
+
+  /* EDITO */
+.edito {
   max-width: 1220px;
   margin: 0 auto;
-  padding: 2rem 1.2rem 2rem 4rem;
 }
 
-.edito.decouvrez .inside {
-  flex-direction: row;
-  justify-content: space-between;
-  align-items: center;
+.edito .inside {
+  display: flex;
+  position: relative;
 }
 
-.edito.decouvrez .block-title {
-  display: none;
+.edito figure {
+  flex: 1 0 352px;
+  margin-right: 2rem;
 }
 
-.edito.decouvrez h3 {
-  margin-top: 0;
-  margin-bottom: 3rem;
+.edito figure img {
+  width: 100%;
+  margin-bottom: 1rem;
+}
+
+.edito figure figcaption strong {
   font-family: 'Vollkorn', serif;
-  font-size: 3rem;
+  font-size: 1.7rem;
   font-weight: 600;
-  color: #e50041;
 }
 
-.edito.decouvrez p {
-  margin: 0;
+.edito figure small {
+  color: #e50041;
+  font-size: 1.6rem;
   font-weight: 700;
 }
 
-.edito.decouvrez blockquote:first-of-type {
-  display: flex;
-  flex-wrap: wrap;
-  width: 50%;
+.edito blockquote h3 {
+  font-weight: 700;
+  text-transform: uppercase;
 }
 
-.edito.decouvrez blockquote:not(:first-of-type) {
-  justify-content: flex-end;
-  width: 50%;
-  margin-top: 0;
+.edito blockquote p.style1 {
+  font-size: 2.3rem;
+  color: #004951;
+  line-height: 1.4;
 }
 
-.edito.decouvrez blockquote:not(:first-of-type) p {
-  margin: 0 0.8rem;
+.edito .edito-item-btn {
+  margin-top: 5rem;
 }
 
-.edito.decouvrez blockquote .icon {
+.edito blockquote .icon {
   display: none;
+}
+
+/* speakers remarquables */
+.article-focus {
+  background: transparent;
+  border: 0;
+  padding: 0;
+  color: #ffffff;
+}
+
+.article-focus .inside {
+  background: #a5948f;
+  padding: 2rem;
+}
+
+.article-focus .inside .af-title {
+  font-size: 3rem;
+  font-weight: 700;
+  color: #001821;
+  background: #ffffff;
+  display: inline-block;
+  padding: 0 2rem;
+  margin-bottom: 4rem;
+}
+
+.article-focus .inside p:not(.style1) {
+  margin-top: 0;
+  margin-bottom: 4rem;
 }
 }
 
