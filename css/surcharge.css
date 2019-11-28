@@ -719,6 +719,7 @@ a.link-read-more:hover {
   width: auto;
   margin: 0 0 1.5rem 0;
   padding: 0;
+  position: relative;
 }
 
 .gla-item:first-child {
@@ -744,10 +745,7 @@ a.link-read-more:hover {
 }
 
 .gla-item-content {
-  position: relative;
-  right: 0;
-  bottom: 0;
-  left: 0;
+  position: initial;
   background: transparent;
   text-align: left;
   padding: 0;
@@ -780,6 +778,7 @@ a.link-read-more:hover {
   position: absolute;
   right: 0;
   bottom: 0;
+  margin: 1rem 2rem;
 }
 
 .list-articles.apropos .gla-item-btn::before {
@@ -797,10 +796,7 @@ a.link-read-more:hover {
 }
 
 .list-articles.apropos .gla-btn-read-more {
-  background: transparent;
-  border: 0;
-  padding: 0;
-  text-indent: -9999px;
+  display: none;
 }
 
 /* Edito découvrez */
