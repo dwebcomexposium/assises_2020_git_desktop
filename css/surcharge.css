@@ -752,8 +752,33 @@ a.link-read-more:hover {
   padding: 0;
 }
 
-.gla-item-content .gla-item-btn {
-  margin-top: 0;
+.list-articles.apropos .gla-item-title {
+  display: none;
+}
+
+.list-articles.apropos .table2 tr {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.list-articles.apropos .table2 td:first-child {
+  height: 60px;
+  margin: 2rem 0;
+}
+
+.list-articles.apropos .table2 td:first-child img {
+  height: 100%;
+}
+
+.list-articles.apropos .table2 td:nth-child(2) {
+  padding: 0 2rem;
+  font-size: 1.4rem;
+}
+
+.list-articles.apropos .gla-item-btn {
+  position: absolute;
+  right: 0;
+  bottom: 0;
 }
 
 /* Edito découvrez */
@@ -1249,39 +1274,11 @@ a.link-read-more:hover {
   .gla-item {
     width: 32%;
     margin: 0;
+    padding: 0;
   }
 
   .gla-item:nth-child(2) {
     margin: 0 2rem;
-  }
-
-  .list-articles.apropos .gla-item-title {
-    display: none;
-  }
-
-  .list-articles.apropos .table2 tr {
-    display: flex;
-    flex-wrap: wrap;
-  }
-
-  .list-articles.apropos .table2 td:first-child {
-    height: 60px;
-    margin: 2rem 0;
-  }
-
-  .list-articles.apropos .table2 td:first-child img {
-    height: 100%;
-  }
-
-  .list-articles.apropos .table2 td:nth-child(2) {
-    padding: 0 2rem;
-    font-size: 1.4rem;
-  }
-
-  .list-articles.apropos .gla-item-btn {
-    position: absolute;
-    right: 0;
-    bottom: 0;
   }
 
   /* Edito découvrez */
