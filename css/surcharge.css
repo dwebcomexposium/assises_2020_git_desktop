@@ -700,6 +700,14 @@ a.link-read-more:hover {
 .list-articles.apropos {
   padding: 0 2rem;
 }
+.main-title-with-link {
+  border: 0;
+}
+
+.main-title-with-link > .main-title {
+  font-size: 2.7rem;
+  font-weight: 700;
+}
 
 .grid-la-list {
   display: initial;
@@ -736,15 +744,16 @@ a.link-read-more:hover {
 
 .gla-item-content {
   position: relative;
+  right: 0;
+  bottom: 0;
+  left: 0;
   background: transparent;
+  text-align: left;
+  padding: 0;
 }
 
 .gla-item-content .gla-item-btn {
   margin-top: 0;
-}
-
-h2.gla-item-title {
-  font-size: 1rem;
 }
 
 /* Edito découvrez */
@@ -1088,7 +1097,7 @@ h2.gla-item-title {
   .mn-link.mn-link:hover,
   .mn-link.mn-link:focus,
   .mn-link.mn-link.is-active,
-  .is-open .mn-item-lvl-1 .mn-link.mn-link {
+  .is-open.mn-item-lvl-1 .mn-link.mn-link {
     border-bottom: 2px solid #ffffff;
     color: #ffffff;
   }
@@ -1244,7 +1253,36 @@ h2.gla-item-title {
 
   .gla-item:nth-child(2) {
     margin: 0 2rem;
-}
+  }
+
+  .list-articles.apropos .gla-item-title {
+    display: none;
+  }
+
+  .list-articles.apropos .table2 tr {
+    display: flex;
+    flex-wrap: wrap;
+  }
+
+  .list-articles.apropos .table2 td:first-child {
+    height: 60px;
+    margin: 2rem 0;
+  }
+
+  .list-articles.apropos .table2 td:first-child img {
+    height: 100%;
+  }
+
+  .list-articles.apropos .table2 td:nth-child(2) {
+    padding: 0 2rem;
+    font-size: 1.4rem;
+  }
+
+  .list-articles.apropos .gla-item-btn {
+    position: absolute;
+    right: 0;
+    bottom: 0;
+  }
 
   /* Edito découvrez */
   .front .edito.decouvrez {
@@ -1428,7 +1466,7 @@ h2.gla-item-title {
   }
 
   .article-content .table2 tbody td:first-child {
-    min-width: 21%;
+    min-width: 246px;
   }
 
   .article-content ul {
