@@ -718,6 +718,7 @@ a.link-read-more:hover {
   box-shadow: none;
   width: auto;
   margin: 0 0 1.5rem 0;
+  padding: 0;
 }
 
 .gla-item:first-child {
@@ -779,6 +780,31 @@ a.link-read-more:hover {
   position: absolute;
   right: 0;
   bottom: 0;
+}
+
+.list-articles.apropos .gla-btn-read-more {
+  background: transparent;
+  border: 0;
+}
+
+.list-articles.apropos .gla-btn-read-more::before {
+  content: "\e622";
+  font-family: 'icon';
+  speak: none;
+  font-style: normal;
+  font-weight: normal;
+  font-variant: normal;
+  text-transform: none;
+  line-height: 1;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  transform: none;
+  color: #e50041;
+  background: transparent;
+  vertical-align: middle;
+  width: auto;
+  height: auto;
+  margin: 0 1em 0 -2em;
 }
 
 /* Edito découvrez */
@@ -1274,7 +1300,6 @@ a.link-read-more:hover {
   .gla-item {
     width: 32%;
     margin: 0;
-    padding: 0;
   }
 
   .gla-item:nth-child(2) {
