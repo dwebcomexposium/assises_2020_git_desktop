@@ -1405,14 +1405,14 @@ h2.gla-item-title {
     text-align: center;
   }
 
-  .article .table1 tr:first-child {
+  .article .table1 tr:first-child p {
     color: #e50041;
     font-weight: 700;
     font-size: 8rem;
     line-height: 1.2;
   }
 
-  .article .table1 tr:nth-child(2) {
+  .article .table1 tr:nth-child(2) p {
     font-weight: 700;
     line-height: 1.2;
   }
