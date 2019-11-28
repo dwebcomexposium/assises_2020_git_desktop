@@ -782,12 +782,7 @@ a.link-read-more:hover {
   bottom: 0;
 }
 
-.list-articles.apropos .gla-btn-read-more {
-  background: transparent;
-  border: 0;
-}
-
-.list-articles.apropos .gla-btn-read-more::before {
+.list-articles.apropos .gla-item-btn::before {
   content: "\e622";
   font-family: 'icon';
   speak: none;
@@ -798,13 +793,14 @@ a.link-read-more:hover {
   line-height: 1;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
-  transform: none;
-  color: #e50041;
+  color: #ffffff;
+}
+
+.list-articles.apropos .gla-btn-read-more {
   background: transparent;
-  vertical-align: middle;
-  width: auto;
-  height: auto;
-  margin: 0 1em 0 -2em;
+  border: 0;
+  padding: 0;
+  text-indent: -9999px;
 }
 
 /* Edito découvrez */
