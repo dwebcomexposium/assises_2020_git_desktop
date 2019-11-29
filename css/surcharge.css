@@ -1038,6 +1038,20 @@ a.link-read-more:hover {
   float: left;
 }
 
+.list-articles.hot-news .gla-item > a:hover .gla-item-title,
+.list-articles.hot-news .gla-item > a:focus .gla-item-title,
+.list-articles.temps-forts .gla-item > a:hover .gla-item-title,
+.list-articles.temps-forts .gla-item > a:focus .gla-item-title {
+  color: #e50041;
+}
+
+.list-articles.hot-news .gla-item > a:hover .gla-item-content,
+.list-articles.hot-news .gla-item > a:focus .gla-item-content,
+.list-articles.temps-forts .gla-item > a:hover .gla-item-content,
+.list-articles.temps-forts .gla-item > a:focus .gla-item-content {
+  color: #001821;
+}
+
 .list-articles.hot-news .gla-item-author,
 .list-articles.temps-forts .gla-item-author {
   float: right;
@@ -1086,13 +1100,6 @@ a.link-read-more:hover {
 .list-articles.hot-news .gla-btn-read-more,
 .list-articles.temps-forts .gla-btn-read-more {
   display: none;
-}
-
-.list-articles.hot-news .gla-item > a:hover .gla-item-title,
-.list-articles.hot-news .gla-item > a:focus .gla-item-title,
-.list-articles.temps-forts .gla-item > a:hover .gla-item-title,
-.list-articles.temps-forts .gla-item > a:focus .gla-item-title {
-  color: #ffffff;
 }
 
 /* Temps forts */
