@@ -651,6 +651,7 @@ a.link-read-more:hover {
 /* Navigation */
 .site-banner .main-navigation {
   box-shadow: none;
+  display: none;
 }
 
 .is-stuck .mn-menu-line {
