@@ -456,6 +456,10 @@ a.link-read-more:hover {
 }
 
 /* Vidéos */
+.videos-container {
+  margin-bottom: 5rem;
+}
+
 .videos-text {
   padding: 3rem 0;
   color: #ffffff;
@@ -760,6 +764,7 @@ a.link-read-more:hover {
 .list-articles.apropos {
   padding: 0 2rem;
 }
+
 .main-title-with-link {
   border: 0;
 }
@@ -774,7 +779,7 @@ a.link-read-more:hover {
   margin: 0;
 }
 
-.gla-item {
+.gla-item {c
   box-shadow: none;
   width: auto;
   margin: 0 0 1.5rem 0;
@@ -992,15 +997,16 @@ a.link-read-more:hover {
 }
 
 /* Temps forts */
-.list-articles.temps-fort {
+.list-articles.temps-forts {
   background: #f2efef;
+  padding: 5rem 2rem;
 }
 
-.list-articles.temps-fort .main-title-with-link {
+.list-articles.temps-forts .main-title-with-link {
   border-bottom: 0;
 }
 
-.list-articles.temps-fort .block-title {
+.list-articles.temps-forts .block-title {
   padding-bottom: 0;
   margin-bottom: 0;
   font-size: 2.7rem;
@@ -1131,6 +1137,7 @@ a.link-read-more:hover {
 
   .videos-text h2 {
     font-size: 3rem;
+    line-height: 1.45;
   }
 
   .videos-content {
