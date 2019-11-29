@@ -1023,6 +1023,10 @@ a.link-read-more:hover {
   color: #ffffff;
 }
 
+.la-item {
+  border-bottom: 0;
+}
+
 .la-item:first-child .la-item-content {
   background: #d10032;
 }
@@ -1035,7 +1039,7 @@ a.link-read-more:hover {
   background: #a5948f;
 }
 
-.la-item:nth-child(3) .la-item-content {
+.la-item:nth-child(4) .la-item-content {
   background: #d10032;
 }
 
