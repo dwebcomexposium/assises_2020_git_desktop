@@ -1054,6 +1054,8 @@ a.link-read-more:hover {
 }
 
 .la-item-desc {
+  display: inline-block;
+  margin-bottom: 2rem;
   font-weight: 700;
 }
 
@@ -1539,6 +1541,17 @@ a.link-read-more:hover {
   .article-focus .inside {
     max-width: 860px;
     padding: 6rem 10rem 12rem 17rem;
+  }
+
+  /* Temps forts */
+  .list-articles.temps-forts .inside {
+    width: 1220px;
+    margin: 0 auto;
+  }
+
+  .la-item-img {
+    float: left;
+    width: auto;
   }
 
   /* Page article */
