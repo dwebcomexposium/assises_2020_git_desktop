@@ -592,7 +592,7 @@ a.link-read-more:hover {
   display: flex;
   align-items: flex-end;
   height: 55px;
-  padding: 0 1rem 2rem;
+  padding: 0 1rem 1.8rem;
 }
 
 .site-banner .header-logo {
@@ -637,14 +637,14 @@ a.link-read-more:hover {
   right: 0;
   width: 47px;
   height: 52px;
-  text-align: center;
+  text-align: center !important;
 }
 
-.site-banner .icon::before {
+.sb-menu-trigger::before {
   content: "";
   display: inline-block;
-  width: 27px;
-  height: 26px;
+  width: 28px;
+  height: 18px;
   background: url('img/assises/icon-burger.svg') no-repeat;
 }
 
