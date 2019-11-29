@@ -520,6 +520,10 @@ a.link-read-more:hover {
 }
 
 /* Header */
+.menu-desktop {
+  display: none;
+}
+
 .site-banner .inside {
   max-width: inherit;
   padding: 0;
@@ -1046,6 +1050,11 @@ a.link-read-more:hover {
   margin: 0 1em 0 -2em;
 }
 
+/* Devenir partenaires */
+.node1316251 .article-intro {
+  display: none;
+}
+
 /* Desktop version */
 @media (min-width: 721px) {
   /* Cookies */
@@ -1091,6 +1100,14 @@ a.link-read-more:hover {
   }
 
   /* Header */
+  .menu-desktop {
+    display: block;
+  }
+
+  .menu-mobile {
+    display: none;
+  }
+
   .site-banner .header-content {
     float: left;
     height: 70px;
