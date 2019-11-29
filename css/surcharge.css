@@ -530,7 +530,6 @@ a.link-read-more:hover {
 }
 
 .site-banner .inside .quicklinks {
-  display: none;
   background: #ab0638;
 }
 
@@ -570,7 +569,6 @@ a.link-read-more:hover {
 }
 
 .lang-switcher {
-  display: none;
   right: 13.8rem;
   padding: 0.38rem 0;
   background: #ab0638;
