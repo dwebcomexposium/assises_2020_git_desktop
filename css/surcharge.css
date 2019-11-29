@@ -1002,11 +1002,7 @@ a.link-read-more:hover {
   padding: 5rem 2rem;
 }
 
-.list-articles.temps-forts .main-title-with-link {
-  border-bottom: 0;
-}
-
-.list-articles.temps-forts .block-title {
+.list-articles .block-title {
   padding-bottom: 0;
   margin-bottom: 0;
   font-size: 2.7rem;
@@ -1014,6 +1010,33 @@ a.link-read-more:hover {
   border-bottom: 0;
   color: #001821;
   text-transform: uppercase;
+}
+
+.la-item-img {
+  float: none;
+  margin-right: 0;
+  width: 100%;
+}
+
+.la-item-content {
+  padding: 2rem 1.5rem;
+  color: #ffffff;
+}
+
+.la-item-content:first-child {
+  background: #d10032;
+}
+
+.la-item-content:nth-child(2) {
+  background: #004951;
+}
+
+.la-item-content:nth-child(3) {
+  background: #a5948f;
+}
+
+.la-item-content:nth-child(3) {
+  background: #d10032;
 }
 
 /* Page article */
