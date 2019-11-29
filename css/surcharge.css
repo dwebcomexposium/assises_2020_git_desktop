@@ -1023,19 +1023,19 @@ a.link-read-more:hover {
   color: #ffffff;
 }
 
-.la-item-content:first-child {
+.la-item:first-child .la-item-content {
   background: #d10032;
 }
 
-.la-item-content:nth-child(2) {
+.la-item:nth-child(2 .la-item-content) {
   background: #004951;
 }
 
-.la-item-content:nth-child(3) {
+.la-item:nth-child(3 .la-item-content) {
   background: #a5948f;
 }
 
-.la-item-content:nth-child(3) {
+.la-item:nth-child(3 .la-item-content) {
   background: #d10032;
 }
 
