@@ -817,6 +817,41 @@ a.link-read-more:hover {
   margin: 4rem 0;
 }
 
+.list-articles.hot-news .gla-item-btn,
+.list-articles.temps-forts .gla-item-btn {
+  position: absolute;
+  right: 0;
+  bottom: 0;
+  margin: 1rem 2rem;
+}
+
+.list-articles.hot-news .gla-item-btn::before,
+.list-articles.temps-forts .gla-item-btn::before {
+  content: "\e612";
+  font-family: 'icon';
+  speak: none;
+  font-style: normal;
+  font-weight: normal;
+  font-variant: normal;
+  text-transform: none;
+  line-height: 1;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+.list-articles.hot-news .gla-item-btn::before {
+  color: #e50041;
+}
+
+.list-articles.temps-forts .gla-item-btn::before {
+  color: #ffffff;
+}
+
+.list-articles.hot-news .gla-btn-read-more,
+.list-articles.temps-forts .gla-btn-read-more {
+  display: none;
+}
+
 .list-articles.apropos .gla-item:first-child {
   background: #d10032;
 }
