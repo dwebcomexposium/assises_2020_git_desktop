@@ -630,6 +630,24 @@ a.link-read-more:hover {
   display: none;
 }
 
+/* buger menu */
+.sb-menu-trigger {
+  position: absolute;
+  top: 10px;
+  right: 0;
+  width: 47px;
+  height: 52px;
+  text-align: center;
+}
+
+.site-banner .icon::before {
+  content: "";
+  display: inline-block;
+  width: 27px;
+  height: 26px;
+  background: url('img/assises/icon-burger.svg') no-repeat;
+}
+
 /* Navigation */
 .site-banner .main-navigation {
   box-shadow: none;
