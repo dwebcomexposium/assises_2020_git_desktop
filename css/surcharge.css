@@ -735,19 +735,23 @@ a.link-read-more:hover {
 
 .mn-item-has-submenu::after {
   content: '\e616';
+  display: flex;
+  justify-content: center;
+  align-items: center;
   position: absolute;
   top: 0;
   right: 0;
   height: 50px;
-  width: 30px;
+  width: 40px;
   font-family: 'icon';
-  font-size: 2.5rem;
-  line-height: 1.8;
-  text-align: center;
+  font-size: 2.3rem;
+  line-height: 1;
+  color: #001821;
 }
 
 .mn-item-has-submenu.is-open::after {
-  color: #ff3100;
+  transform: rotate(-90deg);
+  color: #e50041;
 }
 
 /* A propos */
