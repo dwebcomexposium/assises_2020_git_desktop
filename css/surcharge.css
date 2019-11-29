@@ -787,71 +787,6 @@ a.link-read-more:hover {
   position: relative;
 }
 
-.list-articles.hot-news .gla-item-content,
-.list-articles.temps-forts .gla-item-content {
-  display: block;
-  padding: 2rem;
-}
-
-.list-articles.hot-news .gla-item-title,
-.list-articles.temps-forts .gla-item-title {
-  color: #e50041;
-  text-transform: uppercase;
-  font-weight: 700;
-  margin-top: 0;
-  float: left;
-}
-
-.list-articles.hot-news .gla-item-author,
-.list-articles.temps-forts .gla-item-author {
-  float: right;
-  color: #e50041;
-  font-weight: 700;
-}
-
-.list-articles.hot-news .gla-item-desc,
-.list-articles.temps-forts .gla-item-desc {
-  font-weight: 700;
-  clear: both;
-  display: block;
-  margin: 4rem 0;
-}
-
-.list-articles.hot-news .gla-item-btn,
-.list-articles.temps-forts .gla-item-btn {
-  position: absolute;
-  right: 0;
-  bottom: 0;
-  margin: 1rem 2rem;
-}
-
-.list-articles.hot-news .gla-item-btn::before,
-.list-articles.temps-forts .gla-item-btn::before {
-  content: "\e612";
-  font-family: 'icon';
-  speak: none;
-  font-style: normal;
-  font-weight: normal;
-  font-variant: normal;
-  text-transform: none;
-  line-height: 1;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
-}
-
-.list-articles.hot-news .gla-item-btn::before {
-  color: #e50041;
-}
-
-.list-articles.temps-forts .gla-item-btn::before {
-  color: #ffffff;
-}
-
-.list-articles.hot-news .gla-btn-read-more,
-.list-articles.temps-forts .gla-btn-read-more {
-  display: none;
-}
-
 .list-articles.apropos .gla-item:first-child {
   background: #d10032;
 }
@@ -1069,6 +1004,7 @@ a.link-read-more:hover {
 .list-articles.hot-news {
   background: #004951;
   padding: 5rem 2rem;
+  margin-bottom: 5rem;
 }
 
 .list-articles.hot-news .inside {
@@ -1085,6 +1021,78 @@ a.link-read-more:hover {
 
 .gla-item {
   background: #ffffff;
+}
+
+.list-articles.hot-news .gla-item-content,
+.list-articles.temps-forts .gla-item-content {
+  display: block;
+  padding: 2rem;
+}
+
+.list-articles.hot-news .gla-item-title,
+.list-articles.temps-forts .gla-item-title {
+  color: #e50041;
+  text-transform: uppercase;
+  font-weight: 700;
+  margin-top: 0;
+  float: left;
+}
+
+.list-articles.hot-news .gla-item-author,
+.list-articles.temps-forts .gla-item-author {
+  float: right;
+  color: #e50041;
+  font-weight: 700;
+}
+
+.list-articles.hot-news .gla-item-desc,
+.list-articles.temps-forts .gla-item-desc {
+  font-weight: 700;
+  clear: both;
+  display: block;
+  margin: 4rem 0;
+}
+
+.list-articles.hot-news .gla-item-btn,
+.list-articles.temps-forts .gla-item-btn {
+  position: absolute;
+  right: 0;
+  bottom: 0;
+  margin: 1rem 2rem;
+}
+
+.list-articles.hot-news .gla-item-btn::before,
+.list-articles.temps-forts .gla-item-btn::before {
+  content: "\e612";
+  font-family: 'icon';
+  speak: none;
+  font-style: normal;
+  font-weight: normal;
+  font-variant: normal;
+  text-transform: none;
+  line-height: 1;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+.list-articles.hot-news .gla-item-btn::before {
+  color: #e50041;
+}
+
+.list-articles.temps-forts .gla-item-btn::before {
+  color: #ffffff;
+}
+
+.list-articles.hot-news .gla-btn-read-more,
+.list-articles.temps-forts .gla-btn-read-more {
+  display: none;
+}
+
+.list-articles.hot-news .gla-item > a:hover .gla-item-title,
+.list-articles.hot-news .gla-item > a:focus .gla-item-title,
+.list-articles.temps-forts .gla-item > a:hover .gla-item-title,
+.list-articles.temps-forts .gla-item > a:focus .gla-item-title {
+  color: #ffffff;
 }
 
 /* Temps forts */
