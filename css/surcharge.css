@@ -630,24 +630,6 @@ a.link-read-more:hover {
   display: none;
 }
 
-/* buger menu */
-.sb-menu-trigger {
-  position: absolute;
-  top: 0;
-  right: 0;
-  width: 47px;
-  height: 52px;
-  text-align: center !important;
-}
-
-.sb-menu-trigger::before {
-  content: "";
-  display: inline-block;
-  width: 28px;
-  height: 18px;
-  background: url('img/assises/icon-burger.svg') no-repeat;
-}
-
 /* Navigation */
 .site-banner .main-navigation {
   box-shadow: none;
@@ -731,6 +713,41 @@ a.link-read-more:hover {
   border: 0;
   background: #a5948f;
   color: #ffffff;
+}
+
+/* buger menu */
+.sb-menu-trigger {
+  position: absolute;
+  top: 0;
+  right: 0;
+  width: 47px;
+  height: 52px;
+  text-align: center !important;
+}
+
+.sb-menu-trigger::before {
+  content: "";
+  display: inline-block;
+  width: 28px;
+  height: 18px;
+  background: url('img/assises/icon-burger.svg') no-repeat;
+}
+
+.mn-item-has-submenu::after {
+  content: '\e616';
+  position: absolute;
+  top: 0;
+  right: 0;
+  height: 50px;
+  width: 30px;
+  font-family: 'icon';
+  font-size: 2.5rem;
+  line-height: 1.8;
+  text-align: center;
+}
+
+.mn-item-has-submenu.is-open::after {
+  color: #ff3100;
 }
 
 /* A propos */
