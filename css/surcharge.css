@@ -594,7 +594,7 @@ a.link-read-more:hover {
   display: flex;
   align-items: flex-end;
   height: 55px;
-  padding: 1rem;
+  padding: 0 1rem 2rem;
 }
 
 .site-banner .header-logo {
