@@ -148,7 +148,8 @@ a.link-read-more {
 .cta-1,
 .style1 a,
 .style1 .lien1,
-a.link-read-more {
+a.link-read-more,
+.gla-item-tag {
   background: #ffffff;
   color: #001821;
 }
@@ -156,7 +157,8 @@ a.link-read-more {
 .cta-1:hover,
 .style1 a:hover,
 .style1 .lien1:hover,
-a.link-read-more:hover {
+a.link-read-more:hover,
+.gla-item-tag:hover {
   background: #001821;
   color: #ffffff;
 }
@@ -1334,6 +1336,7 @@ a.link-read-more:hover {
 
   /* Vidéos */
   .videos-container {
+    display: flex;
     align-items: flex-start;
     max-width: 1220px;
     margin: 0 auto 5rem;
