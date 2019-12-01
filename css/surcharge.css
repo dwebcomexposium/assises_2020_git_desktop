@@ -333,10 +333,17 @@ a.link-read-more:hover,
   background: url('img/assises/logo-comexposium.svg') no-repeat center;
 }
 
+.site-footer .footer-bottom-container {
+  position: relative;
+}
+
 .site-footer .footer-bottom-container p {
-  margin-top: 0;
-  margin-right: 1.5rem;
+  margin-top: 2rem;
+  margin-right: 0;
   font-size: 1.3rem;
+  border-top: 1px solid #ffffff;
+  padding-top: 1.5rem;
+  margin-bottom: 1rem;
 }
 
 .footer-bottom-container ul {
@@ -345,7 +352,7 @@ a.link-read-more:hover,
 }
 
 .footer-bottom-container [class^="btn"] {
-  padding: 1rem 1.8rem 1rem 0;
+  padding: 0.5rem 1.8rem 0.5rem 0;
   border: 0;
   background: transparent;
   font-size: 1.3rem;
@@ -1527,11 +1534,17 @@ a.link-read-more:hover,
   .logo-dgconsultants {
     width: 68px;
     height: 47px;
+    margin-top: -2rem;
   }
 
   .logo-comexposium {
     width: 149px;
     height: 24px;
+  }
+
+  .site-footer .footer-bottom-container p {
+    margin-top: 0;
+    margin-right: 1.5rem;
   }
 
   .site-footer .footer-bottom-container .content {
