@@ -1088,7 +1088,7 @@ a.link-read-more:hover {
   font-weight: 700;
   clear: both;
   display: block;
-  margin: 4rem 0;
+  margin: 4rem 0 2rem;
 }
 
 .list-articles.hot-news .gla-item-btn,
@@ -1148,6 +1148,8 @@ a.link-read-more:hover {
 
 .la-item {
   border-bottom: 0;
+  margin: 0;
+  padding: 0;
 }
 
 .la-item-img {
@@ -1157,7 +1159,7 @@ a.link-read-more:hover {
 }
 
 .la-item-content {
-  padding: 2rem 1.5rem;
+  padding: 2rem 1.5rem 4rem;
   color: #ffffff;
 }
 
