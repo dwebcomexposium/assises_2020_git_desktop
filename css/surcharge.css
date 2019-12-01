@@ -522,7 +522,7 @@ a.link-read-more:hover {
   right: 0;
 }
 
-.videos .slick-dotted.slick-slider {
+.slick-dotted.slick-slider {
   margin-bottom: 0;
 }
 
@@ -552,10 +552,6 @@ a.link-read-more:hover {
   width: 10px;
   height: 10px;
   top: -2px;
-}
-
-.videos .ytp-chrome-top {
-  display: none;
 }
 
 /* Header */
@@ -1339,6 +1335,7 @@ a.link-read-more:hover {
   /* Vidéos */
   .videos-container {
     display: flex;
+    align-items: flex-start;
     max-width: 1220px;
     margin: 0 auto 5rem;
   }
@@ -1353,7 +1350,6 @@ a.link-read-more:hover {
   }
 
   .videos-content {
-    align-self: center;
     width: 60%;
   }
 
