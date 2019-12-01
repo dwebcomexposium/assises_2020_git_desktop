@@ -811,6 +811,7 @@ a.link-read-more:hover,
 .grid-la-list {
   display: initial;
   margin: 0;
+  position: relative;
 }
 
 .gla-item {
@@ -818,7 +819,7 @@ a.link-read-more:hover,
   width: auto;
   margin: 0 0 1.5rem 0;
   padding: 0;
-  position: relative;
+  position: initial;
 }
 
 .list-articles.apropos .gla-item:first-child {
@@ -1582,13 +1583,11 @@ a.link-read-more:hover,
     display: flex;
     justify-content: center;
     margin: 0;
-    position: relative;
   }
 
   .gla-item {
     width: 32%;
     margin: 0;
-    position: initial;
   }
 
   .gla-item:nth-child(2) {
