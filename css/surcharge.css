@@ -1143,17 +1143,6 @@ a.link-read-more:hover {
   text-transform: uppercase;
 }
 
-.list-articles.temps-forts .la-list {
-  display: flex;
-  flex-wrap: wrap;
-}
-
-.la-item {
-  border-bottom: 0;
-  flex: 1 0 50%;
-  display: flex;
-}
-
 .la-item-img {
   float: none;
   margin-right: 0;
@@ -1692,6 +1681,17 @@ a.link-read-more:hover {
   .list-articles.temps-forts .inside {
     width: 1220px;
     margin: 0 auto;
+  }
+
+  .list-articles.temps-forts .la-list {
+    display: flex;
+    flex-wrap: wrap;
+  }
+
+  .la-item {
+    border-bottom: 0;
+    flex: 1 0 50%;
+    display: flex;
   }
 
   .la-item-img {
