@@ -1880,7 +1880,7 @@ a.link-read-more:hover,
 
   .article-content .table3 tbody td {
     padding: 3rem 4rem;
-    margin-right: 1rem;
+    margin: 0 1rem 0 0;
     border: 0;
   }
 
