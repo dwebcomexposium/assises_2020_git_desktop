@@ -1077,6 +1077,10 @@ a.link-read-more:hover,
   background: #ffffff;
 }
 
+.list-articles.hot-news .gla-item-tag {
+
+}
+
 .list-articles.hot-news .gla-item-content,
 .list-articles.temps-forts .gla-item-content {
   display: block;
@@ -1578,11 +1582,13 @@ a.link-read-more:hover,
     display: flex;
     justify-content: center;
     margin: 0;
+    position: relative;
   }
 
   .gla-item {
     width: 32%;
     margin: 0;
+    position: initial;
   }
 
   .gla-item:nth-child(2) {
@@ -1715,6 +1721,13 @@ a.link-read-more:hover,
   .article-focus .inside {
     max-width: 860px;
     padding: 6rem 10rem 12rem 17rem;
+  }
+
+  /* Hot news */
+  .list-articles.hot-news .gla-item-tag {
+    top: -66px;
+    left: initial;
+    right: 0;
   }
 
   /* Temps forts */
