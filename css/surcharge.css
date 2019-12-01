@@ -462,12 +462,15 @@ a.link-read-more:hover {
 /* Vidéos */
 .videos-container {
   margin-bottom: 5rem;
+  display: flex;
+  flex-wrap: wrap;
 }
 
 .videos-text {
   padding: 3rem 0;
   color: #ffffff;
   background: #d10032;
+  order: 2;
 }
 
 .videos-text h2 {
@@ -490,6 +493,10 @@ a.link-read-more:hover {
   display: inline-block;
   margin-top: 4rem;
   margin-left: 2rem;
+}
+
+.videos-content {
+  order: 1;
 }
 
 .videos-content .video {
@@ -1334,7 +1341,6 @@ a.link-read-more:hover {
 
   /* Vidéos */
   .videos-container {
-    display: flex;
     align-items: flex-start;
     max-width: 1220px;
     margin: 0 auto 5rem;
