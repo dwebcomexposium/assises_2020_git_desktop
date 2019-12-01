@@ -1130,6 +1130,7 @@ a.link-read-more:hover {
 .list-articles.temps-forts {
   background: #f2efef;
   padding: 5rem 2rem;
+  margin-bottom: 5rem;
 }
 
 .list-articles .block-title {
@@ -1142,6 +1143,17 @@ a.link-read-more:hover {
   text-transform: uppercase;
 }
 
+.list-articles.temps-forts .la-list {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.la-item {
+  border-bottom: 0;
+  flex: 1 0 50%;
+  display: flex;
+}
+
 .la-item-img {
   float: none;
   margin-right: 0;
@@ -1151,10 +1163,6 @@ a.link-read-more:hover {
 .la-item-content {
   padding: 2rem 1.5rem;
   color: #ffffff;
-}
-
-.la-item {
-  border-bottom: 0;
 }
 
 .la-item:first-child .la-item-content {
