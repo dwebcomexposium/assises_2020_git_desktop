@@ -372,7 +372,7 @@ a.link-read-more:hover,
 /***********************************/
 #pub {
   width: 320px;
-  margin: 0 auto 5rem;
+  margin: 5rem auto;
   text-align: center;
 }
 
@@ -469,10 +469,6 @@ a.link-read-more:hover,
 }
 
 /* Vidéos */
-.videos-container {
-  margin-bottom: 5rem;
-}
-
 .videos-text {
   padding: 3rem 0;
   color: #ffffff;
@@ -912,10 +908,10 @@ a.link-read-more:hover,
 
 /* Edito découvrez */
 .site-wrapper .edito.decouvrez {
-  margin-top: 3rem;
-  margin-bottom: 5rem;
   padding: 4rem 2rem;
   background: #f2efef;
+  margin: 3rem 0 5rem 0;
+  max-width: 100%;
 }
 
 .edito.decouvrez .inside {
@@ -1033,7 +1029,7 @@ a.link-read-more:hover,
 .article-focus {
   background: transparent;
   border: 0;
-  margin: 0 0 5rem;
+  margin: 0;
   padding: 0;
   color: #ffffff;
 }
@@ -1051,6 +1047,8 @@ a.link-read-more:hover,
   display: inline-block;
   padding: 0 2rem;
   margin-bottom: 4rem;
+  text-transform: uppercase;
+  line-height: 1.4;
 }
 
 .article-focus .inside p:not(.style1) {
@@ -1062,7 +1060,6 @@ a.link-read-more:hover,
 .list-articles.hot-news {
   background: #004951;
   padding: 5rem 2rem 8rem;
-  margin-bottom: 5rem;
 }
 
 .list-articles.hot-news .inside {
@@ -1176,7 +1173,6 @@ a.link-read-more:hover,
 .list-articles.temps-forts {
   background: #f2efef;
   padding: 5rem 2rem;
-  margin-bottom: 5rem;
 }
 
 .list-articles .block-title {
@@ -1562,6 +1558,7 @@ a.link-read-more:hover,
   /* home */
   #pub {
     width: 970px;
+    margin: 0 auto 5rem;
   }
 
   .front .header-edito h2 {
@@ -1722,6 +1719,7 @@ a.link-read-more:hover,
     position: relative;
     display: flex;
     justify-content: flex-end;
+    margin: 0 0 5rem;
   }
 
   .article-focus img {
@@ -1739,6 +1737,7 @@ a.link-read-more:hover,
   /* Hot news */
   .list-articles.hot-news {
     padding: 5rem 2rem;
+    margin-bottom: 5rem;
   }
 
   .list-articles.hot-news .gla-item-tag {
@@ -1748,6 +1747,10 @@ a.link-read-more:hover,
   }
 
   /* Temps forts */
+  .list-articles.temps-forts {
+    margin-bottom: 5rem;
+  }
+
   .list-articles.temps-forts .inside {
     width: 1220px;
     margin: 0 auto;
