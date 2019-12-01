@@ -929,22 +929,31 @@ a.link-read-more:hover {
   margin: 0 auto 5rem;
 }
 
+.edito .inside {
+  display: flex;
+  flex-wrap: wrap;
+}
+
 .edito h2 {
-  position: absolute;
-  left: 371px;
-  font-weight: 700;
-  text-transform: uppercase;
-  font-size: 3rem;
+  order: 2;
 }
 
 .edito figure {
   margin: 0;
   float: none;
+  order: 1;
+  display: flex;
+  flex-direction: column;
 }
 
 .edito figure img {
   width: 100%;
   margin-bottom: 1rem;
+  order: 1;
+}
+
+.edito figure figcaption {
+  order: 3;
 }
 
 .edito figure figcaption strong {
@@ -957,6 +966,11 @@ a.link-read-more:hover {
   color: #e50041;
   font-size: 1.6rem;
   font-weight: 700;
+  order: 2;
+}
+
+.edito blockquote {
+  order: 3;
 }
 
 .edito blockquote p.style1 {
