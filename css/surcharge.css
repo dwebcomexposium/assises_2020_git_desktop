@@ -936,6 +936,7 @@ a.link-read-more:hover {
 
 .edito h2 {
   order: 2;
+  margin-top: 2rem;
 }
 
 .edito figure {
@@ -981,6 +982,7 @@ a.link-read-more:hover {
 
 .edito .edito-item-btn {
   margin-top: 5rem;
+  order: 4;
 }
 
 .edito blockquote .icon {
