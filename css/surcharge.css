@@ -1623,7 +1623,7 @@ a.link-read-more:hover,
   }
 
   .gla-item {
-    width: 32%;
+    width: 30%;
     margin: 0;
   }
 
@@ -1694,10 +1694,12 @@ a.link-read-more:hover,
 
   .edito h2 {
     margin-top: 0;
+    position: absolute;
+    left: 30.5%;
   }
 
   .edito figure {
-    flex-basis: 0 0 352px;
+    flex: 0 0 29%;
     margin-right: 2rem;
   }
 
@@ -1708,7 +1710,7 @@ a.link-read-more:hover,
 
   .edito figure figcaption {
     order: 2;
-}
+  }
 
   .edito figure figcaption strong {
     font-family: 'Vollkorn', serif;
@@ -1718,6 +1720,10 @@ a.link-read-more:hover,
 
   .edito figure small {
     order: 3;
+  }
+
+  .edito blockquote {
+    margin-top: 6rem;
   }
 
   .edito blockquote p.style1 {
