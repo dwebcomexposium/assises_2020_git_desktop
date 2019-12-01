@@ -495,7 +495,7 @@ a.link-read-more:hover {
 .videos-content .video {
   position: relative;
   overflow: hidden;
-  padding-top: 56.25%;
+  padding-top: 50.5%;
 }
 
 .videos iframe {
@@ -520,6 +520,10 @@ a.link-read-more:hover {
 
 .videos .slick-next {
   right: 0;
+}
+
+.videos .slick-dotted.slick-slider {
+  margin-bottom: 0;
 }
 
 .videos .slick-dots {
@@ -550,7 +554,7 @@ a.link-read-more:hover {
   top: -2px;
 }
 
-.videos .ytp-show-cards-title {
+.videos .ytp-chrome-top {
   display: none;
 }
 
