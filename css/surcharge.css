@@ -937,6 +937,7 @@ a.link-read-more:hover {
 .edito h2 {
   order: 2;
   margin-top: 2rem;
+  text-transform: uppercase;
 }
 
 .edito figure {
@@ -955,6 +956,7 @@ a.link-read-more:hover {
 
 .edito figure figcaption {
   order: 3;
+  margin-top: 1rem;
 }
 
 .edito figure figcaption strong {
@@ -981,7 +983,7 @@ a.link-read-more:hover {
 }
 
 .edito .edito-item-btn {
-  margin-top: 5rem;
+  margin-top: 4rem;
   order: 4;
 }
 
@@ -1607,12 +1609,16 @@ a.link-read-more:hover {
   }
 
   .edito .inside {
-    display: flex;
+    flex-wrap: nowrap;
     position: relative;
   }
 
+  .edito h2 {
+    margin-top: 0;
+  }
+
   .edito figure {
-    flex: 1 0 352px;
+    flex-basis: 0 0 352px;
     margin-right: 2rem;
   }
 
@@ -1621,6 +1627,10 @@ a.link-read-more:hover {
     margin-bottom: 1rem;
   }
 
+  .edito figure figcaption {
+    order: 2;
+}
+
   .edito figure figcaption strong {
     font-family: 'Vollkorn', serif;
     font-size: 1.7rem;
@@ -1628,9 +1638,7 @@ a.link-read-more:hover {
   }
 
   .edito figure small {
-    color: #e50041;
-    font-size: 1.6rem;
-    font-weight: 700;
+    order: 3;
   }
 
   .edito blockquote p.style1 {
