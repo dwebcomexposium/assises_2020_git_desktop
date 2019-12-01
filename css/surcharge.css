@@ -1282,6 +1282,7 @@ a.link-read-more:hover,
 
 .article-content {
   margin: 1rem 0 5rem;
+  padding: 0 2rem;
 }
 
 .article-content table {
@@ -1304,7 +1305,7 @@ a.link-read-more:hover,
 
 .article-content .table2 td {
   margin: 0;
-  padding: 0 2rem;
+  padding: 0;
   border: 0;
 }
 
@@ -1867,6 +1868,37 @@ a.link-read-more:hover,
 
   .article-content ul {
     margin: 3rem 0;
+  }
+
+  .article-content .table3 {
+    margin-top: 3rem;
+  }
+
+  .article-content .table3 tbody tr {
+    display: flex;
+  }
+
+  .article-content .table3 tbody td {
+    padding: 3rem 4rem;
+    margin-right: 1rem;
+    border: 0;
+  }
+
+  .article-content .table3 tbody td:first-child {
+    background: #a5948f;
+    width: 20%;
+    text-align: center;
+  }
+
+  .article-content .table3 tbody td:nth-child(2) {
+    background: #e50041;
+    width: 20%;
+    text-align: center;
+  }
+
+  .article-content .table3 tbody td:nth-child(3) {
+    background: #c0c0c0;
+    width: 60%;
   }
 }
 
