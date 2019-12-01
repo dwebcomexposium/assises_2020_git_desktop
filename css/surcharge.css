@@ -796,6 +796,28 @@ a.link-read-more:hover,
   color: #e50041;
 }
 
+.menu-mobile .site-banner .main-navigation {
+  padding: 5rem 0 2rem;
+}
+
+.menu-mobile .quicklinks li:not(:first-child) {
+  display: none;
+}
+
+.menu-mobile .site-banner .inside .quicklinks .linkid811137 {
+  background: #e50041;
+  text-align: center;
+}
+
+.menu-mobile .site-banner .inside .quicklinks .linkid811137 .btn-primary {
+  padding: 0.85rem 2.5rem;
+  font-size: 1.8rem;
+}
+
+.menu-mobile .site-banner .inside .quicklinks .linkid811137 .txt-btn {
+  font-weight: 700;
+}
+
 /* A propos */
 .list-articles.apropos {
   padding: 0 2rem;
@@ -822,7 +844,7 @@ a.link-read-more:hover,
   width: auto;
   margin: 0 0 1.5rem 0;
   padding: 0;
-  position: initial;
+  position: relative;
 }
 
 .list-articles.apropos .gla-item:first-child {
@@ -1541,6 +1563,9 @@ a.link-read-more:hover,
   .site-footer .footer-bottom-container p {
     margin-top: 0;
     margin-right: 1.5rem;
+    border-top: 0;
+    padding-top: 0;
+    margin-bottom: 0;
   }
 
   .site-footer .footer-bottom-container .content {
@@ -1744,6 +1769,7 @@ a.link-read-more:hover,
     top: -66px;
     left: initial;
     right: 0;
+    bottom: initial;
   }
 
   /* Temps forts */
