@@ -207,16 +207,20 @@ a.link-read-more:hover {
 .cc-cookies a:hover,
 .cc-cookies a:focus {
   color: #ffffff;
+  text-decoration: underline;
 }
 
-.cc-cookie-accept {
+.cc-cookies a.cc-cookie-accept {
   position: relative;
-  display: inline-block;
+  display: block;
   right: 0;
   padding: 0.5rem 1rem;
   background: #000000;
   color: #ffffff;
   font-size: 1.4rem;
+  width: 100px;
+  margin: 1rem auto;
+  text-align: center;
 }
 
 /* Footer */
@@ -926,7 +930,11 @@ a.link-read-more:hover {
 }
 
 .edito h2 {
-  display: none;
+  position: absolute;
+  left: 371px;
+  font-weight: 700;
+  text-transform: uppercase;
+  font-size: 3rem;
 }
 
 .edito figure {
@@ -951,10 +959,6 @@ a.link-read-more:hover {
   font-weight: 700;
 }
 
-.edito blockquote h3 {
-  margin-top: 0;
-}
-
 .edito blockquote p.style1 {
   font-size: 2.3rem;
   color: #004951;
@@ -962,9 +966,7 @@ a.link-read-more:hover {
 }
 
 .edito .edito-item-btn {
-  position: absolute;
-  bottom: 0;
-  left: 380px;
+  margin-top: 5rem;
 }
 
 .edito blockquote .icon {
@@ -1016,6 +1018,10 @@ a.link-read-more:hover {
   font-size: 2.7rem;
   font-weight: 700;
   text-transform: uppercase;
+  color: #001821;
+}
+
+.hot-news .main-title-with-link > .la-main-title {
   color: #ffffff;
 }
 
@@ -1611,15 +1617,16 @@ a.link-read-more:hover {
     font-weight: 700;
   }
 
-  .edito blockquote h3 {
-    font-weight: 700;
-    text-transform: uppercase;
-  }
-
   .edito blockquote p.style1 {
     font-size: 2.3rem;
     color: #004951;
     line-height: 1.4;
+  }
+
+  .edito .edito-item-btn {
+    position: absolute;
+    bottom: 0;
+    left: 380px;
   }
 
   .edito .edito-item-btn {
