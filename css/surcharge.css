@@ -414,25 +414,18 @@ a.link-read-more:hover,
 }
 
 .front .header-edito h1 {
-  display: none;
-}
-
-.front .header-edito h2 {
   display: inline;
   margin: 0;
-  padding: 0;
+  padding: 0 3rem;
   color: #004951;
   background-color: #ffffff;
   font-size: 4rem;
   line-height: 1.45;
   box-shadow: 0 0 12px 2px rgba(0,0,0,0.16);
-}
-
-.front .header-edito h2 u {
-  padding: 0 3rem;
   font-family: 'Vollkorn', serif;
   font-weight: 600;
   text-decoration: none;
+  text-transform: uppercase;
 }
 
 .front .header-edito blockquote {
@@ -980,23 +973,23 @@ a.link-read-more:hover,
 }
 
 /* Edito */
-.edito {
+.edito.focus {
   max-width: 337px;
   margin: 0 auto 5rem;
 }
 
-.edito .inside {
+.edito.focus .inside {
   display: flex;
   flex-wrap: wrap;
 }
 
-.edito h2 {
+.edito.focus h2 {
   order: 2;
   margin-top: 2rem;
   text-transform: uppercase;
 }
 
-.edito figure {
+.edito.focus figure {
   margin: 0;
   float: none;
   order: 1;
@@ -1004,46 +997,46 @@ a.link-read-more:hover,
   flex-direction: column;
 }
 
-.edito figure img {
+.edito.focus figure img {
   width: 100%;
   margin-bottom: 1rem;
   order: 1;
 }
 
-.edito figure figcaption {
+.edito.focus figure figcaption {
   order: 3;
   margin-top: 1rem;
 }
 
-.edito figure figcaption strong {
+.edito.focus figure figcaption strong {
   font-family: 'Vollkorn', serif;
   font-size: 1.7rem;
   font-weight: 600;
 }
 
-.edito figure small {
+.edito.focus figure small {
   color: #e50041;
   font-size: 1.6rem;
   font-weight: 700;
   order: 2;
 }
 
-.edito blockquote {
+.edito.focus blockquote {
   order: 3;
 }
 
-.edito blockquote p.style1 {
+.edito.focus blockquote p.style1 {
   font-size: 2.3rem;
   color: #004951;
   line-height: 1.4;
 }
 
-.edito .edito-item-btn {
+.edito.focus .edito-item-btn {
   margin-top: 4rem;
   order: 4;
 }
 
-.edito blockquote .icon {
+.edito.focus blockquote .icon {
   display: none;
 }
 
@@ -1357,7 +1350,7 @@ a.link-read-more:hover,
     max-width: 1220px;
   }
 
-  .cc-cookie-accept {
+  .cc-cookies a.cc-cookie-accept {
     position: absolute;
     right: -10%;
     padding: 0.5rem 1rem;
@@ -1587,7 +1580,7 @@ a.link-read-more:hover,
     margin: 0 auto 5rem;
   }
 
-  .front .header-edito h2 {
+  .front .header-edito h1 {
     font-size: 5.4rem;
   }
 
@@ -1687,62 +1680,65 @@ a.link-read-more:hover,
     max-width: 1220px;
   }
 
-  .edito .inside {
+  .edito.focus .inside {
     flex-wrap: nowrap;
     position: relative;
   }
 
-  .edito h2 {
+  .edito.focus h2 {
     margin-top: 0;
     position: absolute;
     left: 30.5%;
   }
 
-  .edito figure {
+  .edito.focus figure {
     flex: 0 0 29%;
     margin-right: 2rem;
   }
 
-  .edito figure img {
+  .edito.focus figure img {
     width: 100%;
     margin-bottom: 1rem;
   }
 
-  .edito figure figcaption {
+  .edito.focus figure figcaption {
     order: 2;
+    padding-left: 1rem;
   }
 
-  .edito figure figcaption strong {
+  .edito.focus figure figcaption strong {
     font-family: 'Vollkorn', serif;
     font-size: 1.7rem;
     font-weight: 600;
   }
 
-  .edito figure small {
+  .edito.focus figure small {
     order: 3;
+    padding-left: 1rem;
   }
 
-  .edito blockquote {
+  .edito.focus blockquote {
     margin-top: 6rem;
+    padding-bottom: 8rem;
   }
 
-  .edito blockquote p.style1 {
+  .edito.focus blockquote p.style1 {
     font-size: 2.3rem;
     color: #004951;
     line-height: 1.4;
   }
 
-  .edito .edito-item-btn {
+  .edito.focus .edito-item-btn {
     position: absolute;
     bottom: 0;
-    left: 380px;
+    left: 31.5%;
   }
 
-  .edito .edito-item-btn {
+  .edito.focus .edito-item-btn {
     margin-top: 5rem;
   }
 
-  .edito blockquote .icon {
+  .edito.focus blockquote .icon {
     display: none;
   }
 
