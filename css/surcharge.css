@@ -1812,11 +1812,15 @@ a.link-read-more:hover,
 
   .list-articles.temps-forts .gla-item {
     width: 47%;
-    margin: 0 2rem 1.5rem 0;
+    margin: 0 0 1.5rem 0;
+  }
+
+  .list-articles.temps-forts .gla-item:nth-child(odd) {
+    margin-right: 2rem;
   }
 
   .list-articles.temps-forts .inside {
-    width: 1220px;
+    max-width: 1220px;
     margin: 0 auto;
   }
 
