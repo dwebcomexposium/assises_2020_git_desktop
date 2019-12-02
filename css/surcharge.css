@@ -1762,8 +1762,19 @@ a.link-read-more:hover,
   }
 
   /* Hot news */
+  .list-articles.hot-news .main-title-with-link {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+
+  .list-articles.hot-news .main-title-with-link::after {
+    display: none;
+  }
+
   .list-articles.hot-news .link-view-all {
     position: initial;
+    margin: 0;
   }
 
   .list-articles.hot-news {
