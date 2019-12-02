@@ -1117,6 +1117,10 @@ a.link-read-more:hover,
   float: left;
 }
 
+.list-articles.temps-forts .gla-item-title {
+  float: none;
+}
+
 .list-articles.hot-news .gla-item > a:hover .gla-item-title,
 .list-articles.hot-news .gla-item > a:focus .gla-item-title,
 .list-articles.temps-forts .gla-item > a:hover .gla-item-title,
@@ -1144,6 +1148,10 @@ a.link-read-more:hover,
   clear: both;
   display: block;
   margin: 4rem 0 2rem;
+}
+
+.list-articles.temps-forts .gla-item-desc {
+  margin: 2rem 0;
 }
 
 .list-articles.hot-news .gla-item-btn,
@@ -1200,37 +1208,19 @@ a.link-read-more:hover,
   text-transform: uppercase;
 }
 
-.la-item {
-  border-bottom: 0;
-  margin: 1em 0 0 0;
-  padding: 0;
-}
-
-.la-item-img {
-  float: none;
-  margin-right: 0;
-  width: 100%;
-}
-
-.la-item-content {
-  padding: 2rem 1.5rem 4rem;
-  color: #ffffff;
-  flex-grow: 1;
-}
-
-.list-articles.temps-forts .la-item:first-child .la-item-content {
+.list-articles.temps-forts .gla-item:first-child .gla-item-content {
   background: #d10032;
 }
 
-.list-articles.temps-forts .la-item:nth-child(2) .la-item-content {
+.list-articles.temps-forts .gla-item:nth-child(2) .gla-item-content {
   background: #004951;
 }
 
-.list-articles.temps-forts .la-item:nth-child(3) .la-item-content {
+.list-articles.temps-forts .gla-item:nth-child(3) .gla-item-content {
   background: #a5948f;
 }
 
-.list-articles.temps-forts .la-item:nth-child(4) .la-item-content {
+.list-articles.temps-forts .gla-item:nth-child(4) .gla-item-content {
   background: #d10032;
 }
 
@@ -1785,8 +1775,8 @@ a.link-read-more:hover,
   }
 
   .list-articles.temps-forts .gla-item {
-    width: 30%;
-    margin: 0 0 1.5rem 0;
+    width: 47%;
+    margin: 0 2rem 1.5rem 0;
   }
 
   .list-articles.temps-forts .inside {
@@ -1794,23 +1784,16 @@ a.link-read-more:hover,
     margin: 0 auto;
   }
 
-  .list-articles.temps-forts .la-list {
-    display: flex;
-    flex-wrap: wrap;
-  }
-
-  .la-item {
-    flex: 1 0 49%;
+  .list-articles.temps-forts .gla-item a {
     display: flex;
   }
 
-  .la-item:nth-child(odd) {
-    margin-right: 1.5rem;
+  .list-articles.temps-forts .gla-item-img {
+    width: 45%;
   }
 
-  .la-item-img {
-    float: left;
-    width: auto;
+  .list-articles.temps-forts .gla-item-content {
+    width: 55%;
   }
 
   /* Page article */
