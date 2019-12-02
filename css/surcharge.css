@@ -1388,12 +1388,16 @@ a.link-read-more:hover,
   }
 
   .site-banner .menu-mobile {
-    padding-bottom: 3rem;
+    padding-bottom: 1rem;
     background: #ffffff;
   }
 
   .site-banner .menu-mobile .header-content {
     background: #e50041;
+  }
+
+  .site-banner .menu-mobile .setting-container {
+    margin: 4rem 0 1rem;
   }
 
   .site-banner .header-content {
