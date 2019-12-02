@@ -1676,7 +1676,7 @@ a.link-read-more:hover,
   }
 
   /* Edito */
-  .edito {
+  .edito.focus {
     max-width: 1220px;
   }
 
