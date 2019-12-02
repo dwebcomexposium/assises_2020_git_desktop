@@ -1224,14 +1224,14 @@ a.link-read-more:hover,
   background: #d10032;
 }
 
-.list-articles.temps-forts .gla-item-title a {
+.list-articles.temps-forts .gla-item-title {
   display: inline-block;
   padding: 0.3rem 0.5rem;
   background: #ffffff;
   color: #e50041;
 }
 
-.list-articles.temps-forts .la-item-desc {
+.list-articles.temps-forts .gla-item-desc {
   color: #ffffff;
 }
 
