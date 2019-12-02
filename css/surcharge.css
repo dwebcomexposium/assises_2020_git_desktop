@@ -806,7 +806,6 @@ a.link-read-more:hover,
 }
 
 .site-banner .inside .menu-mobile .quicklinks .linkid811137 .btn-primary {
-  padding: 0.85rem 2.5rem;
   font-size: 1.8rem;
 }
 
@@ -1386,6 +1385,15 @@ a.link-read-more:hover,
 
   .menu-mobile {
     display: none;
+  }
+
+  .site-banner .menu-mobile {
+    padding-bottom: 3rem;
+    background: #ffffff;
+  }
+
+  .site-banner .menu-mobile .header-content {
+    background: #e50041;
   }
 
   .site-banner .header-content {
