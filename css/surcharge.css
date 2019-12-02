@@ -1780,6 +1780,15 @@ a.link-read-more:hover,
     margin-bottom: 5rem;
   }
 
+  .list-articles.temps-forts .grid-la-list {
+    justify-content: flex-start;
+  }
+
+  .list-articles.temps-forts .gla-item {
+    width: 30%;
+    margin: 0 0 1.5rem 0;
+  }
+
   .list-articles.temps-forts .inside {
     width: 1220px;
     margin: 0 auto;
