@@ -124,7 +124,8 @@ a {
 .cta-3,
 .style3 a,
 .style4 a,
-a.link-read-more {
+a.link-read-more,
+.link-view-all {
   display: inline-block;
   margin-bottom: 2rem;
   padding: 1rem 2rem;
@@ -149,7 +150,8 @@ a.link-read-more {
 .style1 a,
 .style1 .lien1,
 a.link-read-more,
-.gla-item-tag {
+.gla-item-tag,
+.link-view-all {
   background: #ffffff;
   color: #001821;
 }
@@ -158,7 +160,8 @@ a.link-read-more,
 .style1 a:hover,
 .style1 .lien1:hover,
 a.link-read-more:hover,
-.gla-item-tag:hover {
+.gla-item-tag:hover,
+.link-view-all:hover {
   background: #001821;
   color: #ffffff;
 }
@@ -1075,6 +1078,17 @@ a.link-read-more:hover,
 .list-articles.hot-news {
   background: #004951;
   padding: 5rem 2rem 8rem;
+  position: relative;
+}
+
+.list-articles.hot-news .link-view-all {
+  position: absolute;
+  bottom: 0;
+  left: 2rem;
+}
+
+.link-view-all .icon {
+  display: none;
 }
 
 .list-articles.hot-news .inside {
@@ -1748,6 +1762,10 @@ a.link-read-more:hover,
   }
 
   /* Hot news */
+  .list-articles.hot-news .link-view-all {
+    position: initial;
+  }
+
   .list-articles.hot-news {
     padding: 5rem 2rem;
     margin-bottom: 5rem;
