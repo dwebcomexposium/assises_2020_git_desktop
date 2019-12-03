@@ -1114,8 +1114,6 @@ a.link-read-more:hover,
   display: inline-block;
   width: 46px;
   height: 23px;
-  margin-left: -6rem;
-  margin-right: 1rem;
   background: url('img/assises/icon-arrow-dark.svg') no-repeat center / 100%;
 }
 
@@ -1505,7 +1503,7 @@ a.link-read-more:hover,
 
   /* Footer */
   .site-footer {
-    background: #001821 url('img/assises/rosette-opacity.svg') no-repeat 50% 5rem / 1020px 1020px;
+    background: #001821 url('img/assises/bg-footer.svg') no-repeat 50% 5rem / 463px 280px, url('img/assises/bg-footer.svg') no-repeat 50% 5rem / 463px 280px;
   }
 
   .site-footer .inside {
@@ -1813,6 +1811,11 @@ a.link-read-more:hover,
   .list-articles.hot-news {
     padding: 5rem 2rem;
     margin-bottom: 5rem;
+  }
+
+  .main-title-with-link > .la-main-title::before {
+    margin-left: -6rem;
+    margin-right: 1rem;
   }
 
   .list-articles.hot-news .gla-item-tag {
