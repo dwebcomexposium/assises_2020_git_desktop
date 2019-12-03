@@ -1503,7 +1503,7 @@ a.link-read-more:hover,
 
   /* Footer */
   .site-footer {
-    background: #001821 url('img/assises/bg-footer.svg') no-repeat 50% 5rem / 463px 280px, url('img/assises/bg-footer.svg') no-repeat 50% 5rem / 463px 280px;
+    background: url('img/assises/bg-footer.svg') no-repeat -7rem 28rem / 463px 280px, #001821 url('img/assises/bg-footer.svg') no-repeat 113% 0 / 463px 280px;
   }
 
   .site-footer .inside {
