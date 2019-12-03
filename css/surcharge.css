@@ -1059,7 +1059,7 @@ a.link-read-more:hover,
 }
 
 .article-focus .inside {
-  background: #a5948f;
+  background: #a5948f url('img/assises/dots-white.svg') no-repeat 157% 92% / 463px 281px;
   padding: 2rem;
 }
 
@@ -1503,7 +1503,7 @@ a.link-read-more:hover,
 
   /* Footer */
   .site-footer {
-    background: url('img/assises/bg-footer.svg') no-repeat -7rem 28rem / 463px 280px, #001821 url('img/assises/bg-footer.svg') no-repeat 113% 0 / 463px 280px;
+    background: url('img/assises/dots-dark.svg') no-repeat -7rem 28rem / 463px 280px, #001821 url('img/assises/dots-dark.svg') no-repeat 113% 0 / 463px 280px;
   }
 
   .site-footer .inside {
