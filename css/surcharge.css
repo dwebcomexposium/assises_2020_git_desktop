@@ -1107,6 +1107,7 @@ a.link-read-more:hover,
   font-weight: 700;
   text-transform: uppercase;
   color: #001821;
+  position: relative;
 }
 
 .main-title-with-link > .la-main-title::before {
@@ -1115,6 +1116,8 @@ a.link-read-more:hover,
   width: 46px;
   height: 23px;
   background: url('img/assises/icon-arrow-dark.svg') no-repeat center / 100%;
+  position: absolute;
+  left: -6rem;
 }
 
 .hot-news .main-title-with-link > .la-main-title {
@@ -1811,11 +1814,6 @@ a.link-read-more:hover,
   .list-articles.hot-news {
     padding: 5rem 2rem;
     margin-bottom: 5rem;
-  }
-
-  .main-title-with-link > .la-main-title::before {
-    margin-left: -6rem;
-    margin-right: 1rem;
   }
 
   .list-articles.hot-news .gla-item-tag {
