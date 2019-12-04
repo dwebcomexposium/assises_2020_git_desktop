@@ -383,6 +383,12 @@ a.link-read-more:hover,
   display: none;
 }
 
+.social-sharing {
+  border: 0;
+  padding: 0;
+  max-width: 1220px;
+}
+
 .social-sharing .inside {
   display: flex;
   align-items: center;
@@ -401,6 +407,7 @@ a.link-read-more:hover,
 .social-sharing .btn-large {
   padding: 0;
   margin: 0;
+  border: 0;
 }
 
 .social-sharing .sr-item-txt {
