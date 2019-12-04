@@ -379,6 +379,10 @@ a.link-read-more:hover,
   text-align: center;
 }
 
+.at-publication {
+  display: none;
+}
+
 .social-sharing .inside {
   display: flex;
   align-items: center;
@@ -1880,6 +1884,7 @@ a.link-read-more:hover,
   .article-content {
     max-width: 1220px;
     margin: 5rem auto;
+    padding: 0;
   }
 
   .article-content .table2 tbody tr:nth-child(odd) {
