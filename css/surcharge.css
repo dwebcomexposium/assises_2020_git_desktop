@@ -387,6 +387,11 @@ a.link-read-more:hover,
   border: 0;
   padding: 0;
   max-width: 1220px;
+  margin: 2rem auto 5rem;
+}
+
+.social-sharing .social-sharing {
+  margin: 0;
 }
 
 .social-sharing .inside {
@@ -416,6 +421,8 @@ a.link-read-more:hover,
 
 .social-sharing .icon {
   color: #e50041;
+  margin-right: 0;
+  margin-left: 2rem;
 }
 
 .front .site-wrapper {
