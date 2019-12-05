@@ -113,8 +113,12 @@ p.style1 {
   font-size: 1.4rem;
 }
 
-p.focus1 {
-  font-size: 1.4rem;
+p.style1 {
+  content: "";
+  display: inline-block;
+  width: 20px;
+  height: 18px;
+  background: url(img/assises/icon-arrow-dark.svg) no-repeat 0 center / 200%;
 }
 
 cite {
@@ -215,7 +219,7 @@ a.link-read-more:hover,
   display: inline-block;
   width: 20px;
   height: 18px;
-  background: url(img/assises/icon-arrow-dark.svg) no-repeat 0 center / 200%;
+  background: url(img/assises/icon-arrow-white.svg) no-repeat 0 center / 200%;
 }
 
 /* Cookies */
