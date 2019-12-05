@@ -655,14 +655,14 @@ a.link-read-more:hover,
 
 .site-banner .menu-mobile .setting-container .lang-switcher {
   position: initial;
-  padding: 0.8em 1.1em;
+  padding: 0.5em 1.1em;
+  font-size: 1.6rem;
 }
 
 .site-banner .menu-mobile .ls-trigger {
   display: inline-block;
   padding: 0.5rem 1.5rem 0.5rem 0;
   color: transparent;
-  font-size: 1.8rem;
 }
 
 .site-banner .menu-mobile .ls-trigger::after {
@@ -697,7 +697,6 @@ a.link-read-more:hover,
   position: absolute;
   z-index: 6;
   left: 3rem;
-  background: #1e2339;
   text-transform: capitalize;
 }
 
@@ -714,12 +713,12 @@ a.link-read-more:hover,
   background: transparent;
 }
 
-.site-banner .menu-mobile .main-navigation.menu-container .ls-lang-link {
+.site-banner .menu-mobile .ls-lang-link {
   padding: 0 1rem;
   color: #ffffff !important;
 }
 
-.site-banner .menu-mobile .main-navigation.menu-container .ls-lang-item.is-active .ls-lang-link::before {
+.site-banner .menu-mobile .ls-lang-item.is-active .ls-lang-link::before {
   content: "";
   display: inline-block;
   margin: 0 5px;
