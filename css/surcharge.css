@@ -460,7 +460,6 @@ a.link-read-more:hover,
 }
 
 .front .site-wrapper {
-  background: url('img/assises/dots-light.svg') no-repeat 0 25% / 463px 281px;
   box-shadow: none;
 }
 
@@ -1028,9 +1027,8 @@ a.link-read-more:hover,
   font-size: 3rem;
   font-weight: 600;
   color: #e50041;
-  border: 0;
-  position: absolute;
-  top: 5rem;
+  border: 0;;
+  line-height: 1.2;
 }
 
 .edito.decouvrez p {
@@ -1140,8 +1138,8 @@ a.link-read-more:hover,
 }
 
 .article-focus .inside {
-  background: #a5948f url('img/assises/dots-white.svg') no-repeat 157% 92% / 463px 281px;
   padding: 2rem;
+  background: #a5948f;
 }
 
 .article-focus .inside .af-title {
@@ -1197,8 +1195,7 @@ a.link-read-more:hover,
   width: 46px;
   height: 23px;
   background: url('img/assises/icon-arrow-dark.svg') no-repeat center / 100%;
-  position: absolute;
-  left: -6rem;
+  margin-right: 0.5rem;
 }
 
 .hot-news .main-title-with-link > .la-main-title {
@@ -1436,6 +1433,10 @@ a.link-read-more:hover,
 
 /* Desktop version */
 @media (min-width: 721px) {
+  .front .site-wrapper {
+    background: url('img/assises/dots-light.svg') no-repeat 0 25% / 463px 281px;
+  }
+
   /* Cookies */
   .cc-cookies {
     top: inherit;
@@ -1649,14 +1650,11 @@ a.link-read-more:hover,
   }
 
   .logo-dgconsultants {
-    width: 68px;
-    height: 47px;
     margin-top: -2rem;
   }
 
   .logo-comexposium {
-    width: 149px;
-    height: 24px;
+    position: absolute;
   }
 
   .site-footer .footer-bottom-container p {
@@ -1742,6 +1740,15 @@ a.link-read-more:hover,
     align-items: center;
   }
 
+  .edito.decouvrez .block-title {
+    position: absolute;
+    top: 5rem;
+  }
+
+  .edito.decouvrez p {
+    margin: 3rem 0 0;
+  }
+
   .edito.decouvrez blockquote:first-of-type {
     display: flex;
     flex-wrap: wrap;
@@ -1824,6 +1831,7 @@ a.link-read-more:hover,
   .article-focus .inside {
     max-width: 860px;
     padding: 6rem 10rem 12rem 17rem;
+    background: #a5948f url('img/assises/dots-white.svg') no-repeat 157% 92% / 463px 281px;
   }
 
   /* Hot news */
@@ -1851,6 +1859,11 @@ a.link-read-more:hover,
     left: initial;
     right: 0;
     bottom: initial;
+  }
+
+  .main-title-with-link > .la-main-title::before {
+    position: absolute;
+    left: -6rem;
   }
 
   /* Temps forts */
@@ -1954,7 +1967,7 @@ a.link-read-more:hover,
   }
 
   .article-content .table3 {
-    margin-top: 3rem;
+    margin: 3rem 0;
   }
 
   .article-content .table3 tbody tr {
