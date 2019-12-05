@@ -69,11 +69,11 @@ h2 {
   font-weight: 700;
 }
 
-h2::before {
+.article-wrapper h2::before {
   content: '';
   display: inline-block;
   width: 46px;
-  height: 23px;
+  height: 33px;
   background: url(img/assises/icon-arrow-dark.svg) no-repeat center / 100%;
   position: absolute;
   left: -6rem;
@@ -1368,6 +1368,7 @@ a.link-read-more:hover,
 .article-content {
   margin: 1rem 0 5rem;
   padding: 0 2rem;
+  position: relative;
 }
 
 .article-content table {
