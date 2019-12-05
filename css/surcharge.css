@@ -195,6 +195,14 @@ a.link-read-more:hover,
   vertical-align: text-top;
 }
 
+.icon-long-arrow-right::before {
+  content: "";
+  display: inline-block;
+  width: 20px;
+  height: 18px;
+  background: url(img/assises/icon-arrow-white.svg) no-repeat 0 center / 200%;
+}
+
 /* Cookies */
 .cc-cookies {
   top: inherit;
@@ -262,7 +270,7 @@ a.link-read-more:hover,
   text-transform: uppercase;
 }
 
-.site-footer .link {
+.site-footer .footer-top-container .link {
   margin-top: 3rem;
   display: block;
   text-transform: uppercase;
@@ -1442,6 +1450,7 @@ a.link-read-more:hover,
   .videos-container {
     display: flex;
     align-items: flex-start;
+    justify-content: center;
     max-width: 1220px;
     margin: 0 auto 5rem;
   }
@@ -1456,7 +1465,7 @@ a.link-read-more:hover,
   }
 
   .videos-content {
-    width: 60%;
+    width: 50%;
   }
 
   /* Header */
@@ -1596,7 +1605,7 @@ a.link-read-more:hover,
     color: #ffffff;
   }
 
-  .site-footer .link {
+  .site-footer .footer-top-container .link {
     margin-top: 3rem;
     display: block;
     text-transform: uppercase;
