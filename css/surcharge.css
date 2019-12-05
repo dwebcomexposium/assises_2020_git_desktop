@@ -113,6 +113,10 @@ p.style1 {
   font-size: 1.4rem;
 }
 
+p.focus1 {
+  font-size: 1.4rem;
+}
+
 cite {
   font-family: 'Vollkorn', serif;
   font-size: 2.3rem;
@@ -211,7 +215,7 @@ a.link-read-more:hover,
   display: inline-block;
   width: 20px;
   height: 18px;
-  background: url(img/assises/icon-arrow-white.svg) no-repeat 0 center / 200%;
+  background: url(img/assises/icon-arrow-dark.svg) no-repeat 0 center / 200%;
 }
 
 /* Cookies */
