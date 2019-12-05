@@ -923,6 +923,10 @@ a.link-read-more:hover,
   display: none;
 }
 
+.list-articles.apropos .table2 {
+  margin-bottom: 4rem;
+}
+
 .list-articles.apropos .table2 tr {
   display: flex;
   flex-wrap: wrap;
@@ -946,7 +950,7 @@ a.link-read-more:hover,
   position: absolute;
   right: 0;
   bottom: 0;
-  margin: 1rem 2rem;
+  margin: 0.5rem 1.5rem;
 }
 
 .list-articles.apropos .gla-item-btn::before {
@@ -1016,8 +1020,8 @@ a.link-read-more:hover,
   height: 21px;
   background: url('img/assises/icon-arrow-white.svg') no-repeat 0 center / 200%;
   position: absolute;
-  bottom: 1rem;
-  right: 1rem;
+  bottom: 1.5rem;
+  right: 1.5rem;
 }
 
 .edito.decouvrez blockquote .icon {
@@ -1027,7 +1031,7 @@ a.link-read-more:hover,
 /* Edito */
 .edito.focus {
   max-width: 337px;
-  margin: 0 auto 5rem;
+  margin: 0 auto 7rem;
 }
 
 .edito.focus .inside {
@@ -1653,7 +1657,7 @@ a.link-read-more:hover,
   /* home */
   #pub {
     width: 970px;
-    margin: 0 auto 5rem;
+    margin: 0 auto 7rem;
   }
 
   .front .header-edito h1 {
@@ -1703,7 +1707,7 @@ a.link-read-more:hover,
   /* Edito découvrez */
   .front .edito.decouvrez {
     max-width: 1220px;
-    margin: 0.8rem auto 5rem;
+    margin: 0.8rem auto 7rem;
     padding: 2rem 1.2rem 2rem 4rem;
   }
 
@@ -1778,10 +1782,6 @@ a.link-read-more:hover,
     left: 31.5%;
   }
 
-  .edito.focus .edito-item-btn {
-    margin-top: 5rem;
-  }
-
   .edito.focus blockquote .icon {
     display: none;
   }
@@ -1791,7 +1791,8 @@ a.link-read-more:hover,
     position: relative;
     display: flex;
     justify-content: flex-end;
-    margin: 0 0 5rem;
+    margin: 0 auto 7rem;
+    max-width: 1220px;
   }
 
   .article-focus img {
@@ -1823,8 +1824,8 @@ a.link-read-more:hover,
   }
 
   .list-articles.hot-news {
-    padding: 5rem 2rem;
-    margin-bottom: 5rem;
+    padding: 7rem 2rem;
+    margin-bottom: 7rem;
   }
 
   .list-articles.hot-news .gla-item-tag {
@@ -1836,7 +1837,7 @@ a.link-read-more:hover,
 
   /* Temps forts */
   .list-articles.temps-forts {
-    margin-bottom: 5rem;
+    margin-bottom: 7rem;
   }
 
   .list-articles.temps-forts .grid-la-list {
