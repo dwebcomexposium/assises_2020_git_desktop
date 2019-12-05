@@ -653,6 +653,86 @@ a.link-read-more:hover,
   padding: 0;
 }
 
+.site-banner .menu-mobile .setting-container .lang-switcher {
+  position: initial;
+  padding: 0.8em 1.1em;
+}
+
+.site-banner .menu-mobile .ls-trigger {
+  display: inline-block;
+  padding: 0.5rem 1.5rem 0.5rem 0;
+  color: transparent;
+  font-size: 1.8rem;
+}
+
+.site-banner .menu-mobile .ls-trigger::after {
+  display: none;
+}
+
+.site-banner .menu-mobile .ls-trigger:focus {
+  outline: 0;
+}
+
+.site-banner .menu-mobile .ls-lang-list {
+  display: flex !important;
+  position: static;
+  justify-content: space-between;
+  margin-right: 1rem;
+  float: right;
+  background: transparent;
+}
+
+.site-banner .menu-mobile .ls-lang-item {
+  opacity: 0.5;
+}
+
+.site-banner .menu-mobile .ls-lang-item.is-active {
+  opacity: 1;
+  font-weight: normal;
+}
+
+.site-banner .menu-mobile .ls-lang-item.ls-lang-en.is-active::before,
+.site-banner .menu-mobile .ls-lang-item.ls-lang-fr.is-active::before {
+  display: inline-block;
+  position: absolute;
+  z-index: 6;
+  left: 3rem;
+  background: #1e2339;
+  text-transform: capitalize;
+}
+
+.site-banner .menu-mobile .ls-lang-item.ls-lang-en.is-active::before {
+  content: "Language:";
+}
+
+.site-banner .menu-mobile .ls-lang-item.ls-lang-fr.is-active::before {
+  content: "Langue :";
+}
+
+.site-banner .menu-mobile .ls-lang-link:hover,
+.site-banner .menu-mobile .ls-lang-link:focus {
+  background: transparent;
+}
+
+.site-banner .menu-mobile .main-navigation.menu-container .ls-lang-link {
+  padding: 0 1rem;
+  color: #ffffff !important;
+}
+
+.site-banner .menu-mobile .main-navigation.menu-container .ls-lang-item.is-active .ls-lang-link::before {
+  content: "";
+  display: inline-block;
+  margin: 0 5px;
+  border-top: solid 5px transparent;
+  border-bottom: solid 5px transparent;
+  border-left: solid 7px #ffffff;
+}
+
+.site-banner .menu-mobile abbr[title] {
+  border: 0;
+  text-decoration: none;
+}
+
 .site-banner .inside {
   max-width: inherit;
   padding: 0;
