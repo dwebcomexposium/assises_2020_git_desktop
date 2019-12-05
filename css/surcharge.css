@@ -1006,6 +1006,18 @@ a.link-read-more:hover,
 .edito.decouvrez blockquote:not(:first-of-type) p {
   width: 200px;
   margin: 0 0.8rem;
+  position: relative;
+}
+
+.edito.decouvrez blockquote:not(:first-of-type) p::before {
+  content: "";
+  display: inline-block;
+  width: 20px;
+  height: 21px;
+  background: url('img/assises/icon-arrow-white.svg') no-repeat 0 center / 200%;
+  position: absolute;
+  bottom: 1rem;
+  right: 1rem;
 }
 
 .edito.decouvrez blockquote .icon {
@@ -1711,10 +1723,6 @@ a.link-read-more:hover,
     justify-content: flex-end;
     width: 50%;
     margin-top: 0;
-  }
-
-  .edito.decouvrez blockquote .icon {
-    display: none;
   }
 
   /* Edito */
