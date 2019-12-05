@@ -517,6 +517,11 @@ a.link-read-more:hover,
   display: inline;
 }
 
+.videos-text h2 span {
+  display: inline-block;
+  padding: 0 2rem;
+}
+
 .videos-text p {
   margin-top: 4rem;
   padding: 0 2rem;
@@ -865,6 +870,7 @@ a.link-read-more:hover,
 .main-title-with-link {
   border: 0;
   margin-top: 0;
+  margin-bottom: 4rem;
 }
 
 .main-title-with-link > .main-title {
@@ -1230,6 +1236,12 @@ a.link-read-more:hover,
   clear: both;
   display: block;
   margin: 4rem 0 2rem;
+}
+
+.list-articles.hot-news .gla-item-desc {
+  font-family: 'Vollkorn', serif;
+  font-size: 2rem;
+  font-weight: 600;
 }
 
 .list-articles.temps-forts .gla-item-desc {
@@ -1824,7 +1836,6 @@ a.link-read-more:hover,
   }
 
   .list-articles.hot-news {
-    padding: 7rem 2rem;
     margin-bottom: 7rem;
   }
 
