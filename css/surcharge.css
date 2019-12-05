@@ -638,8 +638,8 @@ a.link-read-more:hover,
 .site-banner .inside .quicklinks .linkid811137 .btn-primary::before {
   content: "";
   display: inline-block;
-  width: 20px;
-  height: 21px;
+  width: 12px;
+  height: 13px;
   background: url('img/assises/icon-arrow-white.svg') no-repeat 0 center / 200%;
 }
 
@@ -967,6 +967,7 @@ a.link-read-more:hover,
   background: #f2efef;
   margin: 3rem 0 5rem 0;
   max-width: 100%;
+  position: relative;
 }
 
 .edito.decouvrez .inside {
@@ -977,20 +978,19 @@ a.link-read-more:hover,
 }
 
 .edito.decouvrez .block-title {
-  display: none;
-}
-
-.edito.decouvrez h3 {
-  margin-top: 0;
-  margin-bottom: 3rem;
+  margin: 0;
+  padding: 0;
   font-family: 'Vollkorn', serif;
   font-size: 3rem;
   font-weight: 600;
   color: #e50041;
+  border: 0;
+  position: absolute;
+  top: 5rem;
 }
 
 .edito.decouvrez p {
-  margin: 0;
+  margin: 5rem 0 0;
   font-weight: 700;
 }
 
@@ -1699,24 +1699,6 @@ a.link-read-more:hover,
     flex-direction: row;
     justify-content: space-between;
     align-items: center;
-  }
-
-  .edito.decouvrez .block-title {
-    display: none;
-  }
-
-  .edito.decouvrez h3 {
-    margin-top: 0;
-    margin-bottom: 3rem;
-    font-family: 'Vollkorn', serif;
-    font-size: 3rem;
-    font-weight: 600;
-    color: #e50041;
-  }
-
-  .edito.decouvrez p {
-    margin: 0;
-    font-weight: 700;
   }
 
   .edito.decouvrez blockquote:first-of-type {
