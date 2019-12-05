@@ -1268,24 +1268,18 @@ a.link-read-more:hover,
 .list-articles.hot-news .gla-item-btn::before,
 .list-articles.temps-forts .gla-item-btn::before,
 .list-articles.temps-forts .la-item-btn::before {
-  content: "\e612";
-  font-family: 'icon';
-  speak: none;
-  font-style: normal;
-  font-weight: normal;
-  font-variant: normal;
-  text-transform: none;
-  line-height: 1;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
+  content: "";
+  display: inline-block;
+  width: 20px;
+  height: 20px;
 }
 
 .list-articles.hot-news .gla-item-btn::before {
-  color: #e50041;
+  background: url(img/assises/icon-arrow-red.svg) no-repeat 0 center / 200%;
 }
 
 .list-articles.temps-forts .gla-item-btn::before {
-  color: #ffffff;
+  background: url(img/assises/icon-arrow-white.svg) no-repeat 0 center / 200%;
 }
 
 .list-articles.hot-news .gla-btn-read-more,
@@ -1603,14 +1597,6 @@ a.link-read-more:hover,
   .site-footer h2 {
     font-size: 1.8rem;
     color: #ffffff;
-  }
-
-  .site-footer .footer-top-container .link {
-    margin-top: 3rem;
-    display: block;
-    text-transform: uppercase;
-    font-size: 1.6rem;
-    font-weight: 700;
   }
 
   .footer-comexposium {
