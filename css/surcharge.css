@@ -638,7 +638,6 @@ a.link-read-more:hover,
 }
 
 .site-banner .menu-mobile {
-  padding-bottom: 1rem;
   background: #ffffff;
 }
 
@@ -646,10 +645,13 @@ a.link-read-more:hover,
   background: #e50041;
 }
 
-.site-banner .menu-mobile .setting-container {
-  margin: 4rem 0 1rem;
+.site-banner .inside .menu-mobile .quicklinks {
+  margin: 2em 1.1em;
 }
 
+.site-banner .menu-mobile .setting-container {
+  padding: 0;
+}
 
 .site-banner .inside {
   max-width: inherit;
@@ -762,7 +764,7 @@ a.link-read-more:hover,
 }
 
 .is-stuck .lang-switcher {
-  display: none;
+  display: block;
 }
 
 /* Navigation */
@@ -1534,11 +1536,6 @@ a.link-read-more:hover,
     height: 70px;
     background: transparent;
     box-shadow: none;
-  }
-
-  /* Stiky header */
-  .is-stuck .lang-switcher {
-    display: block;
   }
 
   /* Navigation */
