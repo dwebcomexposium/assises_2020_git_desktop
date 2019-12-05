@@ -113,7 +113,7 @@ p.style1 {
   font-size: 1.4rem;
 }
 
-p.style1 {
+p.focus1 {
   content: "";
   display: inline-block;
   width: 20px;
