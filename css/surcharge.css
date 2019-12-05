@@ -113,12 +113,19 @@ p.style1 {
   font-size: 1.4rem;
 }
 
+p.focus1 {
+  display: flex;
+  margin-top: 3rem;
+}
+
 p.focus1::before {
   content: "";
   display: inline-block;
   width: 25px;
   height: 23px;
+  margin-right: 1rem;
   background: url(img/assises/icon-arrow-dark.svg) no-repeat 0 center / 200%;
+  flex-shrink: 0;
 }
 
 cite {
@@ -1399,30 +1406,27 @@ a.link-read-more:hover,
 
 .article-content ul {
   margin: 3rem 0;
+  padding-left: 4.5rem;
 }
 
 .article-content ul li {
   padding-bottom: 1rem;
 }
 
+.article-content ul li:last-child {
+  padding-bottom: 0;
+}
+
 .article-content ul li::before {
-  content: "\e622";
-  font-family: 'icon';
-  speak: none;
-  font-style: normal;
-  font-weight: normal;
-  font-variant: normal;
-  text-transform: none;
-  line-height: 1;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
   transform: none;
-  color: #e50041;
   background: transparent;
   vertical-align: middle;
-  width: auto;
-  height: auto;
-  margin: 0 1em 0 -2em;
+  margin: 0 1.5rem 0 -3em;
+  content: "";
+  display: inline-block;
+  width: 25px;
+  height: 23px;
+  background: url(img/assises/icon-arrow-red.svg) no-repeat 0 center / 200%;
 }
 
 /* Devenir partenaires */
@@ -1947,10 +1951,6 @@ a.link-read-more:hover,
 
   .article-content .table2 tbody td:first-child {
     min-width: 246px;
-  }
-
-  .article-content ul {
-    margin: 3rem 0;
   }
 
   .article-content .table3 {
