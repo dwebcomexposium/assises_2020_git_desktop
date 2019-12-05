@@ -1962,7 +1962,7 @@ a.link-read-more:hover,
   }
 
   .article-content .table3 tbody td {
-    padding: 3rem 4rem;
+    padding: 0;
     margin: 0 1rem 0 0;
     border: 0;
   }
@@ -1982,6 +1982,7 @@ a.link-read-more:hover,
   .article-content .table3 tbody td:nth-child(3) {
     background: #f2efef;
     width: 60%;
+    padding: 3rem 4rem;
   }
 
   /* Devenir partenaires */
