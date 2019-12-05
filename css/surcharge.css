@@ -1275,11 +1275,11 @@ a.link-read-more:hover,
 }
 
 .list-articles.hot-news .gla-item-btn::before {
-  background: url(img/assises/icon-arrow-red.svg) no-repeat 0 center / 200%;
+  background: url(img/assises/icon-plus-red.svg) no-repeat 0 center / 100%;
 }
 
 .list-articles.temps-forts .gla-item-btn::before {
-  background: url(img/assises/icon-arrow-white.svg) no-repeat 0 center / 200%;
+  background: url(img/assises/icon-plus-white.svg) no-repeat 0 center / 100%;
 }
 
 .list-articles.hot-news .gla-btn-read-more,
