@@ -113,11 +113,11 @@ p.style1 {
   font-size: 1.4rem;
 }
 
-p.focus1 {
+p.focus1::before {
   content: "";
   display: inline-block;
-  width: 20px;
-  height: 18px;
+  width: 25px;
+  height: 23px;
   background: url(img/assises/icon-arrow-dark.svg) no-repeat 0 center / 200%;
 }
 
