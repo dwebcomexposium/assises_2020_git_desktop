@@ -69,6 +69,16 @@ h2 {
   font-weight: 700;
 }
 
+h2::before {
+  content: '';
+  display: inline-block;
+  width: 46px;
+  height: 23px;
+  background: url(img/assises/icon-arrow-dark.svg) no-repeat center / 100%;
+  position: absolute;
+  left: -6rem;
+}
+
 h3 {
   font-family: 'Vollkorn', serif;
   font-size: 3rem;
@@ -78,15 +88,16 @@ h3 {
 
 h4 {
   margin-bottom: 0;
-  font-size: 3.5rem;
-  font-weight: 700;
-  line-height: 1.2;
+  font-family: 'Vollkorn', serif;
+  font-size: 2rem;
+  font-weight: 600;
 }
 
 h5 {
   margin-bottom: 0;
   font-size: 1.8rem;
   font-weight: 700;
+  color: #e50041;
 }
 
 /* Paragraphe */
