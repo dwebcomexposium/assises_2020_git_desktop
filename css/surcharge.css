@@ -264,7 +264,7 @@ a.link-read-more:hover,
 
 /* Footer */
 .site-footer {
-  background: #001821 url('img/assises/rosette-opacity.svg') no-repeat 5% 60rem / 1020px 1020px;
+  background: #001821 url('img/assises/dots-dark.svg') no-repeat 0 117% / 463px 280px;
 }
 
 .site-footer .inside {
@@ -357,7 +357,7 @@ a.link-read-more:hover,
   display: inline-block;
   width: 68px;
   height: 47px;
-  margin-top: -3rem;
+  margin-top: -1rem;
   margin-right: 1.5rem;
   background: url('img/assises/logo-dg.svg') no-repeat;
 }
@@ -368,6 +368,9 @@ a.link-read-more:hover,
   height: 24px;
   margin-left: 1.5rem;
   background: url('img/assises/logo-comexposium.svg') no-repeat center;
+  position: absolute;
+  top: 2rem;
+  right: 0;
 }
 
 .site-footer .footer-bottom-container {
@@ -633,6 +636,20 @@ a.link-read-more:hover,
 .menu-desktop {
   display: none;
 }
+
+.site-banner .menu-mobile {
+  padding-bottom: 1rem;
+  background: #ffffff;
+}
+
+.site-banner .menu-mobile .header-content {
+  background: #e50041;
+}
+
+.site-banner .menu-mobile .setting-container {
+  margin: 4rem 0 1rem;
+}
+
 
 .site-banner .inside {
   max-width: inherit;
@@ -1032,12 +1049,8 @@ a.link-read-more:hover,
 }
 
 .edito.decouvrez p {
-  margin: 5rem 0 0;
+  margin: 3rem 0 0;
   font-weight: 700;
-}
-
-.edito.decouvrez blockquote:first-of-type {
-  margin-top: 0;
 }
 
 .edito.decouvrez blockquote:not(:first-of-type) {
@@ -1490,19 +1503,6 @@ a.link-read-more:hover,
     display: none;
   }
 
-  .site-banner .menu-mobile {
-    padding-bottom: 1rem;
-    background: #ffffff;
-  }
-
-  .site-banner .menu-mobile .header-content {
-    background: #e50041;
-  }
-
-  .site-banner .menu-mobile .setting-container {
-    margin: 4rem 0 1rem;
-  }
-
   .site-banner .header-content {
     float: left;
     height: 70px;
@@ -1654,7 +1654,7 @@ a.link-read-more:hover,
   }
 
   .logo-comexposium {
-    position: absolute;
+    position: initial;
   }
 
   .site-footer .footer-bottom-container p {
@@ -1746,7 +1746,7 @@ a.link-read-more:hover,
   }
 
   .edito.decouvrez p {
-    margin: 3rem 0 0;
+    margin: 5rem 0 0;
   }
 
   .edito.decouvrez blockquote:first-of-type {
