@@ -767,8 +767,24 @@ a.link-read-more:hover,
 }
 
 .site-banner .inside .quicklinks .linkid811137 {
-  order: 3;
+  order: 5;
   background: #000000;
+}
+
+.site-banner .inside .quicklinks .linkid811135 {
+  order: 3;
+}
+
+.site-banner .inside .quicklinks .linkid811134 {
+  order: 2;
+}
+
+.site-banner .inside .quicklinks .linkid811133 {
+  order: 1;
+}
+
+.site-banner .inside .quicklinks .linkid811136 {
+  order: 4;
 }
 
 .site-banner .inside .quicklinks .btn-primary {
@@ -1601,7 +1617,7 @@ a.link-read-more:hover,
   }
 
   .videos-content {
-    width: 50%;
+    width: 60%;
   }
 
   /* Header */
@@ -2112,5 +2128,9 @@ a.link-read-more:hover,
 @media (min-width: 961px) {
   .site-banner .header-logo {
     width: 228px;
+  }
+
+  .gla-item {
+    width: 32%;
   }
 }
