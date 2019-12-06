@@ -236,6 +236,9 @@ a.link-read-more:hover,
   margin-top: -4rem;
   background: transparent;
   border: 0;
+  position: absolute;
+  top: 0;
+  right: 0;
 }
 
 .scroll-top .icon-long-arrow-top::before {
@@ -1551,6 +1554,10 @@ a.link-read-more:hover,
 @media (min-width: 721px) {
   .front .site-wrapper {
     background: url('img/assises/dots-light.svg') no-repeat 0 25% / 463px 281px;
+  }
+
+  .scroll-top {
+    position: initial;
   }
 
   /* Cookies */
