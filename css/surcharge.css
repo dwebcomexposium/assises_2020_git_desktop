@@ -229,6 +229,26 @@ a.link-read-more:hover,
   background: url(img/assises/icon-arrow-white.svg) no-repeat 0 center / 200%;
 }
 
+.scroll-top {
+  width: 40px;
+  height: 40px;
+  padding: 0;
+  background: transparent;
+  border: 0;
+  position: absolute;
+  right: 0;
+  top: 0;
+}
+
+.scroll-top .icon-long-arrow-top::before {
+  content: "";
+  display: inline-block;
+  width: 25px;
+  height: 23px;
+  background: url(img/assises/icon-arrow-red.svg) no-repeat 0 center / 200%;
+  transform: rotate(-90deg);
+}
+
 /* Cookies */
 .cc-cookies {
   top: inherit;
