@@ -1945,8 +1945,8 @@ a.link-read-more:hover,
   .article-focus img {
     position: absolute;
     max-width: 542px;
-    top: 6rem;
-    right: 745px;
+    top: 9rem;
+    right: 690px;
   }
 
   .article-focus .inside {
@@ -2129,6 +2129,11 @@ a.link-read-more:hover,
   .article-focus .inside {
     max-width: 860px;
     padding: 6rem 10rem 12rem 17rem;
+  }
+
+  .article-focus img {
+    top: 6rem;
+    right: 745px;
   }
 }
 
