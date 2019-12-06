@@ -4,4 +4,13 @@ $(document).ready(function(){
     dots: true,
     arrows: true,
   });
+
+  /** ScroolTop **/
+  function scrollTop() {
+    window.scrollTo({
+      top: 0,
+      left: 0,
+      behavior: 'smooth'
+    });
+  }
 });
