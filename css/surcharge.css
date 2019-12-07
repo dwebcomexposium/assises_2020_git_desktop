@@ -136,7 +136,8 @@ cite {
   margin: 2rem 0;
 }
 
-p.focus2 {
+p.focus2,
+p.focus2 strong {
   font-family: 'Vollkorn', serif;
   font-size: 1.7rem;
   font-weight: 600;
@@ -1893,41 +1894,20 @@ a.link-read-more:hover,
     max-width: 1220px;
   }
 
-  .edito.focus .inside {
-    flex-wrap: nowrap;
-    position: relative;
-  }
-
   .edito.focus h2 {
     margin-top: 0;
     position: absolute;
-    left: 30.5%;
+    left: 31%;
   }
 
-  .edito.focus figure {
-    flex: 0 0 29%;
-    margin-right: 2rem;
+  .edito.focus table tr:first-child td:first-child {
+    width: 31%;
+    padding-right: 2%;
   }
 
-  .edito.focus figure img {
-    width: 100%;
-    margin-bottom: 1rem;
-  }
-
-  .edito.focus figure figcaption {
-    order: 2;
-    padding-left: 1rem;
-  }
-
-  .edito.focus figure small {
-    order: 3;
-    padding-left: 1rem;
-  }
-
-  .edito.focus blockquote {
-    margin-top: 6rem;
-    padding-bottom: 8rem;
-  }
+  .edito.focus table tr:first-child td:not(:first-child) {
+    padding-top: 9rem;
+}
 
   .edito.focus .edito-item-btn {
     position: absolute;
