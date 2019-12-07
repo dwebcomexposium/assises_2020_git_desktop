@@ -1224,13 +1224,19 @@ a.link-read-more:hover,
   text-transform: uppercase;
 }
 
-.edito.focus table tr:first-child td:first-child {
-  width: 31%;
-  padding-right: 2%;
+.edito.focus table tr {
+  display: flex;
+  flex-wrap: wrap;
 }
 
-.edito.focus table tr:first-child td:not(:first-child) {
-  padding-top: 9rem;
+.edito.focus table tr td {
+  padding: 0 2rem;
+  width: 100%;
+}
+
+.edito.focus table img {
+  margin: 0 auto;
+  display: block;
 }
 
 .edito.focus p.focus2 {
