@@ -136,6 +136,12 @@ cite {
   margin: 2rem 0;
 }
 
+p.focus2 {
+  font-family: 'Vollkorn', serif;
+  font-size: 1.7rem;
+  font-weight: 600;
+}
+
 /* Liens */
 a {
   color: #001821;
