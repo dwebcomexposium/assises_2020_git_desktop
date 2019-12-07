@@ -1233,8 +1233,7 @@ a.link-read-more:hover,
 }
 
 .edito.focus table tr td:not(:first-child) {
-  padding: 0 2rem;
-  width: 100%;
+  padding-top: 9rem;
 }
 
 .edito.focus table img {
@@ -1877,6 +1876,7 @@ a.link-read-more:hover,
   /* Edito */
   .edito.focus {
     max-width: 1220px;
+    margin: 0 auto 7rem;
   }
 
   .edito.focus .inside {
@@ -1884,17 +1884,23 @@ a.link-read-more:hover,
   }
 
   .edito.focus h2 {
+    top: 0;
     left: 31%;
     padding: 0;
   }
 
-  .edito.focus table tr:first-child td:first-child {
-    width: 31%;
-    padding-right: 2%;
+  .edito.focus table tr {
+    display: initial;
   }
 
-  .edito.focus table tr:first-child td:not(:first-child) {
-    padding-top: 9rem;
+  .edito.focus table tr:first-child td:first-child {
+    width: 31%;
+    padding: 0 2% 0 0;
+    margin-top: 0;
+  }
+
+  .edito.focus table tr td:not(:first-child) {
+    padding: 9rem 0 0;
   }
 
   .edito.focus .edito-item-btn {
