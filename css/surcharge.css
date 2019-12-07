@@ -113,21 +113,6 @@ p.style1 {
   font-size: 1.4rem;
 }
 
-p.focus1 {
-  display: flex;
-  margin-top: 3rem;
-}
-
-p.focus1::before {
-  content: "";
-  display: inline-block;
-  width: 25px;
-  height: 23px;
-  margin-right: 1rem;
-  background: url(img/assises/icon-arrow-dark.svg) no-repeat 0 center / 200%;
-  flex-shrink: 0;
-}
-
 cite {
   font-family: 'Vollkorn', serif;
   font-size: 2.3rem;
@@ -1569,20 +1554,23 @@ a.link-read-more:hover,
 
 .article-content .table3 td:first-child {
   background: #a5948f;
-  width: 20%;
   text-align: center;
 }
 
 .article-content .table3 td:nth-child(2) {
   background: #e50041;
-  width: 20%;
   text-align: center;
 }
 
 .article-content .table3 td:nth-child(3) {
   background: #f2efef;
-  width: 60%;
-  padding: 3rem 4rem;
+  padding: 2rem;
+}
+
+.article-content .table3 p.focus1 {
+  display: flex;
+  margin-top: 3rem;
+  font-size: 1.4rem;
 }
 
 /* Devenir partenaires */
@@ -2104,6 +2092,33 @@ a.link-read-more:hover,
 
   .article-content .table3 td {
     margin: 0 1rem 0 0;
+  }
+
+  .article-content .table3 td:first-child {
+    width: 20%;
+  }
+
+  .article-content .table3 td:nth-child(2) {
+    width: 20%;
+  }
+
+  .article-content .table3 td:nth-child(3) {
+    width: 60%;
+    padding: 3rem 4rem;
+  }
+
+  .article-content .table3 p.focus1 {
+    font-size: 1.6rem;
+  }
+
+  .article-content .table3 p.focus1::before {
+    content: "";
+    display: inline-block;
+    width: 25px;
+    height: 23px;
+    margin-right: 1rem;
+    background: url(img/assises/icon-arrow-dark.svg) no-repeat 0 center / 200%;
+    flex-shrink: 0;
   }
 
   /* Devenir partenaires */
