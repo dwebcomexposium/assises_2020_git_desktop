@@ -1578,6 +1578,11 @@ a.link-read-more:hover,
   display: none;
 }
 
+/* Article content */
+.article-wrapper .article-title img {
+  display: none;
+}
+
 /* Desktop version */
 @media (min-width: 960px) {
   .front .site-wrapper {
