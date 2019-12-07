@@ -76,7 +76,7 @@ h2 {
   height: 33px;
   background: url(img/assises/icon-arrow-dark.svg) no-repeat center / 100%;
   position: absolute;
-  left: -6rem;
+  left: -4rem;
 }
 
 h3 {
@@ -1552,6 +1552,38 @@ a.link-read-more:hover,
   background: url(img/assises/icon-arrow-red.svg) no-repeat 0 center / 200%;
 }
 
+.article-content .table3 {
+  margin: 3rem 0;
+}
+
+.article-content .table3 tbody tr {
+  display: flex;
+}
+
+.article-content .table3 tbody td {
+  padding: 0;
+  margin: 0 1rem 0 0;
+  border: 0;
+}
+
+.article-content .table3 tbody td:first-child {
+  background: #a5948f;
+  width: 20%;
+  text-align: center;
+}
+
+.article-content .table3 tbody td:nth-child(2) {
+  background: #e50041;
+  width: 20%;
+  text-align: center;
+}
+
+.article-content .table3 tbody td:nth-child(3) {
+  background: #f2efef;
+  width: 60%;
+  padding: 3rem 4rem;
+}
+
 /* Devenir partenaires */
 .node1316251 .article-intro {
   display: none;
@@ -1907,6 +1939,8 @@ a.link-read-more:hover,
     position: absolute;
     bottom: 0;
     left: 31.5%;
+    margin: 0;
+    padding: 0;
   }
 
   /* speakers remarquables */
@@ -1998,9 +2032,14 @@ a.link-read-more:hover,
     padding: 5rem 0 4rem;
   }
 
+  .article-title .at-main-title {
+    padding: 0 2rem;
+  }
+
   .article-title .inside {
     max-width: 1220px;
     margin: 0 auto;
+    padding: 0 2rem;
   }
 
   .article-intro {
@@ -2010,12 +2049,12 @@ a.link-read-more:hover,
   .article-intro p {
     margin: 0 auto;
     max-width: 1220px;
+    padding: 0 2rem;
   }
 
   .article-content {
     max-width: 1220px;
     margin: 5rem auto;
-    padding: 0;
   }
 
   .article-content .table2 tbody tr:nth-child(odd) {
