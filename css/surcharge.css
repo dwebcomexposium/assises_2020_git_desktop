@@ -1210,8 +1210,7 @@ a.link-read-more:hover,
 
 /* Edito */
 .edito.focus {
-  max-width: 337px;
-  margin: 0 auto 7rem;
+  margin-bottom: 7rem;
 }
 
 .edito.focus .inside {
@@ -1223,6 +1222,23 @@ a.link-read-more:hover,
   order: 2;
   margin-top: 2rem;
   text-transform: uppercase;
+}
+
+.edito.focus table tr:first-child td:first-child {
+  width: 31%;
+  padding-right: 2%;
+}
+
+.edito.focus table tr:first-child td:not(:first-child) {
+  padding-top: 9rem;
+}
+
+.edito.focus p.focus2 {
+  margin-top: 1rem;
+}
+
+.edito.focus p.important1 {
+  margin-top: 0.5rem;
 }
 
 .edito.focus figure {
@@ -1892,6 +1908,11 @@ a.link-read-more:hover,
   /* Edito */
   .edito.focus {
     max-width: 1220px;
+    position: relative;
+  }
+
+  .edito.focus .inside {
+    padding-bottom: 4rem;
   }
 
   .edito.focus h2 {
@@ -1907,16 +1928,20 @@ a.link-read-more:hover,
 
   .edito.focus table tr:first-child td:not(:first-child) {
     padding-top: 9rem;
-}
+  }
+
+  .edito.focus p.focus2 {
+    margin-top: 1rem;
+  }
+
+  .edito.focus p.important1 {
+    margin-top: 0.5rem;
+  }
 
   .edito.focus .edito-item-btn {
     position: absolute;
     bottom: 0;
     left: 31.5%;
-  }
-
-  .edito.focus blockquote .icon {
-    display: none;
   }
 
   /* speakers remarquables */
