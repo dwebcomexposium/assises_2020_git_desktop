@@ -505,10 +505,11 @@ a.link-read-more:hover,
   bottom: -5rem;
 }
 
-.front .header-edito h1 {
+.front .header-edito h1,
+.front .header-edito h2 {
   display: inline;
   margin: 0;
-  padding: 0 3rem;
+  padding: 0;
   color: #004951;
   background-color: #ffffff;
   font-size: 4rem;
@@ -517,7 +518,16 @@ a.link-read-more:hover,
   font-family: 'Vollkorn', serif;
   font-weight: 600;
   text-decoration: none;
-  text-transform: uppercase;
+}
+
+.front .header-edito h2 u {
+  display: inline-block;
+  padding: 0 2rem;
+  text-decoration: none;
+}
+
+.front .header-edito h1 {
+  display: none;
 }
 
 .front .header-edito blockquote {
@@ -561,7 +571,7 @@ a.link-read-more:hover,
 }
 
 .videos-text h2 {
-  padding: 0 2rem;
+  padding: 0;
   font-size: 2.7rem;
   font-weight: 700;
   color: #001821;
@@ -1821,10 +1831,6 @@ a.link-read-more:hover,
     margin: 0 auto 7rem;
   }
 
-  .front .header-edito h1 {
-    font-size: 5.4rem;
-  }
-
   .front .header-edito blockquote {
     display: flex;
     flex-direction: column;
@@ -2146,6 +2152,10 @@ a.link-read-more:hover,
 }
 
 @media (min-width: 1140px) {
+  .site-banner .header-content {
+    margin-left: 13.5%;
+  }
+
   .site-banner .header-logo {
     width: 228px;
     height: 30px;
