@@ -2152,8 +2152,9 @@ a.link-read-more:hover,
 }
 
 @media (min-width: 1140px) {
-  .site-banner .header-content {
-    margin-left: 13.5%;
+  .site-banner .nav-container {
+    max-width: 1220px;
+    margin: 0 auto;
   }
 
   .site-banner .header-logo {
