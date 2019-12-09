@@ -494,7 +494,7 @@ a.link-read-more:hover,
 
 .front .header-edito .inside {
   display: block;
-  max-width: 1220px;
+  max-width: 1420px;
   margin: 0 auto;
   position: relative;
 }
@@ -505,25 +505,28 @@ a.link-read-more:hover,
   bottom: -5rem;
 }
 
-.front .header-edito h1,
 .front .header-edito h2 {
   display: inline;
   margin: 0;
   padding: 0;
   color: #004951;
-  background-color: #ffffff;
   font-size: 4rem;
-  line-height: 1.45;
-  box-shadow: 0 0 12px 2px rgba(0,0,0,0.16);
+  line-height: 1.8;
   font-family: 'Vollkorn', serif;
   font-weight: 600;
   text-decoration: none;
+  position: absolute;
+  top: 0;
+  left: 100px;
 }
 
 .front .header-edito h2 u {
-  display: inline-block;
   padding: 0 2rem;
   text-decoration: none;
+  font-family: 'Vollkorn', serif;
+  box-shadow: 0 0 12px 2px rgba(0,0,0,0.16);
+  background-color: #ffffff;
+  line-height: 1.6;
 }
 
 .front .header-edito h1 {
@@ -538,6 +541,9 @@ a.link-read-more:hover,
   color: #001821;
   font-weight: 600;
   box-shadow: 0 0 12px 2px rgba(0,0,0,0.16);
+  position: absolute;
+  top: 230px;
+  left: 100px;
 }
 
 .front .header-edito blockquote lien1,
@@ -1348,7 +1354,6 @@ a.link-read-more:hover,
   text-transform: uppercase;
   font-weight: 700;
   margin-top: 0;
-  float: left;
 }
 
 .list-articles.temps-forts .gla-item-title {
@@ -1381,7 +1386,7 @@ a.link-read-more:hover,
   font-weight: 700;
   clear: both;
   display: block;
-  margin: 4rem 0 2rem;
+  margin: 2rem 0;
 }
 
 .list-articles.hot-news .gla-item-desc {
@@ -2099,6 +2104,7 @@ a.link-read-more:hover,
 
   .article-content .table3 td {
     margin: 0 1rem 0 0;
+    flex-basis: auto;
   }
 
   .article-content .table3 td:first-child {
