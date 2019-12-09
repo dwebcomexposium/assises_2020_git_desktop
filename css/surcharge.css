@@ -1609,6 +1609,15 @@ a.link-read-more:hover,
   display: none;
 }
 
+#zone2 .la-slider {
+  max-width: 1220px;
+  margin: 6rem auto;
+}
+
+#zone2 .la-slider .la-item + .la-item {
+  margin-top: 0;
+}
+
 /* Desktop version */
 @media (min-width: 960px) {
   .front .site-wrapper {
