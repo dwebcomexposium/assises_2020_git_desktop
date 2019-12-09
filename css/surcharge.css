@@ -1474,19 +1474,32 @@ a.link-read-more:hover,
 }
 
 /* Page article */
-.article-title {
+.article-title,
+.main-title-with-link {
   margin-bottom: 0;
   padding: 4rem 2rem 3rem;
   background: #f3efef;
 }
 
-.article-title .at-main-title {
+.article-title .at-main-title,
+.list-articles .la-main-title {
   margin: 0;
   padding: 0;
   font-family: 'Vollkorn', serif;
   font-weight: 600;
   font-size: 4rem;
   color: #004951;
+  text-transform: initial;
+}
+
+.list-articles .la-main-title {
+  max-width: 1220px;
+  margin: 0 auto;
+  float: none;
+}
+
+.list-articles .la-main-title::before {
+  display: none;
 }
 
 .article-intro {
@@ -1838,7 +1851,7 @@ a.link-read-more:hover,
   /* Header édito*/
   .front .header-edito .inside {
     max-width: 1420px;
-    min-height: 520px;
+    min-height: 500px;
     margin: 0 auto;
   }
 
