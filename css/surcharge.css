@@ -1493,8 +1493,6 @@ a.link-read-more:hover,
 }
 
 .list-articles .la-main-title {
-  max-width: 1220px;
-  margin: 0 auto;
   float: none;
 }
 
@@ -1509,7 +1507,8 @@ a.link-read-more:hover,
   background: #f3efef;
 }
 
-.article-content {
+.article-content,
+.list-articles .list-grids-with-pagin {
   margin: 1rem 0 5rem;
   padding: 0 2rem;
   position: relative;
@@ -2058,11 +2057,13 @@ a.link-read-more:hover,
   }
 
   /* Page article */
-  .article-title {
+  .article-title,
+  .main-title-with-link {
     padding: 5rem 0 4rem;
   }
 
-  .article-title .inside {
+  .article-title .inside,
+  .list-articles .la-main-title {
     max-width: 1220px;
     margin: 0 auto;
     padding: 0 2rem;
@@ -2078,7 +2079,8 @@ a.link-read-more:hover,
     padding: 0 2rem;
   }
 
-  .article-content {
+  .article-content,
+  .list-articles .list-grids-with-pagin {
     max-width: 1220px;
     margin: 5rem auto;
   }
