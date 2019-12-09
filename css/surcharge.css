@@ -2026,17 +2026,13 @@ a.link-read-more:hover,
     margin-bottom: 7rem;
   }
 
-  .list-articles.temps-forts .grid-la-list {
-    justify-content: flex-start;
-  }
-
   .list-articles.temps-forts .gla-item {
-    width: 47%;
-    margin: 0 0 1.5rem 0;
+    width: 49%;
+    margin: 0 0 1.5% 0;
   }
 
   .list-articles.temps-forts .gla-item:nth-child(odd) {
-    margin-right: 2rem;
+    margin-right: 1.5%;
   }
 
   .list-articles.temps-forts .inside {
