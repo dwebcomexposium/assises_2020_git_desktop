@@ -494,8 +494,7 @@ a.link-read-more:hover,
 
 .front .header-edito .inside {
   display: block;
-  max-width: 1420px;
-  margin: 0 auto;
+  min-height: 650px;
   position: relative;
 }
 
@@ -511,13 +510,13 @@ a.link-read-more:hover,
   padding: 0;
   color: #004951;
   font-size: 4rem;
-  line-height: 1.8;
+  line-height: 1.6;
   font-family: 'Vollkorn', serif;
   font-weight: 600;
   text-decoration: none;
   position: absolute;
   top: 0;
-  left: 100px;
+  left: 2rem;
 }
 
 .front .header-edito h2 u {
@@ -542,8 +541,8 @@ a.link-read-more:hover,
   font-weight: 600;
   box-shadow: 0 0 12px 2px rgba(0,0,0,0.16);
   position: absolute;
-  top: 230px;
-  left: 100px;
+  top: 270px;
+  left: 2rem;
 }
 
 .front .header-edito blockquote lien1,
@@ -1836,12 +1835,25 @@ a.link-read-more:hover,
     margin: 0 auto 7rem;
   }
 
+  /* Header édito*/
+  .front .header-edito .inside {
+    max-width: 1420px;
+    min-height: 520px;
+    margin: 0 auto;
+  }
+
+  .front .header-edito h2 {
+    left: 100px;
+  }
+
   .front .header-edito blockquote {
     display: flex;
     flex-direction: column;
     justify-content: space-between;
-    margin: 3rem 0 0;
+    margin: 0;
     max-width: 460px;
+    top: 230px;
+    left: 100px;
   }
 
   .front .header-edito blockquote p.style1 {
