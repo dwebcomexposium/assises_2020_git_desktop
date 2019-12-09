@@ -1071,6 +1071,10 @@ a.link-read-more:hover,
   position: relative;
 }
 
+.node1318422 .gla-item {
+  box-shadow: 0 0 12px 2px rgba(0,0,0,0.16);
+}
+
 .list-articles.apropos .gla-item:first-child {
   background: #d10032;
 }
@@ -1380,13 +1384,15 @@ a.link-read-more:hover,
   margin: 2rem 0;
 }
 
-.list-articles.hot-news .gla-item-desc {
+.list-articles.hot-news .gla-item-desc,
+.node1318422 .list-articles .gla-item-desc {
   font-family: 'Vollkorn', serif;
   font-size: 2rem;
   font-weight: 600;
 }
 
-.list-articles.temps-forts .gla-item-desc {
+.list-articles.temps-forts .gla-item-desc,
+.node1316330 .list-articles .gla-item-desc {
   margin: 2rem 0;
 }
 
@@ -1406,11 +1412,13 @@ a.link-read-more:hover,
   height: 20px;
 }
 
-.list-articles.hot-news .gla-item-btn::before {
+.list-articles.hot-news .gla-item-btn::before,
+.node1318422 .list-articles .gla-item-btn::before {
   background: url(img/assises/icon-plus-red.svg) no-repeat 0 center / 100%;
 }
 
-.list-articles.temps-forts .gla-item-btn::before {
+.list-articles.temps-forts .gla-item-btn::before,
+.node1316330 .list-articles .gla-item-btn::before {
   background: url(img/assises/icon-plus-white.svg) no-repeat 0 center / 100%;
 }
 
@@ -1993,26 +2001,31 @@ a.link-read-more:hover,
   }
 
   /* Hot news */
-  .list-articles.hot-news .main-title-with-link {
+  .list-articles.hot-news .main-title-with-link,
+  .node1318422 .list-articles .main-title-with-link {
     display: flex;
     justify-content: space-between;
     align-items: center;
   }
 
-  .list-articles.hot-news .main-title-with-link::after {
+  .list-articles.hot-news .main-title-with-link::after,
+  .node1318422 .list-articles .main-title-with-link::after {
     display: none;
   }
 
-  .list-articles.hot-news .link-view-all {
+  .list-articles.hot-news .link-view-all,
+  .node1318422 .list-articles .link-view-all {
     position: initial;
     margin: 0;
   }
 
-  .list-articles.hot-news {
+  .list-articles.hot-news,
+  .node1318422 .list-articles {
     margin-bottom: 7rem;
   }
 
-  .list-articles.hot-news .gla-item-tag {
+  .list-articles.hot-news .gla-item-tag,
+  .node1318422 .list-articles .gla-item-tag {
     top: -66px;
     left: initial;
     right: 0;
