@@ -1341,14 +1341,12 @@ a.link-read-more:hover,
   bottom: -70px;
 }
 
-.list-articles.hot-news .gla-item-content,
-.list-articles.temps-forts .gla-item-content {
+.list-articles .gla-item-content {
   display: block;
   padding: 2rem;
 }
 
-.list-articles.hot-news .gla-item-title,
-.list-articles.temps-forts .gla-item-title {
+.list-articles .gla-item-title {
   color: #e50041;
   text-transform: uppercase;
   font-weight: 700;
@@ -1359,29 +1357,23 @@ a.link-read-more:hover,
   float: none;
 }
 
-.list-articles.hot-news .gla-item > a:hover .gla-item-title,
-.list-articles.hot-news .gla-item > a:focus .gla-item-title,
-.list-articles.temps-forts .gla-item > a:hover .gla-item-title,
-.list-articles.temps-forts .gla-item > a:focus .gla-item-title {
+.list-articles .gla-item > a:hover .gla-item-title,
+.list-articles .gla-item > a:focus .gla-item-title {
   color: #e50041;
 }
 
-.list-articles.hot-news .gla-item > a:hover .gla-item-content,
-.list-articles.hot-news .gla-item > a:focus .gla-item-content,
-.list-articles.temps-forts .gla-item > a:hover .gla-item-content,
-.list-articles.temps-forts .gla-item > a:focus .gla-item-content {
+.list-articles .gla-item > a:hover .gla-item-content,
+.list-articles .gla-item > a:focus .gla-item-content {
   color: #001821;
 }
 
-.list-articles.hot-news .gla-item-author,
-.list-articles.temps-forts .gla-item-author {
+.list-articles .gla-item-author {
   float: right;
   color: #e50041;
   font-weight: 700;
 }
 
-.list-articles.hot-news .gla-item-desc,
-.list-articles.temps-forts .gla-item-desc {
+.list-articles .gla-item-desc {
   font-weight: 700;
   clear: both;
   display: block;
@@ -1398,18 +1390,16 @@ a.link-read-more:hover,
   margin: 2rem 0;
 }
 
-.list-articles.hot-news .gla-item-btn,
-.list-articles.temps-forts .gla-item-btn,
-.list-articles.temps-forts .la-item-btn {
+.list-articles .gla-item-btn,
+.list-articles .la-item-btn {
   position: absolute;
   right: 0;
   bottom: 0;
   margin: 1rem 2rem;
 }
 
-.list-articles.hot-news .gla-item-btn::before,
-.list-articles.temps-forts .gla-item-btn::before,
-.list-articles.temps-forts .la-item-btn::before {
+.list-articles .gla-item-btn::before,
+.list-articles .la-item-btn::before {
   content: "";
   display: inline-block;
   width: 20px;
@@ -1424,9 +1414,8 @@ a.link-read-more:hover,
   background: url(img/assises/icon-plus-white.svg) no-repeat 0 center / 100%;
 }
 
-.list-articles.hot-news .gla-btn-read-more,
-.list-articles.temps-forts .gla-btn-read-more,
-.list-articles.temps-forts .link-read-more {
+.list-articles .gla-btn-read-more,
+.list-articles .link-read-more {
   display: none;
 }
 
