@@ -502,6 +502,7 @@ a.link-read-more:hover,
   position: absolute;
   right: 0;
   bottom: -5rem;
+  max-width: initial;
 }
 
 .front .header-edito h2 {
@@ -1353,7 +1354,6 @@ a.link-read-more:hover,
 
 .list-articles .gla-item-title {
   color: #e50041;
-  text-transform: uppercase;
   font-weight: 700;
   margin-top: 0;
 }
