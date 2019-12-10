@@ -198,6 +198,16 @@ a.link-read-more:hover,
   color: #001821;
 }
 
+.style1 .lien3 {
+  background: #e50041;
+  color: #ffffff;
+}
+
+.style1 .lien3:hover {
+  background: #ab0638;
+  color: #ffffff;
+}
+
 /* Color */
 .important1 {
   color: #e50041;
