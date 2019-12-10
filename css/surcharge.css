@@ -1100,7 +1100,9 @@ a.link-read-more:hover,
 }
 
 .list-articles.apropos .gla-item-title,
-.list-articles.apropos .gla-item > a {
+.list-articles.apropos .gla-item > a,
+.list-articles.apropos .list-articles .gla-item > a:hover .gla-item-content,
+.list-articles.apropos .list-articles .gla-item > a:focus .gla-item-content {
   color: #ffffff;
 }
 
