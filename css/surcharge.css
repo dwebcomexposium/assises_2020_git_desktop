@@ -1510,7 +1510,8 @@ a.link-read-more:hover,
   display: none;
 }
 
-.article-intro {
+.article-intro,
+.intro {
   margin: 0;
   padding: 0 2rem 4rem;
   padding-bottom: 5rem;
@@ -2088,11 +2089,13 @@ a.link-read-more:hover,
     padding: 0 2rem;
   }
 
-  .article-intro {
+  .article-intro,
+  .intro {
     padding: 0 0 5rem;
   }
 
-  .article-intro p {
+  .article-intro p,
+  .intro p {
     margin: 0 auto;
     max-width: 1220px;
     padding: 0 2rem;
