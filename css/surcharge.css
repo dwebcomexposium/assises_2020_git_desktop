@@ -1364,10 +1364,20 @@ a.link-read-more:hover,
   padding: 2rem;
 }
 
-.list-articles .gla-item-title {
-  color: #e50041;
+.list-articles .gla-item-content .gla-item-tag {
+  position: initial;
+  display: inline-block;
+  padding: 0;
+  font-size: 1.8rem;
   font-weight: 700;
-  margin-top: 0;
+  color: #e50041;
+}
+
+.list-articles .gla-item-title {
+  font-family: 'Vollkorn', serif;
+  font-size: 2rem;
+  font-weight: 600;
+  color: #001821;
 }
 
 .list-articles.temps-forts .gla-item-title {
@@ -1399,9 +1409,9 @@ a.link-read-more:hover,
 
 .list-articles.hot-news .gla-item-desc,
 .node1318422 .list-articles .gla-item-desc {
-  font-family: 'Vollkorn', serif;
-  font-size: 2rem;
-  font-weight: 600;
+  font-size: 1.4rem;
+  font-weight: normal;
+  color: #7a7a7a;
 }
 
 .list-articles.temps-forts .gla-item-desc,
