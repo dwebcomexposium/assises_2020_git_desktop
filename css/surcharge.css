@@ -1537,6 +1537,16 @@ a.link-read-more:hover,
   position: relative;
 }
 
+.article-content figure {
+  border: 0;
+  margin-right: 0;
+}
+
+
+.article-content h2 {
+  margin-bottom: 3rem;
+}
+
 .article-content table {
   margin: 0;
 }
@@ -1627,10 +1637,14 @@ a.link-read-more:hover,
   display: none;
 }
 
+#zone4 .swiper-wrapper {
+  justify-content: space-between;
+}
+
 #zone4 .la-slider .slider-item {
-  width: 30%;
+  width: 23%;
   margin: 0;
-  padding: 1rem 0;
+  padding: 0;
   background: transparent;
 }
 
