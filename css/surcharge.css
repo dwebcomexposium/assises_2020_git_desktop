@@ -1675,6 +1675,7 @@ a.link-read-more:hover,
 #zone4 .slider-pagin-btn .btn-small {
   opacity: 1 !important;
   border: 0;
+  background: transparent;
 }
 
 #zone4 .slider-pagin-btn .icon-short-arrow-left::before,
@@ -1695,7 +1696,7 @@ a.link-read-more:hover,
 #zone4 .slider [class*="slider-btn"]:hover .icon-short-arrow-left::before,
 #zone4 .slider [class*="slider-btn"]:focus .icon-short-arrow-right::before,
 #zone4 .slider [class*="slider-btn"]:hover .icon-short-arrow-right::before{
-  background: transparent url(img/assises/icon-arrow-red.svg) no-repeat 0 center / 200%;
+  background: url(img/assises/icon-arrow-red.svg) no-repeat 0 center / 200%;
 }
 
 /* Article content */
