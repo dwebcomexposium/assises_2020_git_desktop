@@ -2203,6 +2203,22 @@ a.link-read-more:hover,
 
   #zone4 .la-slider .slider-item {
     width: 30%;
+    background: transparent;
+  }
+
+  #zone4 .block-small.list-articles .la-slider .la-item-content {
+    position: initial;
+    padding: 0;
+    background: transparent;
+  }
+
+  #zone4 .block-small.list-articles .la-slider .la-item-title,
+  #zone4 .block-small.list-articles .la-slider .la-item-btn {
+    display: none;
+  }
+
+  #zone4 .table4 cite {
+
   }
 }
 
