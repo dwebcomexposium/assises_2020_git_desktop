@@ -1672,6 +1672,24 @@ a.link-read-more:hover,
   bottom: initial;
 }
 
+#zone4 .slider-pagin-btn .btn-small {
+  opacity: 1 !important;
+  border: 0;
+}
+
+#zone4 .slider-pagin-btn .icon-short-arrow-left,
+#zone4 .slider-pagin-btn .icon-short-arrow-right {
+  content: "";
+  display: inline-block;
+  width: 20px;
+  height: 21px;
+  background: url(img/assises/icon-arrow-dark.svg) no-repeat 0 center / 200%;
+}
+
+#zone4 .slider-pagin-btn .icon-short-arrow-left {
+  transform: rotate(-180deg);
+}
+
 /* Article content */
 .article-wrapper .article-title img {
   display: none;
