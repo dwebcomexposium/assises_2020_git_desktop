@@ -1660,6 +1660,10 @@ a.link-read-more:hover,
   background: transparent;
 }
 
+#zone4 .block-small.list-articles .la-slider .la-item-content p {
+  font-size: 1.6rem;
+}
+
 /* Article content */
 .article-wrapper .article-title img {
   display: none;
