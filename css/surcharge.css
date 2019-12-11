@@ -1667,6 +1667,10 @@ a.link-read-more:hover,
   font-size: 1.6rem;
 }
 
+#zone4 .block-small.list-articles .la-slider .la-item-content p.style1 {
+  font-size: 1.4rem;
+}
+
 #zone4 .block-small.list-articles .slider-pagin {
   top: 0;
   bottom: initial;
