@@ -69,7 +69,8 @@ h2 {
   font-weight: 700;
 }
 
-.article-wrapper h2::before {
+.article-wrapper h2::before,
+#zone4 h2::before {
   content: '';
   display: inline-block;
   width: 46px;
@@ -1529,7 +1530,8 @@ a.link-read-more:hover,
 }
 
 .article-content,
-#zone2 .list-articles .list-grids-with-pagin {
+#zone2 .list-articles .list-grids-with-pagin,
+#zone4 {
   margin: 1rem 0 5rem;
   padding: 0 2rem;
   position: relative;
@@ -2112,7 +2114,8 @@ a.link-read-more:hover,
   }
 
   .article-content,
-  #zone2 .list-articles .list-grids-with-pagin {
+  #zone2 .list-articles .list-grids-with-pagin,
+  #zone4 {
     max-width: 1220px;
     margin: 5rem auto;
   }
@@ -2196,6 +2199,10 @@ a.link-read-more:hover,
   /* Devenir partenaires */
   .node1316251 .article-intro {
     display: block;
+  }
+
+  #zone4 .la-slider .slider-item {
+    width: 30%;
   }
 }
 
