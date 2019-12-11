@@ -1639,12 +1639,14 @@ a.link-read-more:hover,
 
 #zone4 h2::before,
 #zone4 .block-small.list-articles .la-slider .la-item-title,
-#zone4 .block-small.list-articles .la-slider .la-item-btn {
+#zone4 .block-small.list-articles .la-slider .la-item-btn,
+#zone4 .block-small.list-articles .slider-pagin-nb {
   display: none;
 }
 
 #zone4 .swiper-wrapper {
   justify-content: space-between;
+  margin-top: 3rem;
 }
 
 #zone4 .la-slider .slider-item {
@@ -1663,6 +1665,11 @@ a.link-read-more:hover,
 
 #zone4 .block-small.list-articles .la-slider .la-item-content p {
   font-size: 1.6rem;
+}
+
+#zone4 .block-small.list-articles .slider-pagin {
+  top: 0;
+  bottom: initial;
 }
 
 /* Article content */
