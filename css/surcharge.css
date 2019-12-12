@@ -1084,8 +1084,7 @@ a.link-read-more:hover,
   position: relative;
 }
 
-.node1318422 .gla-item,
-.node1316330 .gla-item {
+body:not(.front) .gla-item {
   box-shadow: 0 0 12px 2px rgba(0,0,0,0.16);
 }
 
@@ -1438,7 +1437,7 @@ a.link-read-more:hover,
 }
 
 .list-articles.hot-news .gla-item-btn::before,
-.node1318422 .list-articles .gla-item-btn::before {
+body:not(.front) .list-articles .gla-item-btn::before {
   background: url(img/assises/icon-plus-red.svg) no-repeat 0 center / 100%;
 }
 
@@ -2001,7 +2000,7 @@ a.link-read-more:hover,
 
   .gla-item {
     width: 32%;
-    margin: 0 0 1.5% 0;
+    margin: 0 0.65% 1.5% 0.65%;
   }
 
   .gla-item:nth-child(2) {
