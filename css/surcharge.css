@@ -2003,10 +2003,6 @@ body:not(.front) .list-articles .gla-item-btn::before {
     margin: 0 0.65% 1.5% 0.65%;
   }
 
-  .gla-item:nth-child(2) {
-    margin: 0 2% 1.5%;
-  }
-
   /* Edito découvrez */
   .front .edito.decouvrez {
     max-width: 1220px;
