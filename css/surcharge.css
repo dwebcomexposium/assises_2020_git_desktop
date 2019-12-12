@@ -1996,17 +1996,16 @@ a.link-read-more:hover,
 
   .grid-la-list {
     display: flex;
-    justify-content: center;
     margin: 0;
   }
 
   .gla-item {
     width: 32%;
-    margin: 0;
+    margin: 0 0 1.5% 0;
   }
 
   .gla-item:nth-child(2) {
-    margin: 0 2%;
+    margin: 0 2% 1.5%;
   }
 
   /* Edito découvrez */
