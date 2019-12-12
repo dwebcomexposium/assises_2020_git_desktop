@@ -1146,7 +1146,6 @@ body:not(.front) .gla-item {
 }
 
 .list-articles.apropos .table2 td:nth-child(2) {
-  padding: 0 2rem;
   font-size: 1.4rem;
 }
 
