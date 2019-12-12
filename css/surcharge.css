@@ -76,8 +76,7 @@ h2 {
   width: 46px;
   height: 33px;
   background: url(img/assises/icon-arrow-dark.svg) no-repeat center / 100%;
-  position: absolute;
-  left: -4rem;
+  margin-right: 0.5rem;
 }
 
 h3 {
@@ -1251,7 +1250,7 @@ body:not(.front) .gla-item {
 }
 
 .edito.focus table tr td:not(:first-child) {
-  padding-top: 9rem;
+  padding-top: 18rem;
 }
 
 .edito.focus table img {
@@ -1724,6 +1723,12 @@ body:not(.front) .list-articles .gla-item-btn::before {
 
   .scroll-top {
     position: initial;
+  }
+
+  .article-wrapper h2::before,
+  #zone4 h2::before {
+    position: absolute;
+    left: -4rem;
   }
 
   /* Cookies */
