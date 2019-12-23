@@ -1370,6 +1370,7 @@ body:not(.front) .gla-item {
   font-size: 1.8rem;
   font-weight: 700;
   color: #e50041;
+  background: transparent;
 }
 
 .list-articles .gla-item-title {
