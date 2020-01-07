@@ -6,11 +6,17 @@ $(document).ready(function(){
   });
 
   /** ScroolTop **/
-  function scrollTop() {
-    window.scrollTo({
-      top: 0,
-      left: 0,
-      behavior: 'smooth'
+  function scroll_to_top(div) {
+    $(div).click(function() {
+      $('html,body').animate({scrollTop: 0}, 'slow');
+    });
+    $(window).scroll(function(){
+      if($(window).scrollTop()<500){
+        $(div).fadeOut();
+      } else{
+        $(div).fadeIn();
+      }
     });
   }
+  scroll_to_top("#scroll_top");
 });
