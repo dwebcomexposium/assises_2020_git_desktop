@@ -100,6 +100,17 @@ h5 {
   color: #e50041;
 }
 
+div,
+textarea,
+table,
+td,
+th,
+code,
+pre,
+samp {
+  hyphens: none;
+}
+
 /* Paragraphe */
 p {
   font-size: 1.6rem;
@@ -1539,6 +1550,10 @@ body:not(.front) .list-articles .gla-item-btn::before {
   background: #f3efef;
 }
 
+.apropos .intro {
+  background: transparent;
+}
+
 .article-content,
 #zone2 .list-articles .list-grids-with-pagin,
 #zone4 {
@@ -2013,6 +2028,7 @@ body:not(.front) .list-articles .gla-item-btn::before {
   }
 
   .grid-la-list {
+    clear: both;
     display: flex;
     margin: 0;
   }
@@ -2198,6 +2214,13 @@ body:not(.front) .list-articles .gla-item-btn::before {
   .article-intro,
   .intro {
     padding: 0 0 5rem;
+  }
+
+  .apropos .intro {
+    float: left;
+    max-width: 515px;
+    margin-left: 3rem;
+    padding-bottom: 3rem;
   }
 
   .article-intro p,
