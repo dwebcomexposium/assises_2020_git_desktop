@@ -856,9 +856,9 @@ a.link-read-more:hover,
 .site-banner .inside .quicklinks .linkid811137 .btn-primary::before {
   content: "";
   display: inline-block;
-  width: 12px;
-  height: 13px;
-  background: url('img/assises/icon-profile.svg') no-repeat 0 center / 200%;
+  width: 15px;
+  height: 25px;
+  background: url('img/assises/icon-profile.svg') no-repeat 0 center / 100%;
 }
 
 .site-banner .inside .quicklinks .linkid811136 .btn-primary {
@@ -1067,12 +1067,8 @@ a.link-read-more:hover,
   text-align: center;
 }
 
-.site-banner .inside .menu-mobile .quicklinks .linkid811137 .btn-primary {
-  font-size: 1.8rem;
-}
-
 .site-banner .inside .menu-mobile .quicklinks .linkid811137 .txt-btn {
-  font-weight: 700;
+  display: none;
 }
 
 /* A propos */
