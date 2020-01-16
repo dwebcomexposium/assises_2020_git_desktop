@@ -858,7 +858,7 @@ a.link-read-more:hover,
   display: inline-block;
   width: 12px;
   height: 13px;
-  background: url('img/assises/icon-arrow-white.svg') no-repeat 0 center / 200%;
+  background: url('img/assises/icon-profile.svg') no-repeat 0 center / 200%;
 }
 
 .site-banner .inside .quicklinks .linkid811136 .btn-primary {
@@ -1827,6 +1827,12 @@ body:not(.front) .list-articles .gla-item-btn::before {
 
   .site-banner .inside .quicklinks .ql-list {
     display: flex;
+  }
+
+  .site-banner .inside .quicklinks .linkid811137 .btn-primary::before {
+    width: 12px;
+    height: 13px;
+    background: url('img/assises/icon-arrow-white.svg') no-repeat 0 center / 200%;
   }
 
   .site-banner .header-logo {
