@@ -712,7 +712,10 @@ a.link-read-more:hover,
 }
 
 .site-banner .inside .menu-mobile .quicklinks {
-  margin: 2em 1.1em;
+  position: absolute;
+  top: 0;
+  right: 5rem;
+  background: transparent;
 }
 
 .site-banner .menu-mobile .setting-container {
@@ -848,9 +851,7 @@ a.link-read-more:hover,
 }
 
 .site-banner .inside .quicklinks .linkid811137 .btn-primary {
-  padding: 0.85rem 2.5rem;
-  font-size: 1.3rem;
-  text-transform: uppercase;
+  padding: 1.25rem 1.8rem;
 }
 
 .site-banner .inside .quicklinks .linkid811137 .btn-primary::before {
@@ -1823,6 +1824,12 @@ body:not(.front) .list-articles .gla-item-btn::before {
 
   .site-banner .inside .quicklinks .ql-list {
     display: flex;
+  }
+
+  .site-banner .inside .quicklinks .linkid811137 .btn-primary {
+    padding: 0.85rem 2.5rem;
+    font-size: 1.3rem;
+    text-transform: uppercase;
   }
 
   .site-banner .inside .quicklinks .linkid811137 .btn-primary::before {
