@@ -1083,7 +1083,7 @@ a.link-read-more:hover,
 .main-title-with-link {
   border: 0;
   margin-top: 0;
-  margin-bottom: 4rem;
+  margin-bottom: 1rem;
 }
 
 .main-title-with-link > .main-title {
@@ -1426,7 +1426,7 @@ body:not(.front) .gla-item {
   font-weight: 700;
   clear: both;
   display: block;
-  margin: 2rem 0;
+  /*margin: 2rem 0;*/
 }
 
 .list-articles.hot-news .gla-item-desc,
@@ -1545,12 +1545,12 @@ body:not(.front) .list-articles .gla-item-btn::before {
 .article-intro,
 .intro {
   margin: 0;
-  padding: 0 2rem 4rem;
-  padding-bottom: 5rem;
+  padding: 0 2rem 5rem;
   background: #f3efef;
 }
 
 .apropos .intro {
+  padding: 0 0 2rem;
   background: transparent;
 }
 
@@ -2025,6 +2025,10 @@ body:not(.front) .list-articles .gla-item-btn::before {
     max-width: 1220px;
     margin: 0 auto;
     padding: 0;
+  }
+
+  .main-title-with-link {
+    margin-bottom: 4rem;
   }
 
   .grid-la-list {
