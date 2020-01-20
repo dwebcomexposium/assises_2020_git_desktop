@@ -1690,6 +1690,10 @@ body:not(.front) .list-articles .gla-item-btn::before {
   color: #001821;
 }
 
+#zone4 .block-small.list-articles .la-slider .la-item-content p.la-item-desc {
+  min-height: 120px;
+}
+
 #zone4 .block-small.list-articles .la-slider .la-item-content p {
   font-size: 1.6rem;
 }
@@ -2384,6 +2388,7 @@ body:not(.front) .list-articles .gla-item-btn::before {
 
   #zone4 .la-slider .slider-item {
     width: 23%;
+    margin-right: 2.4rem;
   }
 }
 
