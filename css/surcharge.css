@@ -1519,9 +1519,7 @@ body:not(.front) .list-articles .gla-item-btn::before {
 }
 
 .breadcrumb-nav {
-  max-width: 1220px;
-  margin: 0 auto;
-  padding: 2rem 0;
+  padding: 2rem;
   font-size: 1.2rem;
 }
 
@@ -1542,9 +1540,11 @@ body:not(.front) .list-articles .gla-item-btn::before {
 
 .article-title,
 #zone2 .main-title-with-link {
+  position: absolute;
+  top: 0;
+  width: 100%;
   margin-bottom: 0;
-  padding: 4rem 2rem 3rem;
-  background: #f3efef;
+  padding: 6rem 2rem 3rem;
 }
 
 .article-title .at-main-title,
@@ -1568,9 +1568,10 @@ body:not(.front) .list-articles .gla-item-btn::before {
 
 .article-intro,
 .intro {
+  position: absolute;
+  top: 16rem;
   margin: 0;
   padding: 0 2rem 5rem;
-  background: #f3efef;
 }
 
 .apropos .intro {
@@ -2285,9 +2286,14 @@ body:not(.front) .list-articles .gla-item-btn::before {
   }
 
   /* Page article */
+  .breadcrumb-nav {
+    max-width: 1220px;
+    margin: 0 auto;
+  }
+
   .article-title,
   #zone2 .main-title-with-link {
-    padding: 5rem 0 4rem;
+    padding: 6rem 0 4rem;
   }
 
   .article-title .inside,
@@ -2303,7 +2309,8 @@ body:not(.front) .list-articles .gla-item-btn::before {
 
   .article-intro,
   .intro {
-    padding: 0 0 5rem;
+    width: 100%;
+    padding: 0;
   }
 
   .apropos .intro {
