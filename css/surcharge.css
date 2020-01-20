@@ -1515,7 +1515,29 @@ body:not(.front) .list-articles .gla-item-btn::before {
 /* Page article */
 #zone1 {
   min-height: 270px;
-  background: #f3efef url('img/assises/dots-white.svg') no-repeat 0 0 / 463px 281px;
+  background: #f3efef url('img/assises/dots-white.svg') no-repeat right center / 463px 281px;
+}
+
+.breadcrumb-nav {
+  max-width: 1220px;
+  margin: 0 auto;
+  padding: 2rem 0;
+  font-size: 1.2rem;
+}
+
+.bn-item:last-child {
+  font-weight: 700;
+}
+
+.bn-item-link,
+.bn-item-link:focus,
+.bn-item-link:hover,
+.bn-item .icon {
+  color: #232323;
+}
+
+.breadcrumb-nav .icon-short-arrow-right::before {
+  content: '-';
 }
 
 .article-title,
