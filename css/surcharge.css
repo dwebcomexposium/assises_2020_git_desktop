@@ -1839,26 +1839,38 @@ body:not(.front) .list-articles .gla-item-btn::before {
 }
 
 .faq-content a.fc-item-link {
-  display: flex;
-  justify-content: space-between;
-  padding: 1.5rem 2.8rem;
+  padding: 2rem 2.8rem;
   background: #f2efef;
-  color: #001821;
   font-size: 1.6rem;
   font-weight: 700;
 }
 
 .faq-content a.fc-item-link:hover,
 .faq-content a.fc-item-link:focus,
-.faq-content a.fc-item-link:active {
+.faq-content .fc-item-link.is-active {
   background: #e50041;
   color: #ffffff;
   text-decoration: none;
 }
 
 .faq-content .fc-item-link .icon {
-  order: 2;
-  color: #1e2339;
+  position: absolute;
+  right: 2rem;
+  bottom: 0;
+  color: #e50041;
+}
+
+.faq-content .fc-item-link .icon::before {
+  content: "\e603";
+  font-size: 4rem;
+}
+
+.faq-content .fc-item-link.is-active .icon::before {
+  content: "\e605";
+}
+
+.faq-content .fc-item-content.is-open {
+  background: #f2efef;
 }
 
 /* Desktop version */
