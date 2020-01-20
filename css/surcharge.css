@@ -1829,6 +1829,38 @@ body:not(.front) .list-articles .gla-item-btn::before {
   display: none;
 }
 
+.faq-content .fc-item,
+.faq-content .fc-item:nth-child(odd) {
+  position: relative;
+  margin-bottom: 2rem;
+  padding: 0;
+  border-bottom: 0;
+  background: #ffffff;
+}
+
+.faq-content a.fc-item-link {
+  display: flex;
+  justify-content: space-between;
+  padding: 1.5rem 2.8rem;
+  background: #f2efef;
+  color: #001821;
+  font-size: 1.6rem;
+  font-weight: 700;
+}
+
+.faq-content a.fc-item-link:hover,
+.faq-content a.fc-item-link:focus,
+.faq-content a.fc-item-link:active {
+  background: #e50041;
+  color: #ffffff;
+  text-decoration: none;
+}
+
+.faq-content .fc-item-link .icon {
+  order: 2;
+  color: #1e2339;
+}
+
 /* Desktop version */
 @media (min-width: 960px) {
   .front .site-wrapper {
@@ -2311,8 +2343,7 @@ body:not(.front) .list-articles .gla-item-btn::before {
   }
 
   .article-title,
-  #zone2 .main-title-with-link,
-  .node1329377 .faq-main-title {
+  #zone2 .main-title-with-link {
     padding: 6rem 0 4rem;
   }
 
