@@ -1518,6 +1518,11 @@ body:not(.front) .list-articles .gla-item-btn::before {
   background: #f3efef url('img/assises/dots-white.svg') no-repeat 160px center / 463px 281px;
 }
 
+.front #zone1 {
+  height: auto;
+  background: transparent;
+}
+
 .breadcrumb-nav {
   padding: 2rem;
   font-size: 1.2rem;
@@ -1575,6 +1580,10 @@ body:not(.front) .list-articles .gla-item-btn::before {
   top: 16rem;
   margin: 0;
   padding: 0 2rem 5rem;
+}
+
+.front .intro {
+  position: initial;
 }
 
 .node1329377 .intro {
@@ -1797,6 +1806,10 @@ body:not(.front) .list-articles .gla-item-btn::before {
   margin: 0 0 0 2rem;
   padding: 0;
   border-bottom: 0;
+}
+
+.faq-content {
+  padding: 0 2rem;
 }
 
 .fs-item + .fs-item {
@@ -2364,6 +2377,10 @@ body:not(.front) .list-articles .gla-item-btn::before {
   /* Page article */
   #zone1 {
     background: #f3efef url('img/assises/dots-white.svg') no-repeat right center / 463px 281px;
+  }
+
+  .front #zone1 {
+    background: transparent;
   }
 
   .node1316251 #zone1 {
