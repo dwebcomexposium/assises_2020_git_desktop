@@ -1856,8 +1856,12 @@ body:not(.front) .list-articles .gla-item-btn::before {
 .faq-content .fc-item-link .icon {
   position: absolute;
   right: 2rem;
-  bottom: 0;
+  bottom: 0.5rem;
   color: #e50041;
+}
+
+.faq-content .fc-item-link:hover .icon {
+  color: #ffffff;
 }
 
 .faq-content .fc-item-link .icon::before {
@@ -1869,8 +1873,18 @@ body:not(.front) .list-articles .gla-item-btn::before {
   content: "\e605";
 }
 
+.faq-content .fc-item-link.is-active:hover .icon::before,
+.faq-content .fc-item-link.is-active:focus .icon::before,
+.faq-content .fc-item-link.is-active:active .icon::before {
+  color: #e50041;
+}
+
 .faq-content .fc-item-content.is-open {
   background: #f2efef;
+}
+
+.faq-content .fc-item-content p {
+  font-size: 1.4rem;
 }
 
 /* Desktop version */
