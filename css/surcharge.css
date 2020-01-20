@@ -1513,6 +1513,11 @@ body:not(.front) .list-articles .gla-item-btn::before {
 }
 
 /* Page article */
+#zone1 {
+  min-height: 270px;
+  background: #f3efef url('img/assises/dots-white.svg') no-repeat 0 0 / 463px 281px;
+}
+
 .article-title,
 #zone2 .main-title-with-link {
   margin-bottom: 0;
