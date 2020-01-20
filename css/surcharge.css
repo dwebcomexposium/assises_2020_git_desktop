@@ -1855,8 +1855,9 @@ body:not(.front) .list-articles .gla-item-btn::before {
 
 .faq-content .fc-item-link .icon {
   position: absolute;
+  top: calc(50% - 10px);
   right: 2rem;
-  bottom: 0.5rem;
+  height: 20px;
   color: #e50041;
 }
 
@@ -1867,6 +1868,12 @@ body:not(.front) .list-articles .gla-item-btn::before {
 .faq-content .fc-item-link .icon::before {
   content: "\e603";
   font-size: 4rem;
+  line-height: 0.5;
+}
+
+.faq-content .fc-item-link.is-active .icon {
+  top: initial;
+  bottom: 2rem;
 }
 
 .faq-content .fc-item-link.is-active .icon::before {
