@@ -3,6 +3,7 @@ $(document).ready(function(){
   $('.videos').slick({
     dots: true,
     arrows: true,
+    mobileFirst: true
   });
 
   /** ScroolTop **/
