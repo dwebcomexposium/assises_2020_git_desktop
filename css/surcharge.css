@@ -1558,10 +1558,10 @@ body:not(.front) .list-articles .gla-item-btn::before {
 #zone2 .main-title-with-link,
 .node1329377 .faq-main-title {
   position: absolute;
-  top: 0;
+  top: 6rem;
   width: 100%;
   margin-bottom: 0;
-  padding: 6rem 2rem 3rem;
+  padding: 0 2rem;
 }
 
 .article-title .at-main-title,
@@ -1595,7 +1595,7 @@ body:not(.front) .list-articles .gla-item-btn::before {
   position: absolute;
   top: 16rem;
   margin: 0;
-  padding: 0 2rem 5rem;
+  padding: 0 2rem;
   font-weight: 700;
 }
 
@@ -2411,7 +2411,7 @@ body:not(.front) .list-articles .gla-item-btn::before {
 
   .article-title,
   #zone2 .main-title-with-link {
-    padding: 6rem 0 4rem;
+    padding: 0;
   }
 
   .article-title .inside,
