@@ -1426,14 +1426,9 @@ body:not(.front) .gla-item {
 }
 
 .list-articles .gla-item-desc {
-  font-weight: 700;
   clear: both;
   display: block;
   margin: 2rem 0;
-}
-
-.list-articles.hot-news .gla-item-desc,
-.node1318422 .list-articles .gla-item-desc {
   font-size: 1.4rem;
   font-weight: normal;
   color: #7a7a7a;
@@ -1441,6 +1436,7 @@ body:not(.front) .gla-item {
 
 .list-articles.apropos .gla-item-desc {
   margin: 0;
+  font-weight: 700;
 }
 
 .list-articles .gla-item-btn,
@@ -1514,6 +1510,8 @@ body:not(.front) .list-articles .gla-item-btn::before {
 
 .list-articles.temps-forts .gla-item-desc {
   color: #ffffff;
+  font-weight: 700;
+  font-size: 1.6rem;
 }
 
 /* Page article */
