@@ -639,6 +639,7 @@ a.link-read-more:hover,
 
 .videos-content {
   order: 1;
+  width: 100%;
 }
 
 .videos-content .video {
