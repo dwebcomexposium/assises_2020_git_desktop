@@ -1,3 +1,9 @@
+/* node1318422 : page hot news */
+/* node1316330 : page Temps Forts */
+/* node1329377 : page FAQ */
+/* node1316251 : page Devenir Partnaires */
+
+
 @charset "utf-8";
 /* CSS Document - Surcharge css Agences */
 @font-face {
@@ -1423,7 +1429,7 @@ body:not(.front) .gla-item {
   font-weight: 700;
   clear: both;
   display: block;
-  /*margin: 2rem 0;*/
+  margin: 2rem 0;
 }
 
 .list-articles.hot-news .gla-item-desc,
@@ -1433,9 +1439,8 @@ body:not(.front) .gla-item {
   color: #7a7a7a;
 }
 
-.list-articles.temps-forts .gla-item-desc,
-.node1316330 .list-articles .gla-item-desc {
-  margin: 2rem 0;
+.list-articles.apropos .gla-item-desc {
+  margin: 0;
 }
 
 .list-articles .gla-item-btn,
@@ -1459,8 +1464,7 @@ body:not(.front) .list-articles .gla-item-btn::before {
   background: url(img/assises/icon-plus-red.svg) no-repeat 0 center / 100%;
 }
 
-.list-articles.temps-forts .gla-item-btn::before,
-.node1316330 .list-articles .gla-item-btn::before {
+.list-articles.temps-forts .gla-item-btn::before {
   background: url(img/assises/icon-plus-white.svg) no-repeat 0 center / 100%;
 }
 
@@ -1561,6 +1565,7 @@ body:not(.front) .list-articles .gla-item-btn::before {
   font-family: 'Vollkorn', serif;
   font-weight: 600;
   font-size: 4rem;
+  line-height: 1;
   color: #004951;
   text-transform: initial;
   border: 0;
@@ -1580,6 +1585,7 @@ body:not(.front) .list-articles .gla-item-btn::before {
   top: 16rem;
   margin: 0;
   padding: 0 2rem 5rem;
+  font-weight: 700;
 }
 
 .front .intro {
@@ -2390,6 +2396,10 @@ body:not(.front) .list-articles .gla-item-btn::before {
   .breadcrumb-nav {
     max-width: 1220px;
     margin: 0 auto;
+  }
+
+  .node1329964 .breadcrumb-nav .bn-item:nth-child(2) {
+    display: none;
   }
 
   .article-title,
