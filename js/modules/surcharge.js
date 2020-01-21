@@ -12,15 +12,15 @@ $(document).ready(function(){
 
   if ($articleIntro.length > 0 && $mainTitle.length > 0) {
     $articleIntro.css('top', $articleTitle.position().top + $articleTitle.height() + 40 + 'px');
-    var headerHeight = $articleIntro.height() + $articleTitle.height() + $('.breadcrumb-nav .inside').height() + 60;
+    var headerHeight = $articleIntro.height() + $articleTitle.height() + $('.breadcrumb-nav .inside').height() + 80;
     if (headerHeight > $('#zone1').height()) {
-      $('#zone1').css('height', headerHeight);
+      $('#zone1').css('height', headerHeight + 20);
     }
   } else if ($articleTitle.length > 0 && $mainTitle.length > 0) {
     $articleTitle.css('top', $mainTitle.position().top + $mainTitle.height() + 40 + 'px');
-    var headerHeight = $articleTitle.height() + $mainTitle.height() + $('.breadcrumb-nav .inside').height() + 60;
+    var headerHeight = $articleTitle.height() + $mainTitle.height() + $('.breadcrumb-nav .inside').height() + 80;
     if (headerHeight > $('#zone1').height()) {
-      $('#zone1').css('height', headerHeight);
+      $('#zone1').css('height', headerHeight + 20);
     }
   }
 
