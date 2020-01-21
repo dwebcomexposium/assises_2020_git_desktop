@@ -2,7 +2,7 @@
 /* node1316330 : page Temps Forts */
 /* node1329377 : page FAQ */
 /* node1316251 : page Devenir Partnaires */
-
+/* node1329964 : page Le Blog */
 
 @charset "utf-8";
 /* CSS Document - Surcharge css Agences */
@@ -1437,6 +1437,7 @@ body:not(.front) .gla-item {
 .list-articles.apropos .gla-item-desc {
   margin: 0;
   font-weight: 700;
+  color: #ffffff;
 }
 
 .list-articles .gla-item-btn,
@@ -1530,6 +1531,10 @@ body:not(.front) .list-articles .gla-item-btn::before {
   font-size: 1.2rem;
 }
 
+.blogposts .bn-item:nth-child(2) {
+  display: none;
+}
+
 .bn-item:last-child {
   font-weight: 700;
 }
@@ -1567,6 +1572,10 @@ body:not(.front) .list-articles .gla-item-btn::before {
   color: #004951;
   text-transform: initial;
   border: 0;
+}
+
+.article-title .at-theme {
+  display: none;
 }
 
 #zone2 .list-articles .la-main-title {
@@ -2394,10 +2403,6 @@ body:not(.front) .list-articles .gla-item-btn::before {
   .breadcrumb-nav {
     max-width: 1220px;
     margin: 0 auto;
-  }
-
-  .node1329964 .breadcrumb-nav .bn-item:nth-child(2) {
-    display: none;
   }
 
   .article-title,
