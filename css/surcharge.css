@@ -177,7 +177,6 @@ a.link-read-more,
 .style3 a,
 .style4 a,
 a.link-read-more {
-  min-width: 19rem;
   margin: 0;
   font-size: 1.6rem;
 }
@@ -575,10 +574,10 @@ a.link-read-more:hover,
   left: 2rem;
 }
 
-.front .header-edito blockquote lien1,
-.front .header-edito blockquote lien2 {
+.front .header-edito blockquote .lien2,
+.front .header-edito blockquote .lien3 {
   display: inline-block;
-  min-width: 190px;
+  min-width: 19rem;
   padding: 1rem;
   text-align: center;
   font-weight: 700;
