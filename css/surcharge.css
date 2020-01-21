@@ -473,7 +473,7 @@ a.link-read-more:hover,
 }
 
 .social-sharing .social-sharing {
-  margin: 0;
+  margin: 0 2rem;
 }
 
 .social-sharing .inside {
@@ -509,6 +509,10 @@ a.link-read-more:hover,
 
 .front .site-wrapper {
   box-shadow: none;
+}
+
+.article-navigation {
+  display: none;
 }
 
 /* Header édito*/
