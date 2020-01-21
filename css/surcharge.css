@@ -604,7 +604,6 @@ a.link-read-more:hover,
 }
 
 .videos-text {
-  order: 2;
   padding: 3rem 0;
   color: #ffffff;
   background: #d10032;
@@ -635,10 +634,6 @@ a.link-read-more:hover,
   display: inline-block;
   margin-top: 4rem;
   margin-left: 2rem;
-}
-
-.videos-content {
-  order: 1;
 }
 
 .videos-content .video {
@@ -1963,7 +1958,6 @@ body:not(.front) .list-articles .gla-item-btn::before {
   }
 
   .videos-text {
-    order: 1;
     width: 40%;
   }
 
@@ -1973,7 +1967,6 @@ body:not(.front) .list-articles .gla-item-btn::before {
   }
 
   .videos-content {
-    order: 2;
     width: 60%;
   }
 
