@@ -17,8 +17,8 @@ $(document).ready(function(){
       $('#zone1').css('height', headerHeight + 20);
     }
   } else if ($articleTitle.length > 0 && $mainTitle.length > 0) {
-    $articleTitle.css('top', $mainTitle.position().top + $mainTitle.height() + 40 + 'px');
-    var headerHeight = $articleTitle.height() + $mainTitle.height() + $('.breadcrumb-nav .inside').height() + 80;
+    $articleTitle.css('top', $('.breadcrumb-nav .inside').height() + 40 + 'px');
+    var headerHeight = $mainTitle.height() + $('.breadcrumb-nav .inside').height();
     if (headerHeight > $('#zone1').height()) {
       $('#zone1').css('height', headerHeight + 20);
     }
