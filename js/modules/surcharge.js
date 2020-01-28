@@ -20,7 +20,7 @@ $(document).ready(function(){
     $articleTitle.css('top', $('.breadcrumb-nav .inside').height() + 40 + 'px');
     var headerHeight = $mainTitle.height() + $('.breadcrumb-nav .inside').height();
     if (headerHeight > $('#zone1').height()) {
-      $('#zone1').css('height', headerHeight + 20);
+      $('#zone1').css('height', headerHeight + 50);
     }
   }
 
