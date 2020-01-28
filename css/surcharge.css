@@ -2624,3 +2624,5 @@ body:not(.front) .list-articles .gla-item-btn::before {
 .video-container .landing .landing-text p {
 	text-transform: uppercase;
 }
+
+.landing-text > h1 {color:white}
