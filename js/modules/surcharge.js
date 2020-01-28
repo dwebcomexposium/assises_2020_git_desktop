@@ -11,6 +11,7 @@ $(document).ready(function(){
   var $articleIntro = $('.article-intro');
 
   if ($articleIntro.length > 0 && $mainTitle.length > 0) {
+    $articleTitle.css('top', $('.breadcrumb-nav .inside').height() + 40 + 'px');
     $articleIntro.css('top', $articleTitle.position().top + $articleTitle.height() + 40 + 'px');
     var headerHeight = $articleIntro.height() + $articleTitle.height() + $('.breadcrumb-nav .inside').height() + 80;
     if (headerHeight > $('#zone1').height()) {
