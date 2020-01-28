@@ -2576,3 +2576,51 @@ body:not(.front) .list-articles .gla-item-btn::before {
     height: 30px;
   }
 }
+
+
+.video-container {
+	position: relative;
+	display: block;
+	z-index: 0;
+	background-color: #000;
+	font-size: 0;
+	margin-bottom: 0;
+	overflow: hidden;
+}
+
+.video-container .landing {
+	font-size: 1.6rem;
+	color: #fff;
+	position: absolute;
+	z-index: 1;
+	top: 53%;
+	-webkit-transform: translateY(-50%);
+	-ms-transform: translateY(-50%);
+	transform: translateY(-50%);
+	width: 100%;
+}
+
+.video-container .landing .landing-text {
+	max-width: 116rem;
+	margin: 0 auto;
+}
+
+.badge {
+	background-color: #c5143a;
+	color: #fff;
+	font-size: 1.6rem;
+	display: inline-block;
+	font-family: roboto-bold,sans-serif;
+	text-transform: uppercase;
+	padding: 1.4rem 1.6rem;
+	margin-bottom: 1rem;
+}
+
+.video-container .landing .landing-text .date {
+	font-size: 2.2rem;
+	margin-bottom: .5rem;
+}
+
+.video-container .landing .landing-text p {
+	text-transform: uppercase;
+}
