@@ -1830,11 +1830,8 @@ body:not(.front) .list-articles .gla-item-btn::before {
 }
 
 .faq-content {
-  padding: 0 2rem;
-}
-
-.faq-content:first-child {
   margin-top: 7rem;
+  padding: 0 2rem;
 }
 
 .faq-content:last-child {
