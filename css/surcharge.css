@@ -1825,8 +1825,30 @@ body:not(.front) .list-articles .gla-item-btn::before {
   border-bottom: 0;
 }
 
+.faq-sub-title {
+  display: none;
+}
+
 .faq-content {
   padding: 0 2rem;
+}
+
+.faq-content:first-child {
+  margin-top: 7rem;
+}
+
+.faq-content:last-child {
+  margin-bottom: 7rem;
+}
+
+.fc-title {
+  border: 0;
+  font-size: 4rem;
+  color: #e50041;
+}
+
+.fc-item-nb {
+  display: none;
 }
 
 .fs-item + .fs-item {
