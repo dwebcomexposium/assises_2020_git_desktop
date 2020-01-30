@@ -3,6 +3,7 @@
 /* node1329377 : page FAQ */
 /* node1316251 : page Devenir Partnaires */
 /* node1329964 : page Le Blog */
+/* node1335875 : page Aller à Monaco */
 
 @charset "utf-8";
 /* CSS Document - Surcharge css Agences */
@@ -1949,37 +1950,64 @@ body:not(.front) .list-articles .gla-item-btn::before {
   margin: 0 0.65% 0 0.65%;
 }
 
-.node1335875 .gla-item:nth-child(1n) .gla-item-content {
-  background: url('img/assises/icon-plane.png') no-repeat center 6rem;
+.node1335875 .gla-item-content {
+  background-repeat: no-repeat;
+  background-position: center 3rem;
+  padding: 10rem 2rem 2rem;
 }
 
-.node1335875 .gla-item:nth-child(1n) .gla-item-content:hover {
-  background-image: url('img/assises/icon-plane-hover.png') no-repeat;
+.node1335875 .gla-item-content:hover {
+  background-color: #e50041;
+}
+
+.node1335875 .gla-item:nth-child(1n) .gla-item-content {
+  background-image: url('img/assises/icon-plane.png');
 }
 
 .node1335875 .gla-item:nth-child(2n) .gla-item-content {
-  background: url('img/assises/icon-bus.png') no-repeat center 6rem;
-}
-
-.node1335875 .gla-item:nth-child(2n) .gla-item-content:hover {
-  background-image: url('img/assises/icon-bus-hover.png') no-repeat;
+  background-image: url('img/assises/icon-bus.png');
 }
 
 .node1335875 .gla-item:nth-child(3n) .gla-item-content {
-  background: url('img/assises/icon-taxi.png') no-repeat center 6rem;
-}
-
-.node1335875 .gla-item:nth-child(3n) .gla-item-content:hover {
-  background-image: url('img/assises/icon-taxi-hover.png') no-repeat;
+  background-image: url('img/assises/icon-taxi.png');
 }
 
 .node1335875 .gla-item:nth-child(4n) .gla-item-content {
-  background: url('img/assises/icon-helico.png') no-repeat center 6rem;
+  background-image: url('img/assises/icon-helico.png');
+}
+
+.node1335875 .gla-item:nth-child(1n) .gla-item-content:hover {
+  background-image: url('img/assises/icon-plane-hover.png');
+}
+
+.node1335875 .gla-item:nth-child(2n) .gla-item-content:hover {
+  background-image: url('img/assises/icon-bus-hover.png');
+}
+
+.node1335875 .gla-item:nth-child(3n) .gla-item-content:hover {
+  background-image: url('img/assises/icon-taxi-hover.png');
 }
 
 .node1335875 .gla-item:nth-child(4n) .gla-item-content:hover {
-  background-image: url('img/assises/icon-helico-hover.png') no-repeat;
+  background-image: url('img/assises/icon-helico-hover.png');
 }
+
+.node1335875 .gla-item-btn {
+  display: none;
+}
+
+.node1335875 .gla-item-title {
+  text-align: center;
+  font-family: 'Miriam Libre', sans-serif;
+  font-size: 1.6rem;
+  font-weight: 700;
+  color: #e50041;
+}
+
+.node1335875 .gla-item-content:hover .gla-item-title {
+  color: #ffffff;
+}
+
 
 /* Desktop version */
 @media (min-width: 960px) {
