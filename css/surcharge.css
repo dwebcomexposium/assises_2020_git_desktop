@@ -1943,6 +1943,44 @@ body:not(.front) .list-articles .gla-item-btn::before {
   font-size: 1.4rem;
 }
 
+/* Aller à Monaco */
+.node1335875 .gla-item {
+  width: calc(100% * 1 / 4 - 1em);
+  margin: 0 0.65% 0 0.65%;
+}
+
+.node1335875 .gla-item:nth-child(1n) .gla-item-content {
+  background: url('img/assises/icon-plane.png') no-repeat center 6rem;
+}
+
+.node1335875 .gla-item:nth-child(1n) .gla-item-content:hover {
+  background-image: url('img/assises/icon-plane-hover.png') no-repeat;
+}
+
+.node1335875 .gla-item:nth-child(2n) .gla-item-content {
+  background: url('img/assises/icon-bus.png') no-repeat center 6rem;
+}
+
+.node1335875 .gla-item:nth-child(2n) .gla-item-content:hover {
+  background-image: url('img/assises/icon-bus-hover.png') no-repeat;
+}
+
+.node1335875 .gla-item:nth-child(3n) .gla-item-content {
+  background: url('img/assises/icon-taxi.png') no-repeat center 6rem;
+}
+
+.node1335875 .gla-item:nth-child(3n) .gla-item-content:hover {
+  background-image: url('img/assises/icon-taxi-hover.png') no-repeat;
+}
+
+.node1335875 .gla-item:nth-child(4n) .gla-item-content {
+  background: url('img/assises/icon-helico.png') no-repeat center 6rem;
+}
+
+.node1335875 .gla-item:nth-child(4n) .gla-item-content:hover {
+  background-image: url('img/assises/icon-helico-hover.png') no-repeat;
+}
+
 /* Desktop version */
 @media (min-width: 960px) {
   .front .site-wrapper {
