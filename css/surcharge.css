@@ -2075,6 +2075,32 @@ body:not(.front) .list-articles .gla-item-btn::before {
   background-color: #f3efef;
 }
 
+/* Pagination */
+.pagination {
+  border: 0;
+  font-family: 'Miriam Libre', sans-serif;
+  font-weight: normal;
+}
+
+.pagination a {
+  color: #001821;
+}
+
+.pagin-item.is-active a {
+  background: #e50041;
+  color: #ffffff;
+  text-decoration: none;
+}
+
+.pagination a:focus,
+.pagination a:hover {
+  color: #e50041;
+}
+
+.pagin-item.pagin-prev .icon,
+.pagin-item.pagin-next .icon {
+  display: none;
+}
 
 /* Desktop version */
 @media (min-width: 960px) {
