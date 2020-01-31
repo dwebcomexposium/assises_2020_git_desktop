@@ -1820,7 +1820,7 @@ body:not(.front) .list-articles .gla-item-btn::before {
 .faq-summary {
   display: flex;
   flex-wrap: wrap;
-  margin: 0 0 0 2rem;
+  margin: 2rem 0 0 2rem;
   padding: 0;
   border-bottom: 0;
 }
@@ -1954,8 +1954,8 @@ body:not(.front) .list-articles .gla-item-btn::before {
 }
 
 .node1335875 .gla-item {
-  width: calc(100% * 1 / 4 - 1em);
-  margin: 0 0.65% 0 0.65%;
+  width: 80%;
+  margin: 0 auto 1.5rem;
   box-shadow: none !important;
 }
 
@@ -2012,7 +2012,7 @@ body:not(.front) .list-articles .gla-item-btn::before {
 }
 
 .parent1335875 .article-content {
-  margin: 8rem auto;
+  margin: 3rem auto;
 }
 
 .parent1335875 h2 {
@@ -2025,6 +2025,7 @@ body:not(.front) .list-articles .gla-item-btn::before {
 
 .parent1335875 table tr {
   display: flex;
+  flex-wrap: wrap;
   align-items: flex-start;
 }
 
@@ -2037,12 +2038,12 @@ body:not(.front) .list-articles .gla-item-btn::before {
 }
 
 .parent1335875 .article-content table tr td:first-child {
-  width: 65%;
-  margin-bottom: 7rem;
+  width: 100%;
+  margin-bottom: 2rem;
 }
 
 .parent1335875 .article-content table tr td:nth-child(2) {
-  width: 35%;
+  width: 100%;
 }
 
 .parent1335875 .article-content table tr:first-child td:nth-child(2) {
@@ -2053,26 +2054,6 @@ body:not(.front) .list-articles .gla-item-btn::before {
 .parent1335875 .article-content table tr:first-child td:nth-child(2) h3 {
   margin-top: 0;
   margin-bottom: 6rem;
-}
-
-.node1335883 #zone1 {
-  background: url(img/assises/icon-plane-xl.png) no-repeat 113rem center, url(img/assises/dots-white.svg) no-repeat right center / 463px 281px;
-  background-color: #f3efef;
-}
-
-.node1336148 #zone1 {
-  background: url(img/assises/icon-bus-xl.png) no-repeat 113rem center, url(img/assises/dots-white.svg) no-repeat right center / 463px 281px;
-  background-color: #f3efef;
-}
-
-.node1336152 #zone1 {
-  background: url(img/assises/icon-taxi-xl.png) no-repeat 113rem center, url(img/assises/dots-white.svg) no-repeat right center / 463px 281px;
-  background-color: #f3efef;
-}
-
-.node1336153 #zone1 {
-  background: url(img/assises/icon-helico-xl.png) no-repeat 113rem center, url(img/assises/dots-white.svg) no-repeat right center / 463px 281px;
-  background-color: #f3efef;
 }
 
 /* Pagination */
@@ -2735,6 +2716,46 @@ body:not(.front) .list-articles .gla-item-btn::before {
     position: absolute;
     top: 20rem;
     margin: 0 0 0 2rem;
+  }
+
+  /* Aller à Monaco */
+
+  .node1335875 .gla-item {
+    width: calc(100% * 1 / 4 - 1em);
+    margin: 0 0.65% 0 0.65%;
+  }
+
+  .parent1335875 .article-content {
+    margin: 8rem auto;
+  }
+
+  .parent1335875 .article-content table tr td:first-child {
+    width: 65%;
+    margin-bottom: 7rem;
+  }
+
+  .parent1335875 .article-content table tr td:nth-child(2) {
+    width: 35%;
+  }
+
+  .node1335883 #zone1 {
+    background: url(img/assises/icon-plane-xl.png) no-repeat 113rem center, url(img/assises/dots-white.svg) no-repeat right center / 463px 281px;
+    background-color: #f3efef;
+  }
+
+  .node1336148 #zone1 {
+    background: url(img/assises/icon-bus-xl.png) no-repeat 113rem center, url(img/assises/dots-white.svg) no-repeat right center / 463px 281px;
+    background-color: #f3efef;
+  }
+
+  .node1336152 #zone1 {
+    background: url(img/assises/icon-taxi-xl.png) no-repeat 113rem center, url(img/assises/dots-white.svg) no-repeat right center / 463px 281px;
+    background-color: #f3efef;
+  }
+
+  .node1336153 #zone1 {
+    background: url(img/assises/icon-helico-xl.png) no-repeat 113rem center, url(img/assises/dots-white.svg) no-repeat right center / 463px 281px;
+    background-color: #f3efef;
   }
 }
 
