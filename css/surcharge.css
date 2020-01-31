@@ -2097,6 +2097,11 @@ body:not(.front) .list-articles .gla-item-btn::before {
   color: #e50041;
 }
 
+.pagin-item.is-active a:focus,
+.pagination a:hover {
+  color: #ffffff;
+}
+
 .pagin-item.pagin-prev .icon,
 .pagin-item.pagin-next .icon {
   display: none;
