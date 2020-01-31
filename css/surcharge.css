@@ -2065,6 +2065,16 @@ body:not(.front) .list-articles .gla-item-btn::before {
   background-color: #f3efef;
 }
 
+.node1336152 #zone1 {
+  background: url(img/assises/icon-taxi-xl.png) no-repeat 113rem center, url(img/assises/dots-white.svg) no-repeat right center / 463px 281px;
+  background-color: #f3efef;
+}
+
+.node1336153 #zone1 {
+  background: url(img/assises/icon-helico-xl.png) no-repeat 113rem center, url(img/assises/dots-white.svg) no-repeat right center / 463px 281px;
+  background-color: #f3efef;
+}
+
 
 /* Desktop version */
 @media (min-width: 960px) {
