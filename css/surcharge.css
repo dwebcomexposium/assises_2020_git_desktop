@@ -2055,6 +2055,16 @@ body:not(.front) .list-articles .gla-item-btn::before {
   margin-bottom: 6rem;
 }
 
+.node1335883 #zone1 {
+  background: url(img/assises/icon-plane-xl.png) no-repeat 113rem center, url(img/assises/dots-white.svg) no-repeat right center / 463px 281px;
+  background-color: #f3efef;
+}
+
+.node1336148 #zone1 {
+  background: url(img/assises/icon-bus-xl.png) no-repeat 113rem center, url(img/assises/dots-white.svg) no-repeat right center / 463px 281px;
+  background-color: #f3efef;
+}
+
 
 /* Desktop version */
 @media (min-width: 960px) {
