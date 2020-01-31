@@ -1960,8 +1960,6 @@ body:not(.front) .list-articles .gla-item-btn::before {
 }
 
 .node1335875 .gla-item-content {
-  background-repeat: no-repeat;
-  background-position: center 3rem;
   padding: 11rem 2rem 2rem;
 }
 
@@ -1970,35 +1968,35 @@ body:not(.front) .list-articles .gla-item-btn::before {
 }
 
 .node1335875 .gla-item:nth-child(1n) .gla-item-content {
-  background-image: url('img/assises/icon-plane.png');
+  background: url('img/assises/icon-plane.png') no-repeat center 3rem;
 }
 
 .node1335875 .gla-item:nth-child(2n) .gla-item-content {
-  background-image: url('img/assises/icon-bus.png');
+  background: url('img/assises/icon-bus.png') no-repeat center 3rem;
 }
 
 .node1335875 .gla-item:nth-child(3n) .gla-item-content {
-  background-image: url('img/assises/icon-taxi.png');
+  background: url('img/assises/icon-taxi.png') no-repeat center 3rem;
 }
 
 .node1335875 .gla-item:nth-child(4n) .gla-item-content {
-  background-image: url('img/assises/icon-helico.png');
+  background: url('img/assises/icon-helico.png') no-repeat center 3rem;
 }
 
 .node1335875 .gla-item:nth-child(1n) .gla-item-content:hover {
-  background-image: url('img/assises/icon-plane-hover.png');
+  background: url('img/assises/icon-plane-hover.png') no-repeat center 3rem;
 }
 
 .node1335875 .gla-item:nth-child(2n) .gla-item-content:hover {
-  background-image: url('img/assises/icon-bus-hover.png');
+  background: url('img/assises/icon-bus-hover.png') no-repeat center 3rem;
 }
 
 .node1335875 .gla-item:nth-child(3n) .gla-item-content:hover {
-  background-image: url('img/assises/icon-taxi-hover.png');
+  background: url('img/assises/icon-taxi-hover.png') no-repeat center 3rem;
 }
 
 .node1335875 .gla-item:nth-child(4n) .gla-item-content:hover {
-  background-image: url('img/assises/icon-helico-hover.png');
+  background: url('img/assises/icon-helico-hover.png') no-repeat center 3rem;
 }
 
 .node1335875 .gla-item-btn {
@@ -2013,7 +2011,7 @@ body:not(.front) .list-articles .gla-item-btn::before {
   color: #e50041;
 }
 
-.node1335875 .gla-item-content:hover .gla-item-title {
+.node1335875 .gla-item a:hover .gla-item-title {
   color: #ffffff;
 }
 
