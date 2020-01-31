@@ -2032,6 +2032,10 @@ body:not(.front) .list-articles .gla-item-btn::before {
   border: 0;
 }
 
+.parent1335875 table td p {
+  margin-top: 0;
+}
+
 .parent1335875 .article-content table tr td:first-child {
   width: 65%;
   margin-bottom: 7rem;
@@ -2048,7 +2052,7 @@ body:not(.front) .list-articles .gla-item-btn::before {
 
 .parent1335875 .article-content table tr:first-child td:nth-child(2) h3 {
   margin-top: 0;
-  margin-bottom: 5rem;
+  margin-bottom: 6rem;
 }
 
 
