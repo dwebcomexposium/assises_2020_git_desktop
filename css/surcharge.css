@@ -2098,7 +2098,7 @@ body:not(.front) .list-articles .gla-item-btn::before {
 }
 
 .pagin-item.is-active a:focus,
-.pagination a:hover {
+.pagin-item.is-active a:hover {
   color: #ffffff;
 }
 
