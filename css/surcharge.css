@@ -1963,10 +1963,6 @@ body:not(.front) .list-articles .gla-item-btn::before {
   padding: 11rem 2rem 2rem;
 }
 
-.node1335875 .gla-item a:hover .gla-item-content {
-  background-color: #e50041;
-}
-
 .node1335875 .gla-item:nth-child(1n) .gla-item-content {
   background: url('img/assises/icon-plane.png') no-repeat center 3rem;
 }
@@ -1984,19 +1980,19 @@ body:not(.front) .list-articles .gla-item-btn::before {
 }
 
 .node1335875 .gla-item:nth-child(1n) .gla-item-content:hover {
-  background: url('img/assises/icon-plane-hover.png') no-repeat center 3rem;
+  background: #e50041 url('img/assises/icon-plane-hover.png') no-repeat center 3rem;
 }
 
 .node1335875 .gla-item:nth-child(2n) .gla-item-content:hover {
-  background: url('img/assises/icon-bus-hover.png') no-repeat center 3rem;
+  background: #e50041 url('img/assises/icon-bus-hover.png') no-repeat center 3rem;
 }
 
 .node1335875 .gla-item:nth-child(3n) .gla-item-content:hover {
-  background: url('img/assises/icon-taxi-hover.png') no-repeat center 3rem;
+  background: #e50041 url('img/assises/icon-taxi-hover.png') no-repeat center 3rem;
 }
 
 .node1335875 .gla-item:nth-child(4n) .gla-item-content:hover {
-  background: url('img/assises/icon-helico-hover.png') no-repeat center 3rem;
+  background: #e50041 url('img/assises/icon-helico-hover.png') no-repeat center 3rem;
 }
 
 .node1335875 .gla-item-btn {
@@ -2011,7 +2007,7 @@ body:not(.front) .list-articles .gla-item-btn::before {
   color: #e50041;
 }
 
-.node1335875 .gla-item a:hover .gla-item-title {
+.node1335875 .gla-item > a:hover .gla-item-title {
   color: #ffffff;
 }
 
