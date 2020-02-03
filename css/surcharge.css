@@ -72,7 +72,7 @@ h1 {
 h2 {
   margin: 0;
   border: 0;
-  font-size: 3.2rem;
+  font-size: 2.2rem;
   font-weight: 700;
 }
 
@@ -88,7 +88,7 @@ h2 {
 
 h3 {
   font-family: 'Vollkorn', serif;
-  font-size: 3rem;
+  font-size: 2.6rem;
   font-weight: 600;
   color: #e50041;
 }
@@ -2090,6 +2090,14 @@ body:not(.front) .list-articles .gla-item-btn::before {
 
 /* Desktop version */
 @media (min-width: 960px) {
+  h2 {
+    font-size: 3rem;
+  }
+
+  h3 {
+    font-size: 3rem;
+  }
+
   .front .site-wrapper {
     background: url('img/assises/dots-light.svg') no-repeat 0 25% / 463px 281px;
   }
@@ -2739,22 +2747,22 @@ body:not(.front) .list-articles .gla-item-btn::before {
   }
 
   .node1335883 #zone1 {
-    background: url(img/assises/icon-plane-xl.png) no-repeat 113rem center, url(img/assises/dots-white.svg) no-repeat right center / 463px 281px;
+    background: url(img/assises/icon-plane-xl.png) no-repeat 90% center, url(img/assises/dots-white.svg) no-repeat right center / 463px 281px;
     background-color: #f3efef;
   }
 
   .node1336148 #zone1 {
-    background: url(img/assises/icon-bus-xl.png) no-repeat 113rem center, url(img/assises/dots-white.svg) no-repeat right center / 463px 281px;
+    background: url(img/assises/icon-bus-xl.png) no-repeat 90% center, url(img/assises/dots-white.svg) no-repeat right center / 463px 281px;
     background-color: #f3efef;
   }
 
   .node1336152 #zone1 {
-    background: url(img/assises/icon-taxi-xl.png) no-repeat 113rem center, url(img/assises/dots-white.svg) no-repeat right center / 463px 281px;
+    background: url(img/assises/icon-taxi-xl.png) no-repeat 90% center, url(img/assises/dots-white.svg) no-repeat right center / 463px 281px;
     background-color: #f3efef;
   }
 
   .node1336153 #zone1 {
-    background: url(img/assises/icon-helico-xl.png) no-repeat 113rem center, url(img/assises/dots-white.svg) no-repeat right center / 463px 281px;
+    background: url(img/assises/icon-helico-xl.png) no-repeat 90% center, url(img/assises/dots-white.svg) no-repeat right center / 463px 281px;
     background-color: #f3efef;
   }
 }
