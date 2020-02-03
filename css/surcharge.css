@@ -74,14 +74,15 @@ h2 {
   border: 0;
   font-size: 2.2rem;
   font-weight: 700;
+  text-transform: uppercase;
 }
 
 .article-wrapper h2::before,
 #zone4 h2::before {
   content: '';
   display: inline-block;
-  width: 46px;
-  height: 33px;
+  width: 41px;
+  height: 20px;
   background: url(img/assises/icon-arrow-dark.svg) no-repeat center / 100%;
   margin-right: 0.5rem;
 }
@@ -2094,18 +2095,20 @@ body:not(.front) .list-articles .gla-item-btn::before {
     font-size: 3rem;
   }
 
+  .article-wrapper h2::before,
+  #zone4 h2::before {
+  width: 49px;
+  height: 33px;
+  position: absolute;
+  left: -4rem;
+}
+
   h3 {
     font-size: 3rem;
   }
 
   .front .site-wrapper {
     background: url('img/assises/dots-light.svg') no-repeat 0 25% / 463px 281px;
-  }
-
-  .article-wrapper h2::before,
-  #zone4 h2::before {
-    position: absolute;
-    left: -4rem;
   }
 
   /* Cookies */
