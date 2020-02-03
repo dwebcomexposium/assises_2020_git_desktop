@@ -1356,7 +1356,7 @@ body:not(.front) .gla-item {
 }
 
 .main-title-with-link > .la-main-title {
-  font-size: 2.7rem;
+  font-size: 2.2rem;
   font-weight: 700;
   text-transform: uppercase;
   color: #001821;
@@ -1366,8 +1366,8 @@ body:not(.front) .gla-item {
 .main-title-with-link > .la-main-title::before {
   content: '';
   display: inline-block;
-  width: 46px;
-  height: 23px;
+  width: 41px;
+  height: 20px;
   background: url('img/assises/icon-arrow-dark.svg') no-repeat center / 100%;
   margin-right: 0.5rem;
 }
@@ -2028,6 +2028,7 @@ body:not(.front) .list-articles .gla-item-btn::before {
   display: flex;
   flex-wrap: wrap;
   align-items: flex-start;
+  justify-content: space-between;
 }
 
 .parent1335875 table td {
@@ -2511,6 +2512,15 @@ body:not(.front) .list-articles .gla-item-btn::before {
     align-items: center;
   }
 
+  .main-title-with-link > .la-main-title {
+    font-size: 3rem;
+  }
+
+  .main-title-with-link > .la-main-title::before {
+    width: 49px;
+    height: 28px;
+  }
+
   .list-articles.hot-news .main-title-with-link::after,
   .node1318422 .list-articles .main-title-with-link::after {
     display: none;
@@ -2746,7 +2756,7 @@ body:not(.front) .list-articles .gla-item-btn::before {
   }
 
   .parent1335875 .article-content table tr td:nth-child(2) {
-    width: 35%;
+    max-width: 353px;
   }
 
   .node1335883 #zone1 {
