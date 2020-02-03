@@ -217,11 +217,13 @@ a.link-read-more:hover,
   color: #001821;
 }
 
+.cta-3,
 .style1 .lien3 {
   background: #e50041;
   color: #ffffff;
 }
 
+.cta-3:hover,
 .style1 .lien3:hover {
   background: #ab0638;
   color: #ffffff;
@@ -517,7 +519,7 @@ a.link-read-more:hover,
   display: none;
 }
 
-/* Header édito*/
+/* Header édito - Header vidéo */
 .front .header-edito {
   max-width: initial;
   margin-bottom: 5rem;
@@ -539,7 +541,8 @@ a.link-read-more:hover,
   max-width: initial;
 }
 
-.front .header-edito h2 {
+.front .header-edito h2,
+.video-container .landing-text h2 {
   display: inline;
   margin: 0;
   padding: 0;
@@ -554,7 +557,8 @@ a.link-read-more:hover,
   left: 2rem;
 }
 
-.front .header-edito h2 u {
+.front .header-edito h2 u,
+.video-container .landing-text h2 span {
   padding: 0 2rem;
   text-decoration: none;
   font-family: 'Vollkorn', serif;
@@ -567,7 +571,8 @@ a.link-read-more:hover,
   display: none;
 }
 
-.front .header-edito blockquote {
+.front .header-edito blockquote,
+.video-container .landing-container {
   margin: 3rem auto 0;
   padding: 3rem 2rem;
   max-width: 335px;
@@ -591,7 +596,8 @@ a.link-read-more:hover,
   border: 0;
 }
 
-.front .header-edito blockquote p.style1 {
+.front .header-edito blockquote p.style1,
+.video-container .landing-container p {
   margin-top: 3rem;
 }
 
@@ -601,6 +607,10 @@ a.link-read-more:hover,
 
 .front .header-edito blockquote .icon-quote {
   display: none;
+}
+
+.video-container video {
+  width: 100%;
 }
 
 /* Vidéos */
@@ -2817,7 +2827,8 @@ body:not(.front) .list-articles .gla-item-btn::before {
 	background-color: #000;
 	font-size: 0;
 	margin-bottom: 0;
-	overflow: hidden;
+  overflow: hidden;
+  height: 650px;
 }
 
 .video-container .landing {
