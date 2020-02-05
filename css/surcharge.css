@@ -1633,7 +1633,7 @@ body:not(.front) .list-articles .gla-item-btn::before {
 .article-content,
 #zone2 .list-articles .list-grids-with-pagin,
 #zone4 {
-  margin: 1rem 0 5rem;
+  margin: 5rem 0;
   padding: 0 2rem;
   position: relative;
 }
