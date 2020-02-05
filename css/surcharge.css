@@ -2196,6 +2196,11 @@ body:not(.front) .list-articles .gla-item-btn::before {
     height: 550px;
   }
 
+  .front .header-edito blockquote,
+  .video-container .landing-container {
+    margin: 3rem 0 0;
+  }
+
   .video-container .landing-container .cta-2,
   .video-container .landing-container .cta-3 {
     margin-top: 3rem;
