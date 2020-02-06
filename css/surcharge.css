@@ -620,7 +620,7 @@ a.link-read-more:hover,
 	position: relative;
 	display: block;
 	z-index: 0;
-	background-color: #000;
+	background-color: #e50041;
 	font-size: 0;
 	margin-bottom: 0;
   overflow: hidden;
@@ -632,7 +632,7 @@ a.link-read-more:hover,
 	color: #fff;
 	position: absolute;
 	z-index: 1;
-	top: 3rem;
+	top: 20rem;
 	width: 100%;
 }
 
@@ -2194,6 +2194,10 @@ body:not(.front) .list-articles .gla-item-btn::before {
   /* Header video */
   .video-container {
     height: 550px;
+  }
+
+  .video-container .landing {
+    top: 3rem;
   }
 
   .front .header-edito blockquote,
