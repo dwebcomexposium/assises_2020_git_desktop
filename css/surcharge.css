@@ -620,7 +620,6 @@ a.link-read-more:hover,
 	position: relative;
 	display: block;
 	z-index: 0;
-  background-color: ;
   background: #e50041 url('img/assises/video-bg.svg') no-repeat center 0 / 130%;
 	font-size: 0;
 	margin-bottom: 0;
@@ -2192,7 +2191,7 @@ body:not(.front) .list-articles .gla-item-btn::before {
 
   /* Header video */
   .video-container video {
-    display: none;
+    display: block;
     width: 100%;
   }
 
@@ -2667,7 +2666,7 @@ body:not(.front) .list-articles .gla-item-btn::before {
 
   /* Page article */
   #zone1 {
-    background: #f3efef url('img/assises/dots-white.svg') no-repeat right center / 463px 281px;
+    background: #f3efef url('img/assises/dots-white.svg') no-repeat 82% center / 463px 281px;
   }
 
   .front #zone1 {
@@ -2849,22 +2848,22 @@ body:not(.front) .list-articles .gla-item-btn::before {
   }
 
   .node1335883 #zone1 {
-    background: url(img/assises/icon-plane-xl.png) no-repeat 90% center, url(img/assises/dots-white.svg) no-repeat right center / 463px 281px;
+    background: url(img/assises/icon-plane-xl.png) no-repeat 79% center, url(img/assises/dots-white.svg) no-repeat 82% center / 463px 281px;
     background-color: #f3efef;
   }
 
   .node1336148 #zone1 {
-    background: url(img/assises/icon-bus-xl.png) no-repeat 90% center, url(img/assises/dots-white.svg) no-repeat right center / 463px 281px;
+    background: url(img/assises/icon-bus-xl.png) no-repeat 79% center, url(img/assises/dots-white.svg) no-repeat 82% center / 463px 281px;
     background-color: #f3efef;
   }
 
   .node1336152 #zone1 {
-    background: url(img/assises/icon-taxi-xl.png) no-repeat 90% center, url(img/assises/dots-white.svg) no-repeat right center / 463px 281px;
+    background: url(img/assises/icon-taxi-xl.png) no-repeat 79% center, url(img/assises/dots-white.svg) no-repeat 82% center / 463px 281px;
     background-color: #f3efef;
   }
 
   .node1336153 #zone1 {
-    background: url(img/assises/icon-helico-xl.png) no-repeat 90% center, url(img/assises/dots-white.svg) no-repeat right center / 463px 281px;
+    background: url(img/assises/icon-helico-xl.png) no-repeat 79% center, url(img/assises/dots-white.svg) no-repeat 82% center / 463px 281px;
     background-color: #f3efef;
   }
 }
