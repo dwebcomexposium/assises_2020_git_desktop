@@ -573,7 +573,7 @@ a.link-read-more:hover,
   margin: 3rem 2rem 0;
   padding: 3rem 2rem;
   max-width: 458px;
-  background: #ffffff;
+  background: rgba(250, 250, 250, 0.68);
   color: #001821;
   font-weight: 600;
   box-shadow: 0 0 12px 2px rgba(0,0,0,0.16);
@@ -613,14 +613,15 @@ a.link-read-more:hover,
 }
 
 .video-container video {
-  width: 100%;
+  display: none;
 }
 
 .video-container {
 	position: relative;
 	display: block;
 	z-index: 0;
-	background-color: #e50041;
+  background-color: ;
+  background: #e50041 url('img/assises/video-bg.svg') no-repeat 0 center / 100%;
 	font-size: 0;
 	margin-bottom: 0;
   overflow: hidden;
@@ -2192,8 +2193,14 @@ body:not(.front) .list-articles .gla-item-btn::before {
   }
 
   /* Header video */
+  .video-container video {
+    display: none;
+    width: 100%;
+  }
+
   .video-container {
     height: 550px;
+    background-image: none;
   }
 
   .video-container .landing {
