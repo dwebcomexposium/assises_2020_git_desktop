@@ -621,7 +621,7 @@ a.link-read-more:hover,
 	display: block;
 	z-index: 0;
   background-color: ;
-  background: #e50041 url('img/assises/video-bg.svg') no-repeat 0 center / 100%;
+  background: #e50041 url('img/assises/video-bg.svg') no-repeat center 0 / 130%;
 	font-size: 0;
 	margin-bottom: 0;
   overflow: hidden;
@@ -631,9 +631,7 @@ a.link-read-more:hover,
 .video-container .landing {
 	font-size: 1.6rem;
 	color: #fff;
-	position: absolute;
-	z-index: 1;
-	top: 20rem;
+	margin-top: 28rem;
 	width: 100%;
 }
 
@@ -2204,7 +2202,10 @@ body:not(.front) .list-articles .gla-item-btn::before {
   }
 
   .video-container .landing {
+    position: absolute;
     top: 3rem;
+    margin-top: 0;
+	  z-index: 1;
   }
 
   .front .header-edito blockquote,
