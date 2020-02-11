@@ -2140,6 +2140,25 @@ body:not(.front) .list-articles .gla-item-btn::before {
   display: none;
 }
 
+/* Page 404 */
+.error404 #zone1,
+.error404 .ep-form-wrap {
+  display: none;
+}
+
+.error404 #zone2 {
+  background: #e50041 url(img/assises/404-bg.svg) no-repeat center 0 / 170rem;
+  color: #ffffff;
+}
+
+.error404 .main-title {
+  color: #ffffff;
+}
+
+.error404 .intro {
+  position: initial;
+}
+
 /* Desktop version */
 @media (min-width: 960px) {
   h2 {
