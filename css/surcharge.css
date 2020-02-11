@@ -2147,7 +2147,7 @@ body:not(.front) .list-articles .gla-item-btn::before {
 }
 
 .error404 #zone2 {
-  height: 67rem;
+  height: 57rem;
   padding-top: 8rem;
   background: #e50041 url(img/assises/404-bg.svg) no-repeat center 0 / 170rem;
   color: #ffffff;
@@ -2162,6 +2162,10 @@ body:not(.front) .list-articles .gla-item-btn::before {
 
 .error404 .intro {
   position: initial;
+}
+
+.error404 .style a {
+  margin-top: 7rem;
 }
 
 /* Desktop version */
