@@ -1383,11 +1383,6 @@ body:not(.front) .gla-item {
   line-height: 1.4;
 }
 
-.article-focus .inside p:not(.style1) {
-  margin-top: 0;
-  margin-bottom: 4rem;
-}
-
 /* Hot news */
 .list-articles.hot-news {
   background: #004951;
