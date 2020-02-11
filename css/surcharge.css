@@ -2147,13 +2147,15 @@ body:not(.front) .list-articles .gla-item-btn::before {
 }
 
 .error404 #zone2 {
-  min-height: 67rem;
+  height: 67rem;
+  padding-top: 8rem;
   background: #e50041 url(img/assises/404-bg.svg) no-repeat center 0 / 170rem;
   color: #ffffff;
 }
 
 .error404 .main-title {
   font-size: 12rem;
+  margin-bottom: 7rem;
   text-align: center;
   color: #ffffff;
 }
