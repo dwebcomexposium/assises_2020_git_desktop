@@ -1898,6 +1898,15 @@ body:not(.front) .list-articles .gla-item-btn::before {
 
 .node1340418 .edito {
   max-width: 1220px;
+  margin: 0 auto;
+}
+
+.node1340418 h2 {
+  margin: 2rem 0;
+  font-family: 'Vollkorn', serif;
+  font-size: 2.6rem;
+  font-weight: 600;
+  color: #e50041;
 }
 
 .node1340418 .edito ul {
@@ -1907,6 +1916,7 @@ body:not(.front) .list-articles .gla-item-btn::before {
 
 .node1340418 .edito ul li {
   padding-bottom: 1rem;
+  list-style-type: none;
 }
 
 .node1340418 .edito ul li:last-child {
