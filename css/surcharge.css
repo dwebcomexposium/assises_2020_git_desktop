@@ -141,6 +141,11 @@ cite {
   margin: 2rem 0;
 }
 
+small {
+  font-size: 1.3rem;
+  font-weight: normal;
+}
+
 p.focus2,
 p.focus2 strong {
   font-family: 'Vollkorn', serif;
@@ -1366,12 +1371,12 @@ body:not(.front) .gla-item {
   color: #ffffff;
 }
 
-.article-focus .inside {
+.front .article-focus .inside {
   padding: 2rem;
   background: #a5948f;
 }
 
-.article-focus .inside .af-title {
+.front .article-focus .inside .af-title {
   font-size: 2.7rem;
   font-weight: 700;
   color: #001821;
@@ -1859,6 +1864,35 @@ body:not(.front) .list-articles .gla-item-btn::before {
 
 #zone2 .la-slider .la-item + .la-item {
   margin-top: 0;
+}
+
+/* Etre invité V2 */
+.node1340418 .article-focus {
+  background: #e50041;
+  border: 0;
+  margin: 0 auto;
+  padding: 3rem 0;
+  color: #ffffff;
+  max-width: 97rem;
+}
+
+.node1340418 .article-focus .af-title {
+  display: inline-block;
+  padding: 0 1rem 0 3rem;
+  text-transform: uppercase;
+  font-size: 3rem;
+  font-weight: 700;
+  background: #ffffff;
+  color: #001821;
+}
+
+.node1340418 .article-focus p {
+  padding: 2rem 3rem;
+}
+
+.node1340418 .article-focus .style1 a {
+  min-width: 15rem;
+  margin-left: 3rem;
 }
 
 /* FAQ */
@@ -2625,7 +2659,7 @@ body:not(.front) .list-articles .gla-item-btn::before {
   }
 
   /* speakers remarquables */
-  .article-focus {
+  .front .article-focus {
     position: relative;
     display: flex;
     justify-content: flex-end;
@@ -2633,14 +2667,14 @@ body:not(.front) .list-articles .gla-item-btn::before {
     max-width: 1220px;
   }
 
-  .article-focus img {
+  .front .article-focus img {
     position: absolute;
     max-width: 542px;
     top: 9rem;
     right: 690px;
   }
 
-  .article-focus .inside {
+  .front .article-focus .inside {
     max-width: 750px;
     padding: 6rem 10rem 12rem;
     background: #a5948f url('img/assises/dots-white.svg') no-repeat 157% 92% / 463px 281px;
@@ -2964,12 +2998,12 @@ body:not(.front) .list-articles .gla-item-btn::before {
     left: -6rem;
   }
 
-  .article-focus .inside {
+  .front .article-focus .inside {
     max-width: 860px;
     padding: 6rem 10rem 12rem 17rem;
   }
 
-  .article-focus img {
+  .front .article-focus img {
     top: 6rem;
     right: 745px;
   }
