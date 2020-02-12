@@ -1733,7 +1733,7 @@ body:not(.front) .list-articles .gla-item-btn::before {
   display: inline-block;
   width: 25px;
   height: 23px;
-  background: url(img/assises/icon-arrow-red.svg) no-repeat 0 center / 200%;
+  background: url('img/assises/icon-arrow-red.svg') no-repeat 0 center / 200%;
 }
 
 .article-content .table3 {
@@ -1878,6 +1878,7 @@ body:not(.front) .list-articles .gla-item-btn::before {
 
 .node1340418 .article-focus .af-title {
   display: inline-block;
+  margin-bottom: 2rem;
   padding: 0 1rem 0 3rem;
   text-transform: uppercase;
   font-size: 3rem;
@@ -1887,12 +1888,45 @@ body:not(.front) .list-articles .gla-item-btn::before {
 }
 
 .node1340418 .article-focus p {
-  padding: 2rem 3rem;
+  padding: 0 3rem;
 }
 
 .node1340418 .article-focus .style1 a {
   min-width: 15rem;
-  margin-left: 3rem;
+  margin-top: 2rem;
+}
+
+.node1340418 .edito {
+  max-width: 1220px;
+}
+
+.node1340418 .edito ul {
+  margin: 4rem 0;
+  padding-left: 30rem;
+}
+
+.node1340418 .edito ul li {
+  padding-bottom: 1rem;
+}
+
+.node1340418 .edito ul li:last-child {
+  padding-bottom: 0;
+}
+
+.node1340418 .edito ul li::before {
+  transform: none;
+  background: transparent;
+  vertical-align: middle;
+  margin: 0 1.5rem 0 -3em;
+  content: "";
+  display: inline-block;
+  width: 25px;
+  height: 23px;
+  background: url('img/assises/icon-arrow-red.svg') no-repeat 0 center / 200%;
+}
+
+.node1340418 .list-articles {
+  background: #004951;
 }
 
 /* FAQ */
