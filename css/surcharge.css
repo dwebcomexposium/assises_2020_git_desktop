@@ -2046,6 +2046,7 @@ body:not(.front) .list-articles .gla-item-btn::before {
   background: #e50041 url('img/assises/icon-helico-hover.png') no-repeat center 3rem;
 }
 
+.node1335875 .gla-item-desc,
 .node1335875 .gla-item-btn {
   display: none;
 }
@@ -2067,10 +2068,11 @@ body:not(.front) .list-articles .gla-item-btn::before {
 }
 
 .parent1335875 h2 {
-  margin-bottom: 5rem;
+  margin-bottom: 4rem;
 }
 
 .parent1335875 h3 {
+  margin-top: 2rem;
   margin-bottom: 0;
 }
 
@@ -2105,7 +2107,7 @@ body:not(.front) .list-articles .gla-item-btn::before {
 
 .parent1335875 .article-content table tr:first-child td:nth-child(2) h3 {
   margin-top: 0;
-  margin-bottom: 6rem;
+  margin-bottom: 4rem;
 }
 
 /* Pagination */
@@ -2175,7 +2177,7 @@ body:not(.front) .list-articles .gla-item-btn::before {
 
 .node1340594 #zone2 {
   padding-top: 24rem;
-  background: #f3efef url('img/assises/wip-bg.svg') no-repeat center 0 / 120rem;
+  background: #f3efef url('img/assises/wip-bg.svg') no-repeat 48% 0 / 120rem;
 }
 
 .node1340594 .article-title,
@@ -2886,12 +2888,12 @@ body:not(.front) .list-articles .gla-item-btn::before {
   }
 
   .parent1335875 .article-content {
-    margin: 8rem auto;
+    margin: 6rem auto;
   }
 
   .parent1335875 .article-content table tr td:first-child {
     width: 65%;
-    margin-bottom: 7rem;
+    margin-bottom: 5rem;
   }
 
   .parent1335875 .article-content table tr td:nth-child(2) {
