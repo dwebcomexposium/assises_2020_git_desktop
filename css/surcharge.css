@@ -2148,7 +2148,7 @@ body:not(.front) .list-articles .gla-item-btn::before {
 
 .error404 #zone2 {
   padding-top: 8rem;
-  background: #e50041 url(img/assises/404-bg.svg) no-repeat center 0 / 120rem;
+  background: #e50041 url('img/assises/404-bg.svg') no-repeat center 0 / 120rem;
   color: #ffffff;
 }
 
@@ -2165,6 +2165,38 @@ body:not(.front) .list-articles .gla-item-btn::before {
 }
 
 .error404 .style1 a {
+  margin-top: 4rem;
+}
+
+/* Page WIP */
+.node1340419 #zone1 {
+  display: none;
+}
+
+.node1340419 #zone2 {
+  padding-top: 30rem;
+  background: #f3efef url('img/assises/wip-bg.svg') no-repeat center 0 / 120rem;
+}
+
+.node1340419 .article-title,
+.node1340419 .article-intro {
+  position: initial;
+}
+
+.node1340419 .article-title {
+  margin-bottom: 7rem;
+  font-size: 4rem;
+  font-family: 'Vollkorn', serif;
+  font-weight: 600;
+  color: #004951;
+  text-align: center;
+}
+
+.node1340419 .article-intro {
+  padding-bottom: 6rem;
+}
+
+.node1340419 .style1 a {
   margin-top: 4rem;
 }
 
@@ -2905,6 +2937,26 @@ body:not(.front) .list-articles .gla-item-btn::before {
   }
 
   .error404 .style1 a {
+    margin-top: 7rem;
+  }
+
+  /* Page WIP */
+
+  .node1340419 #zone2 {
+    padding-top: 30rem;
+    background-size: 183rem;
+  }
+
+  .node1340419 .article-title {
+    margin-bottom: 7rem;
+    font-size: 4rem;
+  }
+
+  .node1340419 .article-intro {
+    padding-bottom: 8rem;
+  }
+
+  .node1340419 .style1 a {
     margin-top: 7rem;
   }
 }
