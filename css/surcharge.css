@@ -1411,7 +1411,7 @@ body:not(.front) .gla-item {
 }
 
 .main-title-with-link > .la-main-title,
-.keynote .main-title-with-link > .la-main-title {
+#zone2 .keynote .la-main-title {
   font-size: 2.2rem;
   font-weight: 700;
   text-transform: uppercase;
@@ -1940,16 +1940,17 @@ body:not(.front) .list-articles .gla-item-btn::before {
 }
 
 .node1340418 .keynote {
+  padding: 5rem 0;
   background: #004951;
 }
 
-.node1340418 .keynote .main-title-with-link,
-.node1340418 .keynote .intro {
+.node1340418 #zone2 .keynote .main-title-with-link,
+.node1340418 #zone2 .keynote .intro {
   position: initial;
 }
 
-.node1340418 .keynote .h2,
-.node1340418 .keynote .intro {
+.node1340418 #zone2 .keynote .la-main-title,
+.node1340418 #zone2 .keynote .intro {
   color: #ffffff;
 }
 
@@ -2746,7 +2747,7 @@ body:not(.front) .list-articles .gla-item-btn::before {
   }
 
   .main-title-with-link > .la-main-title,
-  .keynote .main-title-with-link > .la-main-title {
+  #zone2 .keynote .la-main-title {
     font-size: 3rem;
   }
 
