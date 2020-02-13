@@ -1966,7 +1966,7 @@ body:not(.front) .list-articles .gla-item-btn::before {
   text-transform: uppercase;
 }
 
-.node1340418 #zone2 .keynote .la-main-title {
+.node1340418 #zone2 .keynote .la-main-title::before {
   content: '';
   display: inline-block;
   width: 41px;
@@ -2989,7 +2989,7 @@ body:not(.front) .list-articles .gla-item-btn::before {
   }
 
   /* Etre invité V2 */
-  .node1340418 #zone2 .keynote .la-main-title {
+  .node1340418 #zone2 .keynote .la-main-title::before {
     width: 49px;
     height: 28px;
   }
@@ -3081,7 +3081,7 @@ body:not(.front) .list-articles .gla-item-btn::before {
 
 @media (min-width: 1370px) {
   .main-title-with-link > .la-main-title::before,
-  .node1340418 #zone2 .keynote .la-main-title {
+  .node1340418 #zone2 .keynote .la-main-title::before {
     position: absolute;
     left: -6rem;
   }
