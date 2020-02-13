@@ -1884,6 +1884,11 @@ body:not(.front) .list-articles .gla-item-btn::before {
   box-shadow: 0 0 12px 2px rgba(0,0,0,0.16);
 }
 
+.node1340418 .article-focus.focus2 {
+  margin-bottom: 0;
+  background: #a5948f url('img/assises/dots-grey.svg') no-repeat right 0 / 46rem;
+}
+
 .node1340418 .article-focus .af-title {
   display: inline-block;
   margin-bottom: 2rem;
@@ -1945,6 +1950,7 @@ body:not(.front) .list-articles .gla-item-btn::before {
 }
 
 .node1340418 .keynote {
+  margin-bottom: 8rem;
   padding: 5rem 0;
   background: #004951;
 }
