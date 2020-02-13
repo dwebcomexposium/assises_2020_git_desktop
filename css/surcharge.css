@@ -1870,13 +1870,18 @@ body:not(.front) .list-articles .gla-item-btn::before {
 }
 
 /* Etre invité V2 */
+.node1340418 .layout-2-col {
+  margin: 9rem 0;
+}
+
 .node1340418 .article-focus {
-  background: #e50041 url('img/assises/dots-red.svg') no-repeat right 0 / 46rem;
-  border: 0;
-  margin: 0 auto;
-  padding: 3rem 0;
-  color: #ffffff;
   max-width: 97rem;
+  margin: 0 auto 8rem;
+  padding: 3rem 0;
+  border: 0;
+  background: #e50041 url('img/assises/dots-red.svg') no-repeat right 0 / 46rem;
+  color: #ffffff;
+  box-shadow: 0 0 12px 2px rgba(0,0,0,0.16);
 }
 
 .node1340418 .article-focus .af-title {
@@ -1901,7 +1906,7 @@ body:not(.front) .list-articles .gla-item-btn::before {
 
 .node1340418 .edito {
   max-width: 1220px;
-  margin: 0 auto;
+  margin: 0 auto 8rem;
 }
 
 .node1340418 h2 {
@@ -1931,7 +1936,7 @@ body:not(.front) .list-articles .gla-item-btn::before {
   transform: none;
   background: transparent;
   vertical-align: middle;
-  margin: 0 1.5rem 0 -3em;
+  margin: 0 2.2rem 0 -3em;
   content: "";
   display: inline-block;
   width: 25px;
@@ -1952,6 +1957,22 @@ body:not(.front) .list-articles .gla-item-btn::before {
 .node1340418 #zone2 .keynote .la-main-title,
 .node1340418 #zone2 .keynote .intro {
   color: #ffffff;
+}
+
+.node1340418 #zone2 .keynote .la-main-title {
+  position: relative;
+  font-family: 'Miriam Libre', sans-serif;
+  font-weight: 700;
+  text-transform: uppercase;
+}
+
+.node1340418 #zone2 .keynote .la-main-title {
+  content: '';
+  display: inline-block;
+  width: 41px;
+  height: 20px;
+  background: url('img/assises/icon-arrow-white.svg') no-repeat center / 100%;
+  margin-right: 0.5rem;
 }
 
 /* FAQ */
@@ -2967,6 +2988,12 @@ body:not(.front) .list-articles .gla-item-btn::before {
     margin-right: 2.4rem;
   }
 
+  /* Etre invité V2 */
+  .node1340418 #zone2 .keynote .la-main-title {
+    width: 49px;
+    height: 28px;
+  }
+
   /* FAQ */
   .faq-summary {
     position: absolute;
@@ -3053,7 +3080,8 @@ body:not(.front) .list-articles .gla-item-btn::before {
 }
 
 @media (min-width: 1370px) {
-  .main-title-with-link > .la-main-title::before {
+  .main-title-with-link > .la-main-title::before,
+  .node1340418 #zone2 .keynote .la-main-title {
     position: absolute;
     left: -6rem;
   }
