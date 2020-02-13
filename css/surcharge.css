@@ -1410,7 +1410,8 @@ body:not(.front) .gla-item {
   margin: 0 auto;
 }
 
-.main-title-with-link > .la-main-title {
+.main-title-with-link > .la-main-title,
+.keynote .main-title-with-link > .la-main-title {
   font-size: 2.2rem;
   font-weight: 700;
   text-transform: uppercase;
@@ -1431,7 +1432,8 @@ body:not(.front) .gla-item {
   color: #ffffff;
 }
 
-.hot-news .main-title-with-link > .la-main-title::before {
+.hot-news .main-title-with-link > .la-main-title::before,
+.keynote .main-title-with-link > .la-main-title::before {
   background: url('img/assises/icon-arrow-white.svg') no-repeat center / 100%;
 }
 
@@ -1623,7 +1625,8 @@ body:not(.front) .list-articles .gla-item-btn::before {
 
 .article-title .at-main-title,
 #zone2 .list-articles .la-main-title,
-.faq-main-title {
+.faq-main-title,
+.contacts-list h1 {
   margin: 0;
   padding: 0;
   font-family: 'Vollkorn', serif;
@@ -1936,8 +1939,18 @@ body:not(.front) .list-articles .gla-item-btn::before {
   background: url('img/assises/icon-arrow-red.svg') no-repeat 0 center / 200%;
 }
 
-.node1340418 .list-articles {
+.node1340418 .keynote {
   background: #004951;
+}
+
+.node1340418 .keynote .main-title-with-link,
+.node1340418 .keynote .intro {
+  position: initial;
+}
+
+.node1340418 .keynote .h2,
+.node1340418 .keynote .intro {
+  color: #ffffff;
 }
 
 /* FAQ */
@@ -2250,30 +2263,30 @@ body:not(.front) .list-articles .gla-item-btn::before {
 }
 
 /* Page WIP */
-.node1340594 #zone1 {
+.wip #zone1 {
   display: none;
 }
 
-.node1340594 #zone2 {
+.wip #zone2 {
   padding-top: 24rem;
   background: #f3efef url('img/assises/wip-bg.svg') no-repeat 48% 0 / 120rem;
 }
 
-.node1340594 .article-title,
-.node1340594 .article-intro {
+.wip .article-title,
+.wip .article-intro {
   position: initial;
 }
 
-.node1340594 .article-title {
+.wip .article-title {
   margin-bottom: 4rem;
   text-align: center;
 }
 
-.node1340594 .article-intro {
+.wip .article-intro {
   padding-bottom: 6rem;
 }
 
-.node1340594 .style1 a {
+.wip .style1 a {
   margin-top: 3rem;
 }
 
@@ -2732,7 +2745,8 @@ body:not(.front) .list-articles .gla-item-btn::before {
     align-items: center;
   }
 
-  .main-title-with-link > .la-main-title {
+  .main-title-with-link > .la-main-title,
+  .keynote .main-title-with-link > .la-main-title {
     font-size: 3rem;
   }
 
@@ -3018,21 +3032,21 @@ body:not(.front) .list-articles .gla-item-btn::before {
   }
 
   /* Page WIP */
-  .node1340594 #zone2 {
+  .wip #zone2 {
     padding-top: 39rem;
     background-position: center 2rem;
     background-size: 165rem;
   }
 
-  .node1340594 .article-title {
+  .wip .article-title {
     margin-bottom: 7rem;
   }
 
-  .node1340594 .article-intro {
+  .wip .article-intro {
     padding-bottom: 8rem;
   }
 
-  .node1340594 .style1 a {
+  .wip .style1 a {
     margin-top: 7rem;
   }
 }
