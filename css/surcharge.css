@@ -2326,13 +2326,9 @@ body:not(.front) .list-articles .gla-item-btn::before {
 }
 
 /* Page Glossaire */
-.glossaire .list-articles {
-  max-width: 1220px;
-  margin: 5rem auto;
-}
-
 .glossaire .la-item {
-  margin-bottom: 4rem;
+  max-width: 900px;
+  margin: 7rem auto;
   padding: 0;
   border: 0;
 }
@@ -2940,9 +2936,7 @@ body:not(.front) .list-articles .gla-item-btn::before {
     padding: 0 2rem;
   }
 
-  .node1329377 .intro p,
-  .glossaire .intro p,
-  .glossaire #zone2 .list-articles .la-main-title {
+  .node1329377 .intro p {
     max-width: initial;
   }
 
@@ -3148,10 +3142,6 @@ body:not(.front) .list-articles .gla-item-btn::before {
   }
 
   /* Page Glossaire */
-  .glossaire .list-articles {
-    margin: 5rem auto;
-  }
-
   .glossaire .la-item.no-image .la-item-title {
     font-size: 3rem;
   }
