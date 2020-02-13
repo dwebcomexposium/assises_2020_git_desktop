@@ -2325,6 +2325,22 @@ body:not(.front) .list-articles .gla-item-btn::before {
   margin-top: 3rem;
 }
 
+/* Page Glossaire */
+.glossaire .list-articles {
+  max-width: 1220px;
+  margin: 5rem auto;
+}
+
+.glossaire .la-item.no-image .la-item-title {
+  display: block;
+  margin: 0;
+  font-size: 2.2rem;
+  font-weight: 700;
+  text-transform: uppercase;
+  color: #001821;
+  line-height: 1.2;
+}
+
 /* Desktop version */
 @media (min-width: 960px) {
   h2 {
