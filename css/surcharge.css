@@ -2331,8 +2331,15 @@ body:not(.front) .list-articles .gla-item-btn::before {
   margin: 5rem auto;
 }
 
+.glossaire .la-item {
+  margin-bottom: 4rem;
+  padding: 0;
+  border: 0;
+}
+
 .glossaire .la-item.no-image .la-item-title {
   display: block;
+  margin-bottom: 1rem;
   text-transform: uppercase;
   line-height: 1.2;
 }
@@ -2348,6 +2355,15 @@ body:not(.front) .list-articles .gla-item-btn::before {
 
 .glossaire .la-item-title a {
   color: #001821;
+}
+
+.glossaire .la-list {
+  padding: 0 2rem;
+  position: relative;
+}
+
+.glossaire .la-item-desc {
+  font-weight: 700;
 }
 
 /* Desktop version */
@@ -2925,8 +2941,8 @@ body:not(.front) .list-articles .gla-item-btn::before {
   }
 
   .node1329377 .intro p,
-  .node1341392 .intro p,
-  .node1341392 #zone2 .list-articles .la-main-title {
+  .glossaire .intro p,
+  .glossaire #zone2 .list-articles .la-main-title {
     max-width: initial;
   }
 
@@ -3136,11 +3152,15 @@ body:not(.front) .list-articles .gla-item-btn::before {
     margin: 5rem auto;
   }
 
+  .glossaire .la-item.no-image .la-item-title {
+    font-size: 3rem;
+  }
+
   .glossaire h2::before {
     width: 49px;
     height: 33px;
     position: absolute;
-    left: -4rem;
+    left: -6rem;
   }
 }
 
