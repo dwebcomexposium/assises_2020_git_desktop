@@ -2333,12 +2333,21 @@ body:not(.front) .list-articles .gla-item-btn::before {
 
 .glossaire .la-item.no-image .la-item-title {
   display: block;
-  margin: 0;
-  font-size: 2.2rem;
-  font-weight: 700;
   text-transform: uppercase;
-  color: #001821;
   line-height: 1.2;
+}
+
+.glossaire h2::before {
+  content: '';
+  display: inline-block;
+  width: 41px;
+  height: 20px;
+  background: url('img/assises/icon-arrow-dark.svg') no-repeat center / 100%;
+  margin-right: 0.5rem;
+}
+
+.glossaire .la-item-title a {
+  color: #001821;
 }
 
 /* Desktop version */
@@ -2915,7 +2924,9 @@ body:not(.front) .list-articles .gla-item-btn::before {
     padding: 0 2rem;
   }
 
-  .node1329377 .intro p {
+  .node1329377 .intro p,
+  .node1341392 .intro p,
+  .node1341392 #zone2 .list-articles .la-main-title {
     max-width: initial;
   }
 
@@ -3118,6 +3129,18 @@ body:not(.front) .list-articles .gla-item-btn::before {
 
   .wip .style1 a {
     margin-top: 7rem;
+  }
+
+  /* Page Glossaire */
+  .glossaire .list-articles {
+    margin: 5rem auto;
+  }
+
+  .glossaire h2::before {
+    width: 49px;
+    height: 33px;
+    position: absolute;
+    left: -4rem;
   }
 }
 
