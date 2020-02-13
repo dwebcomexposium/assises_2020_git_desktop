@@ -1988,6 +1988,10 @@ body:not(.front) .list-articles .gla-item-btn::before {
   margin-right: 0.5rem;
 }
 
+.node1340418 .keynote .gla-item-desc {
+  display: none;
+}
+
 /* FAQ */
 #zone2 .faq {
   max-width: 1220px;
