@@ -2487,9 +2487,11 @@ body:not(.front) .list-articles .gla-item-btn::before {
 
 .node1341629 .jury .cl-item {
   width: 25%;
+  border: 0;
 }
 
-.node1341629 .jury .cl-item-photo {
+.node1341629 .jury .cl-item-photo,
+.node1341629 .jury .cl-item-social {
   display: none;
 }
 
@@ -2499,6 +2501,9 @@ body:not(.front) .list-articles .gla-item-btn::before {
 }
 
 .node1341629 .jury .h3-like {
+  display: flex;
+  align-items: center;
+  margin: 0;
   font-family: 'Vollkorn', serif;
   font-size: 2rem;
   font-weight: 600;
@@ -2507,10 +2512,14 @@ body:not(.front) .list-articles .gla-item-btn::before {
 .node1341629 .jury .h3-like::before {
   content: '';
   display: inline-block;
-  width: 12px;
-  height: 13px;
-  background: url('img/assises/icon-arrow-white.svg') no-repeat center / 100%;
+  width: 24px;
+  height: 21px;
+  background: url('img/assises/icon-arrow-white.svg') no-repeat 0 center / 200%;
   margin-right: 0.5rem;
+}
+
+.node1341629 .jury .cl-item-subtitle {
+  text-transform: initial;
 }
 
 .node1341629 #zone2 .laureats  .main-title-with-link {
