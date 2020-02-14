@@ -473,6 +473,14 @@ a.link-read-more:hover,
   color: #ffffff;
 }
 
+.footer-bottom-container .chat-bot {
+  display: inline-block;
+  width: 63px;
+  height: 63px;
+  margin-left: 1.5rem;
+  background: url('img/assises/icon-chat.svg') no-repeat center;
+}
+
 /***********************************/
 /* HOME */
 /***********************************/
@@ -2392,27 +2400,27 @@ body:not(.front) .list-articles .gla-item-btn::before {
 }
 
 /* Prix innovation */
-.ancres {
+.node1341629 .ancres {
   position: absolute;
   top: 6rem;
   width: 100%;
 }
 
-.ancres .inside {
+.node1341629 .ancres .inside {
   max-width: 1220px;
   margin: 0 auto;
   padding: 0 2rem;
 }
 
-.ancres .inside h1 {
+.node1341629 .ancres .inside h1 {
   margin-bottom: 4rem;
 }
 
-.ancres .inside p {
+.node1341629 .ancres .inside p {
   font-weight: 700;
 }
 
-.ancres .inside ul.style1 {
+.node1341629 .ancres .inside ul.style1 {
   display: flex;
   flex-wrap: wrap;
   margin-top: 3rem;
@@ -2421,21 +2429,87 @@ body:not(.front) .list-articles .gla-item-btn::before {
   list-style: none;
 }
 
-.ancres .inside ul.style1 li a {
+.node1341629 .ancres .inside ul.style1 li a {
   margin-right: 1.5rem;
   margin-bottom: 1.5rem;
 }
 
-.presenation {
+.node1341629 .presenation {
+  position: relative;
   max-width: 1220px;
   margin: 8rem auto;
+  padding: 0 2rem;
 }
 
-.presenation img {
+.node1341629 .presenation img {
   float: right;
+  margin-top: 3rem;
 }
 
-#zone2 .laureats  .main-title-with-link {
+.node1341629 .presenation p {
+  max-width: 50%;
+}
+
+.node1341629 .jury {
+  padding: 7rem 0;
+  background: #004951;
+}
+
+.node1341629 .jury .block-title,
+.node1341629 .jury .cl-content {
+  max-width: 1220px;
+  margin: 0 auto;
+  padding: 0 2rem;
+}
+
+.node1341629 .jury .block-title {
+  margin-bottom: 5rem;
+  font-family: 'Vollkorn', serif;
+  text-transform: initial;
+  color: #ffffff;
+}
+
+.node1341629 .jury .block-title::before {
+  display: none;
+}
+
+.node1341629 .jury .cl-content {
+  max-width: 1220px;
+  margin: 0 auto;
+  padding: 0 2rem;
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.node1341629 .jury .cl-item {
+  width: 25%;
+}
+
+.node1341629 .jury .cl-item-photo {
+  display: none;
+}
+
+.node1341629 .jury .cl-item-content,
+.node1341629 .jury .h3-like {
+  color: #ffffff;
+}
+
+.node1341629 .jury .h3-like {
+  font-family: 'Vollkorn', serif;
+  font-size: 2rem;
+  font-weight: 600;
+}
+
+.node1341629 .jury .h3-like::before {
+  content: '';
+  display: inline-block;
+  width: 12px;
+  height: 13px;
+  background: url('img/assises/icon-arrow-white.svg') no-repeat center / 100%;
+  margin-right: 0.5rem;
+}
+
+.node1341629 #zone2 .laureats  .main-title-with-link {
   position: initial;
 }
 
