@@ -155,6 +155,10 @@ p.focus2 strong {
   font-weight: 600;
 }
 
+.article-content hr {
+  background: transparent;
+}
+
 /* Liens */
 a {
   color: #001821;
