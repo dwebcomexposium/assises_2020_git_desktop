@@ -80,7 +80,9 @@ h2,
 
 .article-wrapper h2::before,
 #zone4 h2::before,
-.block-title::before {
+.block-title::before,
+.edito h2::before,
+.laureats .main-title::before {
   content: '';
   display: inline-block;
   width: 41px;
@@ -2438,7 +2440,9 @@ body:not(.front) .list-articles .gla-item-btn::before {
   margin-bottom: 1.5rem;
 }
 
-.node1341629 .presenation {
+.node1341629 .presenation,
+.node1341629 .candidater,
+.node1341629 .laureats {
   position: relative;
   max-width: 1220px;
   margin: 8rem auto;
@@ -2523,8 +2527,13 @@ body:not(.front) .list-articles .gla-item-btn::before {
   text-transform: initial;
 }
 
-.node1341629 #zone2 .laureats  .main-title-with-link {
+.node1341629 #zone2 .laureats .main-title-with-link {
   position: initial;
+}
+
+.node1341629 .laureats .main-title-with-link > .main-title {
+  font-size: 3rem;
+  color: #001821;
 }
 
 /* Desktop version */
@@ -2536,7 +2545,9 @@ body:not(.front) .list-articles .gla-item-btn::before {
 
   .article-wrapper h2::before,
   #zone4 h2::before,
-  .block-title::before {
+  .block-title::before,
+  .edito h2::before,
+  .laureats .main-title::before {
   width: 49px;
   height: 33px;
   position: absolute;
