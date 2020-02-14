@@ -2486,7 +2486,8 @@ body:not(.front) .list-articles .gla-item-btn::before {
 }
 
 .node1341629 .jury .cl-item {
-  width: 25%;
+  width: calc(100% * 1 / 4 - 1em);
+  margin: 0 0.65% 6rem;
   border: 0;
 }
 
