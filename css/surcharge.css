@@ -2204,6 +2204,17 @@ body:not(.front) .list-articles .gla-item-btn::before {
   color: #ffffff;
 }
 
+.parent1335875 .table4 {
+  max-width: 1220px;
+  margin: 3rem auto;
+}
+
+.parent1335875 .table4 p {
+  display: inline-block;
+  margin-left: 1.5rem;
+  padding: 0;
+}
+
 .parent1335875 .article-content {
   margin: 3rem auto;
 }
