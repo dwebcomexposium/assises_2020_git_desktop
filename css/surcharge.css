@@ -2206,12 +2206,13 @@ body:not(.front) .list-articles .gla-item-btn::before {
 
 .parent1335875 .table4 {
   max-width: 1220px;
-  margin: 3rem auto;
+  margin: 1rem auto;
 }
 
 .parent1335875 .table4 p {
   display: inline-block;
-  margin-left: 1.5rem;
+  margin-right: 1.5rem;
+  margin-bottom: 1.5rem;
   padding: 0;
 }
 
@@ -3094,6 +3095,10 @@ body:not(.front) .list-articles .gla-item-btn::before {
   .node1335875 .gla-item {
     width: calc(100% * 1 / 4 - 1em);
     margin: 0 0.65% 0 0.65%;
+  }
+
+  .parent1335875 .table4 {
+    margin: 3rem auto 2rem;
   }
 
   .parent1335875 .article-content {
