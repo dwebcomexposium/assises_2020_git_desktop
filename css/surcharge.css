@@ -204,7 +204,7 @@ a.link-read-more,
 a.link-read-more:hover,
 .gla-item-tag:hover,
 .link-view-all:hover {
-  background: #001821;
+  background: #e50041;
   color: #ffffff;
 }
 
@@ -232,6 +232,16 @@ a.link-read-more:hover,
 .style1 .lien3:hover {
   background: #ab0638;
   color: #ffffff;
+}
+
+.style3 a {
+  background: #e50041;
+  color: #ffffff;
+}
+
+.style3 a:hover {
+  background: #ffffff;
+  color: #001821;
 }
 
 /* Color */
