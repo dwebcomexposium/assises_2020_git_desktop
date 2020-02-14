@@ -1636,7 +1636,8 @@ body:not(.front) .list-articles .gla-item-btn::before {
 .article-title .at-main-title,
 #zone2 .list-articles .la-main-title,
 .faq-main-title,
-.contacts-list h1 {
+.contacts-list h1,
+.ancres h1 {
   margin: 0;
   padding: 0;
   font-family: 'Vollkorn', serif;
@@ -2386,6 +2387,45 @@ body:not(.front) .list-articles .gla-item-btn::before {
 
 .glossaire .la-item-desc {
   font-weight: 700;
+}
+
+/* Prix innovation */
+.ancres {
+  position: absolute;
+  top: 6rem;
+  width: 100%;
+}
+
+.ancres .inside {
+  max-width: 1220px;
+  margin: 0 auto;
+  padding: 0 2rem;
+}
+
+.ancres .inside h1 {
+  margin-bottom: 4rem;
+}
+
+.ancres .inside p {
+  font-weight: 700;
+}
+
+.ancres .inside ul.style1 {
+  display: flex;
+  flex-wrap: wrap;
+  margin-top: 3rem;
+  padding: 0;
+  border-bottom: 0;
+  list-style: none;
+}
+
+.ancres .inside ul.style1 li a {
+  margin-right: 1.5rem;
+  margin-bottom: 1.5rem;
+}
+
+.laureats #zone2 .main-title-with-link {
+  position: initial;
 }
 
 /* Desktop version */
