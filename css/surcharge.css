@@ -176,7 +176,10 @@ a {
 .style3 a,
 .style4 a,
 a.link-read-more,
-.link-view-all {
+.link-view-all,
+.lien1,
+.lien2,
+.lien3 {
   display: inline-block;
   margin-bottom: 2rem;
   padding: 1rem 2rem;
@@ -201,7 +204,8 @@ a.link-read-more {
 .style1 .lien1,
 a.link-read-more,
 .gla-item-tag,
-.link-view-all {
+.link-view-all,
+.lien1 {
   background: #ffffff;
   color: #001821;
 }
@@ -211,33 +215,38 @@ a.link-read-more,
 .style1 .lien1:hover,
 a.link-read-more:hover,
 .gla-item-tag:hover,
-.link-view-all:hover {
+.link-view-all:hover,
+.lien1:before {
   background: #e50041;
   color: #ffffff;
 }
 
 .cta-2,
 .style2 a,
-.style1 .lien2 {
+.style1 .lien2,
+.lien2 {
   background: #001821;
   color: #ffffff;
 }
 
 .cta-2:hover,
 .style2 a:hover,
-.style1 .lien2:hover {
+.style1 .lien2:hover,
+.lien2:hover {
   background: #ffffff;
   color: #001821;
 }
 
 .cta-3,
-.style1 .lien3 {
+.style1 .lien3,
+.lien3 {
   background: #e50041;
   color: #ffffff;
 }
 
 .cta-3:hover,
-.style1 .lien3:hover {
+.style1 .lien3:hover,
+.lien3:hover {
   background: #ab0638;
   color: #ffffff;
 }
@@ -2596,7 +2605,11 @@ body:not(.front) .list-articles .gla-item-btn::before {
   display: none;
 }
 
-.node1341629 .etapes img {
+.node1341629 .etapes .focus1 {
+  margin: 0;
+}
+
+.node1341629 .etapes .focus1 img {
   width: 100%;
 }
 
@@ -2605,6 +2618,10 @@ body:not(.front) .list-articles .gla-item-btn::before {
   margin: 4rem 0;
   padding: 0;
   list-style: none;
+}
+
+.node1341629 .etapes p.style1 {
+  display: inline-block;
 }
 
 .node1341629 #zone2 .laureats .main-title-with-link {
