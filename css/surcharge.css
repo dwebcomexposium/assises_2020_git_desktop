@@ -2454,7 +2454,7 @@ body:not(.front) .list-articles .gla-item-btn::before {
 .node1341629 .laureats {
   position: relative;
   max-width: 1220px;
-  margin: 8rem auto;
+  margin: 6rem auto;
   padding: 0 2rem;
 }
 
@@ -2663,6 +2663,11 @@ body:not(.front) .list-articles .gla-item-btn::before {
   width: calc(100% * 1 / 4 - 1em);
   margin: 0 0.65% 2rem;
   border: 0;
+}
+
+.node1341629 .laureats .partner-gallery .pg-item-link:focus,
+.node1341629 .laureats .partner-gallery .pg-item-link:hover {
+  text-decoration: none;
 }
 
 .node1341629 .laureats .partner-gallery .pg-item-illust {
