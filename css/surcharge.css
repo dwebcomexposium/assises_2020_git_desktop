@@ -2468,7 +2468,7 @@ body:not(.front) .list-articles .gla-item-btn::before {
 
 .node1341629 .focus1,
 .node1341629 .focus2 {
-  max-width: 1220px;
+  max-width: 1185px;
   margin: 7rem auto;
   background: #e50041;
 }
@@ -2482,7 +2482,8 @@ body:not(.front) .list-articles .gla-item-btn::before {
   display: none;
 }
 
-.node1341629 .focus1 h2 {
+.node1341629 .focus1 h2,
+.node1341629 .focus2 h2 {
   margin-bottom: 3rem;
   font-family: 'Vollkorn', serif;
   color: #ffffff;
@@ -2591,7 +2592,7 @@ body:not(.front) .list-articles .gla-item-btn::before {
   position: relative;
   max-width: 1220px;
   margin: 0 auto;
-  padding: 7rem 2rem;
+  padding: 7rem 2rem 5rem;
 }
 
 .node1341629 .etapes h2 {
@@ -2615,13 +2616,34 @@ body:not(.front) .list-articles .gla-item-btn::before {
 
 .node1341629 .etapes ul {
   display: flex;
-  margin: 4rem 0;
+  flex-wrap: wrap;
+  margin: 4rem 0 6rem;
   padding: 0;
   list-style: none;
 }
 
-.node1341629 .etapes p.style1 {
-  display: inline-block;
+.node1341629 .etapes .lien3 {
+  margin-right: 3rem;
+}
+
+.node1341629 .etapes ul li {
+  width: calc(100% * 1 / 4);
+  padding: 0 2%;
+}
+
+.etapes ul li:first-child {
+  padding-left: 0;
+}
+
+.etapes ul li:last-child {
+  padding-right: 0;
+}
+
+.node1341629 .etapes ul u {
+  font-size: 8rem;
+  font-weight: 700;
+  text-decoration: none;
+  color: #e50041;
 }
 
 .node1341629 #zone2 .laureats .main-title-with-link {
