@@ -80,7 +80,7 @@ h2,
 
 .article-wrapper h2::before,
 #zone4 h2::before,
-.block-title::before,
+.presenation .block-title::before,
 .edito h2::before,
 .laureats .main-title::before {
   content: '';
@@ -2449,13 +2449,34 @@ body:not(.front) .list-articles .gla-item-btn::before {
   padding: 0 2rem;
 }
 
-.node1341629 .presenation img {
-  float: right;
-  margin-top: 3rem;
+.node1341629 .table1 td {
+  width: 50%;
 }
 
-.node1341629 .presenation p {
-  max-width: 50%;
+.node1341629 .presenation img {
+  margin-top: -4rem;
+}
+
+.node1341629 .focus1,
+.node1341629 .focus2 {
+  max-width: 1220px;
+  margin: 7rem auto;
+  padding: 0 2rem;
+}
+
+.node1341629 .focus1 .af-title {
+  width: 30%;
+  padding: 2rem;
+  font-size: 3rem;
+  font-family: 'Vollkorn', serif;
+  font-weight: 600;
+  line-height: 1.2;
+  color: #ffffff;
+}
+
+.node1341629 .focus1 .table1 td:first-child {
+  width: 30%;
+  padding: 2rem;
 }
 
 .node1341629 .jury {
@@ -2545,7 +2566,7 @@ body:not(.front) .list-articles .gla-item-btn::before {
 
   .article-wrapper h2::before,
   #zone4 h2::before,
-  .block-title::before,
+  .presenation .block-title::before,
   .edito h2::before,
   .laureats .main-title::before {
   width: 49px;
