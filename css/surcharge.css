@@ -2655,6 +2655,34 @@ body:not(.front) .list-articles .gla-item-btn::before {
   color: #001821;
 }
 
+.node1341629 .laureats .partner-gallery {
+  padding: 0;
+}
+
+.node1341629 .laureats .partner-gallery .pg-item {
+  width: calc(100% * 1 / 4 - 1em);
+  margin: 0 0.65% 2rem;
+  border: 0;
+}
+
+.node1341629 .laureats .partner-gallery .pg-item-illust {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  height: 175px;
+  margin-bottom: 1.8rem;
+  box-shadow: 0 0 12px 2px rgba(0,0,0,0.16);
+}
+
+.node1341629 .laureats .partner-gallery .pg-item-title {
+  padding-left: 0.2rem;
+  font-size: 1.8rem;
+  font-weight: 700;
+  text-align: left;
+  color: #e50041;
+}
+
 /* Desktop version */
 @media (min-width: 960px) {
   h2,
