@@ -2464,13 +2464,18 @@ body:not(.front) .list-articles .gla-item-btn::before {
   background: #e50041;
 }
 
-.node1341629 .focus1 .af-title {
-  width: 30%;
-  padding: 2rem;
-  font-size: 3rem;
+.node1341629 .focus2 {
+  background: #a5948f;
+}
+
+.node1341629 .focus1 .af-title,
+.node1341629 .focus2 .af-title {
+  display: none;
+}
+
+.node1341629 .focus1 h2 {
+  margin-bottom: 3rem;
   font-family: 'Vollkorn', serif;
-  font-weight: 600;
-  line-height: 1.2;
   color: #ffffff;
 }
 
@@ -2550,6 +2555,56 @@ body:not(.front) .list-articles .gla-item-btn::before {
 
 .node1341629 .jury .cl-item-subtitle {
   text-transform: initial;
+}
+
+.node1341629 .candidater .table1 {
+  margin-top: 4rem;
+}
+
+.node1341629 .candidater .table1 td {
+  padding: 0 4rem;
+}
+
+.node1341629 .candidater .table1 td:first-child {
+  border-right: 1px solid #c0c0c0;
+  padding-left: 0;
+}
+
+.node1341629 .candidater h3 {
+  margin-top: 0;
+}
+
+.node1341629 .etapes {
+  background: #f2efef;
+}
+
+.node1341629 .etapes .inside {
+  position: relative;
+  max-width: 1220px;
+  margin: 0 auto;
+  padding: 7rem 2rem;
+}
+
+.node1341629 .etapes h2 {
+  margin-bottom: 5rem;
+  font-family: 'Vollkorn', serif;
+  text-transform: initial;
+  color: #e50041;
+}
+
+.node1341629 .etapes h2::before {
+  display: none;
+}
+
+.node1341629 .etapes img {
+  width: 100%;
+}
+
+.node1341629 .etapes ul {
+  display: flex;
+  margin: 4rem 0;
+  padding: 0;
+  list-style: none;
 }
 
 .node1341629 #zone2 .laureats .main-title-with-link {
