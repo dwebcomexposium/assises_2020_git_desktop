@@ -2461,7 +2461,7 @@ body:not(.front) .list-articles .gla-item-btn::before {
 .node1341629 .focus2 {
   max-width: 1220px;
   margin: 7rem auto;
-  padding: 0 2rem;
+  background: #e50041;
 }
 
 .node1341629 .focus1 .af-title {
@@ -2474,9 +2474,13 @@ body:not(.front) .list-articles .gla-item-btn::before {
   color: #ffffff;
 }
 
-.node1341629 .focus1 .table1 td:first-child {
+.node1341629 .table2 td:first-child {
   width: 30%;
   padding: 2rem;
+}
+
+.node1341629 .table2 td img {
+  width: 100%;
 }
 
 .node1341629 .jury {
