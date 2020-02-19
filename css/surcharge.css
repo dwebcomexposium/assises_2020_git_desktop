@@ -2524,7 +2524,7 @@ body:not(.front) .list-articles .gla-item-btn::before {
 }
 
 .node1341629 .jury .block-title {
-  margin-bottom: 5rem;
+  margin-bottom: 4rem;
   font-family: 'Vollkorn', serif;
   text-transform: initial;
   color: #ffffff;
@@ -2535,16 +2535,16 @@ body:not(.front) .list-articles .gla-item-btn::before {
 }
 
 .node1341629 .jury .cl-content {
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: column;
   max-width: 1220px;
   margin: 0 auto;
   padding: 0 2rem;
-  display: flex;
-  flex-wrap: wrap;
 }
 
 .node1341629 .jury .cl-item {
-  width: calc(100% * 1 / 4 - 1em);
-  margin: 0 0.65% 6rem;
+  margin: 0 0 2rem;
   border: 0;
 }
 
@@ -2628,7 +2628,7 @@ body:not(.front) .list-articles .gla-item-btn::before {
   display: flex;
   flex-wrap: wrap;
   flex-direction: column;
-  margin: 2rem 0 3rem;
+  margin: 2rem 0 0;
   padding: 0;
   list-style: none;
 }
@@ -2638,7 +2638,7 @@ body:not(.front) .list-articles .gla-item-btn::before {
 }
 
 .node1341629 .etapes .lien3 {
-  margin-right: 3rem;
+  width: 100%;
 }
 
 .etapes ul li:first-child {
@@ -3535,6 +3535,19 @@ body:not(.front) .list-articles .gla-item-btn::before {
     width: 30%;
   }
 
+  .node1341629 .jury {
+    padding: 7rem 0;
+  }
+
+  .node1341629 .jury .cl-content {
+    flex-direction: row;
+  }
+
+  .node1341629 .jury .cl-item {
+    width: calc(100% * 1 / 4 - 1em);
+    margin: 0 0.65% 6rem;
+  }
+
   .node1341629 .candidater .table1 td {
     padding: 0 4rem;
   }
@@ -3562,6 +3575,11 @@ body:not(.front) .list-articles .gla-item-btn::before {
     width: calc(100% * 1 / 4);
     margin-bottom: 0;
     padding: 0 2%;
+  }
+
+  .node1341629 .etapes .lien3 {
+    width: auto;
+    margin-right: 3rem;
   }
 }
 
