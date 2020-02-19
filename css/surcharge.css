@@ -2468,7 +2468,7 @@ body:not(.front) .list-articles .gla-item-btn::before {
 }
 
 .node1341629 .presenation img {
-  margin-top: -4rem;
+  margin-top: 3rem;
 }
 
 .node1341629 .focus1,
@@ -2496,7 +2496,7 @@ body:not(.front) .list-articles .gla-item-btn::before {
 
 .node1341629 .table2 tr {
   display: flex;
-  flex-direction: column;
+  flex-direction: column-reverse;
 }
 
 .node1341629 .table2 td {
@@ -2584,13 +2584,10 @@ body:not(.front) .list-articles .gla-item-btn::before {
   margin-top: 4rem;
 }
 
-.node1341629 .candidater .table1 td {
-  padding: 0 4rem;
-}
-
 .node1341629 .candidater .table1 td:first-child {
-  border-right: 1px solid #c0c0c0;
-  padding-left: 0;
+  border-bottom: 1px solid #c0c0c0;
+  margin-bottom: 2rem;
+  padding-bottom: 3rem;
 }
 
 .node1341629 .candidater h3 {
@@ -2605,11 +2602,11 @@ body:not(.front) .list-articles .gla-item-btn::before {
   position: relative;
   max-width: 1220px;
   margin: 0 auto;
-  padding: 7rem 2rem 5rem;
+  padding: 4rem 2rem 5rem;
 }
 
 .node1341629 .etapes h2 {
-  margin-bottom: 5rem;
+  margin-bottom: 2rem;
   font-family: 'Vollkorn', serif;
   text-transform: initial;
   color: #e50041;
@@ -2630,18 +2627,18 @@ body:not(.front) .list-articles .gla-item-btn::before {
 .node1341629 .etapes ul {
   display: flex;
   flex-wrap: wrap;
-  margin: 4rem 0 6rem;
+  flex-direction: column;
+  margin: 2rem 0 3rem;
   padding: 0;
   list-style: none;
 }
 
-.node1341629 .etapes .lien3 {
-  margin-right: 3rem;
+.node1341629 .etapes ul li {
+  margin-bottom: 3rem;
 }
 
-.node1341629 .etapes ul li {
-  width: calc(100% * 1 / 4);
-  padding: 0 2%;
+.node1341629 .etapes .lien3 {
+  margin-right: 3rem;
 }
 
 .etapes ul li:first-child {
@@ -2655,6 +2652,7 @@ body:not(.front) .list-articles .gla-item-btn::before {
 .node1341629 .etapes ul u {
   font-size: 8rem;
   font-weight: 700;
+  line-height: 1.2;
   text-decoration: none;
   color: #e50041;
 }
@@ -3535,6 +3533,35 @@ body:not(.front) .list-articles .gla-item-btn::before {
 
   .node1341629 .table2 td:first-child {
     width: 30%;
+  }
+
+  .node1341629 .candidater .table1 td {
+    padding: 0 4rem;
+  }
+
+  .node1341629 .candidater .table1 td:first-child {
+    border-left: 1px solid #c0c0c0;
+    margin-bottom: 0;
+    padding-left: 0;
+  }
+
+  .node1341629 .etapes .inside {
+    padding: 7rem 2rem 5rem;
+  }
+
+  .node1341629 .etapes h2 {
+    margin-bottom: 5rem;
+  }
+
+  .node1341629 .etapes ul {
+    flex-direction: row;
+    margin: 4rem 0 6rem;
+  }
+
+  .node1341629 .etapes ul li {
+    width: calc(100% * 1 / 4);
+    margin-bottom: 0;
+    padding: 0 2%;
   }
 }
 
