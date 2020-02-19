@@ -2415,6 +2415,10 @@ body:not(.front) .list-articles .gla-item-btn::before {
 }
 
 /* Prix innovation */
+.node1341629 #zone1 {
+  height: 425px;
+}
+
 .node1341629 .ancres {
   position: absolute;
   top: 6rem;
@@ -2458,8 +2462,9 @@ body:not(.front) .list-articles .gla-item-btn::before {
   padding: 0 2rem;
 }
 
-.node1341629 .table1 td {
-  width: 50%;
+.node1341629 .table1 tr {
+  display: flex;
+  flex-direction: column;
 }
 
 .node1341629 .presenation img {
@@ -2489,8 +2494,16 @@ body:not(.front) .list-articles .gla-item-btn::before {
   color: #ffffff;
 }
 
+.node1341629 .table2 tr {
+  display: flex;
+  flex-direction: column;
+}
+
+.node1341629 .table2 td {
+  margin-top: 0;
+}
+
 .node1341629 .table2 td:first-child {
-  width: 30%;
   padding: 2rem;
 }
 
@@ -2704,7 +2717,11 @@ body:not(.front) .list-articles .gla-item-btn::before {
   height: 33px;
   position: absolute;
   left: -4rem;
-}
+  }
+
+  .font .edito h2::before {
+    display: none;
+  }
 
   h3 {
     font-size: 3rem;
@@ -3489,6 +3506,35 @@ body:not(.front) .list-articles .gla-item-btn::before {
     height: 33px;
     position: absolute;
     left: -6rem;
+  }
+
+  /* Prix innovation */
+  .node1341629 #zone1 {
+    height: 270px;
+  }
+
+  .node1341629 .table1 tr {
+    flex-direction: row;
+  }
+
+  .node1341629 .table1 td {
+    width: 50%;
+  }
+
+  .node1341629 .presenation img {
+    margin-top: -4rem;
+  }
+
+  .node1341629 .table2 tr {
+    flex-direction: row;
+  }
+
+  .node1341629 .table2 td {
+    width: 70%;
+  }
+
+  .node1341629 .table2 td:first-child {
+    width: 30%;
   }
 }
 
