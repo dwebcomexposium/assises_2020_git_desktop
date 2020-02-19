@@ -3559,7 +3559,8 @@ body:not(.front) .list-articles .gla-item-btn::before {
   }
 
   .node1341629 .candidater .table1 td:first-child {
-    border-left: 1px solid #c0c0c0;
+    border-bottom: 0;
+    border-right: 1px solid #c0c0c0;
     margin-bottom: 0;
     padding-left: 0;
   }
