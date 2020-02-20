@@ -57,7 +57,8 @@ body {
 }
 
 /* Title */
-h1, h2, h3, h4, .block-title {
+h1, h2, h3, h4,
+.block-title, .h3-like {
   color: #001821;
   line-height: 1.2;
 }
@@ -91,7 +92,12 @@ h2,
   margin-right: 0.5rem;
 }
 
-h3 {
+.front .edito h2::before {
+  display: none;
+}
+
+h3,
+.h3-like {
   font-family: 'Vollkorn', serif;
   font-size: 2.6rem;
   font-weight: 600;
@@ -2699,6 +2705,9 @@ body:not(.front) .list-articles .gla-item-btn::before {
   color: #e50041;
 }
 
+/* comité éditorial */
+
+
 /* Desktop version */
 @media (min-width: 960px) {
   h2,
@@ -2715,10 +2724,6 @@ body:not(.front) .list-articles .gla-item-btn::before {
   height: 33px;
   position: absolute;
   left: -4rem;
-  }
-
-  .font .edito h2::before {
-    display: none;
   }
 
   h3 {
@@ -3217,6 +3222,7 @@ body:not(.front) .list-articles .gla-item-btn::before {
 
   .list-articles.temps-forts .gla-item a {
     display: flex;
+    height: 100%;
   }
 
   .list-articles.temps-forts .gla-item-img {
@@ -3224,7 +3230,7 @@ body:not(.front) .list-articles .gla-item-btn::before {
   }
 
   .list-articles.temps-forts .gla-item-content {
-    width: 55%;
+    width: 100%;
   }
 
   /* Page article */
