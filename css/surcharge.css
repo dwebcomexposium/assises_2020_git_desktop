@@ -345,6 +345,47 @@ a.link-read-more:hover,
   text-align: center;
 }
 
+/* Liste contact */
+.cl-item-title {
+  font-size: 2rem;
+}
+
+.cl-item-subtitle {
+  font-size: 1.6rem;
+  text-transform: initial;
+}
+
+p.cl-item-email,
+.cl-item-email a,
+p.cl-item-phone {
+  margin-top: 0;
+  font-size: 1.4rem;
+  color: #7a7a7a;
+}
+
+.cl-item-email .label,
+.cl-item-phone .label {
+  display: none;
+}
+
+.cl-item-social {
+  display: flex;
+}
+
+.cl-item-social .social-twitter,
+.cl-item-social .social-linkedin {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-right: 1.5rem;
+  background: #e50041;
+  color: #ffffff;
+}
+
+.cl-item-social .icon {
+  line-height: 1;
+}
+
 /* Footer */
 .site-footer {
   background: #001821 url('img/assises/dots-dark.svg') no-repeat 0 117% / 463px 280px;
@@ -1726,7 +1767,6 @@ body:not(.front) .list-articles .gla-item-btn::before {
   border: 0;
   margin-right: 0;
 }
-
 
 .article-content h2 {
   margin-bottom: 3rem;
