@@ -349,19 +349,21 @@ a.link-read-more:hover,
 .contacts-list .inside {
   max-width: 1220px;
   margin: 3rem auto;
+  padding: 0 2rem;
 }
 
 .contacts-list .inside .intro p {
-  max-width: auto;
+  max-width: initial;
+  padding: 0;
 }
 
 .cl-content {
   display: flex;
   flex-wrap: wrap;
-  padding: 0 2rem;
 }
 
 .cl-item {
+  position: relative;
   display: flex;
   flex-direction: column;
   width: calc(100% * 1 / 4 - 1em);
@@ -395,6 +397,19 @@ a.link-read-more:hover,
 .cl-item-subtitle {
   font-size: 1.6rem;
   text-transform: initial;
+}
+
+.cl-item-desc {
+  position: absolute;
+  top: 0;
+  left: 0;
+  margin: 0;
+  padding: 2rem;
+  line-height: 1.5;
+  font-family: 'Vollkorn', serif;
+  font-style: italic;
+  background: rgba(229, 0, 65, 0.82);
+  color: #ffffff;
 }
 
 p.cl-item-email,
