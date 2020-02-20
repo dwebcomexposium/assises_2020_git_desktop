@@ -346,11 +346,18 @@ a.link-read-more:hover,
 }
 
 /* Liste contact */
+.contacts-list .inside {
+  max-width: 1220px;
+  margin: 3rem auto;
+}
+
+.contacts-list .inside .intro p {
+  max-width: auto;
+}
+
 .cl-content {
   display: flex;
   flex-wrap: wrap;
-  max-width: 1220px;
-  margin: 3rem auto;
   padding: 0 2rem;
 }
 
@@ -1735,7 +1742,8 @@ body:not(.front) .list-articles .gla-item-btn::before {
 
 .article-title,
 #zone2 .main-title-with-link,
-.node1329377 .faq-main-title {
+.node1329377 .faq-main-title,
+.contacts-list h1 {
   position: absolute;
   top: 6rem;
   width: 100%;
