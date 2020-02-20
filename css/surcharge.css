@@ -399,10 +399,11 @@ a.link-read-more:hover,
   text-transform: initial;
 }
 
-.cl-item-desc {
+p.cl-item-desc {
   position: absolute;
   top: 0;
   left: 0;
+  height: 100%;
   margin: 0;
   padding: 2rem;
   line-height: 1.5;
@@ -410,6 +411,11 @@ a.link-read-more:hover,
   font-style: italic;
   background: rgba(229, 0, 65, 0.82);
   color: #ffffff;
+  opacity: 0;
+  transition: opacity 0.5s;
+}
+.cl-item:hover p.cl-item-desc {
+  opacity: 1;
 }
 
 p.cl-item-email,
