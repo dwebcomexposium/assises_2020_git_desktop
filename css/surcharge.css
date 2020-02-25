@@ -605,7 +605,7 @@ p.cl-item-phone {
   display: inline-block;
   width: 63px;
   height: 63px;
-  margin-left: 1.5rem;
+  margin: -1rem 0 1rem 1.5rem;
   background: url('img/assises/icon-chat.svg') no-repeat center;
 }
 
@@ -3665,6 +3665,7 @@ body:not(.front) .list-articles .gla-item-btn::before {
   .node1341629 .jury .cl-item {
     width: calc(100% * 1 / 4 - 1em);
     margin: 0 0.65% 6rem;
+    box-shadow: none;
   }
 
   .node1341629 .candidater .table1 td {
@@ -3709,6 +3710,10 @@ body:not(.front) .list-articles .gla-item-btn::before {
 
   .node1341629 .laureats .partner-gallery .pg-item-illust {
     height: 175px;
+  }
+
+  .node1341169 .cl-item {
+    width: calc(100% * 1 / 3 - 1em);
   }
 }
 
