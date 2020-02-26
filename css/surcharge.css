@@ -399,25 +399,6 @@ a.link-read-more:hover,
   text-transform: initial;
 }
 
-p.cl-item-desc {
-  position: absolute;
-  top: 0;
-  left: 0;
-  height: 100%;
-  margin: 0;
-  padding: 2rem;
-  line-height: 1.5;
-  font-family: 'Vollkorn', serif;
-  font-style: italic;
-  background: rgba(229, 0, 65, 0.82);
-  color: #ffffff;
-  opacity: 0;
-  transition: opacity 0.5s;
-}
-.cl-item:hover p.cl-item-desc {
-  opacity: 1;
-}
-
 p.cl-item-email,
 .cl-item-email a,
 p.cl-item-phone {
@@ -3714,6 +3695,26 @@ body:not(.front) .list-articles .gla-item-btn::before {
 
   .node1341169 .cl-item {
     width: calc(100% * 1 / 3 - 1em);
+  }
+
+  .node1341169 p.cl-item-desc {
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 100%;
+    margin: 0;
+    padding: 2rem;
+    line-height: 1.5;
+    font-family: 'Vollkorn', serif;
+    font-style: italic;
+    background: rgba(229, 0, 65, 0.82);
+    color: #ffffff;
+    opacity: 0;
+    transition: opacity 0.5s;
+  }
+
+  .node1341169 .cl-item:hover p.cl-item-desc {
+    opacity: 1;
   }
 }
 
