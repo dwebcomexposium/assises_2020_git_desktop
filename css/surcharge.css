@@ -373,6 +373,10 @@ a.link-read-more:hover,
   box-shadow: 0 0 12px 2px rgba(0,0,0,0.16);
 }
 
+.cl-item:hover {
+  box-shadow: 0 0 12px 2px rgba(0,0,0,0.36);
+}
+
 .cl-item-content {
   padding: 2rem;
   color: #001821;
@@ -3396,14 +3400,14 @@ body:not(.front) .list-articles .gla-item-btn::before {
     text-align: center;
   }
 
-  .article .table1 tr:first-child p {
+  .article .table1.key-numbers tr:first-child p {
     color: #e50041;
     font-weight: 700;
     font-size: 8rem;
     line-height: 1.2;
   }
 
-  .article .table1 tr:nth-child(2) p {
+  .article .table1.key-numbers tr:nth-child(2) p {
     font-weight: 700;
     line-height: 1.2;
   }
@@ -3703,8 +3707,9 @@ body:not(.front) .list-articles .gla-item-btn::before {
     left: 0;
     height: 100%;
     margin: 0;
-    padding: 2rem;
+    padding: 6rem 2rem;
     line-height: 1.5;
+    font-size: 2.3rem;
     font-family: 'Vollkorn', serif;
     font-style: italic;
     background: rgba(229, 0, 65, 0.82);
