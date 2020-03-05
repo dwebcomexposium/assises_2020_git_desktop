@@ -2811,6 +2811,10 @@ body:not(.front) .list-articles .gla-item-btn::before {
   background: #e50041;
 }
 
+.node1343899 .article-content blockquote .icon-quote {
+  display: none;
+}
+
 .node1343899 .article-content table th {
   padding: 0;
   text-align: left;
@@ -2834,14 +2838,28 @@ body:not(.front) .list-articles .gla-item-btn::before {
   background: #fff;
 }
 
+.node1343899 .article-content blockquote .table1 tr:not(:first-child) {
+  display: flex;
+  padding: 3rem 0;
+  background: #ffffff;
+}
+
 .node1343899 .article-content blockquote .table1 td {
   width: 50%;
-  padding: 3rem;
-  background: #ffffff;
+  margin: 0;
+  padding: 0 3rem;
   color: #001821;
   border-top: 0;
   border-bottom: 0;
   border-left: 0;
+}
+
+.node1343899 .article-content blockquote .table1 p.important1 {
+  font-size: 1.8rem;
+}
+
+.node1343899 .article-content blockquote .table1 p a:hover {
+  color: #e50041;
 }
 
 /* Desktop version */
