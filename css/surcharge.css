@@ -3928,6 +3928,10 @@ body:not(.front) .list-articles .gla-item-btn::before {
   }
 
   /* Déroulé des 4 jours */
+  .node1343899 .article-wrapper   {
+    background: url('img/assises/dots-light.svg') no-repeat 118% 53% / 463px 281px;
+  }
+
   .node1343899 .table1 tr {
     flex-direction: row;
   }
@@ -3969,7 +3973,7 @@ body:not(.front) .list-articles .gla-item-btn::before {
 
   /* Nos événements */
   .node1315924 .layout-2-col {
-    background: url('img/assises/dots-light.svg') no-repeat 0 25% / 463px 281px;
+    background: url('img/assises/dots-light.svg') no-repeat 118% 53% / 463px 281px;
   }
 
   .node1315924 .block-page.edito:first-child .inside {
