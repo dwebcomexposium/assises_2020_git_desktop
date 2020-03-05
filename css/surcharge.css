@@ -267,6 +267,10 @@ a.link-read-more:hover,
   color: #001821;
 }
 
+.lien4, .lien4:hover {
+  color: #e50041;
+}
+
 /* Color */
 .important1 {
   color: #e50041;
@@ -2849,9 +2853,6 @@ body:not(.front) .list-articles .gla-item-btn::before {
   margin: 0;
   padding: 0 3rem;
   color: #001821;
-  border-top: 0;
-  border-bottom: 0;
-  border-left: 0;
 }
 
 .node1343899 .article-content blockquote .table1 p.important1 {
@@ -3480,7 +3481,10 @@ body:not(.front) .list-articles .gla-item-btn::before {
   .article .table1 td {
     width: 200px;
     padding: 0 1rem;
+    border-top: 0;
     border-right: 1px solid #c0c0c0;
+    border-bottom: 0;
+    border-left: 0;
   }
 
   .article .table1 td:last-child {
