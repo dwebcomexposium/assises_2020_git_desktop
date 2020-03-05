@@ -3812,12 +3812,24 @@ body:not(.front) .list-articles .gla-item-btn::before {
 
   /* Déroulé des 4 jours */
   .node1343899 .table1 tr {
-    display: flex;
     flex-direction: row;
+  }
+
+  .node1343899 .table1 td {
+    width: 33%;
+    padding: 0 2rem;
   }
 
   .node1343899 .article-content {
     max-width: initial;
+  }
+
+  .node1343899 .article-content > .table1 {
+    margin: 0 auto 6rem;
+  }
+
+  .node1343899 .article-content > .table1 tr {
+    justify-content: center;
   }
 
   .node1343899 .article-content blockquote {
@@ -3836,6 +3848,38 @@ body:not(.front) .list-articles .gla-item-btn::before {
 
   .node1343899 .article-content blockquote .table1 td {
     width: 50%;
+  }
+
+  /* Nos événements */
+  .page-rubric .block-page.edito:first-child .inside {
+    position: absolute;
+    top: 6rem;
+    width: 100%;
+  }
+
+  .page-rubric .block-page.edito:first-child h1 {
+    max-width: 1220px;
+    margin: 0 auto;
+    padding: 0 2rem;
+    font-family: 'Vollkorn', serif;
+    font-weight: 600;
+    font-size: 4rem;
+    line-height: 1;
+    color: #004951;
+  }
+
+  .page-rubric .block-page.edito:first-child p {
+    max-width: 1220px;
+    margin: 6rem auto 0;
+    padding: 0 2rem;
+    font-weight: 700;
+  }
+
+  .page-rubric .block-page.edito:not(:first-child) {
+    position: relative;
+    max-width: 1220px;
+    margin: 6rem auto;
+    padding: 0 2rem;
   }
 }
 
