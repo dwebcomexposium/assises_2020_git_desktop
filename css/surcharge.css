@@ -3928,7 +3928,7 @@ body:not(.front) .list-articles .gla-item-btn::before {
   }
 
   /* Déroulé des 4 jours */
-  .node1343899 .article-wrapper   {
+  .node1343899 .article-wrapper {
     background: url('img/assises/dots-light.svg') no-repeat 118% 53% / 463px 281px;
   }
 
@@ -3943,6 +3943,10 @@ body:not(.front) .list-articles .gla-item-btn::before {
 
   .node1343899 .article-content {
     max-width: initial;
+  }
+
+  .node1343899 .article-content blockquote {
+    background: #e50041 url('img/assises/dots-light.svg') no-repeat right -1px / 463px 281px;
   }
 
   .node1343899 .article-content > .table1 {
