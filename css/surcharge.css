@@ -271,6 +271,10 @@ a.link-read-more:hover,
   color: #e50041;
 }
 
+.lien4 img {
+  width: 20px;
+}
+
 /* Color */
 .important1 {
   color: #e50041;
@@ -2804,14 +2808,21 @@ body:not(.front) .list-articles .gla-item-btn::before {
 /* comité éditorial */
 
 /* Déroulé des 4 jours */
+.article .table1 td {
+  border-top: 0;
+  border-right: 1px solid #c0c0c0;
+  border-bottom: 0;
+  border-left: 0;
+}
+
 .node1343899 .article-content {
-  max-width: initial;
+  margin-bottom: 0;
   padding: 0;
 }
 
 .node1343899 .article-content blockquote {
   margin: 3rem 0;
-  padding: 8rem 0;
+  padding: 5rem 0 0;
   background: #e50041;
 }
 
@@ -2844,6 +2855,7 @@ body:not(.front) .list-articles .gla-item-btn::before {
 
 .node1343899 .article-content blockquote .table1 tr:not(:first-child) {
   display: flex;
+  flex-direction: column;
   padding: 3rem 0;
   background: #ffffff;
 }
@@ -3789,6 +3801,47 @@ body:not(.front) .list-articles .gla-item-btn::before {
 
   .node1341169 .cl-item:hover p.cl-item-desc {
     opacity: 1;
+  }
+
+  /* Déroulé des 4 jours */
+  .node1343899 .article-content {
+    max-width: initial;
+  }
+
+  .node1343899 .article-content blockquote {
+    padding: 8rem 0 0;
+  }
+
+  .node1343899 .article-content blockquote th p {
+    display: inline-block;
+    margin-bottom: 2rem;
+    padding: 0 2rem;
+    line-height: 1.4;
+    font-size: 3.6rem;
+    font-weight: 700;
+    background: #fff;
+  }
+
+  .node1343899 .article-content blockquote .table1 tr:not(:first-child) {
+    display: flex;
+    flex-direction: row;
+    padding: 3rem 0;
+    background: #ffffff;
+  }
+
+  .node1343899 .article-content blockquote .table1 td {
+    width: 50%;
+    margin: 0;
+    padding: 0 3rem;
+    color: #001821;
+  }
+
+  .node1343899 .article-content blockquote .table1 p.important1 {
+    font-size: 1.8rem;
+  }
+
+  .node1343899 .article-content blockquote .table1 p a:hover {
+    color: #e50041;
   }
 }
 
