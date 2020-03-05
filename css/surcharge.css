@@ -2826,8 +2826,8 @@ body:not(.front) .list-articles .gla-item-btn::before {
 }
 
 .node1343899 .article-content blockquote {
-  margin: 3rem 0;
-  padding: 5rem 0 0;
+  margin: 3rem 0 0;
+  padding: 5rem 0;
   background: #e50041;
 }
 
@@ -2844,8 +2844,12 @@ body:not(.front) .list-articles .gla-item-btn::before {
 }
 
 .node1343899 .article-content blockquote p {
-  border: 0;
   padding: 0;
+  border: 0;
+}
+
+.node1343899 .article-content blockquote p:not(.important1) {
+  margin-top: 0;
 }
 
 .node1343899 .article-content blockquote th p {
@@ -3817,7 +3821,7 @@ body:not(.front) .list-articles .gla-item-btn::before {
   }
 
   .node1343899 .article-content blockquote {
-    padding: 8rem 0 0;
+    padding: 8rem 0;
   }
 
   .node1343899 .article-content blockquote th p {
