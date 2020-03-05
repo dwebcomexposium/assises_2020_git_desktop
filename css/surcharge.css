@@ -3851,13 +3851,13 @@ body:not(.front) .list-articles .gla-item-btn::before {
   }
 
   /* Nos événements */
-  .page-rubric .block-page.edito:first-child .inside {
+  .node1315924 .block-page.edito:first-child .inside {
     position: absolute;
     top: 6rem;
     width: 100%;
   }
 
-  .page-rubric .block-page.edito:first-child h1 {
+  .node1315924 .block-page.edito:first-child h1 {
     max-width: 1220px;
     margin: 0 auto;
     padding: 0 2rem;
@@ -3868,14 +3868,14 @@ body:not(.front) .list-articles .gla-item-btn::before {
     color: #004951;
   }
 
-  .page-rubric .block-page.edito:first-child p {
+  .node1315924 .block-page.edito:first-child p {
     max-width: 1220px;
     margin: 6rem auto 0;
     padding: 0 2rem;
     font-weight: 700;
   }
 
-  .page-rubric .block-page.edito:not(:first-child) {
+  .node1315924 .block-page.edito:not(:first-child) {
     position: relative;
     max-width: 1220px;
     margin: 6rem auto;
@@ -3896,6 +3896,28 @@ body:not(.front) .list-articles .gla-item-btn::before {
     display: flex;
     max-width: 1220px;
     margin: 0 auto;
+  }
+
+  .node1315924 .assises-container .content {
+    width: calc(100% * 1 / 3 - 1em);
+    margin: 0 0.65%;
+    box-shadow: 0 0 12px 2px rgba(0,0,0,0.16);
+  }
+
+  .node1315924 .assises-container .la-20 {
+    background: #e50041;
+  }
+
+  .node1315924 .assises-container .le-cercle {
+    background: #A5948f;
+  }
+
+  .node1315924 .assises-container .le-before {
+    background: #004951;
+  }
+
+  .node1315924 .assises-container {
+
   }
 }
 
