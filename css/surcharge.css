@@ -3881,6 +3881,22 @@ body:not(.front) .list-articles .gla-item-btn::before {
     margin: 6rem auto;
     padding: 0 2rem;
   }
+
+  .node1315924 .block-page.edito:not(:first-child) h2:first-child,
+  .node1315924 .block-page.edito:not(:first-child) h2::before {
+    display: none
+  }
+
+  .node1315924 .block-page.edito:not(:first-child) h2 {
+    margin-top: 6rem;
+    margin-bottom: 4rem;
+  }
+
+  .node1315924 .assises-container {
+    display: flex;
+    max-width: 1220px;
+    margin: 0 auto;
+  }
 }
 
 @media (min-width: 1370px) {
