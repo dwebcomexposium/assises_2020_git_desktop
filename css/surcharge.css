@@ -3968,6 +3968,10 @@ body:not(.front) .list-articles .gla-item-btn::before {
   }
 
   /* Nos événements */
+  .node1315924 .layout-2-col {
+    background: url('img/assises/dots-light.svg') no-repeat 0 25% / 463px 281px;
+  }
+
   .node1315924 .block-page.edito:first-child .inside {
     position: absolute;
     top: 6rem;
