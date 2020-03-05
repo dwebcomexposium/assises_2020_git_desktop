@@ -3895,13 +3895,22 @@ body:not(.front) .list-articles .gla-item-btn::before {
   .node1315924 .assises-container {
     display: flex;
     max-width: 1220px;
-    margin: 0 auto;
+    margin: 0 auto 10rem;
   }
 
   .node1315924 .assises-container .content {
     width: calc(100% * 1 / 3 - 1em);
     margin: 0 0.65%;
     box-shadow: 0 0 12px 2px rgba(0,0,0,0.16);
+  }
+
+  .node1315924 .assises-container .content:hover {
+    box-shadow: 0 0 12px 2px rgba(0,0,0,0.36);
+  }
+
+  .node1315924 .assises-container .content a,
+  .node1315924 .assises-container .content a:hover {
+    color: #ffffff;
   }
 
   .node1315924 .assises-container .la-20 {
@@ -3916,8 +3925,21 @@ body:not(.front) .list-articles .gla-item-btn::before {
     background: #004951;
   }
 
-  .node1315924 .assises-container {
+  .node1315924 .assises-container .content .img-title {
+    display: block;
+    margin-top: 2.5rem;
+    margin-bottom: 5rem;
+    height: 89px;
+  }
 
+  .node1315924 .assises-container .content .date {
+    display: inline-block;
+    margin: 0 0 0.8rem 0.8rem;
+    padding: 0 2rem;
+    font-size: 3rem;
+    font-weight: 700;
+    background: #ffffff;
+    color: #000;
   }
 }
 
