@@ -2019,7 +2019,8 @@ body:not(.front) .list-articles .gla-item-btn::before {
   flex-direction: column;
 }
 
-.article .table1.key-numbers td {
+.article .table1.key-numbers td,
+.node1316251 .table1 td {
   margin: 0 5rem 1rem;
   padding-bottom: 2rem;
 }
