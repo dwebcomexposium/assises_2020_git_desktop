@@ -2012,10 +2012,6 @@ body:not(.front) .list-articles .gla-item-btn::before {
 }
 
 /* Etre invité V2 */
-.node1340418 #zone1 {
-  height: 190px !important;
-}
-
 .node1340418 .article-intro {
   position: initial;
 }
@@ -2837,8 +2833,8 @@ body:not(.front) .list-articles .gla-item-btn::before {
 /* Déroulé des 4 jours */
 .article .table1 td {
   border-top: 0;
-  border-right: 1px solid #c0c0c0;
-  border-bottom: 0;
+  border-right: 0;
+  border-bottom: 1px solid #c0c0c0;
   border-left: 0;
 }
 
@@ -3629,8 +3625,8 @@ body:not(.front) .list-articles .gla-item-btn::before {
     width: 200px;
     padding: 0 1rem;
     border-top: 0;
-    border-right: 0;
-    border-bottom: 1px solid #c0c0c0;
+    border-right: 1px solid #c0c0c0;
+    border-bottom: 0;
     border-left: 0;
   }
 
@@ -3698,10 +3694,6 @@ body:not(.front) .list-articles .gla-item-btn::before {
   }
 
   /* Etre invité V2 */
-  .node1340418 #zone1 {
-    height: auto;
-  }
-
   .node1340418 .article-intro {
     position: absolute;
   }
