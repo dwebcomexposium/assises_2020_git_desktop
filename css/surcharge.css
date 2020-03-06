@@ -2030,8 +2030,11 @@ body:not(.front) .list-articles .gla-item-btn::before {
   margin: 0;
 }
 
-.article .table1.key-numbers tr p.numbers {
+.article .table1.key-numbers tr p.numbers,
+.article .table1 tr h2 {
+  margin: 0;
   color: #e50041;
+  font-family: 'Miriam Libre', sans-serif;
   font-weight: 700;
   font-size: 8rem;
   line-height: 1.2;
@@ -2289,6 +2292,10 @@ body:not(.front) .list-articles .gla-item-btn::before {
 }
 
 /* Aller à Monaco */
+.node1335875 #zone1 {
+  height: 34rem;
+}
+
 .node1335875 #zone2 {
   background: #f3efef;
 }
@@ -2836,6 +2843,8 @@ body:not(.front) .list-articles .gla-item-btn::before {
 }
 
 .article .table1 td:last-child {
+  margin-bottom: 0;
+  padding-bottom: 0;
   border-bottom: 0;
 }
 
@@ -3025,6 +3034,10 @@ body:not(.front) .list-articles .gla-item-btn::before {
 
 /* Desktop version */
 @media (min-width: 960px) {
+  .bn-item .icon {
+    margin: 0 0.3em;
+  }
+
   h2,
   .block-title {
     font-size: 3rem;
