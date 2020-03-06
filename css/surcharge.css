@@ -607,7 +607,7 @@ p.cl-item-phone {
 /***********************************/
 #pub {
   width: 320px;
-  margin: 5rem auto;
+  margin: 0 auto;
   text-align: center;
 }
 
@@ -716,8 +716,8 @@ p.cl-item-phone {
 
 .front .header-edito blockquote,
 .video-container .landing-container {
-  margin: 3rem 2rem 0;
-  padding: 3rem 2rem;
+  margin: 3rem 2rem 5rem;
+  padding: 2rem 1rem 1rem;
   max-width: 458px;
   background: rgba(250, 250, 250, 0.68);
   color: #001821;
@@ -1287,7 +1287,7 @@ p.cl-item-phone {
 
 /* A propos */
 .list-articles.apropos {
-  padding: 0 2rem;
+  padding: 4rem 2rem 0;
 }
 
 .main-title-with-link {
@@ -1482,7 +1482,7 @@ body:not(.front) .gla-item {
 }
 
 .edito.focus table tr td:not(:first-child) {
-  padding-top: 18rem;
+  padding-top: 8rem;
 }
 
 .edito.focus table img {
@@ -2013,7 +2013,23 @@ body:not(.front) .list-articles .gla-item-btn::before {
 
 /* Etre invité V2 */
 .node1340418 .article-intro {
-  display: none;
+
+}
+
+.article .table1.key-numbers {
+  text-align: center;
+}
+
+.article .table1.key-numbers tr:first-child p {
+  color: #e50041;
+  font-weight: 700;
+  font-size: 8rem;
+  line-height: 1.2;
+}
+
+.article .table1.key-numbers tr:nth-child(2) p {
+  font-weight: 700;
+  line-height: 1.2;
 }
 
 .node1340418 .layout-2-col {
@@ -2070,6 +2086,10 @@ body:not(.front) .list-articles .gla-item-btn::before {
   color: #e50041;
 }
 
+.node1340418 h2::before {
+  display: none;
+}
+
 .node1340418 .edito ul {
   margin: 3rem 0;
   padding-left: 5rem;
@@ -2097,7 +2117,6 @@ body:not(.front) .list-articles .gla-item-btn::before {
 }
 
 .node1340418 .keynote {
-  margin-bottom: 8rem;
   padding: 5rem 0;
   background: #004951;
 }
@@ -3598,22 +3617,6 @@ body:not(.front) .list-articles .gla-item-btn::before {
     margin: 0 auto;
   }
 
-  .article .table1.key-numbers {
-    text-align: center;
-  }
-
-  .article .table1.key-numbers tr:first-child p {
-    color: #e50041;
-    font-weight: 700;
-    font-size: 8rem;
-    line-height: 1.2;
-  }
-
-  .article .table1.key-numbers tr:nth-child(2) p {
-    font-weight: 700;
-    line-height: 1.2;
-  }
-
   .article .table1 td {
     width: 200px;
     padding: 0 1rem;
@@ -3687,6 +3690,10 @@ body:not(.front) .list-articles .gla-item-btn::before {
   }
 
   /* Etre invité V2 */
+  .node1340418 .layout-2-col {
+    margin: 9rem 0;
+  }
+
   .node1340418 .article-intro {
     display: block;
   }
@@ -3703,6 +3710,10 @@ body:not(.front) .list-articles .gla-item-btn::before {
   .node1340418 #zone2 .keynote .la-main-title::before {
     width: 49px;
     height: 28px;
+  }
+
+  .node1340418 .keynote {
+    margin-bottom: 8rem;
   }
 
   /* FAQ */
