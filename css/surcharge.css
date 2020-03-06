@@ -1923,8 +1923,9 @@ body:not(.front) .list-articles .gla-item-btn::before {
 }
 
 .node1316251 .style1 a {
-  font-size: 1.3rem;
   padding: 1rem 1rem;
+  font-size: 1.3rem;
+  word-break: break-word;
 }
 
 #zone4 h2::before,
@@ -3698,8 +3699,8 @@ body:not(.front) .list-articles .gla-item-btn::before {
   }
 
   .node1316251 .style1 a {
-    font-size: 1.6rem;
     padding: 1rem 2rem;
+    font-size: 1.6rem;
   }
 
   #zone4 .la-slider .slider-item {
