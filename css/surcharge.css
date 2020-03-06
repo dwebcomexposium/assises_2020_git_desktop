@@ -3703,7 +3703,7 @@ body:not(.front) .list-articles .gla-item-btn::before {
   }
 
   .article .table1.key-numbers tr {
-    flex-direction: row;
+    display: table-row;
   }
 
   .node1340418 .edito ul {
