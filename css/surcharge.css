@@ -2037,10 +2037,6 @@ body:not(.front) .list-articles .gla-item-btn::before {
   line-height: 1.2;
 }
 
-.node1340418 .layout-2-col {
-  margin: 3rem 0 0;
-}
-
 .node1340418 .article-focus {
   max-width: 97rem;
   margin: 0 auto 8rem;
@@ -2837,6 +2833,10 @@ body:not(.front) .list-articles .gla-item-btn::before {
   border-right: 0;
   border-bottom: 1px solid #c0c0c0;
   border-left: 0;
+}
+
+.article .table1 td:last-child {
+  border-bottom: 0;
 }
 
 .node1366511 .table1 tr {
