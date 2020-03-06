@@ -2012,6 +2012,10 @@ body:not(.front) .list-articles .gla-item-btn::before {
 }
 
 /* Etre invité V2 */
+.node1340418 #zone1 {
+  height: 190px !important;
+}
+
 .node1340418 .article-intro {
   position: initial;
 }
@@ -3694,6 +3698,10 @@ body:not(.front) .list-articles .gla-item-btn::before {
   }
 
   /* Etre invité V2 */
+  .node1340418 #zone1 {
+    height: auto;
+  }
+
   .node1340418 .article-intro {
     position: absolute;
   }
