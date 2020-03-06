@@ -2815,27 +2815,27 @@ body:not(.front) .list-articles .gla-item-btn::before {
   border-left: 0;
 }
 
-.node1343899 .table1 tr {
+.node1366511 .table1 tr {
   display: flex;
   flex-direction: column;
 }
 
-.node1343899 .article-content {
+.node1366511 .article-content {
   margin-bottom: 0;
   padding: 0;
 }
 
-.node1343899 .article-content blockquote {
+.node1366511 .article-content blockquote {
   margin: 3rem 0 0;
   padding: 5rem 0;
   background: #e50041;
 }
 
-.node1343899 .article-content blockquote .icon-quote {
+.node1366511 .article-content blockquote .icon-quote {
   display: none;
 }
 
-.node1343899 .article-content table th {
+.node1366511 .article-content table th {
   padding: 0;
   text-align: left;
   background: transparent;
@@ -2843,16 +2843,16 @@ body:not(.front) .list-articles .gla-item-btn::before {
   border: 0;
 }
 
-.node1343899 .article-content blockquote p {
+.node1366511 .article-content blockquote p {
   padding: 0;
   border: 0;
 }
 
-.node1343899 .article-content blockquote p:not(.important1) {
+.node1366511 .article-content blockquote p:not(.important1) {
   margin-top: 0;
 }
 
-.node1343899 .article-content blockquote th p {
+.node1366511 .article-content blockquote th p {
   display: inline-block;
   margin-bottom: 2rem;
   padding: 0 2rem;
@@ -2861,24 +2861,24 @@ body:not(.front) .list-articles .gla-item-btn::before {
   background: #fff;
 }
 
-.node1343899 .article-content blockquote .table1 tr:not(:first-child) {
+.node1366511 .article-content blockquote .table1 tr:not(:first-child) {
   display: flex;
   flex-direction: column;
   padding: 2rem 0;
   background: #ffffff;
 }
 
-.node1343899 .article-content blockquote .table1 td {
+.node1366511 .article-content blockquote .table1 td {
   margin: 0;
   padding: 0 3rem;
   color: #001821;
 }
 
-.node1343899 .article-content blockquote .table1 p.important1 {
+.node1366511 .article-content blockquote .table1 p.important1 {
   font-size: 1.8rem;
 }
 
-.node1343899 .article-content blockquote .table1 p a:hover {
+.node1366511 .article-content blockquote .table1 p a:hover {
   color: #e50041;
 }
 
@@ -3928,50 +3928,50 @@ body:not(.front) .list-articles .gla-item-btn::before {
   }
 
   /* Déroulé des 4 jours */
-  .node1343899 .article-wrapper {
+  .node1366511 .article-wrapper {
     background: url('img/assises/dots-light.svg') no-repeat right 14% / 463px 281px;
   }
 
-  .node1343899 .table1 tr {
+  .node1366511 .table1 tr {
     flex-direction: row;
   }
 
-  .node1343899 .table1 td {
+  .node1366511 .table1 td {
     width: 33%;
     padding: 0 2rem;
   }
 
-  .node1343899 .article-content {
+  .node1366511 .article-content {
     max-width: initial;
   }
 
-  .node1343899 .article-content blockquote {
+  .node1366511 .article-content blockquote {
     background: #e50041 url('img/assises/dots-light.svg') no-repeat right -1px / 463px 281px;
   }
 
-  .node1343899 .article-content > .table1 {
+  .node1366511 .article-content > .table1 {
     margin: 0 auto 6rem;
   }
 
-  .node1343899 .article-content > .table1 tr {
+  .node1366511 .article-content > .table1 tr {
     justify-content: center;
   }
 
-  .node1343899 .article-content blockquote {
+  .node1366511 .article-content blockquote {
     padding: 8rem 0;
   }
 
-  .node1343899 .article-content blockquote th p {
+  .node1366511 .article-content blockquote th p {
     line-height: 1.4;
     font-size: 3.6rem;
   }
 
-  .node1343899 .article-content blockquote .table1 tr:not(:first-child) {
+  .node1366511 .article-content blockquote .table1 tr:not(:first-child) {
     flex-direction: row;
     padding: 3rem 0;
   }
 
-  .node1343899 .article-content blockquote .table1 td {
+  .node1366511 .article-content blockquote .table1 td {
     width: 50%;
   }
 
