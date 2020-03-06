@@ -2020,15 +2020,14 @@ body:not(.front) .list-articles .gla-item-btn::before {
   text-align: center;
 }
 
-.article .table1.key-numbers tr:first-child p {
+.article .table1.key-numbers tr p {
+  margin: 0;
+}
+
+.article .table1.key-numbers tr p.numbers {
   color: #e50041;
   font-weight: 700;
   font-size: 8rem;
-  line-height: 1.2;
-}
-
-.article .table1.key-numbers tr:nth-child(2) p {
-  font-weight: 700;
   line-height: 1.2;
 }
 
