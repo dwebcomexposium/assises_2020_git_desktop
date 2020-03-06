@@ -2021,6 +2021,11 @@ body:not(.front) .list-articles .gla-item-btn::before {
   flex-direction: column;
 }
 
+.article .table1.key-numbers td {
+  margin: 0 5rem 1rem;
+  padding-bottom: 2rem;
+}
+
 .article .table1.key-numbers tr p {
   margin: 0;
 }
@@ -3695,7 +3700,7 @@ body:not(.front) .list-articles .gla-item-btn::before {
   }
 
   .article .table1.key-numbers tr {
-    display: table-frow;
+    display: table-row;
   }
 
   .node1340418 .edito ul {
