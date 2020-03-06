@@ -2012,10 +2012,6 @@ body:not(.front) .list-articles .gla-item-btn::before {
 }
 
 /* Etre invité V2 */
-.node1340418 .article-intro {
-  position: initial;
-}
-
 .article .table1.key-numbers {
   text-align: center;
 }
@@ -3694,16 +3690,12 @@ body:not(.front) .list-articles .gla-item-btn::before {
   }
 
   /* Etre invité V2 */
-  .node1340418 .article-intro {
-    position: absolute;
-  }
-
   .node1340418 .layout-2-col {
     margin: 9rem 0;
   }
 
   .article .table1.key-numbers tr {
-    display: table-row;
+    display: table-frow;
   }
 
   .node1340418 .edito ul {
