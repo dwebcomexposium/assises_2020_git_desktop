@@ -2884,7 +2884,7 @@ body:not(.front) .list-articles .gla-item-btn::before {
 
 .node1366511 .article-content blockquote {
   margin: 3rem 0 0;
-  padding: 5rem 0;
+  padding: 3rem 0 5rem;
   background: #e50041;
 }
 
@@ -3688,7 +3688,7 @@ body:not(.front) .list-articles .gla-item-btn::before {
   .article .table1 td {
     width: 33%;
     margin: 0;
-    padding: 0 1rem;
+    padding: 0 2rem;
     border-top: 0;
     border-right: 1px solid #c0c0c0;
     border-bottom: 0;
