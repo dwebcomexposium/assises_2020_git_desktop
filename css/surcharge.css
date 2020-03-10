@@ -1503,6 +1503,11 @@ body:not(.front) .gla-item {
   margin-left: 2rem;
 }
 
+/* Speakers */
+.node1341169 .intro {
+  padding: 0;
+}
+
 /* speakers remarquables */
 .article-focus {
   background: transparent;
@@ -2235,7 +2240,7 @@ body:not(.front) .list-articles .gla-item-btn::before {
 }
 
 .faq-content a.fc-item-link {
-  padding: 2rem 2.8rem;
+  padding: 2rem 4rem 2rem 1.8rem;
   background: #f2efef;
   font-size: 1.6rem;
   font-weight: 700;
@@ -2252,7 +2257,7 @@ body:not(.front) .list-articles .gla-item-btn::before {
 .faq-content .fc-item-link .icon {
   position: absolute;
   top: calc(50% - 10px);
-  right: 2rem;
+  right: 1rem;
   height: 20px;
   color: #e50041;
 }
@@ -3754,6 +3759,14 @@ body:not(.front) .list-articles .gla-item-btn::before {
     position: absolute;
     top: 20rem;
     margin: 0 0 0 2rem;
+  }
+
+  .faq-content a.fc-item-link {
+    padding: 2rem 2.8rem;
+  }
+
+  .faq-content .fc-item-link .icon {
+    right: 2rem;
   }
 
   /* Aller à Monaco */
