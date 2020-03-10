@@ -368,14 +368,14 @@ a.link-read-more:hover,
 .cl-content {
   display: flex;
   flex-wrap: wrap;
+  flex-direction: column;
 }
 
 .cl-item {
   position: relative;
   display: flex;
   flex-direction: column;
-  width: calc(100% * 1 / 4 - 1em);
-  margin: 0 0.65% 3rem;
+  margin: 0 0 3rem;
   padding: 0;
   border: 0;
   box-shadow: 0 0 12px 2px rgba(0,0,0,0.16);
@@ -2295,6 +2295,15 @@ body:not(.front) .list-articles .gla-item-btn::before {
   height: 34rem;
 }
 
+.node1335875 .breadcrumb-nav {
+  padding: 2rem 1.5rem;
+}
+
+.node1335875 #zone2 .main-title-with-link,
+.node1335875 .intro {
+  padding: 0 1.5rem;
+}
+
 .node1335875 #zone2 {
   background: #f3efef;
 }
@@ -3238,6 +3247,16 @@ body:not(.front) .list-articles .gla-item-btn::before {
     border-bottom: 0;
   }
 
+  /* Liste contact */
+  .cl-content {
+    flex-direction: row;
+  }
+
+  .cl-item {
+    width: calc(100% * 1 / 4 - 1em);
+    margin: 0 0.65% 3rem;
+  }
+
   /* Footer */
   .site-footer {
     background: url('img/assises/dots-dark.svg') no-repeat -7rem 28rem / 463px 280px, #001821 url('img/assises/dots-dark.svg') no-repeat 113% 0 / 463px 280px;
@@ -3738,6 +3757,14 @@ body:not(.front) .list-articles .gla-item-btn::before {
   }
 
   /* Aller à Monaco */
+  .node1335875 .breadcrumb-nav {
+    padding: 2rem;
+  }
+
+  .node1335875 #zone2 .main-title-with-link,
+  .node1335875 .intro {
+    padding: 0 2rem;
+  }
 
   .node1335875 .gla-item {
     width: calc(100% * 1 / 4 - 1em);
