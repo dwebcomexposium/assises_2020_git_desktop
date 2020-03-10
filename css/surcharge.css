@@ -1503,6 +1503,11 @@ body:not(.front) .gla-item {
   margin-left: 2rem;
 }
 
+/* Speakers */
+.node1341169 .intro {
+  padding: 0;
+}
+
 /* speakers remarquables */
 .article-focus {
   background: transparent;
