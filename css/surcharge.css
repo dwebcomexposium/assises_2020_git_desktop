@@ -360,6 +360,10 @@ a.link-read-more:hover,
   padding: 0 2rem;
 }
 
+.contacts-list .intro {
+  padding: 0;
+}
+
 .contacts-list .inside .intro p {
   max-width: initial;
   padding: 0;
@@ -1501,11 +1505,6 @@ body:not(.front) .gla-item {
 .edito.focus .edito-item-btn {
   margin-top: 4rem;
   margin-left: 2rem;
-}
-
-/* Speakers */
-.node1341169 .intro {
-  padding: 0;
 }
 
 /* speakers remarquables */
