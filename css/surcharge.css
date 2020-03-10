@@ -1784,6 +1784,10 @@ body:not(.front) .list-articles .gla-item-btn::before {
   border: 0;
 }
 
+.article-content iframe {
+  width: 100%;
+}
+
 .article-title .at-theme {
   display: none;
 }
@@ -3624,6 +3628,10 @@ body:not(.front) .list-articles .gla-item-btn::before {
     max-width: 1220px;
     margin: 0 auto;
     padding: 0 2rem;
+  }
+
+  .article-content iframe {
+    width: 560px;
   }
 
   .apropos .main-title-with-link {
