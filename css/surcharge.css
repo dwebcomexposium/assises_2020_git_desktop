@@ -2132,6 +2132,10 @@ body:not(.front) .list-articles .gla-item-btn::before {
   background: #004951;
 }
 
+.node1340418 .keynote a {
+  height: 100%;
+}
+
 .node1340418 #zone2 .keynote .main-title-with-link,
 .node1340418 #zone2 .keynote .intro {
   position: initial;
