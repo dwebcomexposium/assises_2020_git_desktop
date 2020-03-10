@@ -1320,6 +1320,10 @@ p.cl-item-phone {
   position: relative;
 }
 
+.gla-item img {
+  width: 100%;
+}
+
 body:not(.front) .gla-item {
   box-shadow: 0 0 12px 2px rgba(0,0,0,0.16);
 }
@@ -1865,24 +1869,20 @@ body:not(.front) .list-articles .gla-item-btn::before {
   border: 0;
 }
 
-.article-content ul,
-.content-list-bullet {
+.article-content ul {
   margin: 3rem 0;
   padding-left: 4.5rem;
 }
 
-.article-content ul li,
-.content-list-bullet li {
+.article-content ul li {
   padding-bottom: 1rem;
 }
 
-.article-content ul li:last-child,
-.content-list-bullet li:last-child {
+.article-content ul li:last-child {
   padding-bottom: 0;
 }
 
-.article-content ul li::before,
-.content-list-bullet li::before {
+.article-content ul li::before {
   transform: none;
   background: transparent;
   vertical-align: middle;
@@ -3064,6 +3064,24 @@ body:not(.front) .list-articles .gla-item-btn::before {
   padding: 0 2rem;
 }
 
+/* Sitemap */
+.sitemap .layout-2-col {
+  max-width: 1220px;
+  margin: 5rem auto;
+  padding: 2rem;
+}
+
+.sm-item-title {
+  margin-bottom: 0;
+  border: 0;
+  color: #e50041;
+}
+
+.content-list-bullet li::before {
+  border-radius: 50%;
+  background: #e50041;
+}
+
 /* Desktop version */
 @media (min-width: 960px) {
   .bn-item .icon {
@@ -4195,12 +4213,6 @@ body:not(.front) .list-articles .gla-item-btn::before {
 
   .node1315924 .assises-container .content p {
     padding: 0 2rem;
-  }
-
-  /* Sitemap */
-  .sitemap .layout-2-col {
-    max-width: 1220px;
-    margin: 5rem auto;
   }
 }
 
