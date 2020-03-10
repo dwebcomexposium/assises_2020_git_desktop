@@ -1382,6 +1382,7 @@ body:not(.front) .gla-item {
 }
 
 .list-articles.apropos .table2 td:first-child img {
+  width: auto;
   height: 100%;
 }
 
