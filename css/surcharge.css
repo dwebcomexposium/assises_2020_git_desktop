@@ -360,6 +360,10 @@ a.link-read-more:hover,
   padding: 0 2rem;
 }
 
+.contacts-list .intro {
+  padding: 0;
+}
+
 .contacts-list .inside .intro p {
   max-width: initial;
   padding: 0;
@@ -1503,11 +1507,6 @@ body:not(.front) .gla-item {
   margin-left: 2rem;
 }
 
-/* Speakers */
-.node1341169 .intro {
-  padding: 0;
-}
-
 /* speakers remarquables */
 .article-focus {
   background: transparent;
@@ -1765,7 +1764,6 @@ body:not(.front) .list-articles .gla-item-btn::before {
 .contacts-list h1 {
   position: absolute;
   top: 6rem;
-  width: 100%;
   margin-bottom: 0;
   padding: 0 2rem;
 }
@@ -1812,7 +1810,7 @@ body:not(.front) .list-articles .gla-item-btn::before {
 }
 
 .node1329377 .intro {
-  top: 14rem;
+  top: 12rem;
 }
 
 .apropos .intro {
@@ -3603,8 +3601,22 @@ body:not(.front) .list-articles .gla-item-btn::before {
   }
 
   .article-title,
+  #zone2 .main-title-with-link,
+  .node1329377 .faq-main-title,
+  .contacts-list h1 {
+    width: 100%;
+  }
+
+  .article-title,
   #zone2 .main-title-with-link {
     padding: 0;
+  }
+
+  .article-title .inside,
+  #zone2 .list-articles .la-main-title {
+    max-width: 1220px;
+    margin: 0 auto;
+    padding: 0 2rem;
   }
 
   .article-title .inside,
