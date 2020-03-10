@@ -54,6 +54,7 @@ body {
   max-width: initial;
   padding: 0 0 2rem;
   background-color: #ffffff;
+  box-shadow: none;
 }
 
 /* Title */
@@ -1772,7 +1773,8 @@ body:not(.front) .list-articles .gla-item-btn::before {
 #zone2 .list-articles .la-main-title,
 .faq-main-title,
 .contacts-list h1,
-.ancres h1 {
+.ancres h1,
+.sitemap h1 {
   margin: 0;
   padding: 0;
   font-family: 'Vollkorn', serif;
@@ -1863,20 +1865,24 @@ body:not(.front) .list-articles .gla-item-btn::before {
   border: 0;
 }
 
-.article-content ul {
+.article-content ul,
+.content-list-bullet {
   margin: 3rem 0;
   padding-left: 4.5rem;
 }
 
-.article-content ul li {
+.article-content ul li,
+.content-list-bullet li {
   padding-bottom: 1rem;
 }
 
-.article-content ul li:last-child {
+.article-content ul li:last-child,
+.content-list-bullet li:last-child {
   padding-bottom: 0;
 }
 
-.article-content ul li::before {
+.article-content ul li::before,
+.content-list-bullet li::before {
   transform: none;
   background: transparent;
   vertical-align: middle;
@@ -4189,6 +4195,12 @@ body:not(.front) .list-articles .gla-item-btn::before {
 
   .node1315924 .assises-container .content p {
     padding: 0 2rem;
+  }
+
+  /* Sitemap */
+  .sitemap .layout-2-col {
+    max-width: 1220px;
+    margin: 5rem auto;
   }
 }
 
