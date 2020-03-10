@@ -1731,7 +1731,7 @@ body:not(.front) .list-articles .gla-item-btn::before {
 }
 
 .breadcrumb-nav {
-  padding: 2rem 1.5rem;
+  padding: 2rem;
   font-size: 1.2rem;
 }
 
@@ -1762,7 +1762,7 @@ body:not(.front) .list-articles .gla-item-btn::before {
   top: 6rem;
   width: 100%;
   margin-bottom: 0;
-  padding: 0 1.5rem;
+  padding: 0 2rem;
 }
 
 .article-title .at-main-title,
@@ -1798,7 +1798,7 @@ body:not(.front) .list-articles .gla-item-btn::before {
   position: absolute;
   top: 16rem;
   margin: 0;
-  padding: 0 1.5rem;
+  padding: 0 2rem;
   font-weight: 700;
 }
 
@@ -1819,7 +1819,7 @@ body:not(.front) .list-articles .gla-item-btn::before {
 #zone2 .list-articles .list-grids-with-pagin,
 #zone4 {
   margin: 5rem 0;
-  padding: 0 1.5rem;
+  padding: 0 2rem;
   position: relative;
 }
 
@@ -2293,6 +2293,15 @@ body:not(.front) .list-articles .gla-item-btn::before {
 /* Aller à Monaco */
 .node1335875 #zone1 {
   height: 34rem;
+}
+
+.node1335875 .breadcrumb-nav {
+  padding: 2rem 1.5rem;
+}
+
+.node1335875 #zone2 .main-title-with-link,
+.node1335875 .intro {
+  padding: 0 1.5rem;
 }
 
 .node1335875 #zone2 {
@@ -3239,14 +3248,14 @@ body:not(.front) .list-articles .gla-item-btn::before {
   }
 
   /* Liste contact */
-.cl-content {
-  flex-direction: row;
-}
+  .cl-content {
+    flex-direction: row;
+  }
 
-.cl-item {
-  width: calc(100% * 1 / 4 - 1em);
-  margin: 0 0.65% 3rem;
-}
+  .cl-item {
+    width: calc(100% * 1 / 4 - 1em);
+    margin: 0 0.65% 3rem;
+  }
 
   /* Footer */
   .site-footer {
@@ -3597,7 +3606,7 @@ body:not(.front) .list-articles .gla-item-btn::before {
   #zone2 .list-articles .la-main-title {
     max-width: 1220px;
     margin: 0 auto;
-    padding: 0 1.5rem;
+    padding: 0 2rem;
   }
 
   .apropos .main-title-with-link {
@@ -3621,7 +3630,7 @@ body:not(.front) .list-articles .gla-item-btn::before {
   .intro p {
     margin: 0 auto;
     max-width: 1220px;
-    padding: 0 1.5rem;
+    padding: 0 2rem;
   }
 
   .node1329377 .intro p {
@@ -3748,6 +3757,14 @@ body:not(.front) .list-articles .gla-item-btn::before {
   }
 
   /* Aller à Monaco */
+  .node1335875 .breadcrumb-nav {
+    padding: 2rem;
+  }
+
+  .node1335875 #zone2 .main-title-with-link,
+  .node1335875 .intro {
+    padding: 0 2rem;
+  }
 
   .node1335875 .gla-item {
     width: calc(100% * 1 / 4 - 1em);
