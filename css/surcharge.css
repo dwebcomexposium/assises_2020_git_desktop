@@ -2564,7 +2564,7 @@ body:not(.front) .list-articles .gla-item-btn::before {
 
 /* Prix innovation */
 .node1341629 #zone1 {
-  height: 425px;
+  height: 630px;
 }
 
 .node1341629 .ancres {
@@ -2622,8 +2622,12 @@ body:not(.front) .list-articles .gla-item-btn::before {
 .node1341629 .focus1,
 .node1341629 .focus2 {
   max-width: 1185px;
-  margin: 7rem auto;
+  margin: 7rem auto 0;
   background: #e50041;
+}
+
+.node1341629 .table1 {
+  margin-bottom: 0;
 }
 
 .node1341629 .focus2 {
@@ -2694,6 +2698,7 @@ body:not(.front) .list-articles .gla-item-btn::before {
 .node1341629 .jury .cl-item {
   margin: 0 0 2rem;
   border: 0;
+  box-shadow: none;
 }
 
 .node1341629 .jury .cl-item-photo,
@@ -3896,7 +3901,7 @@ body:not(.front) .list-articles .gla-item-btn::before {
 
   /* Prix innovation */
   .node1341629 #zone1 {
-    height: 270px;
+    height: 320px;
   }
 
   .node1341629 .presenation,
@@ -3911,6 +3916,11 @@ body:not(.front) .list-articles .gla-item-btn::before {
 
   .node1341629 .table1 td {
     width: 50%;
+  }
+
+  .node1341629 .focus1,
+  .node1341629 .focus2 {
+    margin: 7rem auto;
   }
 
   .node1341629 .presenation img {
@@ -3940,7 +3950,6 @@ body:not(.front) .list-articles .gla-item-btn::before {
   .node1341629 .jury .cl-item {
     width: calc(100% * 1 / 4 - 1em);
     margin: 0 0.65% 6rem;
-    box-shadow: none;
   }
 
   .node1341629 .candidater .table1 td {
