@@ -2028,8 +2028,9 @@ body:not(.front) .list-articles .gla-item-btn::before {
 
 .article .table1.key-numbers td,
 .node1316251 .table1 td {
+  width: 200px;
   margin: 0 5rem 1rem;
-  padding-bottom: 2rem;
+  padding: 0 1rem 2rem;
 }
 
 .article .table1.key-numbers tr p {
@@ -2626,11 +2627,12 @@ body:not(.front) .list-articles .gla-item-btn::before {
   background: #e50041;
 }
 
-.node1341629 .table1 {
+.node1341629 .focus1 .table2 {
   margin-bottom: 0;
 }
 
 .node1341629 .focus2 {
+  margin-top: 0;
   background: #a5948f;
 }
 
@@ -2856,6 +2858,8 @@ body:not(.front) .list-articles .gla-item-btn::before {
 
 /* Déroulé des 4 jours */
 .article .table1 td {
+  margin: 0 3rem 0.75em;
+  padding-bottom: 2rem;
   border-top: 0;
   border-right: 0;
   border-bottom: 1px solid #c0c0c0;
@@ -2922,8 +2926,6 @@ body:not(.front) .list-articles .gla-item-btn::before {
 }
 
 .node1366511 .article-content blockquote .table1 td {
-  margin: 0;
-  padding: 0 3rem;
   color: #001821;
 }
 
@@ -3684,7 +3686,8 @@ body:not(.front) .list-articles .gla-item-btn::before {
   }
 
   .article .table1 td {
-    width: 200px;
+    width: 33%;
+    margin: 0;
     padding: 0 1rem;
     border-top: 0;
     border-right: 1px solid #c0c0c0;
@@ -4028,11 +4031,6 @@ body:not(.front) .list-articles .gla-item-btn::before {
 
   .node1366511 .table1 tr {
     flex-direction: row;
-  }
-
-  .node1366511 .table1 td {
-    width: 33%;
-    padding: 0 2rem;
   }
 
   .node1366511 .article-content {
