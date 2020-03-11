@@ -3072,6 +3072,10 @@ body:not(.front) .list-articles .gla-item-btn::before {
   color: #ffffff;
 }
 
+.parent1316255 .article-wrapper .article-title .inside {
+  max-width: initial;
+}
+
 .parent1316255 .article-wrapper .article-title img {
   display: block;
 }
