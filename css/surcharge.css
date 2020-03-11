@@ -3123,6 +3123,7 @@ body:not(.front) .list-articles .gla-item-btn::before {
 }
 
 .parent1316255 .table4 td {
+  margin-top: 0;
   padding: 0 3rem 1rem;
   border: 0;
 }
