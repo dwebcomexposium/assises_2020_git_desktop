@@ -3151,7 +3151,10 @@ body:not(.front) .list-articles .gla-item-btn::before {
 
 .parent1316255 .article-content blockquote {
   max-width: initial;
+  margin: 6rem 0;
+  padding: 6rem 0 3rem;
   background: #f2efef;
+  color: #001821;
 }
 
 .parent1316255 .article-content blockquote > * {
