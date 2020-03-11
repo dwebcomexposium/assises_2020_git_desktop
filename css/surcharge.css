@@ -3145,6 +3145,10 @@ body:not(.front) .list-articles .gla-item-btn::before {
   margin-right: auto !important;
 }
 
+.parent1316255 .article-content h2::before {
+  left: -6rem;
+}
+
 .parent1316255 .article-content blockquote {
   max-width: initial;
   background: #f2efef;
