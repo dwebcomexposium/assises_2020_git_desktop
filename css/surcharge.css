@@ -3147,9 +3147,10 @@ body:not(.front) .list-articles .gla-item-btn::before {
 
 .parent1316255 .article-content blockquote {
   max-width: initial;
+  background: #f2efef;
 }
 
-.parent1316255 .article-content > * {
+.parent1316255 .article-content blockquote > * {
   position: relative;
   max-width: 1220px;
   margin-left: auto !important;
