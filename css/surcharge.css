@@ -3059,17 +3059,33 @@ body:not(.front) .list-articles .gla-item-btn::before {
 }
 
 /* LA20 - Before - Cercle */
+.parent1316255 ..bn-item-link {
+  color: #ffffff;
+}
+
 .parent1316255 .article-wrapper .article-title img {
   display: block;
 }
 
-.parent1316255 .article-wrapper .article-title h1 {
+.parent1316255 .article-wrapper .article-title h1,
+.parent1316255 blockquote i {
   display: none;
 }
 
+.parent1316255 .article-intro {
+  top: 59px !important;
+}
+
+.parent1316255 blockquote,
 .parent1316255 table {
+  display: block;
   max-width: 1220px;
   margin: 3rem auto;
+  padding: 0 2rem;
+}
+
+.parent1316255 blockquote {
+  margin: 0 auto;
 }
 
 .parent1316255 table th {
@@ -3101,11 +3117,11 @@ body:not(.front) .list-articles .gla-item-btn::before {
   background: #e50041;
 }
 
-.node1316257 #zone1 {
+.node1316284 #zone1 {
   background: #a5948f;
 }
 
-.node1316257 #zone1 {
+.node1316258 #zone1 {
   background: #004951;
 }
 
