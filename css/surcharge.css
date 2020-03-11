@@ -2879,7 +2879,7 @@ body:not(.front) .list-articles .gla-item-btn::before {
 
 /* Déroulé des 4 jours */
 .article .table1 td {
-  margin: 0 3rem 0.75em;
+  margin: 0;
   padding-bottom: 2rem;
   border-top: 0;
   border-right: 0;
@@ -3224,6 +3224,13 @@ body:not(.front) .list-articles .gla-item-btn::before {
 .content-list-bullet li::before {
   border-radius: 50%;
   background: #e50041;
+}
+
+/* Triks mobile first */
+@media (max-width: 959px) {
+  .article .table1 td {
+    width: 100%;
+  }
 }
 
 /* Desktop version */
@@ -3858,7 +3865,6 @@ body:not(.front) .list-articles .gla-item-btn::before {
   }
 
   .article .table1 td {
-    margin: 0;
     padding: 0 2rem;
     border-top: 0;
     border-right: 1px solid #c0c0c0;
@@ -3868,7 +3874,6 @@ body:not(.front) .list-articles .gla-item-btn::before {
 
   .article .table1.key-numbers td,
   .node1316251 .table1 td {
-    margin: 0 5rem 1rem;
     padding: 0 1rem 2rem;
   }
 
