@@ -3140,13 +3140,6 @@ body:not(.front) .list-articles .gla-item-btn::before {
   background: #c0c0c0;
 }
 
-.parent1316255 .article-content > * {
-  position: relative;
-  max-width: 1220px;
-  margin-left: auto !important;
-  margin-right: auto !important;
-}
-
 .parent1316255 .article-content h2::before {
   left: -6rem;
 }
@@ -3154,16 +3147,9 @@ body:not(.front) .list-articles .gla-item-btn::before {
 .parent1316255 .article-content blockquote {
   max-width: initial;
   margin: 6rem 0;
-  padding: 6rem 0 3rem;
+  padding: 6rem 2rem 3rem;
   background: #f2efef;
   color: #001821;
-}
-
-.parent1316255 .article-content blockquote > * {
-  position: relative;
-  max-width: 1220px;
-  margin-left: auto !important;
-  margin-right: auto !important;
 }
 
 .parent1316255 .article-content blockquote p {
@@ -4391,6 +4377,24 @@ body:not(.front) .list-articles .gla-item-btn::before {
 
   .parent1316255 .table4 tr {
     flex-direction: row;
+  }
+
+  .parent1316255 .article-content > * {
+    position: relative;
+    max-width: 1220px;
+    margin-left: auto !important;
+    margin-right: auto !important;
+  }
+
+  .parent1316255 .article-content blockquote {
+    padding: 6rem 0 3rem;
+  }
+
+  .parent1316255 .article-content blockquote > * {
+    position: relative;
+    max-width: 1220px;
+    margin-left: auto !important;
+    margin-right: auto !important;
   }
 }
 
