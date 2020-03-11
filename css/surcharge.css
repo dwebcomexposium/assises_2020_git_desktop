@@ -188,7 +188,7 @@ a.link-read-more,
 .lien2,
 .lien3 {
   display: inline-block;
-  margin-bottom: 2rem;
+  margin-right: 1rem;
   padding: 1rem 2rem;
   box-shadow: 0 0 12px 2px rgba(0,0,0,0.16);
   font-weight: 700;
@@ -3137,6 +3137,10 @@ body:not(.front) .list-articles .gla-item-btn::before {
 .parent1316255 .article-content {
   max-width: initial;
   padding: 0;
+}
+
+.parent1316255 .article-content hr {
+  background: #c0c0c0;
 }
 
 .parent1316255 .article-content > * {
