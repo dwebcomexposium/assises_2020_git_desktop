@@ -3059,7 +3059,8 @@ body:not(.front) .list-articles .gla-item-btn::before {
 }
 
 /* LA20 - Before - Cercle */
-.parent1316255 .bn-item-link {
+.parent1316255 .bn-item-link,
+.parent1316255 .bn-item .icon {
   color: #ffffff;
 }
 
@@ -3077,7 +3078,7 @@ body:not(.front) .list-articles .gla-item-btn::before {
 }
 
 .parent1316255 blockquote,
-.parent1316255 table {
+.parent1316255 .table2 {
   display: block;
   max-width: 1220px;
   margin: 3rem auto;
@@ -3088,11 +3089,11 @@ body:not(.front) .list-articles .gla-item-btn::before {
   margin: 0 auto;
 }
 
-.parent1316255 table th {
+.parent1316255 .table2 th {
   text-align: left;
 }
 
-.parent1316255 table th p {
+.parent1316255 .table2 th p {
   display: inline-block;
   margin-bottom: 2rem;
   padding: 0 2rem;
@@ -3103,12 +3104,12 @@ body:not(.front) .list-articles .gla-item-btn::before {
   font-size: 3.6rem;
 }
 
-.parent1316255 table tr {
+.parent1316255 .table2 tr {
   display: block;
   max-width: 563px;
 }
 
-.parent1316255 table tr:not(:first-child) {
+.parent1316255 .table2 tr:not(:first-child) {
   padding-top: 2rem;
   background: #ffffff;
 }
