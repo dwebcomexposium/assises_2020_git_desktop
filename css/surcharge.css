@@ -1887,12 +1887,16 @@ body:not(.front) .list-articles .gla-item-btn::before {
   transform: none;
   background: transparent;
   vertical-align: middle;
-  margin: 0 1.5rem 0 -3em;
+  margin: 0 1rem 0 -3em;
   content: "";
   display: inline-block;
   width: 25px;
   height: 23px;
   background: url('img/assises/icon-arrow-red.svg') no-repeat 0 center / 200%;
+}
+
+.article-content ul li em {
+  font-family: 'Vollkorn', serif;
 }
 
 .article-content .table3 {
@@ -3077,7 +3081,7 @@ body:not(.front) .list-articles .gla-item-btn::before {
   top: 59px !important;
 }
 
-.parent1316255 blockquote,
+.parent1316255 .article-intro blockquote,
 .parent1316255 .table2 {
   display: block;
   max-width: 1220px;
@@ -3085,7 +3089,7 @@ body:not(.front) .list-articles .gla-item-btn::before {
   padding: 0 2rem;
 }
 
-.parent1316255 blockquote {
+.parent1316255 .article-intro blockquote {
   margin: 0 auto;
 }
 
@@ -3129,6 +3133,29 @@ body:not(.front) .list-articles .gla-item-btn::before {
   width: 100%;
 }
 
+.parent1316255 .article-content {
+  max-width: initial;
+  padding: 0;
+}
+
+.parent1316255 .article-content > * {
+  position: relative;
+  max-width: 1220px;
+  margin-left: auto !important;
+  margin-right: auto !important;
+}
+
+.parent1316255 .article-content blockquote {
+  max-width: initial;
+}
+
+.parent1316255 .article-content > * {
+  position: relative;
+  max-width: 1220px;
+  margin-left: auto !important;
+  margin-right: auto !important;
+}
+
 .node1316257 #zone1 {
   background: #e50041;
 }
@@ -3141,7 +3168,6 @@ body:not(.front) .list-articles .gla-item-btn::before {
 .node1316257 .table4 h3 {
   color: #ffffff;
 }
-
 
 .node1316284 #zone1 {
   background: #004951;
