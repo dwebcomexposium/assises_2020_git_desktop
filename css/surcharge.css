@@ -3114,7 +3114,24 @@ body:not(.front) .list-articles .gla-item-btn::before {
   background: #ffffff;
 }
 
+.parent1316255 .table4 {
+  box-shadow: 0 0 12px 2px rgba(0,0,0,0.16);
+}
+
+.parent1316255 .table4 td {
+  padding: 0 3rem 1rem;
+  border: 0;
+}
+
+.parent1316255 .table4 td.col1 {
+  padding: 0;
+}
+
 .node1316257 #zone1 {
+  background: #e50041;
+}
+
+.node1316257 .table4 {
   background: #e50041;
 }
 
