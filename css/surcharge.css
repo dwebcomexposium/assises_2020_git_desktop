@@ -2894,14 +2894,9 @@ body:not(.front) .list-articles .gla-item-btn::before {
   flex-direction: column;
 }
 
-.node1366511 .article-content {
-  margin-bottom: 0;
-  padding: 0;
-}
-
 .node1366511 .article-content blockquote {
   margin: 3rem 0 0;
-  padding: 3rem 0 5rem;
+  padding: 3rem 2rem 5rem;
   background: #e50041;
 }
 
@@ -2938,7 +2933,7 @@ body:not(.front) .list-articles .gla-item-btn::before {
 .node1366511 .article-content blockquote .table1 tr:not(:first-child) {
   display: flex;
   flex-direction: column;
-  padding: 2rem 0;
+  padding: 2rem 1rem;
   background: #ffffff;
 }
 
@@ -4218,6 +4213,7 @@ body:not(.front) .list-articles .gla-item-btn::before {
   }
 
   .node1366511 .article-content blockquote {
+    padding: 8rem 0;
     background: #e50041 url('img/assises/dots-light.svg') no-repeat right -1px / 463px 281px;
   }
 
@@ -4227,10 +4223,6 @@ body:not(.front) .list-articles .gla-item-btn::before {
 
   .node1366511 .article-content > .table1 tr {
     justify-content: center;
-  }
-
-  .node1366511 .article-content blockquote {
-    padding: 8rem 0;
   }
 
   .node1366511 .article-content blockquote th p {
