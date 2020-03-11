@@ -3078,6 +3078,7 @@ body:not(.front) .list-articles .gla-item-btn::before {
 
 .parent1316255 .article-wrapper .article-title img {
   display: block;
+  margin: 0 auto;
 }
 
 .parent1316255 .article-wrapper .article-title h1,
