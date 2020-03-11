@@ -189,6 +189,7 @@ a.link-read-more,
 .lien3 {
   display: inline-block;
   margin-right: 1rem;
+  margin-bottom: 1rem;
   padding: 1rem 2rem;
   box-shadow: 0 0 12px 2px rgba(0,0,0,0.16);
   font-weight: 700;
@@ -3091,14 +3092,7 @@ body:not(.front) .list-articles .gla-item-btn::before {
 
 .parent1316255 .article-intro blockquote,
 .parent1316255 .table2 {
-  display: block;
-  max-width: 1220px;
   margin: 1rem auto;
-  padding: 0 2rem;
-}
-
-.parent1316255 .article-intro blockquote {
-  margin: 0 auto;
 }
 
 .parent1316255 .table2 th {
@@ -3119,8 +3113,7 @@ body:not(.front) .list-articles .gla-item-btn::before {
 
 .parent1316255 .table2 tr:not(:first-child) {
   display: block;
-  max-width: 563px;
-  padding: 2rem 0;
+  padding: 2rem;
   background: #ffffff;
 }
 
@@ -3140,11 +3133,6 @@ body:not(.front) .list-articles .gla-item-btn::before {
 
 .parent1316255 .table4 td.col1 img {
   width: 100%;
-}
-
-.parent1316255 .article-content {
-  max-width: initial;
-  padding: 0;
 }
 
 .parent1316255 .article-content hr {
@@ -3230,6 +3218,22 @@ body:not(.front) .list-articles .gla-item-btn::before {
 
 /* Desktop version */
 @media (min-width: 960px) {
+  /* Button */
+  .cta-1,
+  .style1 a,
+  .cta-2,
+  .style2 a,
+  .cta-3,
+  .style3 a,
+  .style4 a,
+  a.link-read-more,
+  .link-view-all,
+  .lien1,
+  .lien2,
+  .lien3 {
+    margin-bottom: 0;
+  }
+
   .bn-item .icon {
     margin: 0 0.3em;
   }
@@ -4364,14 +4368,26 @@ body:not(.front) .list-articles .gla-item-btn::before {
   }
 
   /* LA20 - Before - Cercle */
-  .parent1316255 table th p {
-    display: inline-block;
-    margin-bottom: 2rem;
+  .parent1316255 .article-content {
+    max-width: initial;
+    padding: 0;
+  }
+
+  .parent1316255 .article-intro blockquote,
+  .parent1316255 .table2 {
+    display: block;
+    max-width: 1220px;
+    margin: 1rem auto;
     padding: 0 2rem;
-    line-height: 1.4;
-    font-size: 3.3rem;
-    font-weight: 700;
-    background: #fff;
+  }
+
+  .parent1316255 .article-intro blockquote {
+    margin: 0 auto;
+  }
+
+  .parent1316255 .table2 tr:not(:first-child) {
+    max-width: 563px;
+    padding: 2rem 0;
   }
 }
 
