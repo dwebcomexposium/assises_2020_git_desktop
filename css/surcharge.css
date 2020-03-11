@@ -1324,6 +1324,19 @@ p.cl-item-phone {
   width: 100%;
 }
 
+.list-articles.apropos .gla-item blockquote img {
+  width: auto;
+  height: 6.1rem;
+}
+
+.list-articles.apropos .gla-item blockquote i {
+  display: none;
+}
+
+.list-articles.apropos .gla-item table tr:first-child {
+  display: none;
+}
+
 body:not(.front) .gla-item {
   box-shadow: 0 0 12px 2px rgba(0,0,0,0.16);
 }
@@ -3112,7 +3125,7 @@ body:not(.front) .list-articles .gla-item-btn::before {
 .parent1316255 .table2 tr:not(:first-child) {
   display: block;
   max-width: 563px;
-  padding-top: 2rem;
+  padding: 2rem 0;
   background: #ffffff;
 }
 
