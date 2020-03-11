@@ -3125,20 +3125,30 @@ body:not(.front) .list-articles .gla-item-btn::before {
   padding: 0;
 }
 
+.parent1316255 .table4 td.col1 img {
+  width: 100%;
+}
+
 .node1316257 #zone1 {
   background: #e50041;
 }
 
 .node1316257 .table4 {
-  background: #e50041;
+  background: #daa45c;
+  color: #ffffff;
 }
 
+.node1316257 .table4 h3 {
+  color: #ffffff;
+}
+
+
 .node1316284 #zone1 {
-  background: #a5948f;
+  background: #004951;
 }
 
 .node1316258 #zone1 {
-  background: #004951;
+  background: #a5948f;
 }
 
 /* Sitemap */
