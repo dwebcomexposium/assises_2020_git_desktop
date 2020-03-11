@@ -3090,10 +3090,6 @@ body:not(.front) .list-articles .gla-item-btn::before {
   margin: 1rem auto;
 }
 
-.parent1316255 .article-content {
-  padding: 0;
-}
-
 .parent1316255 .table2 th {
   display: inline-block;
   margin-right: 1rem;
@@ -4359,6 +4355,7 @@ body:not(.front) .list-articles .gla-item-btn::before {
   /* LA20 - Before - Cercle */
   .parent1316255 .article-content {
     max-width: initial;
+    padding: 0;
   }
 
   .parent1316255 .article-intro blockquote,
