@@ -2045,12 +2045,6 @@ body:not(.front) .list-articles .gla-item-btn::before {
   text-align: center;
 }
 
-.article .table1.key-numbers tr,
-.node1316251 .table1 tr {
-  display: flex;
-  flex-direction: column;
-}
-
 .article .table1.key-numbers tr p {
   margin: 0;
 }
@@ -2894,7 +2888,7 @@ body:not(.front) .list-articles .gla-item-btn::before {
   border-bottom: 0;
 }
 
-.node1366511 .table1 tr {
+.article .table1 tr {
   display: flex;
   flex-direction: column;
 }
@@ -4211,7 +4205,7 @@ body:not(.front) .list-articles .gla-item-btn::before {
     background: url('img/assises/dots-light.svg') no-repeat right 14% / 463px 281px;
   }
 
-  .node1366511 .table1 tr {
+  .article .table1 tr {
     flex-direction: row;
   }
 
