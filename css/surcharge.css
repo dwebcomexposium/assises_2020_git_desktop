@@ -4401,6 +4401,12 @@ body:not(.front) .list-articles .gla-item-btn::before {
     margin-left: auto !important;
     margin-right: auto !important;
   }
+
+  .node1316257 #zone1,
+  .node1316284 #zone1,
+  .node1316258 #zone1 {
+    height: 625px !important;
+  }
 }
 
 @media (min-width: 1370px) {
