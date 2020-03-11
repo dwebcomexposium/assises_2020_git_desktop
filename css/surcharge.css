@@ -3801,7 +3801,6 @@ body:not(.front) .list-articles .gla-item-btn::before {
   }
 
   .article .table1 td {
-    width: 33%;
     margin: 0;
     padding: 0 2rem;
     border-top: 0;
@@ -3812,7 +3811,6 @@ body:not(.front) .list-articles .gla-item-btn::before {
 
   .article .table1.key-numbers td,
   .node1316251 .table1 td {
-    width: 200px;
     margin: 0 5rem 1rem;
     padding: 0 1rem 2rem;
   }
