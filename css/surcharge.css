@@ -1824,6 +1824,7 @@ body:not(.front) .list-articles .gla-item-btn::before {
 .intro {
   position: absolute;
   top: 16rem;
+  Width: 100%;
   margin: 0;
   padding: 0 2rem;
   font-weight: 700;
@@ -3826,7 +3827,6 @@ body:not(.front) .list-articles .gla-item-btn::before {
 
   .article-intro,
   .intro {
-    width: 100%;
     padding: 0;
   }
 
