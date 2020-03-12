@@ -3119,7 +3119,7 @@ body:not(.front) .list-articles .gla-item-btn::before {
 
 .parent1316255 .table4 tr {
   display: flex;
-  flex-direction: column-reverse;
+  flex-direction: column;
 }
 
 .parent1316255 .table4 td {
