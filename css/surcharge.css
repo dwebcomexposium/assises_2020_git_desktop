@@ -3202,6 +3202,16 @@ body:not(.front) .list-articles .gla-item-btn::before {
   .parent1316255 .table4 td {
     width: 100%;
   }
+
+  .parent1316255 .table4 td .table1 td {
+    padding: 2rem 0 0;
+  }
+
+  .parent1316255 .table4 td .table1 td:first-child {
+    padding-top: 0;
+    padding-bottom: 2rem;
+    border-bottom: 1px solid #c0c0c0;
+  }
 }
 
 /* Desktop version */
