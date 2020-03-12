@@ -3147,8 +3147,8 @@ body:not(.front) .list-articles .gla-item-btn::before {
 .parent1316255 .article-content blockquote {
   max-width: initial;
   margin: 6rem 0;
-  padding: 6rem 2rem 3rem;
-  background: #f2efef;
+  padding: 6rem 0 3rem;
+  background: transparent;
   color: #001821;
 }
 
@@ -4384,6 +4384,11 @@ body:not(.front) .list-articles .gla-item-btn::before {
     flex-direction: row;
   }
 
+  .parent1316255 .article-content blockquote {
+    padding: 6rem 2rem 3rem;
+    background: #f2efef;
+  }
+
   .parent1316255 .article-content > * {
     position: relative;
     max-width: 1090px;
@@ -4404,6 +4409,11 @@ body:not(.front) .list-articles .gla-item-btn::before {
 
   .parent1316255 #zone1 {
     height: 600px !important;
+  }
+
+  .parent1316255 iframe {
+    display: block;
+    margin: 0 auto;
   }
 
   .node1316257 .article-wrapper .article-title img {
