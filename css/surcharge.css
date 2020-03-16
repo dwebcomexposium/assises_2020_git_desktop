@@ -2684,9 +2684,12 @@ body:not(.front) .list-articles .gla-item-btn::before {
 }
 
 .node1341629 .jury,
+.node1341629 .contacts-list {
+  background: #004951;
+}
+
 .node1341629 .contacts-list.jury1 {
   padding: 2rem 0 0;
-  background: #004951;
 }
 
 .node1341629 .jury .block-title,
