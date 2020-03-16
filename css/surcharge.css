@@ -2684,8 +2684,8 @@ body:not(.front) .list-articles .gla-item-btn::before {
 }
 
 .node1341629 .jury,
-.node1341629 .contacts-list {
-  padding: 2rem 0;
+.node1341629 .contacts-list.jury1 {
+  padding: 2rem 0 0;
   background: #004951;
 }
 
@@ -4132,8 +4132,14 @@ body:not(.front) .list-articles .gla-item-btn::before {
   }
 
   .node1341629 .jury,
-  .node1341629 .contacts-list {
-    padding: 7rem 0;
+  .node1341629 .contacts-list.jury1 {
+    padding: 7rem 0 5rem;
+  }
+
+  .node1341629 .contacts-list.jury1 .cl-content {
+    display: flex;
+    justify-content: center;
+    border-bottom: 1px solid #ffffff;
   }
 
   .node1341629 .jury .cl-content,
@@ -4145,6 +4151,16 @@ body:not(.front) .list-articles .gla-item-btn::before {
   .node1341629 .contacts-list .cl-item {
     width: calc(100% * 1 / 4 - 1em);
     margin: 0 0.65% 6rem;
+  }
+
+  .node1341629 .contacts-list.jury1 .cl-item {
+    width: calc(100% * 1 / 2 - 1em);
+    margin-bottom: 3rem;
+    padding: 0 9% 3rem;
+  }
+
+  .node1341629 .contacts-list.jury1 .cl-item:first-child {
+    border-right: 1px solid #ffffff;
   }
 
   .node1341629 .candidater .table1 td {
