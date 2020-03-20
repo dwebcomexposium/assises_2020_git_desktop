@@ -3082,34 +3082,44 @@ body:not(.front) .list-articles .gla-item-btn::before {
 
 /* LA20 - Before - Cercle */
 .parent1315924 .bn-item-link,
-.parent1315924 .bn-item .icon {
+.parent1315924 .bn-item .icon,
+.parent1369628 .bn-item-link,
+.parent1369628 .bn-item .icon {
   color: #ffffff;
 }
 
-.parent1315924 .article-wrapper .article-title .inside {
+.parent1315924 .article-wrapper .article-title .inside,
+.parent1369628 .article-wrapper .article-title .inside {
   max-width: initial;
 }
 
 .parent1315924 .article-wrapper .article-title h1,
-.parent1315924 blockquote i {
+.parent1315924 blockquote i,
+.parent1369628 .article-wrapper .article-title h1,
+.parent1369628 blockquote i {
   display: none;
 }
 
-.parent1315924 .article-intro {
+.parent1315924 .article-intro,
+.parent1369628 .article-intro {
   top: 59px !important;
 }
 
 .parent1315924 .article-intro blockquote,
-.parent1315924 .table2 {
+.parent1315924 .table2,
+.parent1369628 .article-intro blockquote,
+.parent1369628 .table2 {
   margin: 1rem auto;
 }
 
-.parent1315924 .table2 th {
+.parent1315924 .table2 th,
+.parent1369628 .table2 th {
   display: inline-block;
   margin-right: 1rem;
 }
 
-.parent1315924 .table2 th p {
+.parent1315924 .table2 th p,
+.parent1369628 .table2 th p {
   display: inline-block;
   margin-bottom: 2rem;
   padding: 0 2rem;
@@ -3120,45 +3130,54 @@ body:not(.front) .list-articles .gla-item-btn::before {
   font-size: 3.6rem;
 }
 
-.parent1315924 .table2 tr:not(:first-child) {
+.parent1315924 .table2 tr:not(:first-child),
+.parent1369628 .table2 tr:not(:first-child) {
   display: block;
   padding: 2rem;
   background: #ffffff;
 }
 
-.parent1315924 .table4 {
+.parent1315924 .table4,
+.parent1369628 .table4 {
   background: #ffffff;
   box-shadow: 0 0 12px 2px rgba(0,0,0,0.16);
 }
 
-.parent1315924 .table4 tr {
+.parent1315924 .table4 tr,
+.parent1369628 .table4 tr {
   display: flex;
   flex-direction: column;
 }
 
-.parent1315924 .table4 td {
+.parent1315924 .table4 td,
+.parent1369628 .table4 td {
   margin-top: 0;
   padding: 0 3rem 1rem;
   border: 0;
 }
 
-.parent1315924 .table4 td.col1 {
+.parent1315924 .table4 td.col1,
+.parent1369628 .table4 td.col1 {
   padding: 0;
 }
 
-.parent1315924 .table4 td.col1 img {
+.parent1315924 .table4 td.col1 img,
+.parent1369628 .table4 td.col1 img {
   width: 100%;
 }
 
-.parent1315924 .article-content hr {
+.parent1315924 .article-content hr,
+.parent1369628 .article-content hr {
   background: #c0c0c0;
 }
 
-.parent1315924 .article-content h2::before {
+.parent1315924 .article-content h2::before,
+.parent1369628 .article-content h2::before {
   left: -6rem;
 }
 
-.parent1315924 .article-content blockquote {
+.parent1315924 .article-content blockquote,
+.parent1369628 .article-content blockquote {
   max-width: initial;
   margin: 6rem 0;
   padding: 6rem 0 3rem;
@@ -3166,7 +3185,8 @@ body:not(.front) .list-articles .gla-item-btn::before {
   color: #001821;
 }
 
-.parent1315924 .article-content blockquote p {
+.parent1315924 .article-content blockquote p,
+.parent1369628 .article-content blockquote p {
   border: 0;
   padding: 0;
 }
@@ -4396,65 +4416,78 @@ body:not(.front) .list-articles .gla-item-btn::before {
   }
 
   /* LA20 - Before - Cercle */
-  .parent1315924 .article-wrapper .article-title img {
+  .parent1315924 .article-wrapper .article-title img,
+  .parent1369628 .article-wrapper .article-title img {
     display: block;
     margin: 0 auto;
   }
 
-  .parent1315924 .article-content {
+  .parent1315924 .article-content,
+  .parent1369628 .article-content {
     max-width: initial;
     padding: 0;
   }
 
   .parent1315924 .article-intro blockquote,
-  .parent1315924 .table2 {
+  .parent1315924 .table2,
+  .parent1369628 .article-intro blockquote,
+  .parent1369628 .table2 {
     display: block;
     max-width: 1220px;
     margin: 1rem auto;
     padding: 0 2rem;
   }
 
-  .parent1315924 .article-intro blockquote {
+  .parent1315924 .article-intro blockquote,
+  .parent1369628parent1369628 .article-intro blockquote {
     margin: 0 auto;
   }
 
-  .parent1315924 .table2 tr:not(:first-child) {
+  .parent1315924 .table2 tr:not(:first-child),
+  .parent1369628parent1369628 .table2 tr:not(:first-child) {
     max-width: 563px;
     padding: 2rem 0;
   }
 
-  .parent1315924 .table4 tr {
+  .parent1315924 .table4 tr,
+  .parent1369628parent1369628 .table4 tr {
     flex-direction: row;
   }
 
-  .parent1315924 .article-content blockquote {
+  .parent1315924 .article-content blockquote,
+  .parent1369628parent1369628 .article-content blockquote {
     padding: 6rem 2rem 3rem;
     background: #f2efef;
   }
 
-  .parent1315924 .article-content > * {
+  .parent1315924 .article-content > *,
+  .parent1369628parent1369628 .article-content > * {
     position: relative;
     max-width: 1090px;
     margin-left: auto !important;
     margin-right: auto !important;
   }
 
-  .parent1315924 .article-content blockquote {
+  .parent1315924 .article-content blockquote,
+  .parent1369628parent1369628 .article-content blockquote {
     padding: 6rem 0 3rem;
   }
 
-  .parent1315924 .article-content blockquote > * {
+  .parent1315924 .article-content blockquote > *,
+  .parent1369628parent1369628 .article-content blockquote > * {
     position: relative;
     max-width: 1090px;
     margin-left: auto !important;
     margin-right: auto !important;
   }
 
-  .parent1315924 #zone1 {
+  .parent1315924 #zone1,
+  .parent1369628parent1369628 #zone1 {
     height: 600px !important;
   }
 
-  .parent1315924 iframe {
+  .parent1315924 iframe,
+  .parent1369628parent1369628 iframe {
     display: block;
     margin: 0 auto;
   }
