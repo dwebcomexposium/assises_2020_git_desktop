@@ -3082,9 +3082,7 @@ body:not(.front) .list-articles .gla-item-btn::before {
 
 /* LA20 - Before - Cercle */
 .parent1315924 .bn-item-link,
-.parent1315924 .bn-item .icon,
-.parent1369628 .bn-item-link,
-.parent1369628 .bn-item .icon {
+.parent1315924 .bn-item .icon {
   color: #ffffff;
 }
 
@@ -4439,29 +4437,29 @@ body:not(.front) .list-articles .gla-item-btn::before {
   }
 
   .parent1315924 .article-intro blockquote,
-  .parent1369628parent1369628 .article-intro blockquote {
+  .parent1369628 .article-intro blockquote {
     margin: 0 auto;
   }
 
   .parent1315924 .table2 tr:not(:first-child),
-  .parent1369628parent1369628 .table2 tr:not(:first-child) {
+  .parent1369628 .table2 tr:not(:first-child) {
     max-width: 563px;
     padding: 2rem 0;
   }
 
   .parent1315924 .table4 tr,
-  .parent1369628parent1369628 .table4 tr {
+  .parent1369628 .table4 tr {
     flex-direction: row;
   }
 
   .parent1315924 .article-content blockquote,
-  .parent1369628parent1369628 .article-content blockquote {
+  .parent1369628 .article-content blockquote {
     padding: 6rem 2rem 3rem;
     background: #f2efef;
   }
 
   .parent1315924 .article-content > *,
-  .parent1369628parent1369628 .article-content > * {
+  .parent1369628 .article-content > * {
     position: relative;
     max-width: 1090px;
     margin-left: auto !important;
@@ -4469,12 +4467,12 @@ body:not(.front) .list-articles .gla-item-btn::before {
   }
 
   .parent1315924 .article-content blockquote,
-  .parent1369628parent1369628 .article-content blockquote {
+  .parent1369628 .article-content blockquote {
     padding: 6rem 0 3rem;
   }
 
   .parent1315924 .article-content blockquote > *,
-  .parent1369628parent1369628 .article-content blockquote > * {
+  .parent1369628 .article-content blockquote > * {
     position: relative;
     max-width: 1090px;
     margin-left: auto !important;
@@ -4482,12 +4480,12 @@ body:not(.front) .list-articles .gla-item-btn::before {
   }
 
   .parent1315924 #zone1,
-  .parent1369628parent1369628 #zone1 {
+  .parent1369628 #zone1 {
     height: 600px !important;
   }
 
   .parent1315924 iframe,
-  .parent1369628parent1369628 iframe {
+  .parent1369628 iframe {
     display: block;
     margin: 0 auto;
   }
