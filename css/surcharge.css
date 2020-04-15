@@ -397,6 +397,10 @@ a.link-read-more:hover,
   color: #001821;
 }
 
+.node1340616 .cl-item-content {
+  padding: 2rem 2rem 6rem;
+}
+
 .cl-item-illust {
   display: none;
 }
@@ -434,6 +438,11 @@ p.cl-item-phone {
 
 .cl-item-social {
   display: flex;
+}
+
+.node1340616 .cl-item-social {
+  position: absolute;
+  bottom: 2rem;
 }
 
 .cl-item-social .social-twitter,
@@ -3159,6 +3168,12 @@ body:not(.front) .list-articles .gla-item-btn::before {
   padding: 0;
 }
 
+.parent1315924 .table4 td.col1 figure,
+.parent1369628 .table4 td.col1 figure {
+  margin: 0;
+  padding: 0;
+}
+
 .parent1315924 .table4 td.col1 img,
 .parent1369628 .table4 td.col1 img {
   width: 100%;
@@ -3611,7 +3626,7 @@ body:not(.front) .list-articles .gla-item-btn::before {
   /* A propos */
   .list-articles.apropos {
     max-width: 1220px;
-    margin: 0 auto;
+    margin: 3rem auto 0;
     padding: 0;
   }
 
