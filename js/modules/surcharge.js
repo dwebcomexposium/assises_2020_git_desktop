@@ -5,25 +5,36 @@ $(document).ready(function(){
     arrows: true
   });
 
-  /** Height zone1 + position **/
+  var setArticleTitlePosition = function ($mainTitle, $articleTitle, $articleIntro) {
+    if ($articleIntro.length > 0 && $mainTitle.length > 0) {
+      $articleTitle.css('top', $('.breadcrumb-nav .inside').height() + 40 + 'px');
+      $articleIntro.css('top', $articleTitle.position().top + $articleTitle.height() + 40 + 'px');
+      var headerHeight = $articleIntro.height() + $articleTitle.height() + $('.breadcrumb-nav .inside').height() + 80;
+      if (headerHeight > $('#zone1').height()) {
+        $('#zone1').css('height', headerHeight + 20);
+      }
+    } else if ($articleTitle.length > 0 && $mainTitle.length > 0) {
+      $articleTitle.css('top', $('.breadcrumb-nav .inside').height() + 40 + 'px');
+      var headerHeight = $mainTitle.height() + $('.breadcrumb-nav .inside').height();
+      if (headerHeight > $('#zone1').height()) {
+        $('#zone1').css('height', headerHeight + 50);
+      }
+    }
+  };
+
+  /** Height zone1 + position page article **/
   var $mainTitle = $('.at-main-title');
   var $articleTitle = $('.article-title');
   var $articleIntro = $('.article-intro');
 
-  if ($articleIntro.length > 0 && $mainTitle.length > 0) {
-    $articleTitle.css('top', $('.breadcrumb-nav .inside').height() + 40 + 'px');
-    $articleIntro.css('top', $articleTitle.position().top + $articleTitle.height() + 40 + 'px');
-    var headerHeight = $articleIntro.height() + $articleTitle.height() + $('.breadcrumb-nav .inside').height() + 80;
-    if (headerHeight > $('#zone1').height()) {
-      $('#zone1').css('height', headerHeight + 20);
-    }
-  } else if ($articleTitle.length > 0 && $mainTitle.length > 0) {
-    $articleTitle.css('top', $('.breadcrumb-nav .inside').height() + 40 + 'px');
-    var headerHeight = $mainTitle.height() + $('.breadcrumb-nav .inside').height();
-    if (headerHeight > $('#zone1').height()) {
-      $('#zone1').css('height', headerHeight + 50);
-    }
-  }
+  setArticleTitlePosition($mainTitle, $articleTitle, $articleIntro);
+
+  /** Height zone1 + position page liste d'articles **/
+  $mainTitle = $('.la-main-title');
+  $articleTitle = $('.list-articles .main-title-with-link');
+  $articleIntro = $('.list-articles .intro');
+
+  setArticleTitlePosition($mainTitle, $articleTitle, $articleIntro);
 
   /** ScroolTop **/
   function scroll_to_top(div) {
