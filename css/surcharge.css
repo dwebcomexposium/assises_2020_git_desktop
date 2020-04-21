@@ -1564,6 +1564,14 @@ body:not(.front) .gla-item {
 }
 
 /* New rub */
+.new-rub {
+  padding: 0 2rem;
+}
+
+.new-rub .article-content {
+  padding: 0;
+}
+
 .new-rub .img-desk,
 .new-rub .img-mob {
   display: none;
@@ -3755,10 +3763,6 @@ body:not(.front) .list-articles .gla-item-btn::before {
   }
 
   /* New rub */
-  .article-content.new-rub {
-    padding: 0;
-  }
-
   .new-rub .img-desk {
     display: block;
   }
