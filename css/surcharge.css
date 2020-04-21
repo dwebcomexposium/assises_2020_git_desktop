@@ -1564,8 +1564,10 @@ body:not(.front) .gla-item {
 }
 
 /* New rub */
-.new-rub .img-desk {
+.new-rub .img-desk,
+.new-rub .img-mob {
   display: none;
+  margin: 2rem 0;
 }
 
 .new-rub .img-mob {
