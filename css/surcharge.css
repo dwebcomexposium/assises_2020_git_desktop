@@ -1563,6 +1563,15 @@ body:not(.front) .gla-item {
   line-height: 1.4;
 }
 
+/* New rub */
+.new-rub .img-desk {
+  display: none;
+}
+
+.new-rub .img-mob {
+  display: block;
+}
+
 /* Hot news */
 .list-articles.hot-news {
   background: #004951;
@@ -3741,6 +3750,19 @@ body:not(.front) .list-articles .gla-item-btn::before {
     max-width: 750px;
     padding: 6rem 10rem 12rem;
     background: #a5948f url('img/assises/dots-white.svg') no-repeat 157% 92% / 463px 281px;
+  }
+
+  /* New rub */
+  .article-content.new-rub {
+    padding: 0;
+  }
+
+  .new-rub .img-desk {
+    display: block;
+  }
+
+  .new-rub .img-mob {
+    display: none;
   }
 
   /* Hot news */
