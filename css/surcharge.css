@@ -4572,5 +4572,6 @@ body:not(.front) .list-articles .gla-item-btn::before {
 	margin-left: auto;
 	margin-right: auto;
 	margin-top: 15px;
+	margin-bottom: 15px;
 	width: 728px;
 }
