@@ -4567,3 +4567,10 @@ body:not(.front) .list-articles .gla-item-btn::before {
     height: 30px;
   }
 }
+
+.pub {
+	margin-left: auto;
+	margin-right: auto;
+	margin-top: 15px;
+	width: 728px;
+}
