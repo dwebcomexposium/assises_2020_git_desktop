@@ -4575,3 +4575,10 @@ body:not(.front) .list-articles .gla-item-btn::before {
 	margin-bottom: 15px;
 	width: 728px;
 }
+
+/* Prix de l'innovation - Questions */
+div#zone2.zone .list-articles.questions div.inside div.main-title-with-link {
+  position: relative;
+  display: block;
+  padding-bottom: 30px 
+}
