@@ -3313,7 +3313,7 @@ body:not(.front) .list-articles .gla-item-btn::before {
   .presenation .block-title::before,
   .edito h2::before,
   .laureats .main-title::before,
-  .fleches h2::before {
+  .fleches h2.main-title::before {
   width: 49px;
   height: 33px;
   position: absolute;
@@ -4159,7 +4159,7 @@ body:not(.front) .list-articles .gla-item-btn::before {
 
   /* Prix innovation */
   .innovation #zone1 {
-    height: 320px;
+    height: 340px;
   }
 
   .innovation .presenation,
