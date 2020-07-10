@@ -85,7 +85,7 @@ h2,
 .presenation .block-title::before,
 .edito h2::before,
 .laureats .main-title::before,
-#zone2 .list-articles.fleches .la-main-title {
+#zone2 .list-articles.fleches .la-main-title::before {
   content: '';
   display: inline-block;
   width: 41px;
@@ -3320,7 +3320,7 @@ body:not(.front) .list-articles .gla-item-btn::before {
   .presenation .block-title::before,
   .edito h2::before,
   .laureats .main-title::before,
-  #zone2 .list-articles.fleches .la-main-title {
+  #zone2 .list-articles.fleches .la-main-title::before {
     width: 49px;
     height: 33px;
     position: absolute;
