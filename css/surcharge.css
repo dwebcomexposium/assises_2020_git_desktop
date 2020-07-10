@@ -84,7 +84,8 @@ h2,
 #zone4 h2::before,
 .presenation .block-title::before,
 .edito h2::before,
-.laureats .main-title::before {
+.laureats .main-title::before,
+.fleches h2.main-title::before {
   content: '';
   display: inline-block;
   width: 41px;
@@ -2610,31 +2611,31 @@ body:not(.front) .list-articles .gla-item-btn::before {
 }
 
 /* Prix innovation */
-.node1341629 #zone1 {
+.innovation #zone1 {
   height: 630px;
 }
 
-.node1341629 .ancres {
+.innovation .ancres {
   position: absolute;
   top: 6rem;
   width: 100%;
 }
 
-.node1341629 .ancres .inside {
+.innovation .ancres .inside {
   max-width: 1220px;
   margin: 0 auto;
   padding: 0 2rem;
 }
 
-.node1341629 .ancres .inside h1 {
+.innovation .ancres .inside h1 {
   margin-bottom: 4rem;
 }
 
-.node1341629 .ancres .inside p {
+.innovation .ancres .inside p {
   font-weight: 700;
 }
 
-.node1341629 .ancres .inside ul.style1 {
+.innovation .ancres .inside ul.style1 {
   display: flex;
   flex-wrap: wrap;
   margin-top: 3rem;
@@ -2643,134 +2644,134 @@ body:not(.front) .list-articles .gla-item-btn::before {
   list-style: none;
 }
 
-.node1341629 .ancres .inside ul.style1 li a {
+.innovation .ancres .inside ul.style1 li a {
   margin-right: 1.5rem;
   margin-bottom: 1.5rem;
 }
 
-.node1341629 .presenation,
-.node1341629 .candidater,
-.node1341629 .laureats {
+.innovation .presenation,
+.innovation .candidater,
+.innovation .laureats {
   position: relative;
   max-width: 1220px;
   margin: 4rem auto;
   padding: 0 2rem;
 }
 
-.node1341629 .table1 tr {
+.innovation .table1 tr {
   display: flex;
   flex-direction: column;
 }
 
-.node1341629 .presenation img {
+.innovation .presenation img {
   margin-top: 3rem;
 }
 
-.node1341629 .focus1,
-.node1341629 .focus2 {
+.innovation .focus1,
+.innovation .focus2 {
   max-width: 1185px;
   margin: 7rem auto 0;
   background: #e50041;
 }
 
-.node1341629 .focus1 .table2 {
+.innovation .focus1 .table2 {
   margin-bottom: 0;
 }
 
-.node1341629 .focus2 {
+.innovation .focus2 {
   margin-top: 0;
   background: #a5948f;
 }
 
-.node1341629 .focus1 .af-title,
-.node1341629 .focus2 .af-title {
+.innovation .focus1 .af-title,
+.innovation .focus2 .af-title {
   display: none;
 }
 
-.node1341629 .focus1 h2,
-.node1341629 .focus2 h2 {
+.innovation .focus1 h2,
+.innovation .focus2 h2 {
   margin-bottom: 3rem;
   font-family: 'Vollkorn', serif;
   color: #ffffff;
 }
 
-.node1341629 .table2 tr {
+.innovation .table2 tr {
   display: flex;
   flex-direction: column-reverse;
 }
 
-.node1341629 .table2 td {
+.innovation .table2 td {
   margin-top: 0;
 }
 
-.node1341629 .table2 td:first-child {
+.innovation .table2 td:first-child {
   padding: 2rem;
 }
 
-.node1341629 .table2 td img {
+.innovation .table2 td img {
   width: 100%;
 }
 
-.node1341629 .jury,
-.node1341629 .contacts-list {
+.innovation .jury,
+.innovation .contacts-list {
   background: #004951;
 }
 
-.node1341629 .contacts-list.jury1 {
+.innovation .contacts-list.jury1 {
   padding: 2rem 0 0;
 }
 
-.node1341629 .jury .block-title,
-.node1341629 .jury .cl-content,
-.node1341629 .contacts-list .block-title,
-.node1341629 .contacts-list .cl-content {
+.innovation .jury .block-title,
+.innovation .jury .cl-content,
+.innovation .contacts-list .block-title,
+.innovation .contacts-list .cl-content {
   max-width: 1220px;
   margin: 0 auto;
   padding: 0 2rem;
 }
 
-.node1341629 .jury .block-title,
-.node1341629 .contacts-list .block-title {
+.innovation .jury .block-title,
+.innovation .contacts-list .block-title {
   margin-bottom: 4rem;
   font-family: 'Vollkorn', serif;
   text-transform: initial;
   color: #ffffff;
 }
 
-.node1341629 .jury .block-title::before {
+.innovation .jury .block-title::before {
   display: none;
 }
 
-.node1341629 .jury .cl-content,
-.node1341629 .contacts-list .cl-content {
+.innovation .jury .cl-content,
+.innovation .contacts-list .cl-content {
   display: flex;
   flex-wrap: wrap;
   flex-direction: column;
 }
 
-.node1341629 .jury .cl-item,
-.node1341629 .contacts-list .cl-item {
+.innovation .jury .cl-item,
+.innovation .contacts-list .cl-item {
   margin: 0 0 2rem;
   border: 0;
   box-shadow: none;
 }
 
-.node1341629 .jury .cl-item-photo,
-.node1341629 .jury .cl-item-social,
-.node1341629 .contacts-list .cl-item-photo,
-.node1341629 .contacts-list .cl-item-social {
+.innovation .jury .cl-item-photo,
+.innovation .jury .cl-item-social,
+.innovation .contacts-list .cl-item-photo,
+.innovation .contacts-list .cl-item-social {
   display: none;
 }
 
-.node1341629 .jury .cl-item-content,
-.node1341629 .jury .h3-like,
-.node1341629 .contacts-list .cl-item-content,
-.node1341629 .contacts-list .h3-like {
+.innovation .jury .cl-item-content,
+.innovation .jury .h3-like,
+.innovation .contacts-list .cl-item-content,
+.innovation .contacts-list .h3-like {
   color: #ffffff;
 }
 
-.node1341629 .jury .h3-like,
-.node1341629 .contacts-list .h3-like {
+.innovation .jury .h3-like,
+.innovation .contacts-list .h3-like {
   display: flex;
   align-items: center;
   margin: 0;
@@ -2779,8 +2780,8 @@ body:not(.front) .list-articles .gla-item-btn::before {
   font-weight: 600;
 }
 
-.node1341629 .jury .h3-like::before,
-.node1341629 .contacts-list .h3-like::before {
+.innovation .jury .h3-like::before,
+.innovation .contacts-list .h3-like::before {
   content: '';
   display: inline-block;
   width: 24px;
@@ -2789,56 +2790,56 @@ body:not(.front) .list-articles .gla-item-btn::before {
   margin-right: 0.5rem;
 }
 
-.node1341629 .jury .cl-item-subtitle,
-.node1341629 .contacts-list .cl-item-subtitle {
+.innovation .jury .cl-item-subtitle,
+.innovation .contacts-list .cl-item-subtitle {
   text-transform: initial;
 }
 
-.node1341629 .candidater .table1 {
+.innovation .candidater .table1 {
   margin-top: 4rem;
 }
 
-.node1341629 .candidater .table1 td:first-child {
+.innovation .candidater .table1 td:first-child {
   border-bottom: 1px solid #c0c0c0;
   margin-bottom: 2rem;
   padding-bottom: 3rem;
 }
 
-.node1341629 .candidater h3 {
+.innovation .candidater h3 {
   margin-top: 0;
 }
 
-.node1341629 .etapes {
+.innovation .etapes {
   background: #f2efef;
 }
 
-.node1341629 .etapes .inside {
+.innovation .etapes .inside {
   position: relative;
   max-width: 1220px;
   margin: 0 auto;
   padding: 4rem 2rem 5rem;
 }
 
-.node1341629 .etapes h2 {
+.innovation .etapes h2 {
   margin-bottom: 2rem;
   font-family: 'Vollkorn', serif;
   text-transform: initial;
   color: #e50041;
 }
 
-.node1341629 .etapes h2::before {
+.innovation .etapes h2::before {
   display: none;
 }
 
-.node1341629 .etapes .focus1 {
+.innovation .etapes .focus1 {
   margin: 0;
 }
 
-.node1341629 .etapes .focus1 img {
+.innovation .etapes .focus1 img {
   width: 100%;
 }
 
-.node1341629 .etapes ul {
+.innovation .etapes ul {
   display: flex;
   flex-wrap: wrap;
   flex-direction: column;
@@ -2847,11 +2848,11 @@ body:not(.front) .list-articles .gla-item-btn::before {
   list-style: none;
 }
 
-.node1341629 .etapes ul li {
+.innovation .etapes ul li {
   margin-bottom: 3rem;
 }
 
-.node1341629 .etapes .lien3 {
+.innovation .etapes .lien3 {
   width: 100%;
 }
 
@@ -2863,7 +2864,7 @@ body:not(.front) .list-articles .gla-item-btn::before {
   padding-right: 0;
 }
 
-.node1341629 .etapes ul u {
+.innovation .etapes ul u {
   font-size: 8rem;
   font-weight: 700;
   line-height: 1.2;
@@ -2871,31 +2872,31 @@ body:not(.front) .list-articles .gla-item-btn::before {
   color: #e50041;
 }
 
-.node1341629 #zone2 .laureats .main-title-with-link {
+.innovation #zone2 .laureats .main-title-with-link {
   position: initial;
 }
 
-.node1341629 .laureats .main-title-with-link > .main-title {
+.innovation .laureats .main-title-with-link > .main-title {
   font-size: 3rem;
   color: #001821;
 }
 
-.node1341629 .laureats .partner-gallery {
+.innovation .laureats .partner-gallery {
   padding: 0;
 }
 
-.node1341629 .laureats .partner-gallery .pg-item {
+.innovation .laureats .partner-gallery .pg-item {
   width: calc(100% * 1 / 2 - 1em);
   margin: 0 2.35% 2rem;
   border: 0;
 }
 
-.node1341629 .laureats .partner-gallery .pg-item-link:focus,
-.node1341629 .laureats .partner-gallery .pg-item-link:hover {
+.innovation .laureats .partner-gallery .pg-item-link:focus,
+.innovation .laureats .partner-gallery .pg-item-link:hover {
   text-decoration: none;
 }
 
-.node1341629 .laureats .partner-gallery .pg-item-illust {
+.innovation .laureats .partner-gallery .pg-item-illust {
   display: flex;
   justify-content: center;
   align-items: center;
@@ -2905,7 +2906,7 @@ body:not(.front) .list-articles .gla-item-btn::before {
   box-shadow: 0 0 12px 2px rgba(0,0,0,0.16);
 }
 
-.node1341629 .laureats .partner-gallery .pg-item-title {
+.innovation .laureats .partner-gallery .pg-item-title {
   padding-left: 0.2rem;
   font-size: 1.8rem;
   font-weight: 700;
@@ -3311,7 +3312,8 @@ body:not(.front) .list-articles .gla-item-btn::before {
   #zone4 h2::before,
   .presenation .block-title::before,
   .edito h2::before,
-  .laureats .main-title::before {
+  .laureats .main-title::before,
+  .fleches h2::before {
   width: 49px;
   height: 33px;
   position: absolute;
@@ -4156,118 +4158,118 @@ body:not(.front) .list-articles .gla-item-btn::before {
   }
 
   /* Prix innovation */
-  .node1341629 #zone1 {
+  .innovation #zone1 {
     height: 320px;
   }
 
-  .node1341629 .presenation,
-  .node1341629 .candidater,
-  .node1341629 .laureats {
+  .innovation .presenation,
+  .innovation .candidater,
+  .innovation .laureats {
     margin: 6rem auto;
   }
 
-  .node1341629 .table1 tr {
+  .innovation .table1 tr {
     flex-direction: row;
   }
 
-  .node1341629 .table1 td {
+  .innovation .table1 td {
     width: 50%;
   }
 
-  .node1341629 .focus1,
-  .node1341629 .focus2 {
+  .innovation .focus1,
+  .innovation .focus2 {
     margin: 7rem auto;
   }
 
-  .node1341629 .presenation img {
+  .innovation .presenation img {
     margin-top: -4rem;
   }
 
-  .node1341629 .table2 tr {
+  .innovation .table2 tr {
     flex-direction: row;
   }
 
-  .node1341629 .table2 td {
+  .innovation .table2 td {
     width: 70%;
   }
 
-  .node1341629 .table2 td:first-child {
+  .innovation .table2 td:first-child {
     width: 30%;
   }
 
-  .node1341629 .jury,
-  .node1341629 .contacts-list.jury1 {
+  .innovation .jury,
+  .innovation .contacts-list.jury1 {
     padding: 7rem 0 5rem;
   }
 
-  .node1341629 .contacts-list.jury1 .cl-content {
+  .innovation .contacts-list.jury1 .cl-content {
     display: flex;
     justify-content: center;
     border-bottom: 1px solid #ffffff;
   }
 
-  .node1341629 .jury .cl-content,
-  .node1341629 .contacts-list .cl-content {
+  .innovation .jury .cl-content,
+  .innovation .contacts-list .cl-content {
     flex-direction: row;
   }
 
-  .node1341629 .jury .cl-item,
-  .node1341629 .contacts-list .cl-item {
+  .innovation .jury .cl-item,
+  .innovation .contacts-list .cl-item {
     width: calc(100% * 1 / 4 - 1em);
     margin: 0 0.65% 6rem;
   }
 
-  .node1341629 .contacts-list.jury1 .cl-item {
+  .innovation .contacts-list.jury1 .cl-item {
     width: calc(100% * 1 / 2 - 1em);
     margin-bottom: 3rem;
     padding: 0 9% 3rem;
   }
 
-  .node1341629 .contacts-list.jury1 .cl-item:first-child {
+  .innovation .contacts-list.jury1 .cl-item:first-child {
     border-right: 1px solid #ffffff;
   }
 
-  .node1341629 .candidater .table1 td {
+  .innovation .candidater .table1 td {
     padding: 0 4rem;
   }
 
-  .node1341629 .candidater .table1 td:first-child {
+  .innovation .candidater .table1 td:first-child {
     border-bottom: 0;
     border-right: 1px solid #c0c0c0;
     margin-bottom: 0;
     padding-left: 0;
   }
 
-  .node1341629 .etapes .inside {
+  .innovation .etapes .inside {
     padding: 7rem 2rem 5rem;
   }
 
-  .node1341629 .etapes h2 {
+  .innovation .etapes h2 {
     margin-bottom: 5rem;
   }
 
-  .node1341629 .etapes ul {
+  .innovation .etapes ul {
     flex-direction: row;
     margin: 4rem 0 6rem;
   }
 
-  .node1341629 .etapes ul li {
+  .innovation .etapes ul li {
     width: calc(100% * 1 / 4);
     margin-bottom: 0;
     padding: 0 2%;
   }
 
-  .node1341629 .etapes .lien3 {
+  .innovation .etapes .lien3 {
     width: auto;
     margin-right: 3rem;
   }
 
-  .node1341629 .laureats .partner-gallery .pg-item {
+  .innovation .laureats .partner-gallery .pg-item {
     width: calc(100% * 1 / 4 - 1em);
     margin: 0 0.65% 2rem;
   }
 
-  .node1341629 .laureats .partner-gallery .pg-item-illust {
+  .innovation .laureats .partner-gallery .pg-item-illust {
     height: 175px;
   }
 
@@ -4580,5 +4582,5 @@ body:not(.front) .list-articles .gla-item-btn::before {
 div#zone2.zone .list-articles.questions div.inside div.main-title-with-link {
   position: relative;
   display: block;
-  padding-bottom: 30px 
+  padding-bottom: 30px
 }
