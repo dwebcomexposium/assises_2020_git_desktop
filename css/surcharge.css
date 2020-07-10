@@ -4280,6 +4280,12 @@ body:not(.front) .list-articles .gla-item-btn::before {
     height: 175px;
   }
 
+  .innovation .gla-item {
+    flex: 1 0 auto;
+    width: 23.5%;
+    margin: 0 .65% 1.5%;
+  }
+
   .node1341169 .cl-item {
     width: calc(100% * 1 / 3 - 1em);
   }
