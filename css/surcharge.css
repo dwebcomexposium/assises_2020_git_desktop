@@ -89,7 +89,7 @@ h2::before {
 }
 
 .front .edito h2::before,
-h2::before.gla-item-title {
+h2.gla-item-title::before {
   display: none;
 }
 
