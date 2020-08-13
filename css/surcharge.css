@@ -80,7 +80,8 @@ h2,
   text-transform: uppercase;
 }
 
-h2::before {
+h2::before,
+.block-title::before {
   content: '';
   display: inline-block;
   width: 41px;
@@ -3177,7 +3178,8 @@ body:not(.front) .list-articles .gla-item-btn::before {
     font-size: 3rem;
   }
 
-  h2::before {
+  h2::before,
+  .block-title::before {
     width: 49px;
     height: 33px;
     position: absolute;
