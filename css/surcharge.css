@@ -89,7 +89,9 @@ h2::before {
   margin-right: 0.5rem;
 }
 
+.landing-text h2::before,
 .front .edito h2::before,
+.videos-text h2::before,
 h2.gla-item-title::before,
 h2.fc-title::before {
   display: none;
