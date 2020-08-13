@@ -2588,6 +2588,10 @@ body:not(.front) .list-articles .gla-item-btn::before {
   border: 0;
 }
 
+.glossaire .la-item-content {
+  overflow: visible;
+}
+
 .glossaire .la-item.no-image .la-item-title {
   display: block;
   margin-bottom: 1rem;
@@ -3072,10 +3076,6 @@ body:not(.front) .list-articles .gla-item-btn::before {
 
 .events .article-content hr {
   background: #c0c0c0;
-}
-
-.events .article-content h2::before {
-  left: -6rem;
 }
 
 .events .article-content blockquote {
@@ -4006,10 +4006,6 @@ body:not(.front) .list-articles .gla-item-btn::before {
     font-size: 3rem;
   }
 
-  .glossaire h2::before {
-    left: -6rem;
-  }
-
   /* Prix innovation */
   .innovation #zone1 {
     height: 340px;
@@ -4269,12 +4265,6 @@ body:not(.front) .list-articles .gla-item-btn::before {
 }
 
 @media (min-width: 1370px) {
-  .main-title-with-link > .la-main-title::before,
-  .guest #zone2 .keynote .la-main-title::before {
-    position: absolute;
-    left: -6rem;
-  }
-
   .front .article-focus .inside {
     max-width: 860px;
     padding: 6rem 10rem 12rem 17rem;
