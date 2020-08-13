@@ -3118,6 +3118,18 @@ body:not(.front) .list-articles .gla-item-btn::before {
   background: #a5948f;
 }
 
+/* Listes partenaires */
+.pl-item {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  padding: 4rem 0;
+}
+
+.pl-item img {
+  margin-bottom: 3rem;
+}
+
 /* Sitemap */
 .sitemap .layout-2-col {
   max-width: 1220px;
@@ -4268,6 +4280,12 @@ body:not(.front) .list-articles .gla-item-btn::before {
 
   .la20 .article-wrapper .article-title img {
     margin-top: 4.1rem;
+  }
+
+  /* Listes partenaires */
+  .pl-item img {
+    margin-right: 6rem;
+    margin-bottom: 0;
   }
 }
 
