@@ -1811,7 +1811,7 @@ body:not(.front) .list-articles .gla-item-btn::before {
 #zone2 .main-title-with-link,
 #main .faq h1,
 .contacts-list h1,
-.partner-list h1 {
+#main .partner-list h1 {
   position: absolute;
   top: 6rem;
   margin-bottom: 0;
