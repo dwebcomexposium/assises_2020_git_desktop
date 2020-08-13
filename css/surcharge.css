@@ -1809,7 +1809,7 @@ body:not(.front) .list-articles .gla-item-btn::before {
 
 .article-title,
 #zone2 .main-title-with-link,
-.faq .faq-main-title,
+#main .faq h1,
 .contacts-list h1,
 .partner-list h1 {
   position: absolute;
