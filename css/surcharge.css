@@ -79,13 +79,7 @@ h2,
   text-transform: uppercase;
 }
 
-h2::before,
-.article-wrapper h2::before,
-#zone4 h2::before,
-.presenation .block-title::before,
-.edito h2::before,
-.laureats .main-title::before,
-#zone2 .list-articles.fleches .la-main-title::before {
+h2::before {
   content: '';
   display: inline-block;
   width: 41px;
@@ -94,7 +88,8 @@ h2::before,
   margin-right: 0.5rem;
 }
 
-.front .edito h2::before {
+.front .edito h2::before,
+h2::before.gla-item-title {
   display: none;
 }
 
@@ -2598,15 +2593,6 @@ body:not(.front) .list-articles .gla-item-btn::before {
   line-height: 1.2;
 }
 
-.glossaire h2::before {
-  content: '';
-  display: inline-block;
-  width: 41px;
-  height: 20px;
-  background: url('img/assises/icon-arrow-dark.svg') no-repeat center / 100%;
-  margin-right: 0.5rem;
-}
-
 .glossaire .la-item-title a {
   color: #001821;
 }
@@ -3187,13 +3173,7 @@ body:not(.front) .list-articles .gla-item-btn::before {
     font-size: 3rem;
   }
 
-  h2::before,
-  .article-wrapper h2::before,
-  #zone4 h2::before,
-  .presenation .block-title::before,
-  .edito h2::before,
-  .laureats .main-title::before,
-  #zone2 .list-articles.fleches .la-main-title::before {
+  h2::before {
     width: 49px;
     height: 33px;
     position: absolute;
@@ -4025,9 +4005,6 @@ body:not(.front) .list-articles .gla-item-btn::before {
   }
 
   .glossaire h2::before {
-    width: 49px;
-    height: 33px;
-    position: absolute;
     left: -6rem;
   }
 
