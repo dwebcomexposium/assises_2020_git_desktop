@@ -95,7 +95,9 @@ h2::before,
 .videos-text h2::before,
 h2.gla-item-title::before,
 h2.fc-title::before,
-.focus1 h2::before {
+.focus1 h2::before,
+.jury1 .block-title::before,
+.decouvrez .block-title::before {
   display: none;
 }
 
