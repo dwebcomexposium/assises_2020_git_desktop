@@ -3187,6 +3187,7 @@ body:not(.front) .list-articles .gla-item-btn::before {
     font-size: 3rem;
   }
 
+  h2::before,
   .article-wrapper h2::before,
   #zone4 h2::before,
   .presenation .block-title::before,
