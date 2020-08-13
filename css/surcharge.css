@@ -1810,11 +1810,25 @@ body:not(.front) .list-articles .gla-item-btn::before {
 .article-title,
 #zone2 .main-title-with-link,
 .faq .faq-main-title,
-.contacts-list h1 {
+.contacts-list h1,
+.partner-list h1 {
   position: absolute;
   top: 6rem;
   margin-bottom: 0;
   padding: 0 2rem;
+}
+
+.contacts-list h1 {
+  padding: 0;
+}
+
+.partner-list .inside {
+  max-width: 1220px;
+  margin: 0 auto;
+}
+
+.partner-list .intro {
+  width: initial;
 }
 
 /* .article-title .at-main-title,
