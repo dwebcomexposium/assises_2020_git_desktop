@@ -3765,9 +3765,9 @@ body:not(.front) .list-articles .gla-item-btn::before {
     padding: 0 2rem;
   }
 
-  .article-content iframe {
+  /*.article-content iframe {
     width: 560px;
-  }
+  }*/
 
   .apropos .main-title-with-link {
     float: left;
