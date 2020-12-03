@@ -1497,6 +1497,7 @@ body:not(.front) .gla-item {
 
 /* Edito */
 .edito.focus {
+	margin-top: 12rem;
   margin-bottom: 7rem;
   position: relative;
 }
