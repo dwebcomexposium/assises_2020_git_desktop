@@ -4336,3 +4336,6 @@ div#zone2.zone .list-articles.questions div.inside div.main-title-with-link {
 #zone1 div.block.block-page.list-articles.apropos .cxp-pagination .gla-item-content .gla-item-desc a {
   margin-top: 1em;
 }
+#zone1 > div.block.block-page.list-articles.apropos > div > div.cxp-pagination > div {
+  margin-bottom: 5em;
+}
