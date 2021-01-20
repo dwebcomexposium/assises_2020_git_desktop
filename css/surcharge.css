@@ -4339,3 +4339,13 @@ div#zone2.zone .list-articles.questions div.inside div.main-title-with-link {
 #zone1 > div.block.block-page.list-articles.apropos > div > div.cxp-pagination > div {
   margin-bottom: 5em;
 }
+
+
+@media (min-width: 960px)
+.list-articles.apropos .gla-item {
+    height: 310px;
+}
+@media (min-width: 960px)
+.edito.focus {
+    margin-top: 20px;
+}
