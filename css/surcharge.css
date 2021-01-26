@@ -4341,11 +4341,9 @@ div#zone2.zone .list-articles.questions div.inside div.main-title-with-link {
 }
 
 
-@media (min-width: 960px)
 .list-articles.apropos .gla-item {
     height: 310px;
 }
-@media (min-width: 960px)
 .edito.focus {
     margin-top: 20px;
 }
