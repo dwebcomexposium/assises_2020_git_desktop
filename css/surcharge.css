@@ -4347,3 +4347,16 @@ div#zone2.zone .list-articles.questions div.inside div.main-title-with-link {
 .edito.focus {
     margin-top: 20px;
 }
+
+/* Habillage recherche */
+.site-banner .gsf-trigger {
+    color: white
+}
+
+.site-banner .gsf-trigger:hover, .site-banner .gsf-trigger:focus, .site-banner .global-search-form.is-visible .gsf-trigger {
+    background: none;
+}
+.site-banner .gsf-fields {
+    background: #e50041;
+}
+/* Fin Habillage recherche */
