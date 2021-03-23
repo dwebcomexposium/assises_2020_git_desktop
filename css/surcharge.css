@@ -4359,4 +4359,7 @@ div#zone2.zone .list-articles.questions div.inside div.main-title-with-link {
 .site-banner .gsf-fields {
     background: #e50041;
 }
+.site-banner .gsf-trigger .icon {
+    vertical-align: -0.15em;
+}
 /* Fin Habillage recherche */
