@@ -4363,3 +4363,8 @@ div#zone2.zone .list-articles.questions div.inside div.main-title-with-link {
     vertical-align: -0.15em;
 }
 /* Fin Habillage recherche */
+
+.front #zone1 div.block.block-page.list-articles.apropos .cxp-pagination .gla-item-content .gla-item-desc a {
+    margin-top: 1em;
+    display: none;
+}
