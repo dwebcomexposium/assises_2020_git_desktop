@@ -4368,3 +4368,7 @@ div#zone2.zone .list-articles.questions div.inside div.main-title-with-link {
     margin-top: 1em;
     display: none;
 }
+
+.video-container {
+  background: #e50041 url(img/Assises-21_Header.jpg) no-repeat center 0/130%;
+}
