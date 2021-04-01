@@ -4372,3 +4372,7 @@ div#zone2.zone .list-articles.questions div.inside div.main-title-with-link {
 .video-container {
   background: #e50041 url(img/Assises-21_Header.jpg) no-repeat center 0/130%;
 }
+
+.events.committee div#zone1 {
+    height: 200px !important;
+}
