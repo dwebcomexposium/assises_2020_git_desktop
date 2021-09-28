@@ -4387,3 +4387,7 @@ div#zone2.zone .list-articles.questions div.inside div.main-title-with-link {
     padding: 0;
     padding-top: 58px;
 }
+
+.node1383646 .article-wrapper .article-title img {
+    display: inline-block
+}
